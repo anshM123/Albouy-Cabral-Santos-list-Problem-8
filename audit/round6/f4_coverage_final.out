@@ -1,0 +1,2 @@
+samples 500000 (e >= 0.94, seams 0.5/0.9975/0.997456, l = 0.95, w = 3pi/20, 9pi/20 stressed): uncovered 0; hits {'C3+KA': 16026, 'F0': 38320, 'KQ1': 164522, 'KQ2': 95565, 'KQB': 57308, 'KQK1': 99509, 'KQK2': 28489, 'bulk': 44192}
+1/(1 + 0.0505^2) = 0.9974562372310015 (C3 cell t-threshold; KQK1/KQK2/KQB start at 0.997456 and KQ1 covers t <= 0.9975)

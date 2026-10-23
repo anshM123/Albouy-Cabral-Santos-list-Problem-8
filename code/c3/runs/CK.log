@@ -1,0 +1,17 @@
+[     15s] 32/512 returned, 32 complete, 32 leaves, 0 failed
+[     18s] 64/512 returned, 64 complete, 216 leaves, 0 failed
+[     18s] 96/512 returned, 96 complete, 249 leaves, 0 failed
+[     37s] 128/512 returned, 128 complete, 1210 leaves, 0 failed
+[     37s] 160/512 returned, 160 complete, 1262 leaves, 0 failed
+[     42s] 192/512 returned, 192 complete, 1631 leaves, 0 failed
+[     42s] 224/512 returned, 224 complete, 1665 leaves, 0 failed
+[     58s] 256/512 returned, 256 complete, 2228 leaves, 0 failed
+[     58s] 288/512 returned, 288 complete, 2262 leaves, 0 failed
+[     59s] 320/512 returned, 320 complete, 2691 leaves, 0 failed
+[     60s] 352/512 returned, 352 complete, 2727 leaves, 0 failed
+[     60s] 384/512 returned, 384 complete, 2768 leaves, 0 failed
+[     60s] 416/512 returned, 416 complete, 2800 leaves, 0 failed
+[     60s] 448/512 returned, 448 complete, 2832 leaves, 0 failed
+[     60s] 480/512 returned, 480 complete, 2864 leaves, 0 failed
+[     60s] 512/512 returned, 512 complete, 2933 leaves, 0 failed
+done CK incomplete 0 failed 0 hist {'4': 612, '5': 20, '6': 652, '7': 166, '8': 1148, 'o': 335} wall 60

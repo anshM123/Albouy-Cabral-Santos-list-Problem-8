@@ -1,0 +1,9 @@
+KQ1_snap0900.records.jsonl: records 432 (completed, partial file), leaves 33842 (winding 506), fails 0, replay problems 0 []; histogram {10: 8082, 11: 11445, 4: 129, 5: 84, 6: 2049, 7: 2519, 8: 4512, 9: 4516, 'w1': 286, 'w2': 212, 'w3': 8}
+    re-certified winding leaves 506 (problems 0; certified only by the nb_cert2 enclosure: 438); count leaves 150 (problems 0; only by the current kq_run: 6)
+    100-digit: 30 winding + 30 count leaves, 180 points (90 winding); violations 0; odd N_mult 0; max N_mult 8; min relative distance of a zero to |z| = e^L 0.072
+KQK2_snap0900.records.jsonl: records 8 (completed, partial file), leaves 747 (winding 0), fails 0, replay problems 0 []; histogram {10: 42, 11: 705}
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 150 (problems 0; only by the current kq_run: 26)
+    100-digit: 0 winding + 30 count leaves, 90 points (0 winding); violations 0; odd N_mult 0; max N_mult 10; min relative distance of a zero to |z| = e^L +inf
+KQB_snap0900.records.jsonl: records 5 (completed, partial file), leaves 8811 (winding 0), fails 0, replay problems 0 []; histogram {10: 7669, 11: 1140, 9: 2}
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 150 (problems 0; only by the current kq_run: 3)
+    100-digit: 0 winding + 30 count leaves, 90 points (0 winding); violations 0; odd N_mult 0; max N_mult 8; min relative distance of a zero to |z| = e^L +inf

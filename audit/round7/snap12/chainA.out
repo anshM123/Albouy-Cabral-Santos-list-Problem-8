@@ -1,0 +1,97 @@
+== snapshot A start 14:59:35
+== g2: replay of the snapshot families up to the closed levels (+ face charts for the p-dependency)
+KQ0T {"files": 4, "records": 1494, "leaves": 442074, "winding": 220447, "L_range": [-2.4648941075950335, -0.11416000028987258], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 518, "owed": 396, "hist": {"10": 52455, "11": 139533, "4": 1287, "5": 351, "6": 4691, "7": 3796, "8": 4953, "9": 14561, "w1": 95604, "w2": 122394, "w3": 2430, "w4": 19}, "domain": [0.835, 0.9501, 0.0, 1.0, 0.0, 1.5707963267948966, 0.9975, 1.0], "n0": [2, 10, 10, 1], "scale": [1.0, 1.0, 1.5707963267948966, 0.005], "split_rules": [null, "face/30", "face/30", "face/30"], "uses_p": false, "problems": []}
+KQF {"files": 2, "records": 381, "leaves": 259492, "winding": 0, "L_range": null, "pruned": 128, "prune_violations": 0, "fails": 1062, "incomplete": 144, "owed": 2320, "hist": {"2": 13106, "3": 4888, "4": 6772, "5": 3825, "6": 230901}, "domain": [0.9996, 1.0, 0.0, 1.0, 0.0, 1.5707963267948966, 0.9999998300000288, 1.0], "n0": [1, 10, 10, 1], "scale": [0.0008, 1.0, 1.5707963267948966, 3.4e-07], "split_rules": [null, null], "uses_p": false, "problems": []}
+KQF2 {"files": 3, "records": 793, "leaves": 17145, "winding": 0, "L_range": null, "pruned": 260, "prune_violations": 0, "fails": 0, "incomplete": 738, "owed": 912, "hist": {"4": 1, "5": 639, "6": 16505}, "domain": [0.99989989, 1.0, 0.88, 1.0, 1.29, 1.5707963267948966, 0.9999999899, 1.0], "n0": [1, 4, 6, 1], "scale": [0.003, 1.0, 1.5707963267948966, 3e-07], "split_rules": [null, null, null], "uses_p": false, "problems": []}
+KQS {"files": 2, "records": 340, "leaves": 11280, "winding": 0, "L_range": null, "pruned": 661, "prune_violations": 0, "fails": 0, "incomplete": 225, "owed": 877, "hist": {"10": 1255, "11": 9413, "8": 45, "9": 567}, "domain": [0.9996, 1.0, 0.88, 1.0, 1.29, 1.5707963267948966, 0.99999983, 1.0], "n0": [2, 4, 6, 2], "scale": [1.0, 1.0, 1.5707963267948966, 0.0025], "split_rules": ["shell/30", "shell/30"], "uses_p": true, "problems": []}
+KQ2 {"files": 5, "records": 3735, "leaves": 305768, "winding": 122040, "L_range": [-3.552140147241027, -0.08390527910587053], "pruned": 0, "prune_violations": 0, "fails": 1669, "incomplete": 3139, "owed": 2791, "hist": {"10": 46397, "11": 121315, "4": 13, "5": 2, "6": 969, "7": 2373, "8": 4866, "9": 7793, "w1": 112561, "w2": 9473, "w3": 6}, "domain": [0.9499, 0.99, 0.0, 1.0, 0.0, 1.5707963267948966, 0.9975, 1.0], "n0": [4, 10, 10, 1], "scale": [1.0, 1.0, 1.5707963267948966, 1.0], "split_rules": [null, null, null, null, "face/30"], "uses_p": false, "problems": []}
+KQK1 {"files": 7, "records": 5694, "leaves": 361233, "winding": 73540, "L_range": [-4.244788371148087, -0.08248202627287919], "pruned": 55, "prune_violations": 0, "fails": 0, "incomplete": 2757, "owed": 1071, "hist": {"10": 71769, "11": 187234, "6": 642, "7": 1407, "8": 7077, "9": 19564, "w1": 70025, "w2": 3515}, "domain": [0.99, 1.0, 0.0, 0.95, 0.0, 1.5707963267948966, 0.997456, 1.0], "n0": [2, 19, 10, 2], "scale": [1.0, 1.0, 1.5707963267948966, 1.0], "split_rules": [null, null, null, null, "face", "face/30", "face/30"], "uses_p": true, "problems": []}
+KQB {"files": 7, "records": 1780, "leaves": 114914, "winding": 23741, "L_range": [-0.46875859811884907, -0.12384754024867319], "pruned": 30, "prune_violations": 0, "fails": 0, "incomplete": 1529, "owed": 1000, "hist": {"10": 21354, "11": 62176, "8": 1669, "9": 5974, "w1": 20407, "w2": 3334}, "domain": [0.99, 1.0, 0.95, 1.0, 0.47123889803846897, 1.413716694115407, 0.997456, 1.0], "n0": [2, 5, 6, 2], "scale": [1.0, 1.0, 1.5707963267948966, 1.0], "split_rules": [null, null, null, null, null, "face/30", "face/30"], "uses_p": true, "problems": []}
+face FE {"files": 1, "records": 512, "leaves": 226498, "winding": 0, "L_range": null, "pruned": 154213, "prune_violations": 0, "fails": 0, "incomplete": 4, "owed": 73, "hist": {"2": 4340, "3": 78, "4": 186852, "5": 35228}, "domain": [0, 0.02002, 0, 1.001, 0, 1, 0, 1], "n0": [2, 4, 8, 8], "scale": [0.02002, 1.001, 1, 1], "split_rules": [null], "uses_p": false, "problems": []}
+face FM {"files": 1, "records": 512, "leaves": 348845, "winding": 0, "L_range": null, "pruned": 190819, "prune_violations": 0, "fails": 0, "incomplete": 4, "owed": 67, "hist": {"4": 317653, "5": 31192}, "domain": [0, 0.02002, 0, 1.001, 0, 1, 0, 1], "n0": [2, 4, 8, 8], "scale": [0.02002, 1.001, 1, 1], "split_rules": [null], "uses_p": false, "problems": []}
+face FIP {"files": 1, "records": 512, "leaves": 307304, "winding": 0, "L_range": null, "pruned": 190713, "prune_violations": 0, "fails": 124394, "incomplete": 4, "owed": 124536, "hist": {"0": 307304}, "domain": [0, 0.02002, 0, 1.001, 0, 1, 0, 1], "n0": [2, 4, 8, 8], "scale": [0.02002, 1.001, 1, 1], "split_rules": [null], "uses_p": false, "problems": []}
+face FIM {"files": 1, "records": 512, "leaves": 57097, "winding": 0, "L_range": null, "pruned": 57976, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"0": 57097}, "domain": [0, 0.02002, 0, 1.001, 0, 1, 0, 1], "n0": [2, 4, 8, 8], "scale": [0.02002, 1.001, 1, 1], "split_rules": [null], "uses_p": false, "problems": []}
+C3 Ca {"files": 8, "records": 3933, "leaves": 2478929, "winding": 0, "L_range": null, "pruned": 193447, "prune_violations": 0, "fails": 0, "incomplete": 2157, "owed": 822, "hist": {"102": 10952, "103": 508, "104": 6576, "105": 22788, "4": 2927, "5": 549, "6": 617897, "7": 105986, "8": 397167, "9": 1313579}, "domain": [0, 0.37, 0, 1.0020009999999997, 0, 1.0020009999999997, 0, 1.0030030009999997], "n0": [8, 4, 4, 4], "scale": [0.37, 1.0020009999999997, 1.0020009999999997, 1.0030030009999997], "split_rules": [null, null, null, null, null, null, null, null], "uses_p": false, "problems": []}
+face FE: owed 73, of which with s_lo > 0.02 (not needed) 0
+face FE: of the rest, inside K with s_lo > SF2 (not needed) 73; still owed 0
+face FM: owed 67, of which with s_lo > 0.02 (not needed) 0
+face FM: of the rest, inside K with s_lo > SF2 (not needed) 67; still owed 0
+face FIP: owed 124536, of which with s_lo > 0.02 (not needed) 124446
+face FIP: of the rest, inside K with s_lo > SF2 (not needed) 90; still owed 0
+KQF: owed 2320, inside K_lw (not needed) 28; still owed 2292
+KQ0T       NOT OK  leaves 442074  winding 220447  fails 0  incomplete 518  open 396  problems 0
+KQF        NOT OK  leaves 259492  winding 0  fails 1062  incomplete 144  open 2292  problems 0
+KQF2       NOT OK  leaves 17145  winding 0  fails 0  incomplete 738  open 912  problems 0
+KQS        NOT OK  leaves 11280  winding 0  fails 0  incomplete 225  open 877  problems 1
+KQ2        NOT OK  leaves 305768  winding 122040  fails 1669  incomplete 3139  open 2791  problems 0
+KQK1       NOT OK  leaves 361233  winding 73540  fails 0  incomplete 2757  open 1071  problems 1
+KQB        NOT OK  leaves 114914  winding 23741  fails 0  incomplete 1529  open 1000  problems 1
+face FE    OK  leaves 226498  winding 0  fails 0  incomplete 4  open 0  problems 0
+face FM    OK  leaves 348845  winding 0  fails 0  incomplete 4  open 0  problems 0
+face FIP   OK  leaves 307304  winding 0  fails 124394  incomplete 4  open 0  problems 0
+face FIM   OK  leaves 57097  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 Ca      NOT OK  leaves 2478929  winding 0  fails 0  incomplete 2157  open 822  problems 0
+ALL FAMILIES REPLAYED, COMPLETE AND WITHIN THEIR BOUNDS: NO
+== 15:00:12 g9: 200 regular/deep leaves per file
+KQ0T [KQ]: reg 200/93449 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQ0T.r1 [KQ]: reg 200/49322 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQ0T.r2 [KQ]: reg 200/76626 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQ0T.r3 [KQ]: reg 200/2230 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQ2 [KQ]: reg 200/2610 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 109; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQ2.r1 [KQ]: reg 200/1231 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 15; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQ2.r2 [KQ]: reg 200/3803 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 5; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQ2.r3 [KQ]: reg 200/143568 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 19; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQ2.r4 [KQ]: reg 200/32516 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQB [KQ]: reg 200/8811 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 160; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQB.r1 [KQ]: reg 200/260 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 1; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQB.r2 [KQ]: reg 200/4138 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 38; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQB.r3 [KQ]: reg 200/319 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 77; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQB.r4 [KQ]: reg 200/32186 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQB.r5 [KQ]: reg 200/39600 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 1; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQB.r6 [KQ]: reg 200/5859 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 2; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQK1 [KQ]: reg 200/7220 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 101; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQK1.r1 [KQ]: reg 200/1196 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 1; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQK1.r2 [KQ]: reg 200/4986 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 18; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQK1.r3 [KQ]: reg 200/31235 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 10; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQK1.r4 [KQ]: reg 200/95885 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 37; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQK1.r5 [KQ]: reg 200/114722 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 16; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQK1.r6 [KQ]: reg 200/32449 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 35; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQF [KQF]: reg 200/190977 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQF.r1 [KQF]: reg 200/68515 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQF2 [KQF]: reg 200/912 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 2; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQF2.r1 [KQF]: reg 200/9340 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQF2.r2 [KQF]: reg 200/6893 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQS [KQ]: reg 200/2224 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 7; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQS.r1 [KQ]: reg 200/9056 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 22; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+== 15:11:23 g9: 300 winding leaves per file (nb_cert, then nb_cert2)
+KQ0T [KQ]: wind 300/115034 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 300; not re-certifiable even by the deep certifier: 0
+KQ0T.r1 [KQ]: wind 300/53061 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 300; not re-certifiable even by the deep certifier: 0
+KQ0T.r2 [KQ]: wind 300/48782 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 300; not re-certifiable even by the deep certifier: 0
+KQ0T.r3 [KQ]: wind 300/3570 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 300; not re-certifiable even by the deep certifier: 0
+KQ2 [KQ]: wind 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQ2.r1 [KQ]: wind 3/3 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 3; not re-certifiable even by the deep certifier: 0
+KQ2.r2 [KQ]: wind 300/2450 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 300; not re-certifiable even by the deep certifier: 0
+KQ2.r3 [KQ]: wind 300/97683 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 300; not re-certifiable even by the deep certifier: 0
+KQ2.r4 [KQ]: wind 300/21904 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 300; not re-certifiable even by the deep certifier: 0
+KQB [KQ]: wind 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQB.r1 [KQ]: wind 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQB.r2 [KQ]: wind 300/2090 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 300; not re-certifiable even by the deep certifier: 0
+KQB.r3 [KQ]: wind 300/662 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 300; not re-certifiable even by the deep certifier: 0
+KQB.r4 [KQ]: wind 300/17022 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 300; not re-certifiable even by the deep certifier: 0
+KQB.r5 [KQ]: wind 300/3536 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 300; not re-certifiable even by the deep certifier: 0
+KQB.r6 [KQ]: wind 300/431 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 300; not re-certifiable even by the deep certifier: 0
+KQK1 [KQ]: wind 49/49 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 49; not re-certifiable even by the deep certifier: 0
+KQK1.r1 [KQ]: wind 21/21 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 21; not re-certifiable even by the deep certifier: 0
+KQK1.r2 [KQ]: wind 300/894 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 300; not re-certifiable even by the deep certifier: 0
+KQK1.r3 [KQ]: wind 300/35889 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 300; not re-certifiable even by the deep certifier: 0
+KQK1.r4 [KQ]: wind 300/24679 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 300; not re-certifiable even by the deep certifier: 0
+KQK1.r5 [KQ]: wind 300/7648 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 300; not re-certifiable even by the deep certifier: 0
+KQK1.r6 [KQ]: wind 300/4360 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 300; not re-certifiable even by the deep certifier: 0
+KQF [KQF]: wind 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQF.r1 [KQF]: wind 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQF2 [KQF]: wind 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQF2.r1 [KQF]: wind 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQF2.r2 [KQF]: wind 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQS [KQ]: wind 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQS.r1 [KQ]: wind 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+== snapshot A done 15:16:03

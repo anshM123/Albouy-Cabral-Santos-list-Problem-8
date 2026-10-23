@@ -1,0 +1,22 @@
+PhiP.json: records 512, leaves 512, fails 0, replay problems 0; leaf kinds {'a0': 285, 'o': 195, 'u': 32}
+    spot check: 25 leaves x 3 pts = 75 points; violations 0; max real-root count on the certified interval 0; max interpolation residual (rel) 3.88e-101
+PhiM.json: records 512, leaves 512, fails 0, replay problems 0; leaf kinds {'a0': 285, 'o': 195, 'u': 32}
+    spot check: 25 leaves x 3 pts = 75 points; violations 0; max real-root count on the certified interval 0; max interpolation residual (rel) 3.42e-101
+CK.json: records 512, leaves 2933, fails 0, replay problems 0; leaf kinds {'a4': 612, 'a5': 20, 'a6': 652, 'a7': 166, 'a8': 1148, 'o': 335}
+    spot check: 25 leaves x 3 pts = 75 points; violations 0; max real-root count on the certified interval 4; max interpolation residual (rel) 2.61e-97
+L2aE.json: records 512, leaves 785, fails 0, replay problems 0; leaf kinds {'a2': 108, 'a4': 227, 'o': 128, 'u': 322}
+    spot check: 25 leaves x 3 pts = 75 points; violations 0; max real-root count on the certified interval 4; max interpolation residual (rel) 4.14e-95
+L2am.json: records 512, leaves 1048, fails 0, replay problems 0; leaf kinds {'a4': 590, 'o': 136, 'u': 322}
+    spot check: 25 leaves x 3 pts = 75 points; violations 0; max real-root count on the certified interval 4; max interpolation residual (rel) 2.27e-94
+L2aYp.json: records 512, leaves 871, fails 0, replay problems 0; leaf kinds {'a0': 413, 'o': 136, 'u': 322}
+    spot check: 25 leaves x 3 pts = 75 points; violations 0; max real-root count on the certified interval 0; max interpolation residual (rel) 3.63e-101
+L2aYm.json: records 512, leaves 524, fails 0, replay problems 0; leaf kinds {'a0': 162, 'o': 128, 'u': 234}
+    spot check: 25 leaves x 3 pts = 75 points; violations 0; max real-root count on the certified interval 0; max interpolation residual (rel) 3.92e-101
+L2KE.json: records 512, leaves 512, fails 0, replay problems 0; leaf kinds {'a2': 184, 'a4': 184, 'o': 144}
+    spot check: 25 leaves x 3 pts = 75 points; violations 0; max real-root count on the certified interval 4; max interpolation residual (rel) 3.19e-94
+L2Km.json: records 512, leaves 512, fails 0, replay problems 0; leaf kinds {'a4': 368, 'o': 144}
+    spot check: 25 leaves x 3 pts = 75 points; violations 0; max real-root count on the certified interval 4; max interpolation residual (rel) 2.34e-93
+L2KYp.json: records 512, leaves 512, fails 0, replay problems 0; leaf kinds {'a0': 368, 'o': 144}
+    spot check: 25 leaves x 3 pts = 75 points; violations 0; max real-root count on the certified interval 0; max interpolation residual (rel) 3.08e-101
+L2KYm.json: records 512, leaves 512, fails 0, replay problems 0; leaf kinds {'a0': 368, 'o': 144}
+    spot check: 25 leaves x 3 pts = 75 points; violations 0; max real-root count on the certified interval 0; max interpolation residual (rel) 4.16e-101

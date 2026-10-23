@@ -1,0 +1,17 @@
+[     17s] 32/512 returned, 32 complete, 104 leaves, 0 failed
+[     17s] 64/512 returned, 64 complete, 167 leaves, 0 failed
+[     17s] 96/512 returned, 96 complete, 274 leaves, 0 failed
+[     17s] 128/512 returned, 128 complete, 337 leaves, 0 failed
+[     17s] 160/512 returned, 160 complete, 369 leaves, 0 failed
+[     17s] 192/512 returned, 192 complete, 432 leaves, 0 failed
+[     17s] 224/512 returned, 224 complete, 464 leaves, 0 failed
+[     17s] 256/512 returned, 256 complete, 529 leaves, 0 failed
+[     17s] 288/512 returned, 288 complete, 561 leaves, 0 failed
+[     17s] 320/512 returned, 320 complete, 593 leaves, 0 failed
+[     17s] 352/512 returned, 352 complete, 625 leaves, 0 failed
+[     17s] 384/512 returned, 384 complete, 657 leaves, 0 failed
+[     17s] 416/512 returned, 416 complete, 689 leaves, 0 failed
+[     17s] 448/512 returned, 448 complete, 721 leaves, 0 failed
+[     17s] 480/512 returned, 480 complete, 753 leaves, 0 failed
+[     17s] 512/512 returned, 512 complete, 785 leaves, 0 failed
+done L2aE incomplete 0 failed 0 hist {'2': 108, '4': 227, 'o': 128, 'u': 322} wall 17

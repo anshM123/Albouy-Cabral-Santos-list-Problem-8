@@ -1,0 +1,15 @@
+== L2P
+records 256 complete 256 leaves 1979 deep 0 wind 0 fails 0 left 0 bound histogram {4: 64, 5: 64, 8: 256, 9: 300, 10: 1295} replay problems 0
+re-certified 60 leaves; problems 0
+== B2
+records 256 complete 256 leaves 15506 deep 0 wind 0 fails 0 left 0 bound histogram {4: 35, 5: 588, 6: 542, 7: 725, 8: 2478, 9: 3192, 10: 7946} replay problems 0
+re-certified 60 leaves; problems 0
+== D2K
+records 256 complete 256 leaves 464 deep 0 wind 102 fails 0 left 0 bound histogram {4: 134, 5: 19, 6: 54, 7: 49, 8: 13, 9: 7, 10: 188} replay problems 0
+re-certified 60 leaves; problems 0
+== F0
+records 400 complete 400 leaves 12354 deep 0 wind 3925 fails 0 left 0 bound histogram {4: 429, 5: 1241, 6: 804, 7: 1137, 8: 5107, 9: 532, 10: 1343, 11: 1761} replay problems 0
+re-certified 60 leaves; problems 0
+== D2E2
+records 256 complete 256 leaves 256 deep 0 wind 24 fails 0 left 0 bound histogram {6: 16, 7: 12, 8: 18, 9: 66, 10: 108, 11: 36} replay problems 0
+re-certified 60 leaves; problems 0

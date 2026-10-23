@@ -1,0 +1,10 @@
+KBQe: (A) slots 0..4 vs first-order module: max rel diff 0.00e+00; (B) second derivatives vs numerical: max rel err 5.98e-30; (C) abs-poly terms 1717 (mismatches 0), third derivatives vs sympy: max rel diff 2.74e-16
+KBQe: (D) Taylor inequality: 3120 checks, violations 0, worst |remainder| / (crad + rem) 1.000
+KBQe: (E) point_enclosure2 mode 1 (second-order only): 3840 checks, violations 0, worst ratio 1.000000
+KBQe: (E) point_enclosure2 mode 2 (mean-value only): 3840 checks, violations 0, worst ratio 0.999132
+KBQe: (E) point_enclosure2 mode 0 (min (used)): 3840 checks, violations 0, worst ratio 1.000000
+Ca: (A) slots 0..4 vs first-order module: max rel diff 0.00e+00; (B) second derivatives vs numerical: max rel err 4.85e-29; (C) abs-poly terms 3088 (mismatches 0), third derivatives vs sympy: max rel diff 4.15e-16
+Ca: (D) Taylor inequality: 3120 checks, violations 0, worst |remainder| / (crad + rem) 1.000
+Ca: (E) point_enclosure2 mode 1 (second-order only): 3840 checks, violations 0, worst ratio 1.000000
+Ca: (E) point_enclosure2 mode 2 (mean-value only): 3840 checks, violations 0, worst ratio 1.000000
+Ca: (E) point_enclosure2 mode 0 (min (used)): 3840 checks, violations 0, worst ratio 1.000000

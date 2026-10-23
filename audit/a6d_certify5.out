@@ -1,0 +1,10 @@
+[w=pi/2   ] boxes 160, certified 140, violations 0, bounds {4: 22, 6: 58, 7: 2, 8: 42, 10: 16}
+[w=0      ] boxes 160, certified 125, violations 0, bounds {4: 25, 6: 39, 8: 31, 9: 1, 10: 29}
+[l=0      ] boxes 160, certified 147, violations 0, bounds {4: 39, 6: 54, 7: 3, 8: 36, 10: 15}
+[l=1      ] boxes 160, certified 95, violations 0, bounds {8: 41, 9: 24, 10: 30}
+[t=0      ] boxes 160, certified 97, violations 0, bounds {4: 40, 5: 2, 6: 20, 7: 5, 8: 20, 9: 4, 10: 6}
+[t=1      ] boxes 160, certified 146, violations 0, bounds {4: 53, 5: 10, 6: 47, 7: 6, 8: 11, 9: 5, 10: 14}
+[curve6   ] boxes 160, certified 3, violations 0, bounds {10: 3}
+[cluster2 ] boxes 160, certified 1, violations 0, bounds {10: 1}
+20s
+{'boxes': 160, 'cert': 137, 'viol': 0} bounds {4: 19, 6: 52, 7: 6, 8: 33, 9: 12, 10: 15} 4s

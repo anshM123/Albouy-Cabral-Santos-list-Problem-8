@@ -1,0 +1,15 @@
+[      4s] 16/1070 returned, 16 complete, 45 leaves, 0 failed
+[    112s] 32/1070 returned, 32 complete, 842 leaves, 0 failed
+[    363s] 48/1070 returned, 43 complete, 6963 leaves, 0 failed
+[    537s] 64/1070 returned, 57 complete, 11157 leaves, 0 failed
+[    596s] 80/1070 returned, 72 complete, 13487 leaves, 0 failed
+[    635s] 96/1070 returned, 88 complete, 15307 leaves, 0 failed
+[    648s] 112/1070 returned, 104 complete, 16003 leaves, 0 failed
+[    666s] 128/1070 returned, 119 complete, 17211 leaves, 0 failed
+[    755s] 144/1070 returned, 135 complete, 17701 leaves, 0 failed
+[    932s] 160/1070 returned, 151 complete, 18597 leaves, 0 failed
+[    996s] 176/1070 returned, 162 complete, 20161 leaves, 0 failed
+[   1033s] 192/1070 returned, 178 complete, 21046 leaves, 0 failed
+[   1119s] 208/1070 returned, 194 complete, 24032 leaves, 0 failed
+[   1138s] 224/1070 returned, 210 complete, 24189 leaves, 0 failed
+[   1357s] 240/1070 returned, 222 complete, 32123 leaves, 0 failed

@@ -1,0 +1,9 @@
+f/e^3 polynomial in e (no negative powers): True
+F at the D1b point: 0
+dF/da   = True (claim 2 sin u * 2 sin 2u)
+dF/dp   = True (claim 2 sin u * 2 cos 2u)
+dF/dtau = True (claim -2 sin u * 4 sin u)
+dF/de / (2 sin u) = r1(u) = I*(-I*sin(3*u) + cos(3*u))*(-I*sin(2*u) + I*sin(4*u) - 3*I*sin(6*u) - cos(2*u) + cos(4*u) - 3*cos(6*u) + 3)/8
+rank of the four first-order functions at 8 points: 4
+sin 3u coefficient of r1: 3/4
+r1(u) Fourier coefficients: {'sin1u': -1/4, 'sin3u': 3/4}

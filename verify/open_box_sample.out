@@ -1,0 +1,6 @@
+runs/KQ2_r4_boxes.json boxes 2356 points 200 max N 10 hist {6: 44, 8: 140, 10: 16}
+runs/KQB_r6_boxes.json boxes 930 points 200 max N 10 hist {4: 1, 6: 59, 8: 49, 10: 91}
+runs/KQF_r1_boxes.json boxes 281 points 200 max N 10 hist {4: 1, 6: 59, 10: 140}
+runs/KQF2_r2_boxes.json boxes 694 points 200 max N 10 hist {6: 43, 8: 4, 10: 153}
+runs/KQS_r1_boxes.json boxes 244 points 200 max N 10 hist {4: 3, 6: 79, 8: 44, 10: 74}
+runs/KQK1_r5_boxes.json boxes 2079 points 200 max N 10 hist {4: 18, 6: 89, 8: 36, 10: 57}

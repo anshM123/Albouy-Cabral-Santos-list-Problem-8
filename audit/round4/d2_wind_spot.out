@@ -1,0 +1,4 @@
+B1.json: winding leaves 5171; checked 30 leaves x 3 pts = 90; violations 0; roots within 1e-30 of the test circle 0; min relative distance of a root to |z| = e^L 0.25; max real roots 6
+C1pp.json: winding leaves 6138; checked 30 leaves x 3 pts = 90; violations 0; roots within 1e-30 of the test circle 0; min relative distance of a root to |z| = e^L 0.55; max real roots 8
+L2E.json: winding leaves 290; checked 30 leaves x 3 pts = 90; violations 0; roots within 1e-30 of the test circle 0; min relative distance of a root to |z| = e^L 0.593; max real roots 6
+C1.json: winding leaves 34471; checked 30 leaves x 3 pts = 90; violations 0; roots within 1e-30 of the test circle 0; min relative distance of a root to |z| = e^L 0.338; max real roots 6

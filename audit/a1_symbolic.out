@@ -1,0 +1,19 @@
+max |coefficient difference| per generated object (0 = identical):
+  coeffs2 phi_ab               0.000e+00   OK
+  coeffs2 psi_ab               0.000e+00   OK
+  coeffs3 V                    0.000e+00   OK
+  coeffs3 D                    0.000e+00   OK
+  coeffsF V                    0.000e+00   OK
+  coeffsF D                    0.000e+00   OK
+  coeffs_ce re                 0.000e+00   OK
+  coeffs_ce im                 0.000e+00   OK
+  nbcoef_a value               0.000e+00   OK
+  nbcoef_a |value|             0.000e+00   OK
+  nbcoef_a partial             0.000e+00   OK
+  nbcoef_a |partial|           0.000e+00   OK
+  nbcoef_f value               0.000e+00   OK
+  nbcoef_f |value|             0.000e+00   OK
+  nbcoef_f partial             0.000e+00   OK
+  nbcoef_f |partial|           0.000e+00   OK
+planar identity Pol = A^2 (r^2 - S) at p = q = 0: True
+Pol == 0 at e = 0, p = q = 0: True

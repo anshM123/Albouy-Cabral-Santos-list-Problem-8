@@ -1,0 +1,3 @@
+wind_box step logic: (winding, total) = (0, 0.0)  -> W = 6 + winding
+per-label branch logic:             (-1, -6.283185307179586)
+true winding: -1 (clockwise loop around 0)

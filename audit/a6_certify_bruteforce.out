@@ -1,0 +1,10 @@
+460 boxes in 142s
+  boxes: 460
+  certified: 376
+  viol: 0
+  sign_viol: 0
+  nb_port_total_mismatch: 0
+  hist: {('random', 10): 39, ('random', 4): 114, ('random', 5): 12, ('random', 6): 89, ('random', 7): 31, ('random', 8): 42, ('random', 9): 23, ('ten', 10): 26}
+  slack: {0: 215, 1: 41, 2: 56, 3: 17, 4: 33, 5: 8, 6: 6}
+  max_internal_gap: 8.881784197001252e-16
+  max_end_gap: 0.0

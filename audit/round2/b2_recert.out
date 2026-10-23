@@ -1,0 +1,8 @@
+L2Tp.json {'leaves': 256, 'checked': 256, 'reg_mismatch': 0, 'deep_worse': 0, 'brute_viol': 0, 'deep_leaves': 0} 
+L2Tm.json {'leaves': 256, 'checked': 256, 'reg_mismatch': 0, 'deep_worse': 0, 'brute_viol': 0, 'deep_leaves': 0} 
+B3p.json {'leaves': 1722, 'checked': 300, 'reg_mismatch': 0, 'deep_worse': 0, 'brute_viol': 0, 'deep_leaves': 0} 
+B3m.json {'leaves': 1570, 'checked': 300, 'reg_mismatch': 0, 'deep_worse': 0, 'brute_viol': 0, 'deep_leaves': 0} 
+B2.json {'leaves': 15506, 'checked': 300, 'reg_mismatch': 0, 'deep_worse': 0, 'brute_viol': 0, 'deep_leaves': 0} 
+L2P.json {'leaves': 1979, 'checked': 300, 'reg_mismatch': 0, 'deep_worse': 0, 'brute_viol': 0, 'deep_leaves': 0} 
+L2Ap.json {'leaves': 2503, 'checked': 300, 'reg_mismatch': 0, 'deep_worse': 0, 'brute_viol': 0, 'deep_leaves': 0} 
+L2Am.json {'leaves': 2529, 'checked': 300, 'reg_mismatch': 0, 'deep_worse': 0, 'brute_viol': 0, 'deep_leaves': 0} 

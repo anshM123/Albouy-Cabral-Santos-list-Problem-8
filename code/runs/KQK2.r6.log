@@ -1,0 +1,18 @@
+[      3s] 16/261 returned, 16 complete, 50 leaves, 0 failed
+[      4s] 32/261 returned, 32 complete, 83 leaves, 0 failed
+[      5s] 48/261 returned, 48 complete, 117 leaves, 0 failed
+[      6s] 64/261 returned, 64 complete, 148 leaves, 0 failed
+[      7s] 80/261 returned, 80 complete, 191 leaves, 0 failed
+[      9s] 96/261 returned, 96 complete, 239 leaves, 0 failed
+[     32s] 112/261 returned, 112 complete, 743 leaves, 0 failed
+[     50s] 128/261 returned, 128 complete, 1154 leaves, 0 failed
+[     56s] 144/261 returned, 144 complete, 1326 leaves, 0 failed
+[     66s] 160/261 returned, 160 complete, 1609 leaves, 0 failed
+[     75s] 176/261 returned, 176 complete, 1878 leaves, 0 failed
+[     88s] 192/261 returned, 192 complete, 2152 leaves, 0 failed
+[     98s] 208/261 returned, 208 complete, 2403 leaves, 0 failed
+[    108s] 224/261 returned, 224 complete, 2674 leaves, 0 failed
+[    118s] 240/261 returned, 240 complete, 2929 leaves, 0 failed
+[    122s] 256/261 returned, 256 complete, 3096 leaves, 0 failed
+[    127s] 261/261 returned, 261 complete, 3190 leaves, 0 failed
+done KQ incomplete 0 failed 0 hist {'10': 1504, '11': 1629, '9': 17, 'w1': 40} wall 127

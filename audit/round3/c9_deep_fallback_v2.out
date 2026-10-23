@@ -1,0 +1,12 @@
+e=0.9 h=1e-03 maxw=2.0e-03: regular (False, 999); deep called: False; deep result: None
+e=0.9 h=1e-04 maxw=2.0e-04: regular (False, 999); deep called: True; deep result: (False, 12)
+e=0.9 h=1e-05 maxw=2.0e-05: regular (False, 999); deep called: True; deep result: (True, 10)
+e=0.9 h=2e-06 maxw=4.0e-06: regular (False, 999); deep called: True; deep result: (True, 10)
+e=0.93 h=1e-03 maxw=2.0e-03: regular (False, 999); deep called: False; deep result: None
+e=0.93 h=1e-04 maxw=2.0e-04: regular (False, 999); deep called: True; deep result: (False, 12)
+e=0.93 h=1e-05 maxw=2.0e-05: regular (False, 999); deep called: True; deep result: (True, 10)
+e=0.93 h=2e-06 maxw=4.0e-06: regular (False, 999); deep called: True; deep result: (True, 10)
+e=0.95 h=1e-03 maxw=2.0e-03: regular (False, 999); deep called: False; deep result: None
+e=0.95 h=1e-04 maxw=2.0e-04: regular (False, 999); deep called: True; deep result: (False, 14)
+e=0.95 h=1e-05 maxw=2.0e-05: regular (False, 999); deep called: True; deep result: (True, 10)
+e=0.95 h=2e-06 maxw=4.0e-06: regular (False, 999); deep called: True; deep result: (True, 10)

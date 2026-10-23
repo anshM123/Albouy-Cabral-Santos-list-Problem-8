@@ -1,0 +1,6 @@
+CE.json: records 512, leaves 171636, fails 0, replay problems 0; leaf kinds {'a4': 118, 'a5': 810, 'a6': 3511, 'a7': 25407, 'a8': 136070, 'o': 3949, 'u': 1771}
+    spot check: 25 leaves x 3 pts = 75 points; violations 0; max real-root count on the certified interval 6; max interpolation residual (rel) 1.06e-99
+Cm.json: records 512, leaves 2861, fails 0, replay problems 0; leaf kinds {'a5': 29, 'a6': 165, 'a7': 421, 'a8': 1608, 'o': 344, 'u': 294}
+    spot check: 25 leaves x 3 pts = 75 points; violations 0; max real-root count on the certified interval 6; max interpolation residual (rel) 8.72e-99
+CE.json: pruned leaves 5720 ('u' 1771, 'o' 3949); sample checks u 291456 (violations 0), o 663432 (violations 0)
+Cm.json: pruned leaves 638 ('u' 294, 'o' 344); sample checks u 48504 (violations 0), o 57792 (violations 0)

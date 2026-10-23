@@ -1,0 +1,9 @@
+C1: values max abs err 2.00e-15 (max |coef| 2.16e+00); gradients max rel err 3.50e-14
+C1: coef_abs vs sum|c| monomials: max coefficient difference 0.00e+00
+C1p: values max abs err 1.92e-15 (max |coef| 2.00e+00); gradients max rel err 3.40e-14
+C1p: coef_abs vs sum|c| monomials: max coefficient difference 0.00e+00
+C1pp: values max abs err 1.46e-15 (max |coef| 2.00e+00); gradients max rel err 2.25e-14
+C1pp: coef_abs vs sum|c| monomials: max coefficient difference 0.00e+00
+t-reparametrisation identity (C1p, C1pp): max rel err 1.10e-15
+coverage sample of 0 < e <= sin(0.20136) = 0.200002037, l in [0,1]: 5714 uncovered of 400000
+   uncovered e range [0.200000000, 0.200002037], l range [0.407710, 0.999988]

@@ -1,0 +1,10 @@
+B1   : value vs physics (50 digits) max rel err 1.07e-49; gradient max rel err 7.63e-33; abs-poly terms checked 1104, mismatches 0
+B2   : value vs physics (50 digits) max rel err 1.23e-18; gradient max rel err 1.4e-18; abs-poly terms checked 1504, mismatches 0
+B3p  : value vs physics (50 digits) max rel err 3.34e-50; gradient max rel err 3.21e-33; abs-poly terms checked 879, mismatches 0
+B3m  : value vs physics (50 digits) max rel err 2.35e-50; gradient max rel err 4.59e-33; abs-poly terms checked 879, mismatches 0
+L2E  : value vs physics (50 digits) max rel err 3.4e-16; gradient max rel err 1.02e-19; abs-poly terms checked 1628, mismatches 0
+L2P  : value vs physics (50 digits) max rel err 1.28e-19; gradient max rel err 1.52e-22; abs-poly terms checked 2648, mismatches 0
+L2Ap : value vs physics (50 digits) max rel err 2.29e-19; gradient max rel err 2.77e-23; abs-poly terms checked 2610, mismatches 0
+L2Am : value vs physics (50 digits) max rel err 3.55e-19; gradient max rel err 1.56e-20; abs-poly terms checked 2610, mismatches 0
+L2Tp : value vs physics (50 digits) max rel err 2.11e-19; gradient max rel err 9.53e-20; abs-poly terms checked 1507, mismatches 0
+L2Tm : value vs physics (50 digits) max rel err 4.92e-20; gradient max rel err 1.73e-23; abs-poly terms checked 1507, mismatches 0

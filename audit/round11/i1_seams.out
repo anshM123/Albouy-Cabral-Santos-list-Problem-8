@@ -1,0 +1,20 @@
+1. min l on K = 0.883883476483 >= fl(0.88) = 0.88 True
+   min w on K = atan2(0.875, 0.25) = 1.29249666779 >= fl(1.29) = 1.29 True ; max w on K < pi/2 (Qz >= 0.125 > 0)
+2. KQF2: 1 - e_lo = 0.0001001099999999866  SF2^2 = 0.000100100025  margin 9.975e-9 ; mu_max = 0.00010049875645752701  margin 3.987e-7
+   KQF2 l, w ranges [0.88, 1.0, 1.29, 1.5707963267948966] contain K_lw: True
+   KQS p-test threshold (float) 0.00010010002489989998 <= SF2^2 exactly: True
+3. KQS: 1 - e_lo = 0.00039999999999995595  vs SF^2 = 0.00040000000000000002  ( False ), vs the other runs' p threshold 0.00039999999960000005 ( True )
+   KQS mu_max = 0.000412310597567 >= SF^2: True ; l, w ranges [0.88, 1.0, 1.29, 1.5707963267948966]
+   KQF (original) domain [0.9996, 1.0, 0.0, 1.0, 0.0, 1.5707963267948966, 0.9999998300000288, 1.0] : 1 - e_lo = 0.00039999999999995595 >= p threshold: True
+4. KQF2 header T_X 0.030015  3 fl(SF2) exact = 0.030015000000000000013  T_X - 3 SF2 = 0.0
+   FE header: chart FE, domain [0, 0.02002, 0, 1.001, 0, 1, 0, 1], n0 [2, 4, 8, 8], SF None, YF None, R1 1.001
+   FM header: chart FM, domain [0, 0.02002, 0, 1.001, 0, 1, 0, 1], n0 [2, 4, 8, 8], SF None, YF None, R1 1.001
+   FIP header: chart FIP, domain [0, 0.02002, 0, 1.001, 0, 1, 0, 1], n0 [2, 4, 8, 8], SF None, YF None, R1 1.001
+   FIM header: chart FIM, domain [0, 0.02002, 0, 1.001, 0, 1, 0, 1], n0 [2, 4, 8, 8], SF None, YF None, R1 1.001
+5. FE: records 512 (incomplete 4), owed 73: s_lo > SF 0, inside K with s_lo > SF2 73, inside K but s_lo <= SF2 0, outside K 0 -> still owed 0; min s_lo of owed 0.01001
+5. FM: records 512 (incomplete 4), owed 67: s_lo > SF 0, inside K with s_lo > SF2 67, inside K but s_lo <= SF2 0, outside K 0 -> still owed 0; min s_lo of owed 0.01001
+5. FIP: records 512 (incomplete 4), owed 124536: s_lo > SF 124446, inside K with s_lo > SF2 90, inside K but s_lo <= SF2 0, outside K 0 -> still owed 0; min s_lo of owed 0.01001
+5. FIM: records 512 (incomplete 0), owed 0: s_lo > SF 0, inside K with s_lo > SF2 0, inside K but s_lo <= SF2 0, outside K 0 -> still owed 0; min s_lo of owed None
+   KQF base: owed 309, inside K_lw 28, still owed 281
+   KQF_r1_boxes.json: 281 boxes; inside K_lw 0; equal to the owed set outside K_lw: True
+6. shell/30 vs face/30 on 20000 random boxes: boxes where face/30 cuts (1): 0; different splits off the cut: 0; shell splits not tiling: 0

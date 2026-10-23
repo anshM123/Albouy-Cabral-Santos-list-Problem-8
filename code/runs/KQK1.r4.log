@@ -1,0 +1,70 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "<python>\Lib\multiprocessing\spawn.py", line 108, in spawn_main
+    source_process = _winapi.OpenProcess(
+                     ^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 87] The parameter is incorrect
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "<python>\Lib\multiprocessing\spawn.py", line 108, in spawn_main
+    source_process = _winapi.OpenProcess(
+                     ^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 87] The parameter is incorrect
+[    604s] 16/456 returned, 2 complete, 19184 leaves, 0 failed
+Process SpawnPoolWorker-10:
+Traceback (most recent call last):
+  File "<python>\Lib\multiprocessing\pool.py", line 131, in worker
+    put((job, i, result))
+  File "<python>\Lib\multiprocessing\queues.py", line 396, in put
+    self._writer.send_bytes(obj)
+  File "<python>\Lib\multiprocessing\connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "<python>\Lib\multiprocessing\connection.py", line 289, in _send_bytes
+    ov, err = _winapi.WriteFile(self._handle, buf, overlapped=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [WinError 232] The pipe is being closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<python>\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "<python>\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "<python>\Lib\multiprocessing\pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "<python>\Lib\multiprocessing\queues.py", line 396, in put
+    self._writer.send_bytes(obj)
+  File "<python>\Lib\multiprocessing\connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "<python>\Lib\multiprocessing\connection.py", line 289, in _send_bytes
+    ov, err = _winapi.WriteFile(self._handle, buf, overlapped=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [WinError 232] The pipe is being closed
+[      3s] 16/425 returned, 20 complete, 24718 leaves, 0 failed
+[    303s] 16/397 returned, 30 complete, 44406 leaves, 0 failed
+[    303s] 32/397 returned, 46 complete, 44422 leaves, 0 failed
+[    303s] 48/397 returned, 62 complete, 44438 leaves, 0 failed
+[    304s] 64/397 returned, 78 complete, 44454 leaves, 0 failed
+[    304s] 80/397 returned, 94 complete, 44470 leaves, 0 failed
+[    304s] 96/397 returned, 110 complete, 44486 leaves, 0 failed
+[    304s] 112/397 returned, 126 complete, 44502 leaves, 0 failed
+[    304s] 128/397 returned, 142 complete, 44518 leaves, 0 failed
+[    304s] 144/397 returned, 158 complete, 44534 leaves, 0 failed
+[    304s] 160/397 returned, 174 complete, 44550 leaves, 0 failed
+[    304s] 176/397 returned, 190 complete, 44566 leaves, 0 failed
+[    304s] 192/397 returned, 205 complete, 45315 leaves, 0 failed
+[    304s] 208/397 returned, 221 complete, 45331 leaves, 0 failed
+[    305s] 224/397 returned, 237 complete, 45347 leaves, 0 failed
+[    305s] 240/397 returned, 253 complete, 45363 leaves, 0 failed
+[    306s] 256/397 returned, 269 complete, 45379 leaves, 0 failed
+[    342s] 272/397 returned, 285 complete, 45566 leaves, 0 failed
+[    607s] 288/397 returned, 295 complete, 53377 leaves, 0 failed
+[    905s] 304/397 returned, 305 complete, 60716 leaves, 0 failed
+[    966s] 320/397 returned, 314 complete, 68564 leaves, 0 failed
+[   1268s] 336/397 returned, 322 complete, 77570 leaves, 0 failed
+[   1530s] 352/397 returned, 332 complete, 84242 leaves, 0 failed
+[   1879s] 368/397 returned, 336 complete, 96317 leaves, 0 failed
+[   2350s] 384/397 returned, 338 complete, 109871 leaves, 0 failed
+[   2698s] 397/397 returned, 341 complete, 120619 leaves, 0 failed
+done KQ incomplete 121 failed 0 hist {'10': 28118, '11': 49275, '6': 410, '7': 1105, '8': 3909, '9': 13068, 'p': 55, 'w1': 22789, 'w2': 1890} wall 2698

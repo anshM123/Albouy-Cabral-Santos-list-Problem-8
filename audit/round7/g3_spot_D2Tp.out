@@ -1,0 +1,5 @@
+D2Tp [D2Tp]: leaves 26915 (winding 0, total-11 14134); sampled 45 leaves, 135 points (135 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 10; min winding margin +inf
+
+real	0m14.053s
+user	0m0.000s
+sys	0m0.031s

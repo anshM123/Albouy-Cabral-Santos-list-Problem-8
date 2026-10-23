@@ -1,0 +1,4 @@
+2002 (phi0, peri) pairs incl. (0.9, 1.2) and (1.25, 1.2): smallest seam overlap 1.9742e-9 rad
+  phi0 = 0.9, peri = 1.2: overlaps 2.625e-9, 2.366e-9, 2.625e-9, 2.366e-9
+  phi0 = 1.25, peri = 1.2: overlaps 2.319e-9, 2.366e-9, 2.319e-9, 2.366e-9
+face mode: aphelion part starts at |f - pi| >= 0.11985631024 = 2 atan(T_X - ARC_PAD); the face charts cover |th| <= 3 SF = 0.06 (gap/near), so the seam overlaps by ARC_PAD in th

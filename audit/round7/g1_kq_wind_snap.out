@@ -1,0 +1,6 @@
+KQ1_snap.records.jsonl: records 427 (completed, partial file), leaves 31707 (winding 68), fails 0, replay problems 0 []; histogram {10: 7410, 11: 10622, 4: 129, 5: 84, 6: 2043, 7: 2488, 8: 4458, 9: 4405, 'w1': 58, 'w2': 2, 'w3': 8}
+    re-certified winding leaves 68 (problems 0); count leaves 60 (problems 0)
+    100-digit: 30 winding + 30 count leaves, 180 points (90 winding); violations 0; odd N_mult 0; max N_mult 8; min relative distance of a zero to |z| = e^L 0.308
+KQK2_snap.records.jsonl: records 2 (completed, partial file), leaves 597 (winding 0), fails 0, replay problems 0 []; histogram {10: 33, 11: 564}
+    re-certified winding leaves 0 (problems 0); count leaves 60 (problems 0)
+    100-digit: 0 winding + 30 count leaves, 90 points (0 winding); violations 0; odd N_mult 0; max N_mult 10; min relative distance of a zero to |z| = e^L +inf

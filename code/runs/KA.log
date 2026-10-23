@@ -1,0 +1,5 @@
+initial boxes 64 skipped (excluded) 0
+[      1s] 25/64 returned, 25 complete, 25 leaves (0 deep), 0 failed
+[      1s] 50/64 returned, 50 complete, 50 leaves (0 deep), 0 failed
+[      1s] 64/64 returned, 64 complete, 64 leaves (0 deep), 0 failed
+certified volume fraction (of processed boxes): 1.0 ; incomplete initial boxes: 0 ; failed leaves: 0 ; wall 1 s

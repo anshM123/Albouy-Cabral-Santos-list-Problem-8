@@ -1,0 +1,4 @@
+1. D2E2: chart value vs physics (50 digits, nu <= 0.14, P <= 0.35, K in [0.24, 0.68]) max rel err 1.03e-18; abs-poly terms 2498, mismatches 0
+1. D2E: chart value vs physics (50 digits, nu <= 0.14, P <= 0.35, K in [0.24, 0.68]) max rel err 9.13e-19; abs-poly terms 2498, mismatches 0
+3. D2Tp owed boxes 20334; dropped by rule (i) (exact: SD*nu_lo*E_lo > 6.10657e-6) 20333; remaining 1: [(0.0, 0.12625, 0.7875000000000001, 1.05, 0.0, 0.2625, 0.2625, 0.525)]
+2. rule (ii): 49 (point, chart) checks over the remaining D2Tp boxes: not in a certified leaf 0; 100-digit violations 0; max N_mult 8

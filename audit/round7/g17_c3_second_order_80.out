@@ -1,0 +1,15 @@
+KBQe: (A) slots 0..4 vs first-order module: max rel diff 0.00e+00; (B) second derivatives vs numerical: max rel err 4.14e-30; (C) abs-poly terms 1717 (mismatches 0), third derivatives vs sympy: max rel diff 3.38e-16
+KBQe: (D) Taylor inequality: 6240 checks, violations 0, worst |remainder| / (crad + rem) 1.000; checks within 1e-4 of the bound 0, smallest relative slack nan
+KBQe: (E) mode 0: checks within 1e-4 of the radius 96, smallest relative slack 1.09e-07
+KBQe: (E) mode 1: checks within 1e-4 of the radius 96, smallest relative slack 1.09e-07
+KBQe: (E) point_enclosure2 mode 1 (second-order only): 7680 checks, violations 0, worst ratio 1.000000
+KBQe: (E) point_enclosure2 mode 2 (mean-value only): 7680 checks, violations 0, worst ratio 0.999558
+KBQe: (E) point_enclosure2 mode 0 (min (used)): 7680 checks, violations 0, worst ratio 1.000000
+Ca: (A) slots 0..4 vs first-order module: max rel diff 0.00e+00; (B) second derivatives vs numerical: max rel err 3.91e-29; (C) abs-poly terms 3088 (mismatches 0), third derivatives vs sympy: max rel diff 3.93e-16
+Ca: (D) Taylor inequality: 6240 checks, violations 0, worst |remainder| / (crad + rem) 1.000; checks within 1e-4 of the bound 6, smallest relative slack 3.03e-05
+Ca: (E) mode 0: checks within 1e-4 of the radius 151, smallest relative slack 1.28e-07
+Ca: (E) mode 1: checks within 1e-4 of the radius 151, smallest relative slack 1.28e-07
+Ca: (E) mode 2: checks within 1e-4 of the radius 9, smallest relative slack 2.07e-05
+Ca: (E) point_enclosure2 mode 1 (second-order only): 7680 checks, violations 0, worst ratio 1.000000
+Ca: (E) point_enclosure2 mode 2 (mean-value only): 7680 checks, violations 0, worst ratio 0.999979
+Ca: (E) point_enclosure2 mode 0 (min (used)): 7680 checks, violations 0, worst ratio 1.000000

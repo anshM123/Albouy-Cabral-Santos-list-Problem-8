@@ -1,0 +1,13 @@
+KQ1 {"files": 2, "records": 3009, "leaves": 90528, "winding": 43408, "L_range": [-3.2119684195189193, -0.22250227822275995], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 1009, "owed": 0, "hist": {"10": 11251, "11": 19260, "4": 141, "5": 95, "6": 2513, "7": 2818, "8": 5245, "9": 5797, "w1": 27715, "w2": 15156, "w
+KQ2 {"files": 3, "records": 1039, "leaves": 10097, "winding": 2453, "L_range": [-0.4528216884002736, -0.11900873119164367], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 952, "owed": 340, "hist": {"10": 2500, "11": 2703, "4": 12, "6": 225, "7": 708, "8": 647, "9": 849, "w1": 1891, "w2": 562}, "problems": []}
+KQK1 {"files": 3, "records": 1623, "leaves": 14366, "winding": 964, "L_range": [-0.3722022425928602, -0.10332029350342425], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 1284, "owed": 460, "hist": {"10": 4147, "11": 7216, "6": 184, "7": 129, "8": 598, "9": 1128, "w1": 955, "w2": 9}, "problems": []}
+KQK2 {"files": 3, "records": 20, "leaves": 4321, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 2146, "incomplete": 12, "owed": 2228, "hist": {"10": 3501, "11": 820}, "problems": []}
+KQB {"files": 3, "records": 347, "leaves": 15299, "winding": 2090, "L_range": [-0.39688181277920437, -0.16376681506432503], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 338, "owed": 143, "hist": {"10": 8796, "11": 4036, "8": 46, "9": 331, "w1": 1362, "w2": 728}, "problems": []}
+C3 Ca {"files": 3, "records": 1426, "leaves": 97974, "winding": 0, "L_range": null, "pruned": 31323, "prune_violations": 0, "fails": 0, "incomplete": 1274, "owed": 432, "hist": {"4": 254, "5": 91, "6": 5241, "7": 6313, "8": 7449, "9": 78626}, "problems": []}
+KQ1        OK  leaves 90528  winding 43408  fails 0  incomplete 1009  open 0  problems 0
+KQ2        NOT OK  leaves 10097  winding 2453  fails 0  incomplete 952  open 340  problems 0
+KQK1       NOT OK  leaves 14366  winding 964  fails 0  incomplete 1284  open 460  problems 0
+KQK2       NOT OK  leaves 4321  winding 0  fails 2146  incomplete 12  open 2228  problems 0
+KQB        NOT OK  leaves 15299  winding 2090  fails 0  incomplete 338  open 143  problems 0
+C3 Ca      NOT OK  leaves 97974  winding 0  fails 0  incomplete 1274  open 432  problems 0
+ALL FAMILIES REPLAYED, COMPLETE AND WITHIN THEIR BOUNDS: NO

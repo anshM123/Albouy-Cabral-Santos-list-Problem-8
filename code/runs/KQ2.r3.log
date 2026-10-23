@@ -1,0 +1,23 @@
+[    394s] 16/340 returned, 16 complete, 13155 leaves, 0 failed
+[    614s] 32/340 returned, 32 complete, 20159 leaves, 0 failed
+[   1641s] 48/340 returned, 46 complete, 42399 leaves, 0 failed
+[   1642s] 64/340 returned, 62 complete, 42415 leaves, 0 failed
+[   1644s] 80/340 returned, 78 complete, 42431 leaves, 0 failed
+[   1671s] 96/340 returned, 93 complete, 50139 leaves, 0 failed
+[   1814s] 112/340 returned, 107 complete, 57046 leaves, 0 failed
+[   2475s] 128/340 returned, 122 complete, 69305 leaves, 0 failed
+[   3797s] 144/340 returned, 134 complete, 110520 leaves, 0 failed
+[   3797s] 160/340 returned, 150 complete, 110536 leaves, 0 failed
+[   3799s] 176/340 returned, 166 complete, 110552 leaves, 0 failed
+[   3819s] 192/340 returned, 182 complete, 110681 leaves, 0 failed
+[   4035s] 208/340 returned, 196 complete, 121854 leaves, 0 failed
+[   4643s] 224/340 returned, 210 complete, 133610 leaves, 0 failed
+[   6075s] 240/340 returned, 220 complete, 179276 leaves, 0 failed
+[   6076s] 256/340 returned, 236 complete, 179292 leaves, 0 failed
+[   6077s] 272/340 returned, 252 complete, 179308 leaves, 0 failed
+[   6093s] 288/340 returned, 267 complete, 182602 leaves, 0 failed
+[   6157s] 304/340 returned, 283 complete, 183149 leaves, 0 failed
+[   7236s] 320/340 returned, 295 complete, 189967 leaves, 0 failed
+[   8698s] 336/340 returned, 303 complete, 237949 leaves, 0 failed
+[   9868s] 340/340 returned, 303 complete, 241251 leaves, 1669 failed
+done KQ incomplete 37 failed 1669 hist {'10': 37391, '11': 94474, '4': 1, '5': 2, '6': 744, '7': 1636, '8': 3823, '9': 5497, 'w1': 90612, 'w2': 7065, 'w3': 6} wall 9870

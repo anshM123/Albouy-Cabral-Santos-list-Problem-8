@@ -1,0 +1,26 @@
+[     11s] 16/400 returned, 16 complete, 40 leaves, 0 failed
+[     14s] 32/400 returned, 32 complete, 76 leaves, 0 failed
+[     17s] 48/400 returned, 48 complete, 157 leaves, 0 failed
+[     22s] 64/400 returned, 64 complete, 238 leaves, 0 failed
+[     25s] 80/400 returned, 80 complete, 380 leaves, 0 failed
+[     30s] 96/400 returned, 96 complete, 589 leaves, 0 failed
+[     36s] 112/400 returned, 112 complete, 775 leaves, 0 failed
+[     55s] 128/400 returned, 128 complete, 1413 leaves, 0 failed
+[     79s] 144/400 returned, 144 complete, 1855 leaves, 0 failed
+[    127s] 160/400 returned, 160 complete, 4358 leaves, 0 failed
+[    250s] 176/400 returned, 176 complete, 8559 leaves, 0 failed
+[    437s] 192/400 returned, 192 complete, 15382 leaves, 0 failed
+[    562s] 208/400 returned, 208 complete, 19011 leaves, 0 failed
+[    575s] 224/400 returned, 224 complete, 20703 leaves, 0 failed
+[    579s] 240/400 returned, 240 complete, 20778 leaves, 0 failed
+[    583s] 256/400 returned, 256 complete, 20827 leaves, 0 failed
+[    589s] 272/400 returned, 272 complete, 22695 leaves, 0 failed
+[    596s] 288/400 returned, 288 complete, 24722 leaves, 0 failed
+[    606s] 304/400 returned, 304 complete, 24883 leaves, 0 failed
+[    618s] 320/400 returned, 320 complete, 25204 leaves, 0 failed
+[    640s] 336/400 returned, 336 complete, 27797 leaves, 0 failed
+[    693s] 352/400 returned, 352 complete, 28863 leaves, 0 failed
+[    793s] 368/400 returned, 368 complete, 31684 leaves, 0 failed
+[    914s] 384/400 returned, 384 complete, 37181 leaves, 0 failed
+[   1277s] 400/400 returned, 400 complete, 54718 leaves, 0 failed
+done KQ incomplete 0 failed 0 hist {'10': 4394, '11': 9697, '4': 39, '5': 36, '6': 575, '7': 586, '8': 1314, '9': 2127, 'w1': 28014, 'w2': 7393, 'w3': 543} wall 1277

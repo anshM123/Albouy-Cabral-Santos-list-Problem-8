@@ -1,0 +1,7 @@
+(i) e=0.95 l=0.999999 w=0.001157 t=0.008854: roots on circle 8, smallest off-circle |log|z|| = 0.000361064, 2-D count 8
+(i) e=0.94998 l=0.999996 w=0.000364 t=0.009032: roots on circle 10, smallest off-circle |log|z|| = 0.555743, 2-D count 10
+(ii) k=1.0 l=1.0 w=0.0: real roots 8, min relative gap of complex pair 1.41421
+(ii) k=1.05 l=1.0 w=0.0: real roots 8, min relative gap of complex pair 1.43178
+(ii) k=1.05 l=0.999 w=0.01: real roots 2, min relative gap of complex pair 0.0261222
+(ii) k=1.1 l=0.995 w=0.02: real roots 2, min relative gap of complex pair 0.0584376
+(ii) k=2.0 l=1.0 w=0.0: polyroots no convergence (exact multiple roots); exact factorisation 16 w^2 (1-w^2)^2 ((1+w^2)^2 - k^2) gives gap sqrt(1+k) = 1.73205

@@ -1,0 +1,6 @@
+(A) slots 0..4 vs nbcoef_a: max rel diff 0.00e+00; (B) second derivatives vs numerical: max rel err 7.96e-31; (C) abs terms 843 (mismatches 0), third derivatives vs sympy max rel diff 3.26e-16
+(H) Hessian (eta, l, w) vs numerical: max rel err 5.92e-16; (D) Taylor inequality: 2240 checks, violations 0, worst ratio 0.5157
+(E) enclose_point2 (chart 0) mode 1 (second-order only): 7680 checks, violations 0, worst ratio 0.9999976
+(E) enclose_point2 (chart 0) mode 2 (mean-value only): 7680 checks, violations 0, worst ratio 0.9993250
+(E) enclose_point2 (chart 0) mode 0 (min (used)): 7680 checks, violations 0, worst ratio 0.9999976
+(S) end-to-end: 120 random bulk boxes; certified by certify_box2 111 (first-order certify_box 98; second-order only 13); 100-digit violations 0; odd N_mult 0

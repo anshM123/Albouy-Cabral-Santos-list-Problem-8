@@ -1,0 +1,9 @@
+[uniform ] 100000 samples: uncovered 0 (+ 8 in the declared C3 core); chart hits {'B1': 96, 'B2': 26, 'B3': 56, 'C1': 9460, 'C1p': 12106, 'C1pp': 2429, 'C3core': 8, 'F1': 1076, 'F2': 2917, 'K': 985, 'bulk': 74944}
+[small_e ] 200000 samples: uncovered 0 (+ 0 in the declared C3 core); chart hits {'B1': 3837, 'B2': 2760, 'B3': 25730, 'C1': 43279, 'C1p': 67798, 'C1pp': 72896, 'bulk': 789}
+[C1block ] 100000 samples: uncovered 0 (+ 0 in the declared C3 core); chart hits {'B1': 41104, 'B2': 35661, 'B3': 38619, 'C1': 43}
+[B1block ] 100000 samples: uncovered 0 (+ 0 in the declared C3 core); chart hits {'L2': 100000}
+[top     ] 200000 samples: uncovered 0 (+ 918 in the declared C3 core); chart hits {'C3core': 918, 'F1': 1924, 'F2': 16060, 'K': 179077, 'bulk': 2065}
+[seams   ] 100000 samples: uncovered 0 (+ 27 in the declared C3 core); chart hits {'C1': 17435, 'C1p': 21452, 'C3core': 27, 'F1': 11225, 'F2': 23007, 'K': 6981, 'bulk': 67818}
+C1 skipped initial boxes: 64 ; B1 skipped: 4 ; K skipped: 4
+C1 skip block max eps 0.0650000000, max th_C1 0.1845247863 -> max theta = tan = 0.186648; t range [0.3750, 0.6250]
+B1 skip block: e <= 0.01, ph <= 0.25, qh in [0.75, 1.25], x3 in [0.375, 0.625]

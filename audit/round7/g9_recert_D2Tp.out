@@ -1,0 +1,5 @@
+D2Tp [D2Tp]: reg 200/17831 (mismatches 0); deep 200/9084 (mismatches 0); wind 0/0 (mismatches 0); certified but total != recorded (not exact): 0; not re-certifiable even by the deep certifier: 0
+
+real	0m45.414s
+user	0m0.000s
+sys	0m0.031s

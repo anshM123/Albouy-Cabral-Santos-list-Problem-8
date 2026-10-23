@@ -1,0 +1,2340 @@
+OpenBLAS erroOr: Memory allocation still failed after 10 retries, giving up.
+penBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLASOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error:OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+ Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+[      8s] 8/512 returned, 8 complete, 8 leaves, 0 failed
+[      8s] 16/512 returned, 16 complete, 16 leaves, 0 failed
+[      8s] 24/512 returned, 24 complete, 24 leaves, 0 failed
+[      8s] 32/512 returned, 32 complete, 32 leaves, 0 failed
+[      8s] 40/512 returned, 40 complete, 40 leaves, 0 failed
+[      8s] 48/512 returned, 48 complete, 48 leaves, 0 failed
+[      8s] 56/512 returned, 56 complete, 56 leaves, 0 failed
+OpenBLAS errOor: Memory allocation still failed after 10 retries, giving up.
+penBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLASOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+ error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOppenBLAS error: Memory allocenBLAS error: Memory allocation still failed after 10 retries, giving up.
+atiOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation sOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: MpeneBLAS error: Memory allocation smory allocation still failed after 10 till retries, giving up.
+failed after 10 retries, giving up.
+OOpenBLAS erropenBLAr: SMemory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+Process SpawnPoolWorker-13:
+Traceback (most recent call last):
+  File "<python>\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "<python>\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "<python>\Lib\multiprocessing\pool.py", line 109, in worker
+    initializer(*initargs)
+  File "<repo>\code\c3\c3_run.py", line 81, in init
+    cnt(0.1, 0.11, 0.5, 0.51, 0.3, 0.31, 0.2, 0.21, ROOT[chart][0], ROOT[chart][1], J, M0, 2, 100, 0)
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numba\core\dispatcher.py", line 441, in _compile_for_args
+    raise e
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numba\core\dispatcher.py", line 374, in _compile_for_args
+    return_val = self.compile(tuple(argtypes))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numba\core\dispatcher.py", line 887, in compile
+    cres = self._cache.load_overload(sig, self.targetctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numba\core\caching.py", line 719, in load_overload
+    target_context.refresh()
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numba\core\base.py", line 267, in refresh
+    self.load_additional_registries()
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numba\core\cpu.py", line 118, in load_additional_registries
+    from numba.np import linalg, arraymath, arrayobj # noqa F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numba\np\arraymath.py", line 44, in <module>
+    _HAVE_BLAS = _check_blas()
+                 ^^^^^^^^^^^^^
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numba\np\arraymath.py", line 38, in _check_blas
+    ensure_blas()
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numba\np\linalg.py", line 57, in ensure_blas
+    import scipy.linalg.cython_blas
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\scipy\linalg\__init__.py", line 201, in <module>
+    from ._misc import *
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\scipy\linalg\_misc.py", line 6, in <module>
+    from scipy._lib._util import _deprecate_dtypes
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\scipy\_lib\_util.py", line 16, in <module>
+    from scipy._lib._array_api import (Array, array_namespace, is_lazy_array, is_numpy,
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\scipy\_lib\_array_api.py", line 24, in <module>
+    from scipy._external.array_api_compat import (
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\scipy\_external\array_api_compat\numpy\__init__.py", line 9, in <module>
+    __all__ = clone_module("numpy", globals())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\scipy\_external\array_api_compat\_internal.py", line 64, in clone_module
+    exec(f"from {mod.__name__} import *", objs)
+  File "<string>", line 1, in <module>
+  File "<frozen importlib._bootstrap>", line 1410, in _handle_fromlist
+  File "<frozen importlib._bootstrap>", line 1412, in _handle_fromlist
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numpy\__init__.py", line 748, in __getattr__
+    import numpy.f2py as f2py
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numpy\f2py\__init__.py", line 19, in <module>
+    from . import diagnose, f2py2e
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numpy\f2py\f2py2e.py", line 21, in <module>
+    from . import (
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numpy\f2py\capi_maps.py", line 24, in <module>
+    from .crackfortran import markoutercomma
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1091, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1191, in get_data
+MemoryError
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, givinProcess SpawnPoolWorker-16:
+Traceback (most recent call last):
+  File "<python>\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "<python>\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "<python>\Lib\multiprocessing\pool.py", line 109, in worker
+    initializer(*initargs)
+  File "<repo>\code\c3\c3_run.py", line 77, in init
+    cnt = importlib.import_module(engine_module(chart)).count
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<repo>\code\c3\nbeng_c3_FIM_2.py", line 5, in <module>
+    from nbcoef_c3_FIM_2 import coef_val2, coef_abs2, DEG
+MemoryError
+Process SpawnPoolWorker-17:
+Traceback (most recent call last):
+  File "<python>\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "<python>\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "<python>\Lib\multiprocessing\pool.py", line 109, in worker
+    initializer(*initargs)
+  File "<repo>\code\c3\c3_run.py", line 77, in init
+    cnt = importlib.import_module(engine_module(chart)).count
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<repo>\code\c3\nbeng_c3_FIM_2.py", line 5, in <module>
+    from nbcoef_c3_FIM_2 import coef_val2, coef_abs2, DEG
+MemoryError
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed afterOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory[     20s] 64/512 returned, 64 complete, 1005 leaves, 0 failed
+[     20s] 72/512 returned, 72 complete, 1013 leaves, 0 failed
+[     20s] 80/512 returned, 80 complete, 1021 leaves, 0 failed
+[     20s] 88/512 returned, 88 complete, 1029 leaves, 0 failed
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+O[     20s] 96/512 returned, 96 complete, 1037 leaves, 0 failed
+penBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+O[     20s] 104/512 returned, 104 complete, 1045 leaves, 0 failed
+[     20s] 112/512 returned, 112 complete, 1053 leaves, 0 failed
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving upOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+O[     21s] 120/512 returned, 120 complete, 1400 leaves, 0 failed
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error:OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS errOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocatOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, givinOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: MemoryOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: MemorOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation stiOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation stiOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: MemOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 rOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocatOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation stiOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocationOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, gOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory aProcess SpawnPoolWorker-166:
+Traceback (most recent call last):
+  File "<python>\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "<python>\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "<python>\Lib\multiprocessing\pool.py", line 109, in worker
+    initializer(*initargs)
+  File "<repo>\code\c3\c3_run.py", line 77, in init
+    cnt = importlib.import_module(engine_module(chart)).count
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<repo>\code\c3\nbeng_c3_FIM_2.py", line 5, in <module>
+    from nbcoef_c3_FIM_2 import coef_val2, coef_abs2, DEG
+MemoryError
+Process SpawnPoolWorker-167:
+Traceback (most recent call last):
+  File "<python>\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "<python>\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "<python>\Lib\multiprocessing\pool.py", line 109, in worker
+    initializer(*initargs)
+  File "<repo>\code\c3\c3_run.py", line 77, in init
+    cnt = importlib.import_module(engine_module(chart)).count
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<repo>\code\c3\nbeng_c3_FIM_2.py", line 5, in <module>
+    from nbcoef_c3_FIM_2 import coef_val2, coef_abs2, DEG
+MemoryError
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed aftOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+O[     79s] 128/512 returned, 128 complete, 1802 leaves, 0 failed
+[     79s] 136/512 returned, 136 complete, 1810 leaves, 0 failed
+[     79s] 144/512 returned, 144 complete, 1818 leaves, 0 failed
+[     79s] 152/512 returned, 152 complete, 1826 leaves, 0 failed
+[     79s] 160/512 returned, 160 complete, 1834 leaves, 0 failed
+[     79s] 168/512 returned, 168 complete, 1842 leaves, 0 failed
+[     79s] 176/512 returned, 176 complete, 1850 leaves, 0 failed
+[    126s] 184/512 returned, 184 complete, 22452 leaves, 0 failed
+[    128s] 192/512 returned, 192 complete, 22781 leaves, 0 failed
+[    128s] 200/512 returned, 200 complete, 22789 leaves, 0 failed
+[    128s] 208/512 returned, 208 complete, 22797 leaves, 0 failed
+[    128s] 216/512 returned, 216 complete, 22805 leaves, 0 failed
+[    128s] 224/512 returned, 224 complete, 22813 leaves, 0 failed
+[    128s] 232/512 returned, 232 complete, 22821 leaves, 0 failed
+[    128s] 240/512 returned, 240 complete, 22829 leaves, 0 failed
+[    146s] 248/512 returned, 248 complete, 40990 leaves, 0 failed
+[    149s] 256/512 returned, 256 complete, 41319 leaves, 0 failed
+[    149s] 264/512 returned, 264 complete, 41327 leaves, 0 failed
+[    149s] 272/512 returned, 272 complete, 41335 leaves, 0 failed
+[    149s] 280/512 returned, 280 complete, 41343 leaves, 0 failed
+[    149s] 288/512 returned, 288 complete, 41351 leaves, 0 failed
+[    149s] 296/512 returned, 296 complete, 41359 leaves, 0 failed
+[    149s] 304/512 returned, 304 complete, 41367 leaves, 0 failed
+[    157s] 312/512 returned, 312 complete, 60302 leaves, 0 failed
+[    161s] 320/512 returned, 320 complete, 60764 leaves, 0 failed
+[    161s] 328/512 returned, 328 complete, 60772 leaves, 0 failed
+[    161s] 336/512 returned, 336 complete, 60780 leaves, 0 failed
+[    161s] 344/512 returned, 344 complete, 60788 leaves, 0 failed
+[    161s] 352/512 returned, 352 complete, 60796 leaves, 0 failed
+[    161s] 360/512 returned, 360 complete, 60804 leaves, 0 failed
+[    161s] 368/512 returned, 368 complete, 60812 leaves, 0 failed
+[    205s] 376/512 returned, 376 complete, 79017 leaves, 0 failed
+[    208s] 384/512 returned, 384 complete, 79383 leaves, 0 failed
+[    208s] 392/512 returned, 392 complete, 79391 leaves, 0 failed
+[    208s] 400/512 returned, 400 complete, 79399 leaves, 0 failed
+[    208s] 408/512 returned, 408 complete, 79407 leaves, 0 failed
+[    208s] 416/512 returned, 416 complete, 79415 leaves, 0 failed
+[    208s] 424/512 returned, 424 complete, 79423 leaves, 0 failed
+[    208s] 432/512 returned, 432 complete, 79431 leaves, 0 failed
+[    226s] 440/512 returned, 440 complete, 88895 leaves, 0 failed
+[    228s] 448/512 returned, 448 complete, 89195 leaves, 0 failed
+[    228s] 456/512 returned, 456 complete, 89203 leaves, 0 failed
+[    228s] 464/512 returned, 464 complete, 89211 leaves, 0 failed
+[    228s] 472/512 returned, 472 complete, 89219 leaves, 0 failed
+[    228s] 480/512 returned, 480 complete, 89227 leaves, 0 failed
+[    228s] 488/512 returned, 488 complete, 89235 leaves, 0 failed
+[    228s] 496/512 returned, 496 complete, 89243 leaves, 0 failed
+[    239s] 504/512 returned, 504 complete, 98519 leaves, 0 failed
+[    285s] 512/512 returned, 512 complete, 115073 leaves, 0 failed
+done FIM incomplete 0 failed 0 hist {'0': 57097, 'o': 10193, 'u': 47783} wall 285

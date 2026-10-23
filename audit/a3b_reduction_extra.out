@@ -1,0 +1,5 @@
+(i) max |Pol|, |Pol'| at u = 0, pi over 40 W0/AX configs (50 digits): 1.0965855829973119e-13
+[L1-] 100 configs: violations (#2D > #Pol, unambiguous) = 0; 2D points whose u is not a Pol root = 0; configs with near-circle complex roots (ambiguous count) = 10; equal counts = 100
+      (N_2D, N_Pol) histogram: {(4, 4): 6, (6, 6): 24, (8, 8): 65, (10, 10): 5}
+[T(N=10)] 40 configs: violations (#2D > #Pol, unambiguous) = 0; 2D points whose u is not a Pol root = 0; configs with near-circle complex roots (ambiguous count) = 0; equal counts = 40
+      (N_2D, N_Pol) histogram: {(10, 10): 40}

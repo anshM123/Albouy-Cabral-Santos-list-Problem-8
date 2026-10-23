@@ -1,0 +1,3 @@
+a {'enclosure_checks': 322560, 'enclosure_violations': 0, 'labelled_arcs': 1584, 'label_checks': 11088, 'label_violations': 0}
+B1 {'enclosure_checks': 322560, 'enclosure_violations': 0, 'labelled_arcs': 1885, 'label_checks': 13195, 'label_violations': 0}
+C1pp {'enclosure_checks': 322560, 'enclosure_violations': 0, 'labelled_arcs': 1905, 'label_checks': 13335, 'label_violations': 0}

@@ -1,0 +1,10 @@
+[      1s] 16/142 returned, 1 complete, 981 leaves, 0 failed
+[      1s] 32/142 returned, 1 complete, 981 leaves, 0 failed
+[      1s] 48/142 returned, 1 complete, 981 leaves, 0 failed
+[      1s] 64/142 returned, 1 complete, 981 leaves, 0 failed
+[      1s] 80/142 returned, 1 complete, 981 leaves, 0 failed
+[      1s] 96/142 returned, 1 complete, 981 leaves, 0 failed
+[      1s] 112/142 returned, 1 complete, 981 leaves, 0 failed
+[      1s] 128/142 returned, 1 complete, 981 leaves, 0 failed
+[      1s] 142/142 returned, 1 complete, 981 leaves, 0 failed
+done KQ incomplete 142 failed 0 hist {'10': 138, '11': 163, '8': 18, 'w1': 662} wall 1

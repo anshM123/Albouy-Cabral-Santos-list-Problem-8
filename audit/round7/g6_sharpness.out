@@ -1,0 +1,16 @@
+(1) Pol: zeros on the unit circle 10 ; min angular separation 0.048005 ; other zeros |log|z|| = ['1.8104', '1.8104']
+    real roots u = ['0.5786946', '0.62669929', '1.6590444', '3.0407959', '3.6430816', '4.5299093', '5.0291406', '5.305566', '5.8940785', '6.0866186']
+(2) sign changes of g_-' : 6
+(2) sign changes of g_+' : 4
+(3) 2-D Newton critical points: 10
+    u = 6.086618632, v = 6.27040908, min, |grad| = 6.75e-81, distance to the nearest Pol root 4.22e-80
+    u = 0.6266992853, v = 1.820288707, saddle, |grad| = 1.58e-81, distance to the nearest Pol root 5.48e-80
+    u = 5.894078495, v = 3.072649103, max, |grad| = 2.5e-81, distance to the nearest Pol root 7.59e-80
+    u = 0.5786946032, v = 4.352020971, saddle, |grad| = 1.05e-81, distance to the nearest Pol root 4.43e-80
+    u = 1.659044374, v = 3.08358961, min, |grad| = 1.19e-81, distance to the nearest Pol root 2.11e-81
+    u = 3.040795856, v = 0.03812136151, max, |grad| = 3.16e-81, distance to the nearest Pol root 0.0
+    u = 3.643081559, v = 3.221188727, saddle, |grad| = 5.53e-81, distance to the nearest Pol root 4.22e-81
+    u = 4.529909301, v = 3.35494903, min, |grad| = 1.98e-81, distance to the nearest Pol root 8.43e-81
+    u = 5.305566008, v = 2.459515465, saddle, |grad| = 2.11e-81, distance to the nearest Pol root 8.43e-81
+    u = 5.029140587, v = 3.882734214, saddle, |grad| = 3.16e-81, distance to the nearest Pol root 3.37e-80
+    kinds {'min': 3, 'saddle': 5, 'max': 2} ; max |grad| after refinement 6.753595557382054e-81 ; Euler characteristic check (min - saddle + max = 0 on the torus): 0

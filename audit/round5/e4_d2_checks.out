@@ -1,0 +1,9 @@
+1. F at e=p=kappa=0 equals 4 s^2 c^2 (1 - 2 tau): True
+1. linear part equals the claim: True
+1. rank of the four functions sampled at 8 points: 4
+2. D2E: value vs physics (50 digits) max rel err 4.52e-19; abs-poly terms 2498, mismatches 0
+2. D2P: value vs physics (50 digits) max rel err 3.94e-19; abs-poly terms 2912, mismatches 0
+2. D2K: value vs physics (50 digits) max rel err 1.48e-18; abs-poly terms 2008, mismatches 0
+2. D2Tp: value vs physics (50 digits) max rel err 4.55e-19; abs-poly terms 1662, mismatches 0
+2. D2Tm: value vs physics (50 digits) max rel err 3.27e-19; abs-poly terms 1662, mismatches 0
+3. cube points not in any D2 cone chart domain: 0 of 200000

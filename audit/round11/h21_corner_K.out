@@ -1,0 +1,5 @@
+(a) G(m = 0.995) = -5.31448e-13, G(m = 1.0) = 2.0897e-13  (sign change: True)
+    zeros at m = 0.9975: |tau| = ['5.3218e-6', '5.5465e-6', '0.04098', '0.056267', '0.079387', '0.088005', '0.15007', '0.17809', '12.068', '12.068']; s = 0.018747, gap = [3s, 0.06] = [0.05624, 0.06]: zeros in the gap 1
+(b) case A, (l, w) in K_lw, s <= SF2: 50 points; max near 4, max gap 0, max outer 6, max total 10; odd totals 0; points exceeding a target 0
+(c) case B, (l, w) in K_lw, SF2 < s <= 0.02: 25 points; max near 4, max gap 0, max outer 8, max total 10; odd totals 0; points exceeding a target 0
+(d) just outside K_lw, s <= 0.02 (original construction, T_X = 0.06): 50 points; max near 4, max gap 0, max outer 6, max total 10; odd totals 0; points exceeding a target 0

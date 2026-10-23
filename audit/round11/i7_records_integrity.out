@@ -1,0 +1,4 @@
+<repo>/code/runs/KQF2.r1.json: records 75, unparsable lines 0, roots 75, duplicated roots 0 (complete duplicates that differ: 0); rule None; problems {} []
+<repo>/code/runs/KQF2.r1.json.records.jsonl: records 75, unparsable lines 1, roots 75, duplicated roots 0 (complete duplicates that differ: 0); rule None; problems {} []
+<repo>/code/runs/KQK1.r5.json.records.jsonl: records 1317, unparsable lines 1, roots 1314, duplicated roots 3 (complete duplicates that differ: 0); rule face/30; problems {} []
+<repo>/code/runs/KQF2.r2.json.records.jsonl: records 15, unparsable lines 0, roots 15, duplicated roots 0 (complete duplicates that differ: 0); rule None; problems {} []

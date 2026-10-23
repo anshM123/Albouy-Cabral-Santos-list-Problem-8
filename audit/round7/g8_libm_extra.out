@@ -1,0 +1,3 @@
+cosh, sinh on 44006 arguments in [-90, 90] (incl. k*L, L in [-15, -1e-3]): max error 1.061 / 0.962 ulp
+atan2 on 40000 random pairs (magnitudes 1e-12..1e12): max error 0.678 ulp; atan(fl(y/x)) max absolute error 2.220e-16 rad (includes the division rounding)
+tan(0.45): error 0.3771676636991195 ulp; atan(1.11): 0.19416256625412157 ulp (both are used with 1e-9 margins)

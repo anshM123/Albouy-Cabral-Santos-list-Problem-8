@@ -1,0 +1,2 @@
+T_X = 0.06 : certify_outer -> (True, 6)
+T_X = 0.030015 : certify_outer -> (False, 7)

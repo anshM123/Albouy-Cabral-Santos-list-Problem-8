@@ -1,0 +1,35 @@
+C1 {'files': 1, 'records': 6080, 'leaves': 77436, 'pruned': 0, 'hist': {4: 2962, 5: 4541, 6: 19680, 7: 2452, 8: 21204, 9: 7506, 10: 19091}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C1p {'files': 1, 'records': 256, 'leaves': 44140, 'pruned': 0, 'hist': {2: 37, 4: 1633, 5: 1390, 6: 2590, 7: 1098, 8: 22396, 9: 2418, 10: 12578}, 'fails': 659, 'incomplete': 0, 'owed': 659, 'problems': [], 'nproblems': 0, 'complete': False}
+C1pp {'files': 1, 'records': 256, 'leaves': 11356, 'pruned': 0, 'hist': {4: 757, 5: 365, 6: 148, 7: 128, 8: 6754, 9: 503, 10: 2701}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+B1 {'files': 1, 'records': 2740, 'leaves': 8379, 'pruned': 0, 'hist': {4: 656, 5: 540, 6: 4885, 7: 168, 8: 918, 9: 320, 10: 892}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+B2 {'files': 1, 'records': 256, 'leaves': 15506, 'pruned': 0, 'hist': {4: 35, 5: 588, 6: 542, 7: 725, 8: 2478, 9: 3192, 10: 7946}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+B3p {'files': 1, 'records': 256, 'leaves': 1722, 'pruned': 0, 'hist': {4: 323, 5: 695, 6: 237, 7: 104, 8: 54, 9: 217, 10: 92}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+B3m {'files': 1, 'records': 256, 'leaves': 1570, 'pruned': 0, 'hist': {4: 515, 5: 688, 6: 114, 7: 44, 8: 26, 9: 118, 10: 65}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+L2E {'files': 1, 'records': 256, 'leaves': 436, 'pruned': 0, 'hist': {4: 48, 5: 44, 6: 236, 7: 17, 8: 84, 9: 3, 10: 4}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+L2P {'files': 1, 'records': 256, 'leaves': 1979, 'pruned': 0, 'hist': {4: 64, 5: 64, 8: 256, 9: 300, 10: 1295}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+L2Ap {'files': 1, 'records': 256, 'leaves': 2503, 'pruned': 0, 'hist': {5: 55, 6: 79, 7: 280, 8: 186, 9: 638, 10: 1265}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+L2Am {'files': 1, 'records': 256, 'leaves': 2529, 'pruned': 0, 'hist': {4: 8, 5: 58, 6: 21, 7: 103, 8: 152, 9: 717, 10: 1470}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+L2Tp {'files': 1, 'records': 256, 'leaves': 256, 'pruned': 0, 'hist': {4: 254, 5: 2}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+L2Tm {'files': 1, 'records': 256, 'leaves': 256, 'pruned': 0, 'hist': {4: 256}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+F0 {'files': 1, 'records': 400, 'leaves': 12354, 'pruned': 0, 'hist': {4: 429, 5: 1241, 6: 804, 7: 1137, 8: 5107, 9: 532, 10: 1343, 11: 1761}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+KA {'files': 1, 'records': 64, 'leaves': 64, 'pruned': 0, 'hist': {2: 64}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+D2E {'files': 1, 'records': 256, 'leaves': 256, 'pruned': 0, 'hist': {4: 24, 5: 19, 6: 26, 7: 37, 9: 4, 10: 146}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+D2P {'files': 1, 'records': 256, 'leaves': 1130, 'pruned': 0, 'hist': {4: 56, 5: 20, 6: 55, 7: 65, 8: 70, 9: 15, 10: 849}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+D2K {'files': 1, 'records': 256, 'leaves': 464, 'pruned': 0, 'hist': {4: 134, 5: 19, 6: 54, 7: 49, 8: 13, 9: 7, 10: 188}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+D2Tp {'files': 1, 'records': 256, 'leaves': 26915, 'pruned': 0, 'hist': {4: 24, 6: 308, 7: 201, 8: 975, 9: 2045, 10: 9228, 11: 14134}, 'fails': 20245, 'incomplete': 4, 'owed': 1, 'problems': [], 'nproblems': 0, 'complete': False}
+D2Tm {'files': 1, 'records': 256, 'leaves': 256, 'pruned': 0, 'hist': {4: 149, 5: 32, 6: 9, 7: 2, 8: 16, 9: 22, 10: 16, 11: 10}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 CK {'files': 1, 'records': 512, 'leaves': 2598, 'pruned': 335, 'hist': {4: 612, 5: 20, 6: 652, 7: 166, 8: 1148}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 CE {'files': 1, 'records': 512, 'leaves': 165916, 'pruned': 5720, 'hist': {4: 118, 5: 810, 6: 3511, 7: 25407, 8: 136070}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 Cm {'files': 1, 'records': 512, 'leaves': 2223, 'pruned': 638, 'hist': {5: 29, 6: 165, 7: 421, 8: 1608}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 PhiP {'files': 1, 'records': 512, 'leaves': 285, 'pruned': 227, 'hist': {0: 285}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 PhiM {'files': 1, 'records': 512, 'leaves': 285, 'pruned': 227, 'hist': {0: 285}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 L2aE {'files': 1, 'records': 512, 'leaves': 335, 'pruned': 450, 'hist': {2: 108, 4: 227}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 L2am {'files': 1, 'records': 512, 'leaves': 590, 'pruned': 458, 'hist': {4: 590}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 L2aYp {'files': 1, 'records': 512, 'leaves': 413, 'pruned': 458, 'hist': {0: 413}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 L2aYm {'files': 1, 'records': 512, 'leaves': 162, 'pruned': 362, 'hist': {0: 162}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 L2KE {'files': 1, 'records': 512, 'leaves': 368, 'pruned': 144, 'hist': {2: 184, 4: 184}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 L2Km {'files': 1, 'records': 512, 'leaves': 368, 'pruned': 144, 'hist': {4: 368}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 L2KYp {'files': 1, 'records': 512, 'leaves': 368, 'pruned': 144, 'hist': {0: 368}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 L2KYm {'files': 1, 'records': 512, 'leaves': 368, 'pruned': 144, 'hist': {0: 368}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+[guard] write redirected: ../RESULTS.md -> <repo>\audit\round7\test_g12\RESULTS.md
+NOT COMPLETE

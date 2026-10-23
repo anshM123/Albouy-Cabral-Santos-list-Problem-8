@@ -1,0 +1,2 @@
+files with a header split_rule: ['KQ0T.r1.json:face/30', 'KQB.r5.json:face/30', 'KQK1.r4.json:face', 'KQK2.r4.json:face', 'KQK2.r5.json:face', 'KQK2.r6.json:face/30', 'KQS.json:shell/30']
+files without: 70 ; unreadable headers: []

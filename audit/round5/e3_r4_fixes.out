@@ -1,0 +1,7 @@
+(i) crafted nodes, new branch logic: total = -6.283185307179586 -> winding -1 (true -1)
+(ii) guards: L = 0.1 -> (False, -1) ; L = -20 -> (False, -1) ; F = 1 (W = 6 + 0 = 6? no roots) at L = -1 -> (True, 6)
+(iii) C1p.json: winding leaves re-certified with the fixed wind_box: 24550; mismatches 0
+(iii) C1.json: winding leaves re-certified with the fixed wind_box: 34471; mismatches 0
+(iii) C1pp.json: winding leaves re-certified with the fixed wind_box: 6138; mismatches 0
+(iii) B1.json: winding leaves re-certified with the fixed wind_box: 5171; mismatches 0
+(iii) L2E.json: winding leaves re-certified with the fixed wind_box: 290; mismatches 0

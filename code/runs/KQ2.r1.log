@@ -1,0 +1,21 @@
+[      1s] 16/318 returned, 3 complete, 1234 leaves, 0 failed
+[      1s] 32/318 returned, 3 complete, 1234 leaves, 0 failed
+[      1s] 48/318 returned, 3 complete, 1234 leaves, 0 failed
+[      1s] 64/318 returned, 3 complete, 1234 leaves, 0 failed
+[      1s] 80/318 returned, 3 complete, 1234 leaves, 0 failed
+[      1s] 96/318 returned, 3 complete, 1234 leaves, 0 failed
+[      1s] 112/318 returned, 3 complete, 1234 leaves, 0 failed
+[      1s] 128/318 returned, 3 complete, 1234 leaves, 0 failed
+[      1s] 144/318 returned, 3 complete, 1234 leaves, 0 failed
+[      1s] 160/318 returned, 3 complete, 1234 leaves, 0 failed
+[      1s] 176/318 returned, 3 complete, 1234 leaves, 0 failed
+[      1s] 192/318 returned, 3 complete, 1234 leaves, 0 failed
+[      1s] 208/318 returned, 3 complete, 1234 leaves, 0 failed
+[      1s] 224/318 returned, 3 complete, 1234 leaves, 0 failed
+[      1s] 240/318 returned, 3 complete, 1234 leaves, 0 failed
+[      1s] 256/318 returned, 3 complete, 1234 leaves, 0 failed
+[      1s] 272/318 returned, 3 complete, 1234 leaves, 0 failed
+[      1s] 288/318 returned, 3 complete, 1234 leaves, 0 failed
+[      1s] 304/318 returned, 3 complete, 1234 leaves, 0 failed
+[      1s] 318/318 returned, 3 complete, 1234 leaves, 0 failed
+done KQ incomplete 318 failed 0 hist {'10': 542, '11': 203, '4': 11, '6': 131, '7': 39, '8': 67, '9': 238, 'w2': 3} wall 1

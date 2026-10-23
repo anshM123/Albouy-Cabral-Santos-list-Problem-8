@@ -1,0 +1,14 @@
+== resumed 07:51 with winding (order wind_first)
+== resumed 08:40 with second-order enclosure (nb_cert2)
+== resumed 08:58 with second-order near count (nbeng_c3_KBQe_2)
+== resumed 09:09: final engine (nb_cert2 away/winding, rounds 8, nbeng_c3_KBQe_2)
+== 09:33 closing the base run: remaining initial boxes recorded as open (tmax -1); continued in KQB.r1.json with t-first splitting
+[      1s] 16/115 returned, 5 complete, 8811 leaves, 0 failed
+[      1s] 32/115 returned, 5 complete, 8811 leaves, 0 failed
+[      1s] 48/115 returned, 5 complete, 8811 leaves, 0 failed
+[      1s] 64/115 returned, 5 complete, 8811 leaves, 0 failed
+[      1s] 80/115 returned, 5 complete, 8811 leaves, 0 failed
+[      1s] 96/115 returned, 5 complete, 8811 leaves, 0 failed
+[      1s] 112/115 returned, 5 complete, 8811 leaves, 0 failed
+[      1s] 115/115 returned, 5 complete, 8811 leaves, 0 failed
+done KQ incomplete 115 failed 0 hist {'10': 7669, '11': 1140, '9': 2} wall 1

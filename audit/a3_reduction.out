@@ -1,0 +1,8 @@
+[R] 150 configs: violations (#2D > #Pol, unambiguous) = 0; 2D points whose u is not a Pol root = 0; configs with near-circle complex roots (ambiguous count) = 0; equal counts = 150
+      (N_2D, N_Pol) histogram: {(4, 4): 72, (6, 6): 38, (8, 8): 39, (10, 10): 1}
+[L1] 120 configs: violations (#2D > #Pol, unambiguous) = 0; 2D points whose u is not a Pol root = 0; configs with near-circle complex roots (ambiguous count) = 0; equal counts = 83
+      (N_2D, N_Pol) histogram: {(4, 8): 7, (6, 8): 29, (8, 8): 78, (8, 10): 1, (10, 10): 5}
+[W0] 120 configs: violations (#2D > #Pol, unambiguous) = 0; 2D points whose u is not a Pol root = 6; configs with near-circle complex roots (ambiguous count) = 3; equal counts = 117
+      (N_2D, N_Pol) histogram: {(4, 4): 28, (6, 4): 3, (6, 6): 39, (8, 8): 43, (10, 10): 7}
+[AX] 120 configs: violations (#2D > #Pol, unambiguous) = 0; 2D points whose u is not a Pol root = 4; configs with near-circle complex roots (ambiguous count) = 2; equal counts = 118
+      (N_2D, N_Pol) histogram: {(8, 6): 2, (8, 8): 118}

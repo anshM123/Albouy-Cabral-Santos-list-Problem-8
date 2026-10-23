@@ -1,0 +1,5 @@
+[C1] {'boxes': 150, 'cert': 150, 'viol': 0}, certified bounds {4: 87, 6: 47, 7: 8, 8: 2, 9: 4, 10: 2}
+[C1p] {'boxes': 150, 'cert': 150, 'viol': 0}, certified bounds {4: 112, 5: 4, 6: 5, 7: 2, 8: 18, 9: 4, 10: 5}
+[C1pp] {'boxes': 150, 'cert': 150, 'viol': 0}, certified bounds {4: 94, 6: 22, 7: 4, 8: 21, 9: 6, 10: 3}
+part 1: 6s
+[corner] {'boxes': 60, 'cert': 57, 'viol_nm': 0, 'viol_n2': 0, 'viol_po': 0, 'viol_aw': 0, 'viol_tot': 0}, certified totals {4: 3, 6: 32, 7: 12, 8: 5, 9: 1, 10: 4}, 121s

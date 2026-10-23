@@ -1,0 +1,1056 @@
+== chain A start 14:15:32
+== g2: own replay of the final families (+ KQF, KQF2, KQS for the p-dependency)
+bulk {"files": 1, "records": 6000, "leaves": 9545140, "winding": 1804672, "L_range": [-3.6006781091880278, -0.18993827505544078], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 1443820, "11": 1251190, "4": 1368726, "5": 241476, "6": 1359594, "7": 518786, "8": 734607, "9": 822269, "w1": 1438963, "w2": 250710, "w3": 110518, "w4": 4481}, "domain": [0.20033740617957885, 1.2535563099909826, 0.0, 1.0, 0.0, 1.5707963267948966, 0.0, 1.0], "n0": [8, 10, 10, 10], "scale": [1.5707963267948966, 1.0, 1.5707963267948966, 1.0], "split_rules": [null], "uses_p": false, "problems": []}
+F1 {"files": 1, "records": 400, "leaves": 1093, "winding": 329, "L_range": [-1.92420597892154, -0.5976700586776744], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 107, "11": 164, "4": 150, "5": 93, "6": 58, "7": 74, "8": 58, "9": 60, "w1": 23, "w2": 266, "w3": 40}, "domain": [0.835, 0.9501, 0.0, 1.0, 0.0, 1.5707963267948966, 0.0, 0.5], "n0": [2, 10, 10, 2], "scale": [1.0, 1.0, 1.5707963267948966, 1.0], "split_rules": [null], "uses_p": false, "problems": []}
+KQ0 {"files": 1, "records": 400, "leaves": 54718, "winding": 35950, "L_range": [-3.1878826355180117, -0.2690770893441761], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 4394, "11": 9697, "4": 39, "5": 36, "6": 575, "7": 586, "8": 1314, "9": 2127, "w1": 28014, "w2": 7393, "w3": 543}, "domain": [0.835, 0.9501, 0.0, 1.0, 0.0, 1.5707963267948966, 0.5, 0.9975], "n0": [2, 10, 10, 2], "scale": [1.0, 1.0, 1.5707963267948966, 0.5], "split_rules": [null], "uses_p": false, "problems": []}
+KQF {"files": 1, "records": 100, "leaves": 190977, "winding": 0, "L_range": null, "pruned": 128, "prune_violations": 0, "fails": 0, "incomplete": 13, "owed": 309, "hist": {"2": 13097, "3": 4877, "4": 5952, "5": 3777, "6": 163274}, "domain": [0.9996, 1.0, 0.0, 1.0, 0.0, 1.5707963267948966, 0.9999998300000288, 1.0], "n0": [1, 10, 10, 1], "scale": [0.0008, 1.0, 1.5707963267948966, 3.4e-07], "split_rules": [null], "uses_p": false, "problems": []}
+KQF2 {"files": 2, "records": 99, "leaves": 10252, "winding": 0, "L_range": null, "pruned": 260, "prune_violations": 0, "fails": 0, "incomplete": 55, "owed": 694, "hist": {"4": 1, "5": 271, "6": 9980}, "domain": [0.99989989, 1.0, 0.88, 1.0, 1.29, 1.5707963267948966, 0.9999999899, 1.0], "n0": [1, 4, 6, 1], "scale": [0.003, 1.0, 1.5707963267948966, 3e-07], "split_rules": [null, null], "uses_p": false, "problems": []}
+KQS {"files": 1, "records": 96, "leaves": 2224, "winding": 0, "L_range": null, "pruned": 162, "prune_violations": 0, "fails": 0, "incomplete": 12, "owed": 244, "hist": {"10": 236, "11": 1977, "8": 3, "9": 8}, "domain": [0.9996, 1.0, 0.88, 1.0, 1.29, 1.5707963267948966, 0.99999983, 1.0], "n0": [2, 4, 6, 2], "scale": [1.0, 1.0, 1.5707963267948966, 0.0025], "split_rules": ["shell/30"], "uses_p": true, "problems": []}
+C1 {"files": 1, "records": 6080, "leaves": 77436, "winding": 34471, "L_range": [-5.725381915353045, -0.4345014589413151], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 16570, "4": 2962, "5": 4541, "6": 2678, "7": 2452, "8": 6256, "9": 7506, "w1": 2521, "w2": 14948, "w3": 17002}, "domain": [0.0, 0.26, 0.0, 1.1071487177940904, 0.0, 1.5707963267948966, 0.0, 1.0], "n0": [8, 12, 4, 16], "scale": [0.26, 1.1071487177940904, 1.5707963267948966, 1.0], "split_rules": [null], "uses_p": false, "problems": []}
+C1p {"files": 1, "records": 256, "leaves": 44140, "winding": 24550, "L_range": [-10.297732087161968, -0.48943599959667966], "pruned": 0, "prune_violations": 0, "fails": 659, "incomplete": 0, "owed": 659, "hist": {"10": 8116, "2": 37, "4": 1633, "5": 1390, "6": 1957, "7": 1098, "8": 2941, "9": 2418, "w1": 4462, "w2": 19455, "w3": 633}, "domain": [0.0, 0.2001, 0.4, 1.0, 0.0, 1.5707963267948966, 0.0, 1.0], "n0": [4, 4, 4, 4], "scale": [0.2001, 0.6, 1.5707963267948966, 1.0], "split_rules": [null], "uses_p": false, "problems": []}
+C1pp {"files": 1, "records": 256, "leaves": 11356, "winding": 6138, "L_range": [-9.272589654873554, -0.6806301082706462], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 2678, "4": 757, "5": 365, "6": 146, "7": 128, "8": 641, "9": 503, "w1": 23, "w2": 6113, "w3": 2}, "domain": [0.0, 0.51, 0.0, 0.52, 0.0, 1.5707963267948966, 0.0, 1.0], "n0": [4, 4, 4, 4], "scale": [0.51, 0.52, 1.5707963267948966, 1.0], "split_rules": [null], "uses_p": false, "problems": []}
+B1 {"files": 1, "records": 2740, "leaves": 8379, "winding": 5171, "L_range": [-4.177072959282019, -0.6053201477679917], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 838, "4": 656, "5": 540, "6": 241, "7": 168, "8": 445, "9": 320, "w1": 54, "w2": 473, "w3": 4644}, "domain": [0.0, 0.07, 0.0, 1.75, 0.0, 1.75, 0.0, 1.0], "n0": [7, 7, 7, 8], "scale": [0.07, 1.75, 1.75, 1.0], "split_rules": [null], "uses_p": false, "problems": []}
+B2 {"files": 1, "records": 256, "leaves": 15506, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 7946, "4": 35, "5": 588, "6": 542, "7": 725, "8": 2478, "9": 3192}, "domain": [0.0, 0.2, 0.0, 0.3675, 0.0, 1.5707963267948966, 0.0, 1.0], "n0": [4, 4, 4, 4], "scale": [0.2, 0.3675, 1.5707963267948966, 1.0], "split_rules": [null], "uses_p": false, "problems": []}
+B3p {"files": 1, "records": 256, "leaves": 1722, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 92, "4": 323, "5": 695, "6": 237, "7": 104, "8": 54, "9": 217}, "domain": [0.0, 0.13, 0.0, 0.5654, 0.0, 1.6154, 0.0, 1.5707963267948966], "n0": [4, 4, 4, 4], "scale": [0.13, 0.5654, 1.6154, 1.5707963267948966], "split_rules": [null], "uses_p": false, "problems": []}
+B3m {"files": 1, "records": 256, "leaves": 1570, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 65, "4": 515, "5": 688, "6": 114, "7": 44, "8": 26, "9": 118}, "domain": [0.0, 0.13, 0.0, 0.5654, 0.0, 1.6154, 0.0, 1.5707963267948966], "n0": [4, 4, 4, 4], "scale": [0.13, 0.5654, 1.6154, 1.5707963267948966], "split_rules": [null], "uses_p": false, "problems": []}
+L2E {"files": 1, "records": 256, "leaves": 436, "winding": 290, "L_range": [-5.783283916031384, -1.4211695501350095], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 4, "4": 48, "5": 44, "7": 17, "8": 30, "9": 3, "w2": 54, "w3": 236}, "domain": [0.0, 1.01, 0.0, 1.05, -1.05, 1.05, 0.0, 1.0], "n0": [4, 4, 4, 4], "scale": [1.01, 1.05, 2.1, 1.0], "split_rules": [null], "uses_p": false, "problems": []}
+L2P {"files": 1, "records": 256, "leaves": 1979, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 1295, "4": 64, "5": 64, "8": 256, "9": 300}, "domain": [0.0, 1.01, 0.0, 1.05, -1.05, 1.05, 0.0, 1.0], "n0": [4, 4, 4, 4], "scale": [1.01, 1.05, 2.1, 1.0], "split_rules": [null], "uses_p": false, "problems": []}
+L2Ap {"files": 1, "records": 256, "leaves": 2503, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 1265, "5": 55, "6": 79, "7": 280, "8": 186, "9": 638}, "domain": [0.0, 1.01, 0.0, 1.05, 0.0, 1.05, 0.0, 1.0], "n0": [4, 4, 4, 4], "scale": [1.01, 1.05, 1.05, 1.0], "split_rules": [null], "uses_p": false, "problems": []}
+L2Am {"files": 1, "records": 256, "leaves": 2529, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 1470, "4": 8, "5": 58, "6": 21, "7": 103, "8": 152, "9": 717}, "domain": [0.0, 1.01, 0.0, 1.05, 0.0, 1.05, 0.0, 1.0], "n0": [4, 4, 4, 4], "scale": [1.01, 1.05, 1.05, 1.0], "split_rules": [null], "uses_p": false, "problems": []}
+L2Tp {"files": 1, "records": 256, "leaves": 256, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"4": 254, "5": 2}, "domain": [0.0, 1.01, 0.0, 1.05, 0.0, 1.05, -1.05, 1.05], "n0": [4, 4, 4, 4], "scale": [1.01, 1.05, 1.05, 2.1], "split_rules": [null], "uses_p": false, "problems": []}
+L2Tm {"files": 1, "records": 256, "leaves": 256, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"4": 256}, "domain": [0.0, 1.01, 0.0, 1.05, 0.0, 1.05, -1.05, 1.05], "n0": [4, 4, 4, 4], "scale": [1.01, 1.05, 1.05, 2.1], "split_rules": [null], "uses_p": false, "problems": []}
+D2E {"files": 1, "records": 256, "leaves": 256, "winding": 137, "L_range": [-5.068667720269682, -3.5962346907203417], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 9, "4": 24, "5": 19, "6": 26, "7": 37, "9": 4, "w1": 137}, "domain": [0.0, 1.01, 0.0, 1.05, 0.0, 1.05, 0.0, 1.0], "n0": [4, 4, 4, 4], "scale": [1.01, 1.05, 1.05, 1.0], "split_rules": [null], "uses_p": false, "problems": []}
+D2E2 {"files": 1, "records": 256, "leaves": 256, "winding": 24, "L_range": [-5.9084015772780445, -4.718293068817283], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 84, "11": 36, "6": 16, "7": 12, "8": 18, "9": 66, "w1": 24}, "domain": [0.0, 0.14, 0.0, 0.35, 0.24, 0.68, 0.0, 1.0], "n0": [4, 4, 4, 4], "scale": [0.14, 0.35, 0.44000000000000006, 1.0], "split_rules": [null], "uses_p": false, "problems": []}
+D2P {"files": 1, "records": 256, "leaves": 1130, "winding": 348, "L_range": [-9.91558812240247, -3.9253693146716175], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 501, "4": 56, "5": 20, "6": 55, "7": 65, "8": 70, "9": 15, "w1": 348}, "domain": [0.0, 1.01, 0.0, 1.05, 0.0, 1.05, 0.0, 1.0], "n0": [4, 4, 4, 4], "scale": [1.01, 1.05, 1.05, 1.0], "split_rules": [null], "uses_p": false, "problems": []}
+D2K {"files": 1, "records": 256, "leaves": 464, "winding": 102, "L_range": [-9.831175407286116, -3.862898292441867], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 86, "4": 134, "5": 19, "6": 54, "7": 49, "8": 13, "9": 7, "w1": 102}, "domain": [0.0, 1.01, 0.0, 1.05, 0.0, 1.05, 0.0, 1.0], "n0": [4, 4, 4, 4], "scale": [1.01, 1.05, 1.05, 1.0], "split_rules": [null], "uses_p": false, "problems": []}
+D2Tp {"files": 1, "records": 256, "leaves": 26915, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 20245, "incomplete": 4, "owed": 20334, "hist": {"10": 9228, "11": 14134, "4": 24, "6": 308, "7": 201, "8": 975, "9": 2045}, "domain": [0.0, 1.01, 0.0, 1.05, 0.0, 1.05, 0.0, 1.05], "n0": [4, 4, 4, 4], "scale": [1.01, 1.05, 1.05, 1.05], "split_rules": [null], "uses_p": false, "problems": []}
+D2Tm {"files": 1, "records": 256, "leaves": 256, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 16, "11": 10, "4": 149, "5": 32, "6": 9, "7": 2, "8": 16, "9": 22}, "domain": [0.0, 1.01, 0.0, 1.05, 0.0, 1.05, 0.0, 1.05], "n0": [4, 4, 4, 4], "scale": [1.01, 1.05, 1.05, 1.05], "split_rules": [null], "uses_p": false, "problems": []}
+F0 {"files": 1, "records": 400, "leaves": 12354, "winding": 3925, "L_range": [-1.93173055836774, -0.5524414822926881], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 1285, "11": 1761, "4": 429, "5": 1241, "6": 730, "7": 1137, "8": 1314, "9": 532, "w1": 58, "w2": 3793, "w3": 74}, "domain": [0.9499, 1.0, 0.0, 1.0, 0.0, 1.5707963267948966, 0.0, 0.5], "n0": [4, 5, 5, 4], "scale": [1.0, 1.0, 1.5707963267948966, 1.0], "split_rules": [null], "uses_p": false, "problems": []}
+KQ1 {"files": 2, "records": 3009, "leaves": 90528, "winding": 43408, "L_range": [-3.2119684195189193, -0.22250227822275995], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 1009, "owed": 0, "hist": {"10": 11251, "11": 19260, "4": 141, "5": 95, "6": 2513, "7": 2818, "8": 5245, "9": 5797, "w1": 27715, "w2": 15156, "w3": 537}, "domain": [0.9499, 1.0, 0.0, 1.0, 0.0, 1.5707963267948966, 0.5, 0.9975], "n0": [4, 10, 10, 5], "scale": [1.0, 1.0, 1.5707963267948966, 1.0], "split_rules": [null, null], "uses_p": false, "problems": []}
+KQK2 {"files": 7, "records": 14029, "leaves": 127845, "winding": 2568, "L_range": [-0.2324340788895988, -0.20344833500167028], "pruned": 11271, "prune_violations": 0, "fails": 11100, "incomplete": 2248, "owed": 0, "hist": {"10": 70519, "11": 53925, "9": 833, "w1": 2568}, "domain": [0.99, 1.0, 0.95, 1.0, 0.0, 0.47123889803846897, 0.997456, 1.0], "n0": [2, 1, 3, 2], "scale": [1.0, 1.0, 1.5707963267948966, 1.0], "split_rules": [null, null, null, null, "face", "face", "face/30"], "uses_p": true, "problems": []}
+KA {"files": 1, "records": 64, "leaves": 64, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"2": 64}, "domain": [0.99, 1.0, 0.95, 1.0, 1.413716694115407, 1.5707963267948966, 0.0, 0.0505], "n0": [2, 2, 4, 4], "scale": [0.010000000000000009, 0.050000000000000044, 0.15707963267948966, 0.0505], "split_rules": [null], "uses_p": false, "problems": []}
+face FE {"files": 1, "records": 512, "leaves": 226498, "winding": 0, "L_range": null, "pruned": 154213, "prune_violations": 0, "fails": 0, "incomplete": 4, "owed": 73, "hist": {"2": 4340, "3": 78, "4": 186852, "5": 35228}, "domain": [0, 0.02002, 0, 1.001, 0, 1, 0, 1], "n0": [2, 4, 8, 8], "scale": [0.02002, 1.001, 1, 1], "split_rules": [null], "uses_p": false, "problems": []}
+face FM {"files": 1, "records": 512, "leaves": 348845, "winding": 0, "L_range": null, "pruned": 190819, "prune_violations": 0, "fails": 0, "incomplete": 4, "owed": 67, "hist": {"4": 317653, "5": 31192}, "domain": [0, 0.02002, 0, 1.001, 0, 1, 0, 1], "n0": [2, 4, 8, 8], "scale": [0.02002, 1.001, 1, 1], "split_rules": [null], "uses_p": false, "problems": []}
+face FIP {"files": 1, "records": 512, "leaves": 307304, "winding": 0, "L_range": null, "pruned": 190713, "prune_violations": 0, "fails": 124394, "incomplete": 4, "owed": 124536, "hist": {"0": 307304}, "domain": [0, 0.02002, 0, 1.001, 0, 1, 0, 1], "n0": [2, 4, 8, 8], "scale": [0.02002, 1.001, 1, 1], "split_rules": [null], "uses_p": false, "problems": []}
+face FIM {"files": 1, "records": 512, "leaves": 57097, "winding": 0, "L_range": null, "pruned": 57976, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"0": 57097}, "domain": [0, 0.02002, 0, 1.001, 0, 1, 0, 1], "n0": [2, 4, 8, 8], "scale": [0.02002, 1.001, 1, 1], "split_rules": [null], "uses_p": false, "problems": []}
+C3 CK {"files": 1, "records": 512, "leaves": 2598, "winding": 0, "L_range": null, "pruned": 335, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"4": 612, "5": 20, "6": 652, "7": 166, "8": 1148}, "domain": [0, 0.37, 0, 1.001, 0, 1.0020009999999997, 0, 1.0030030009999997], "n0": [8, 4, 4, 4], "scale": [0.37, 1.001, 1.0020009999999997, 1.0030030009999997], "split_rules": [null], "uses_p": false, "problems": []}
+C3 CE {"files": 1, "records": 512, "leaves": 165916, "winding": 0, "L_range": null, "pruned": 5720, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"4": 118, "5": 810, "6": 3511, "7": 25407, "8": 136070}, "domain": [0, 0.37, 0, 1.001, 0, 1.0020009999999997, 0, 1.0030030009999997], "n0": [8, 4, 4, 4], "scale": [0.37, 1.001, 1.0020009999999997, 1.0030030009999997], "split_rules": [null], "uses_p": false, "problems": []}
+C3 Cm {"files": 1, "records": 512, "leaves": 2223, "winding": 0, "L_range": null, "pruned": 638, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"5": 29, "6": 165, "7": 421, "8": 1608}, "domain": [0, 0.37, 0, 1.001, 0, 1.0020009999999997, 0, 1.0020009999999997], "n0": [8, 4, 4, 4], "scale": [0.37, 1.001, 1.0020009999999997, 1.0020009999999997], "split_rules": [null], "uses_p": false, "problems": []}
+C3 PhiP {"files": 1, "records": 512, "leaves": 285, "winding": 0, "L_range": null, "pruned": 227, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"0": 285}, "domain": [0, 0.37, 0, 1.001, 0, 1.0020009999999997, 0, 1.0020009999999997], "n0": [8, 4, 4, 4], "scale": [0.37, 1.001, 1.0020009999999997, 1.0020009999999997], "split_rules": [null], "uses_p": false, "problems": []}
+C3 PhiM {"files": 1, "records": 512, "leaves": 285, "winding": 0, "L_range": null, "pruned": 227, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"0": 285}, "domain": [0, 0.37, 0, 1.001, 0, 1.0020009999999997, 0, 1.0020009999999997], "n0": [8, 4, 4, 4], "scale": [0.37, 1.001, 1.0020009999999997, 1.0020009999999997], "split_rules": [null], "uses_p": false, "problems": []}
+C3 L2aE {"files": 1, "records": 512, "leaves": 335, "winding": 0, "L_range": null, "pruned": 450, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"2": 108, "4": 227}, "domain": [0, 0.37, 0, 1.0020009999999997, 0, 1.0001, 0, 1.0020009999999997], "n0": [8, 4, 4, 4], "scale": [0.37, 1.0020009999999997, 1.0001, 1.0020009999999997], "split_rules": [null], "uses_p": false, "problems": []}
+C3 L2am {"files": 1, "records": 512, "leaves": 590, "winding": 0, "L_range": null, "pruned": 458, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"4": 590}, "domain": [0, 0.37, 0, 1.0020009999999997, 0, 1.0001, 0, 1.0020009999999997], "n0": [8, 4, 4, 4], "scale": [0.37, 1.0020009999999997, 1.0001, 1.0020009999999997], "split_rules": [null], "uses_p": false, "problems": []}
+C3 L2aYp {"files": 1, "records": 512, "leaves": 413, "winding": 0, "L_range": null, "pruned": 458, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"0": 413}, "domain": [0, 0.37, 0, 1.0020009999999997, 0, 1.0001, 0, 1.0020009999999997], "n0": [8, 4, 4, 4], "scale": [0.37, 1.0020009999999997, 1.0001, 1.0020009999999997], "split_rules": [null], "uses_p": false, "problems": []}
+C3 L2aYm {"files": 1, "records": 512, "leaves": 162, "winding": 0, "L_range": null, "pruned": 362, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"0": 162}, "domain": [0, 0.37, 0, 1.0020009999999997, 0, 1.0001, 0, 1.0020009999999997], "n0": [8, 4, 4, 4], "scale": [0.37, 1.0020009999999997, 1.0001, 1.0020009999999997], "split_rules": [null], "uses_p": false, "problems": []}
+C3 L2KE {"files": 1, "records": 512, "leaves": 368, "winding": 0, "L_range": null, "pruned": 144, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"2": 184, "4": 184}, "domain": [0, 0.37, 0, 1.001, 0, 1.0001, 0, 1.0020009999999997], "n0": [8, 4, 4, 4], "scale": [0.37, 1.001, 1.0001, 1.0020009999999997], "split_rules": [null], "uses_p": false, "problems": []}
+C3 L2Km {"files": 1, "records": 512, "leaves": 368, "winding": 0, "L_range": null, "pruned": 144, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"4": 368}, "domain": [0, 0.37, 0, 1.001, 0, 1.0001, 0, 1.0020009999999997], "n0": [8, 4, 4, 4], "scale": [0.37, 1.001, 1.0001, 1.0020009999999997], "split_rules": [null], "uses_p": false, "problems": []}
+C3 L2KYp {"files": 1, "records": 512, "leaves": 368, "winding": 0, "L_range": null, "pruned": 144, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"0": 368}, "domain": [0, 0.37, 0, 1.001, 0, 1.0001, 0, 1.0020009999999997], "n0": [8, 4, 4, 4], "scale": [0.37, 1.001, 1.0001, 1.0020009999999997], "split_rules": [null], "uses_p": false, "problems": []}
+C3 L2KYm {"files": 1, "records": 512, "leaves": 368, "winding": 0, "L_range": null, "pruned": 144, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"0": 368}, "domain": [0, 0.37, 0, 1.001, 0, 1.0001, 0, 1.0020009999999997], "n0": [8, 4, 4, 4], "scale": [0.37, 1.001, 1.0001, 1.0020009999999997], "split_rules": [null], "uses_p": false, "problems": []}
+C1p owed boxes 659; outside the D2 cube 0; max e of owed boxes 6.107e-06
+D2E: owed 0, owed boxes that may meet an owed C1p box 0
+D2E2: owed 0, owed boxes that may meet an owed C1p box 0
+D2P: owed 0, owed boxes that may meet an owed C1p box 0
+D2K: owed 0, owed boxes that may meet an owed C1p box 0
+D2Tp: owed 20334, owed boxes that may meet an owed C1p box 1
+D2Tm: owed 0, owed boxes that may meet an owed C1p box 0
+D2Tp rule (ii): 1 owed boxes covered by D2E u D2E2 (D2E complete: True, D2E2 complete: True); still open 0
+face FE: owed 73, of which with s_lo > 0.02 (not needed) 0
+face FE: of the rest, inside K with s_lo > SF2 (not needed) 73; still owed 0
+face FM: owed 67, of which with s_lo > 0.02 (not needed) 0
+face FM: of the rest, inside K with s_lo > SF2 (not needed) 67; still owed 0
+face FIP: owed 124536, of which with s_lo > 0.02 (not needed) 124446
+face FIP: of the rest, inside K with s_lo > SF2 (not needed) 90; still owed 0
+KQF: owed 309, inside K_lw (not needed) 28; still owed 281
+bulk       OK  leaves 9545140  winding 1804672  fails 0  incomplete 0  open 0  problems 0
+F1         OK  leaves 1093  winding 329  fails 0  incomplete 0  open 0  problems 0
+KQ0        OK  leaves 54718  winding 35950  fails 0  incomplete 0  open 0  problems 0
+KQF        NOT OK  leaves 190977  winding 0  fails 0  incomplete 13  open 281  problems 0
+KQF2       NOT OK  leaves 10252  winding 0  fails 0  incomplete 55  open 694  problems 0
+KQS        NOT OK  leaves 2224  winding 0  fails 0  incomplete 12  open 244  problems 1
+C1         OK  leaves 77436  winding 34471  fails 0  incomplete 0  open 0  problems 0
+C1p        OK  leaves 44140  winding 24550  fails 659  incomplete 0  open 0  problems 0
+C1pp       OK  leaves 11356  winding 6138  fails 0  incomplete 0  open 0  problems 0
+B1         OK  leaves 8379  winding 5171  fails 0  incomplete 0  open 0  problems 0
+B2         OK  leaves 15506  winding 0  fails 0  incomplete 0  open 0  problems 0
+B3p        OK  leaves 1722  winding 0  fails 0  incomplete 0  open 0  problems 0
+B3m        OK  leaves 1570  winding 0  fails 0  incomplete 0  open 0  problems 0
+L2E        OK  leaves 436  winding 290  fails 0  incomplete 0  open 0  problems 0
+L2P        OK  leaves 1979  winding 0  fails 0  incomplete 0  open 0  problems 0
+L2Ap       OK  leaves 2503  winding 0  fails 0  incomplete 0  open 0  problems 0
+L2Am       OK  leaves 2529  winding 0  fails 0  incomplete 0  open 0  problems 0
+L2Tp       OK  leaves 256  winding 0  fails 0  incomplete 0  open 0  problems 0
+L2Tm       OK  leaves 256  winding 0  fails 0  incomplete 0  open 0  problems 0
+D2E        OK  leaves 256  winding 137  fails 0  incomplete 0  open 0  problems 0
+D2E2       OK  leaves 256  winding 24  fails 0  incomplete 0  open 0  problems 0
+D2P        OK  leaves 1130  winding 348  fails 0  incomplete 0  open 0  problems 0
+D2K        OK  leaves 464  winding 102  fails 0  incomplete 0  open 0  problems 0
+D2Tp       OK  leaves 26915  winding 0  fails 20245  incomplete 4  open 0  problems 0
+D2Tm       OK  leaves 256  winding 0  fails 0  incomplete 0  open 0  problems 0
+F0         OK  leaves 12354  winding 3925  fails 0  incomplete 0  open 0  problems 0
+KQ1        OK  leaves 90528  winding 43408  fails 0  incomplete 1009  open 0  problems 0
+KQK2       NOT OK  leaves 127845  winding 2568  fails 11100  incomplete 2248  open 0  problems 1
+KA         OK  leaves 64  winding 0  fails 0  incomplete 0  open 0  problems 0
+face FE    OK  leaves 226498  winding 0  fails 0  incomplete 4  open 0  problems 0
+face FM    OK  leaves 348845  winding 0  fails 0  incomplete 4  open 0  problems 0
+face FIP   OK  leaves 307304  winding 0  fails 124394  incomplete 4  open 0  problems 0
+face FIM   OK  leaves 57097  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 CK      OK  leaves 2598  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 CE      OK  leaves 165916  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 Cm      OK  leaves 2223  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 PhiP    OK  leaves 285  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 PhiM    OK  leaves 285  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 L2aE    OK  leaves 335  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 L2am    OK  leaves 590  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 L2aYp   OK  leaves 413  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 L2aYm   OK  leaves 162  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 L2KE    OK  leaves 368  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 L2Km    OK  leaves 368  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 L2KYp   OK  leaves 368  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 L2KYm   OK  leaves 368  winding 0  fails 0  incomplete 0  open 0  problems 0
+ALL FAMILIES REPLAYED, COMPLETE AND WITHIN THEIR BOUNDS: NO
+== 14:16:46 g9: EVERY leaf of the small whole-circle families, F0 and KA
+F1 [f]: reg 764/764 (mismatches 0); deep 0/0 (mismatches 0); wind 329/329 (mismatches 0); certified but total != recorded (not exact): 24; certified only by the second-order engine: 987; not re-certifiable even by the deep certifier: 0
+C1 [C1]: reg 42957/42957 (mismatches 0); deep 8/8 (mismatches 0); wind 34471/34471 (mismatches 0); certified but total != recorded (not exact): 7470; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+C1p [C1p]: reg 17469/17469 (mismatches 0); deep 2121/2121 (mismatches 0); wind 24550/24550 (mismatches 0); certified but total != recorded (not exact): 2645; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+C1pp [C1pp]: reg 5218/5218 (mismatches 0); deep 0/0 (mismatches 0); wind 6138/6138 (mismatches 0); certified but total != recorded (not exact): 452; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+B1 [B1]: reg 3208/3208 (mismatches 0); deep 0/0 (mismatches 0); wind 5171/5171 (mismatches 0); certified but total != recorded (not exact): 481; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+B2 [B2]: reg 15506/15506 (mismatches 0); deep 0/0 (mismatches 0); wind 0/0 (mismatches 0); certified but total != recorded (not exact): 5154; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+B3p [B3p]: reg 1722/1722 (mismatches 0); deep 0/0 (mismatches 0); wind 0/0 (mismatches 0); certified but total != recorded (not exact): 245; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+B3m [B3m]: reg 1570/1570 (mismatches 0); deep 0/0 (mismatches 0); wind 0/0 (mismatches 0); certified but total != recorded (not exact): 147; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+L2E [L2E]: reg 146/146 (mismatches 0); deep 0/0 (mismatches 0); wind 290/290 (mismatches 0); certified but total != recorded (not exact): 1; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+L2P [L2P]: reg 1979/1979 (mismatches 0); deep 0/0 (mismatches 0); wind 0/0 (mismatches 0); certified but total != recorded (not exact): 797; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+L2Ap [L2Ap]: reg 2503/2503 (mismatches 0); deep 0/0 (mismatches 0); wind 0/0 (mismatches 0); certified but total != recorded (not exact): 514; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+L2Am [L2Am]: reg 2529/2529 (mismatches 0); deep 0/0 (mismatches 0); wind 0/0 (mismatches 0); certified but total != recorded (not exact): 529; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+L2Tp [L2Tp]: reg 256/256 (mismatches 0); deep 0/0 (mismatches 0); wind 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+L2Tm [L2Tm]: reg 256/256 (mismatches 0); deep 0/0 (mismatches 0); wind 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+D2E [D2E]: reg 119/119 (mismatches 0); deep 0/0 (mismatches 0); wind 137/137 (mismatches 0); certified but total != recorded (not exact): 13; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+D2E2 [D2E2]: reg 232/232 (mismatches 0); deep 0/0 (mismatches 0); wind 24/24 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+D2P [D2P]: reg 782/782 (mismatches 0); deep 0/0 (mismatches 0); wind 348/348 (mismatches 0); certified but total != recorded (not exact): 100; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+D2K [D2K]: reg 362/362 (mismatches 0); deep 0/0 (mismatches 0); wind 102/102 (mismatches 0); certified but total != recorded (not exact): 79; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+D2Tp [D2Tp]: reg 17831/17831 (mismatches 0); deep 9084/9084 (mismatches 0); wind 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+D2Tm [D2Tm]: reg 256/256 (mismatches 0); deep 0/0 (mismatches 0); wind 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+F0 [f]: reg 8429/8429 (mismatches 0); deep 0/0 (mismatches 0); wind 3925/3925 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KA [KA]: reg 64/64 (mismatches 0); deep 0/0 (mismatches 0); wind 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+== 14:23:17 g9: bulk, KQ0, KQ1(+r1), KQK2(+r1..r6): 300 regular/deep leaves per file
+bulk [a]: reg 300/7740002 (mismatches 0); deep 300/466 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 8; not re-certifiable even by the deep certifier: 0
+KQ0 [KQ]: reg 300/18768 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQ1 [KQ]: reg 300/39260 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 169; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQ1.r1 [KQ]: reg 300/7860 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 25; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQK2 [KQ]: reg 300/747 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 89; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQK2.r1 [KQ]: reg 0/0 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQK2.r2 [KQ]: reg 300/3574 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQK2.r3 [KQ]: reg 300/15409 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQK2.r4 [KQ]: reg 300/45072 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQK2.r5 [KQ]: reg 300/57325 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+KQK2.r6 [KQ]: reg 300/3150 (mismatches 0); deep 0/0 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 0; not re-certifiable even by the deep certifier: 0
+== 14:24:31 g9: EVERY winding leaf of KQ0, KQ1(+r1), KQK2(+r1..r6)
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.1, 0.2, 0.7853981633974483, 0.9424777960769379, 0.5, 0.74875) recorded 3 -0.8524136338330889 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.1, 0.2, 0.9424777960769379, 1.0995574287564276, 0.5, 0.74875) recorded 3 -0.849854491635653 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.1, 0.2, 0.6283185307179586, 0.7853981633974483, 0.5621875000000001, 0.624375) recorded 3 -0.8759582992427541 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.1, 0.15000000000000002, 0.6283185307179586, 0.7853981633974483, 0.53109375, 0.5621875000000001) recorded 2 -3.1594439697285197 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.1, 0.2, 0.6283185307179586, 0.7853981633974483, 0.5, 0.53109375) recorded 3 -1.1003322730529776 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.1, 0.2, 1.0995574287564276, 1.2566370614359172, 0.5, 0.74875) recorded 3 -0.8473022789352439 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.1, 0.2, 1.2566370614359172, 1.413716694115407, 0.5, 0.74875) recorded 3 -0.8452280673565887 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.1, 0.2, 1.413716694115407, 1.5707963267948966, 0.5, 0.74875) recorded 3 -0.8440635971032595 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.1, 0.15000000000000002, 0.0, 0.15707963267948966, 0.5621875000000001, 0.59328125) recorded 2 -3.1024782078831774 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.30000000000000004, 0.15707963267948966, 0.3141592653589793, 0.6865625, 0.74875) recorded 3 -0.7961445120235815 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.30000000000000004, 0.15707963267948966, 0.3141592653589793, 0.65546875, 0.6865625) recorded 3 -0.8326238942205044 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.25, 0.30000000000000004, 0.15707963267948966, 0.3141592653589793, 0.624375, 0.65546875) recorded 3 -0.8590146124324249 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.25, 0.15707963267948966, 0.3141592653589793, 0.624375, 0.65546875) recorded 3 -0.8540690003649287 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.25, 0.30000000000000004, 0.15707963267948966, 0.3141592653589793, 0.59328125, 0.624375) recorded 3 -1.0167000256371592 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.25, 0.15707963267948966, 0.3141592653589793, 0.59328125, 0.624375) recorded 3 -0.8775790289154751 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.25, 0.30000000000000004, 0.23561944901923448, 0.3141592653589793, 0.5621875000000001, 0.59328125) recorded 3 -1.1503786063701815 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.25, 0.30000000000000004, 0.15707963267948966, 0.23561944901923448, 0.5621875000000001, 0.59328125) recorded 3 -1.1604505483664356 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.25, 0.15707963267948966, 0.3141592653589793, 0.5621875000000001, 0.59328125) recorded 3 -1.020794035696424 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.25, 0.15707963267948966, 0.3141592653589793, 0.53109375, 0.5621875000000001) recorded 3 -1.1604243274945627 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.25, 0.15707963267948966, 0.3141592653589793, 0.5, 0.53109375) recorded 3 -1.2894396149293215 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.1, 0.15000000000000002, 0.3141592653589793, 0.47123889803846897, 0.53109375, 0.5621875000000001) recorded 2 -3.129750802771198 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.30000000000000004, 0.0, 0.15707963267948966, 0.6865625, 0.74875) recorded 3 -0.7956423912338896 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.25, 0.30000000000000004, 0.0, 0.15707963267948966, 0.65546875, 0.6865625) recorded 3 -0.833744972671986 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.25, 0.0, 0.15707963267948966, 0.65546875, 0.6865625) recorded 3 -0.8302856835784795 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.25, 0.30000000000000004, 0.0, 0.15707963267948966, 0.624375, 0.65546875) recorded 3 -0.8579948164363026 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.25, 0.0, 0.15707963267948966, 0.624375, 0.65546875) recorded 3 -0.8538633163122265 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.25, 0.30000000000000004, 0.07853981633974483, 0.15707963267948966, 0.59328125, 0.624375) recorded 3 -0.9875391177327105 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.25, 0.30000000000000004, 0.0, 0.07853981633974483, 0.608828125, 0.624375) recorded 3 -0.8760640498195631 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.25, 0.0, 0.15707963267948966, 0.59328125, 0.624375) recorded 3 -0.8773852532670473 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.25, 0.07853981633974483, 0.15707963267948966, 0.5621875000000001, 0.59328125) recorded 3 -0.9771783813850745 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.30000000000000004, 0.6283185307179586, 0.7853981633974483, 0.624375, 0.74875) recorded 3 -0.8211323050067613 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.30000000000000004, 0.6283185307179586, 0.7853981633974483, 0.5621875000000001, 0.624375) recorded 3 -0.8916558314195882 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.30000000000000004, 0.6283185307179586, 0.7853981633974483, 0.5, 0.5621875000000001) recorded 3 -1.1609283765796286 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.30000000000000004, 0.3141592653589793, 0.47123889803846897, 0.624375, 0.74875) recorded 3 -0.8213572492547626 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.25, 0.30000000000000004, 0.3141592653589793, 0.47123889803846897, 0.59328125, 0.624375) recorded 3 -0.9967355566222981 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.25, 0.3141592653589793, 0.47123889803846897, 0.59328125, 0.624375) recorded 3 -0.8776613650871766 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.25, 0.30000000000000004, 0.3141592653589793, 0.47123889803846897, 0.5621875000000001, 0.59328125) recorded 3 -1.1265342630560569 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.25, 0.3141592653589793, 0.47123889803846897, 0.5621875000000001, 0.59328125) recorded 3 -1.022136377407932 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.25, 0.30000000000000004, 0.3141592653589793, 0.47123889803846897, 0.53109375, 0.5621875000000001) recorded 3 -1.232339882612238 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.25, 0.3141592653589793, 0.47123889803846897, 0.53109375, 0.5621875000000001) recorded 3 -1.1487178420610755 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.25, 0.30000000000000004, 0.3141592653589793, 0.47123889803846897, 0.5, 0.53109375) recorded 3 -1.3321074506111545 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.25, 0.3141592653589793, 0.47123889803846897, 0.5, 0.53109375) recorded 3 -1.2598646034032877 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.30000000000000004, 0.7853981633974483, 0.9424777960769379, 0.5, 0.74875) recorded 3 -0.8628225989601536 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.30000000000000004, 0.47123889803846897, 0.6283185307179586, 0.624375, 0.74875) recorded 3 -0.8218569322250578 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.30000000000000004, 0.47123889803846897, 0.6283185307179586, 0.59328125, 0.624375) recorded 3 -0.8816889620736896 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.30000000000000004, 0.47123889803846897, 0.6283185307179586, 0.5621875000000001, 0.59328125) recorded 3 -1.0448565934258396 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.25, 0.30000000000000004, 0.47123889803846897, 0.6283185307179586, 0.53109375, 0.5621875000000001) recorded 3 -1.187683223349455 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.25, 0.47123889803846897, 0.6283185307179586, 0.53109375, 0.5621875000000001) recorded 3 -1.121122848277075 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.30000000000000004, 0.9424777960769379, 1.0995574287564276, 0.5, 0.74875) recorded 3 -0.8530263832507538 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.30000000000000004, 1.0995574287564276, 1.2566370614359172, 0.5, 0.74875) recorded 3 -0.8409269418991586 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.30000000000000004, 1.2566370614359172, 1.413716694115407, 0.5, 0.74875) recorded 3 -0.8305129460454042 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.1, 0.15000000000000002, 0.15707963267948966, 0.3141592653589793, 0.5621875000000001, 0.59328125) recorded 2 -3.1072912961095547 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.1, 0.15000000000000002, 0.15707963267948966, 0.3141592653589793, 0.53109375, 0.5621875000000001) recorded 2 -3.1198454308735224 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.30000000000000004, 1.413716694115407, 1.5707963267948966, 0.5, 0.74875) recorded 3 -0.8247000459292892 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.30000000000000004, 1.0995574287564276, 1.2566370614359172, 0.74875, 0.873125) recorded 3 -0.7154999609586893 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.30000000000000004, 1.2566370614359172, 1.413716694115407, 0.74875, 0.873125) recorded 3 -0.7128991122118615 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.30000000000000004, 0.9424777960769379, 1.0995574287564276, 0.74875, 0.873125) recorded 3 -0.7179347772155132 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.2, 0.30000000000000004, 1.413716694115407, 1.5707963267948966, 0.74875, 0.873125) recorded 3 -0.7112276176177622 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.39269908169872414, 0.47123889803846897, 0.71765625, 0.74875) recorded 3 -0.7934744314282622 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.3141592653589793, 0.39269908169872414, 0.71765625, 0.74875) recorded 3 -0.7911469238939853 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.39269908169872414, 0.47123889803846897, 0.6865625, 0.71765625) recorded 3 -0.81988275959365 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.3141592653589793, 0.39269908169872414, 0.6865625, 0.71765625) recorded 3 -0.8172538575548279 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.39269908169872414, 0.47123889803846897, 0.65546875, 0.6865625) recorded 3 -0.8459506552747862 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.35000000000000003, 0.4, 0.3141592653589793, 0.39269908169872414, 0.65546875, 0.6865625) recorded 3 -0.93499275600028 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.3141592653589793, 0.39269908169872414, 0.65546875, 0.6865625) recorded 3 -0.8408146964716597 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.39269908169872414, 0.47123889803846897, 0.624375, 0.65546875) recorded 3 -1.0000264958141507 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.35000000000000003, 0.4, 0.3141592653589793, 0.39269908169872414, 0.624375, 0.65546875) recorded 3 -1.0699295063622043 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.3141592653589793, 0.39269908169872414, 0.624375, 0.65546875) recorded 3 -0.978496243791679 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.39269908169872414, 0.47123889803846897, 0.59328125, 0.624375) recorded 3 -1.1142664875900747 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.35000000000000003, 0.4, 0.3141592653589793, 0.39269908169872414, 0.59328125, 0.624375) recorded 3 -1.1368791026577787 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.3141592653589793, 0.39269908169872414, 0.59328125, 0.624375) recorded 3 -1.1092000063733176 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.39269908169872414, 0.47123889803846897, 0.5621875000000001, 0.59328125) recorded 3 -1.2064351125097317 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.47123889803846897, 0.6283185307179586, 0.6865625, 0.74875) recorded 3 -0.8111538024450022 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.5497787143782138, 0.6283185307179586, 0.624375, 0.65546875) recorded 3 -0.8806649414693722 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.47123889803846897, 0.5497787143782138, 0.624375, 0.65546875) recorded 3 -0.9569823732226254 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.5497787143782138, 0.6283185307179586, 0.59328125, 0.624375) recorded 3 -1.056388196698074 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.47123889803846897, 0.5497787143782138, 0.59328125, 0.624375) recorded 3 -1.0861420233638275 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.5497787143782138, 0.6283185307179586, 0.5621875000000001, 0.59328125) recorded 3 -1.1558769892724805 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.47123889803846897, 0.5497787143782138, 0.5621875000000001, 0.59328125) recorded 3 -1.1802496449813533 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.07853981633974483, 0.15707963267948966, 0.7798437500000001, 0.8109375000000001) recorded 3 -0.7328965000351331 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.0, 0.07853981633974483, 0.74875, 0.7798437500000001) recorded 3 -0.7596615619793109 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.6283185307179586, 0.7853981633974483, 0.624375, 0.74875) recorded 3 -0.8455253203617256 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.6283185307179586, 0.7853981633974483, 0.5621875000000001, 0.624375) recorded 3 -1.0658079026908953 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.7068583470577035, 0.7853981633974483, 0.53109375, 0.5621875000000001) recorded 3 -1.2048436278125203 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.6283185307179586, 0.7068583470577035, 0.53109375, 0.5621875000000001) recorded 3 -1.2220642662637655 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.7853981633974483, 0.9424777960769379, 0.5621875000000001, 0.624375) recorded 3 -0.9470670634820635 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.8639379797371931, 0.9424777960769379, 0.53109375, 0.5621875000000001) recorded 3 -1.1844211882269775 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.7853981633974483, 0.8639379797371931, 0.53109375, 0.5621875000000001) recorded 3 -1.190425623447212 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.8639379797371931, 0.9424777960769379, 0.5, 0.53109375) recorded 3 -1.1994109540683533 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.7853981633974483, 0.8639379797371931, 0.5, 0.53109375) recorded 3 -1.271049270590139 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.9424777960769379, 1.0995574287564276, 0.624375, 0.74875) recorded 3 -0.833710540606132 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.9424777960769379, 1.0995574287564276, 0.5, 0.624375) recorded 3 -0.8974066013268724 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 1.0995574287564276, 1.2566370614359172, 0.5, 0.74875) recorded 3 -0.8207731330117906 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 0.23561944901923448, 0.3141592653589793, 0.74875, 0.7798437500000001) recorded 3 -0.7626222939065472 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 1.2566370614359172, 1.413716694115407, 0.5, 0.74875) recorded 3 -0.7902764631239965 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.07853981633974483, 0.15707963267948966, 0.71765625, 0.74875) recorded 3 -0.7862272637369792 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.35000000000000003, 0.4, 0.039269908169872414, 0.07853981633974483, 0.71765625, 0.733203125) recorded 3 -0.7634850829161989 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.35000000000000003, 0.4, 0.0, 0.039269908169872414, 0.71765625, 0.733203125) recorded 1 -2.1835784751498792 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.35000000000000003, 0.4, 0.039269908169872414, 0.07853981633974483, 0.71765625, 0.733203125) recorded 1 -2.1807884279877516 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.35000000000000003, 0.4, 0.0, 0.039269908169872414, 0.71765625, 0.733203125) recorded 1 -2.180499632492806 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.0, 0.07853981633974483, 0.71765625, 0.74875) recorded 3 -0.7858379332340473 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.35000000000000003, 0.4, 0.07853981633974483, 0.15707963267948966, 0.702109375, 0.71765625) recorded 3 -0.7682624549370537 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.35000000000000003, 0.4, 0.11780972450961724, 0.15707963267948966, 0.702109375, 0.71765625) recorded 3 -0.7561717802138936 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.35000000000000003, 0.4, 0.07853981633974483, 0.11780972450961724, 0.702109375, 0.71765625) recorded 1 -2.2009925838236417 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.35000000000000003, 0.4, 0.07853981633974483, 0.15707963267948966, 0.6865625, 0.702109375) recorded 1 -2.224116744460222 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.35000000000000003, 0.4, 0.07853981633974483, 0.15707963267948966, 0.6865625, 0.702109375) recorded 1 -2.2208455235819824 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.07853981633974483, 0.15707963267948966, 0.6865625, 0.71765625) recorded 3 -0.8116626797513236 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.35000000000000003, 0.4, 0.0, 0.07853981633974483, 0.702109375, 0.71765625) recorded 1 -2.203441675659885 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.35000000000000003, 0.4, 0.0, 0.07853981633974483, 0.702109375, 0.71765625) recorded 1 -2.2002317888442042 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.35000000000000003, 0.4, 0.0, 0.07853981633974483, 0.6865625, 0.702109375) recorded 1 -2.2230207131536126 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.35000000000000003, 0.4, 0.0, 0.07853981633974483, 0.6865625, 0.702109375) recorded 1 -2.219677490504684 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.0, 0.07853981633974483, 0.6865625, 0.71765625) recorded 3 -0.8112315287740236 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.35000000000000003, 0.4, 0.07853981633974483, 0.15707963267948966, 0.671015625, 0.6865625) recorded 1 -2.2435768476953273 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.35000000000000003, 0.4, 0.07853981633974483, 0.15707963267948966, 0.671015625, 0.6865625) recorded 1 -2.240176013922979 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.35000000000000003, 0.4, 0.07853981633974483, 0.15707963267948966, 0.65546875, 0.671015625) recorded 1 -2.2612048449299773 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.07853981633974483, 0.15707963267948966, 0.65546875, 0.6865625) recorded 3 -0.8366359661693485 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.35000000000000003, 0.4, 0.0, 0.07853981633974483, 0.671015625, 0.6865625) recorded 1 -2.24246754739682 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.35000000000000003, 0.4, 0.0, 0.07853981633974483, 0.671015625, 0.6865625) recorded 1 -2.238994460010278 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.35000000000000003, 0.4, 0.0, 0.07853981633974483, 0.65546875, 0.671015625) recorded 1 -2.2600437960715882 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.0, 0.07853981633974483, 0.671015625, 0.6865625) recorded 3 -0.82417310197698 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.30000000000000004, 0.35000000000000003, 0.0, 0.07853981633974483, 0.671015625, 0.6865625) recorded 3 -0.8358307348479733 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.0, 0.07853981633974483, 0.65546875, 0.671015625) recorded 3 -0.8366450123560318 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.30000000000000004, 0.35000000000000003, 0.039269908169872414, 0.07853981633974483, 0.65546875, 0.671015625) recorded 3 -0.8482223463205649 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.30000000000000004, 0.35000000000000003, 0.0, 0.039269908169872414, 0.65546875, 0.671015625) recorded 1 -2.457094091136005 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.35000000000000003, 0.4, 0.07853981633974483, 0.15707963267948966, 0.624375, 0.65546875) recorded 1 -2.2901128246570948 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.07853981633974483, 0.15707963267948966, 0.639921875, 0.65546875) recorded 3 -0.9516026592835543 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.30000000000000004, 0.35000000000000003, 0.07853981633974483, 0.15707963267948966, 0.639921875, 0.65546875) recorded 3 -0.9760066024583395 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.35000000000000003, 0.4, 0.0, 0.07853981633974483, 0.624375, 0.65546875) recorded 1 -2.2889240219633264 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.039269908169872414, 0.07853981633974483, 0.639921875, 0.65546875) recorded 1 -2.487861504774404 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.0, 0.039269908169872414, 0.639921875, 0.65546875) recorded 1 -2.4779144928599406 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.30000000000000004, 0.35000000000000003, 0.039269908169872414, 0.07853981633974483, 0.639921875, 0.65546875) recorded 1 -2.442919014224861 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.30000000000000004, 0.35000000000000003, 0.0, 0.039269908169872414, 0.639921875, 0.65546875) recorded 1 -2.431045982067311 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.039269908169872414, 0.07853981633974483, 0.624375, 0.639921875) recorded 1 -2.464174544785762 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.0, 0.039269908169872414, 0.624375, 0.639921875) recorded 1 -2.4494103292690834 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.30000000000000004, 0.35000000000000003, 0.039269908169872414, 0.07853981633974483, 0.624375, 0.639921875) recorded 1 -2.428623006210175 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.30000000000000004, 0.35000000000000003, 0.0, 0.039269908169872414, 0.624375, 0.639921875) recorded 1 -2.428451959600788 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.35000000000000003, 0.4, 0.07853981633974483, 0.15707963267948966, 0.59328125, 0.624375) recorded 1 -2.3287486828908186 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.35000000000000003, 0.4, 0.0, 0.07853981633974483, 0.59328125, 0.624375) recorded 1 -2.327514818204972 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.039269908169872414, 0.07853981633974483, 0.608828125, 0.624375) recorded 1 -2.4501591949951584 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.0, 0.039269908169872414, 0.608828125, 0.624375) recorded 1 -2.450002032619577 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.30000000000000004, 0.35000000000000003, 0.039269908169872414, 0.07853981633974483, 0.608828125, 0.624375) recorded 1 -2.4470529380705828 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.30000000000000004, 0.35000000000000003, 0.0, 0.039269908169872414, 0.608828125, 0.624375) recorded 1 -2.446877618076619 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.039269908169872414, 0.07853981633974483, 0.59328125, 0.608828125) recorded 1 -2.4687642543387565 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.0, 0.039269908169872414, 0.59328125, 0.608828125) recorded 1 -2.46860250721657 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.30000000000000004, 0.35000000000000003, 0.0, 0.07853981633974483, 0.59328125, 0.608828125) recorded 1 -2.4654538502142405 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.35000000000000003, 0.4, 0.07853981633974483, 0.15707963267948966, 0.5621875000000001, 0.59328125) recorded 1 -2.3677642391423515 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.35000000000000003, 0.4, 0.0, 0.07853981633974483, 0.5621875000000001, 0.59328125) recorded 1 -2.3664759247597034 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.4, 1.413716694115407, 1.5707963267948966, 0.5, 0.74875) recorded 3 -0.7767087270069315 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.35000000000000003, 0.4, 0.15707963267948966, 0.23561944901923448, 0.71765625, 0.74875) recorded 3 -0.788334110713445 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.15707963267948966, 0.23561944901923448, 0.71765625, 0.74875) recorded 3 -0.7869971072739979 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.35000000000000003, 0.4, 0.23561944901923448, 0.3141592653589793, 0.6865625, 0.71765625) recorded 3 -0.8161522927881385 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.23561944901923448, 0.3141592653589793, 0.6865625, 0.71765625) recorded 3 -0.8137737361597305 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.35000000000000003, 0.4, 0.15707963267948966, 0.23561944901923448, 0.6865625, 0.71765625) recorded 3 -0.8025803298410373 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.15707963267948966, 0.23561944901923448, 0.6865625, 0.71765625) recorded 3 -0.8125164490716469 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.35000000000000003, 0.4, 0.23561944901923448, 0.3141592653589793, 0.65546875, 0.6865625) recorded 3 -0.9725028331640341 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.23561944901923448, 0.3141592653589793, 0.65546875, 0.6865625) recorded 3 -0.8389899432454264 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.35000000000000003, 0.4, 0.15707963267948966, 0.23561944901923448, 0.671015625, 0.6865625) recorded 3 -0.9212721010623254 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.15707963267948966, 0.23561944901923448, 0.65546875, 0.6865625) recorded 3 -0.8375861497147781 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.35000000000000003, 0.4, 0.23561944901923448, 0.3141592653589793, 0.624375, 0.65546875) recorded 3 -1.0616513153346374 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.23561944901923448, 0.3141592653589793, 0.624375, 0.65546875) recorded 3 -1.0038028663949121 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.15707963267948966, 0.23561944901923448, 0.624375, 0.65546875) recorded 3 -1.0196516727640328 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.35000000000000003, 0.4, 0.23561944901923448, 0.3141592653589793, 0.59328125, 0.624375) recorded 3 -1.1285084245759203 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.30000000000000004, 0.35000000000000003, 0.23561944901923448, 0.3141592653589793, 0.59328125, 0.624375) recorded 3 -1.1347619747784015 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.35000000000000003, 0.4, 0.15707963267948966, 0.23561944901923448, 0.59328125, 0.624375) recorded 3 -1.114791484240845 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.45, 0.5, 0.07853981633974483, 0.15707963267948966, 0.733203125, 0.74875) recorded 1 -1.926725374576571 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.07853981633974483, 0.15707963267948966, 0.71765625, 0.74875) recorded 1 -2.049902227565811 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.45, 0.5, 0.039269908169872414, 0.07853981633974483, 0.733203125, 0.74875) recorded 2 -1.1083884180183745 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.45, 0.5, 0.0, 0.039269908169872414, 0.733203125, 0.74875) recorded 2 -1.058747535948424 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.45, 0.5, 0.0, 0.07853981633974483, 0.733203125, 0.74875) recorded 2 -1.0870217558624764 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.0, 0.07853981633974483, 0.71765625, 0.733203125) recorded 2 -1.1381998465957262 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.0, 0.07853981633974483, 0.71765625, 0.74875) recorded 1 -2.048169475301987 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.07853981633974483, 0.15707963267948966, 0.6865625, 0.71765625) recorded 1 -2.09089207312782 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.0, 0.07853981633974483, 0.6865625, 0.71765625) recorded 2 -1.201561128967078 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.0, 0.07853981633974483, 0.6865625, 0.71765625) recorded 1 -2.0891497241402064 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.07853981633974483, 0.15707963267948966, 0.65546875, 0.6865625) recorded 2 -1.3282690973362479 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.07853981633974483, 0.15707963267948966, 0.65546875, 0.6865625) recorded 1 -2.1311918665503673 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.0, 0.07853981633974483, 0.65546875, 0.6865625) recorded 2 -1.269669514033426 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.0, 0.07853981633974483, 0.65546875, 0.6865625) recorded 1 -2.129431874504381 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.0, 0.07853981633974483, 0.624375, 0.65546875) recorded 2 -1.3273604819192808 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.39269908169872414, 0.47123889803846897, 0.71765625, 0.74875) recorded 3 -0.7276246998810247 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.3141592653589793, 0.39269908169872414, 0.71765625, 0.74875) recorded 3 -0.6283618247097722 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.3141592653589793, 0.39269908169872414, 0.71765625, 0.74875) recorded 3 -0.7507361084357487 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.39269908169872414, 0.47123889803846897, 0.6865625, 0.71765625) recorded 3 -0.7249447606362215 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.3141592653589793, 0.39269908169872414, 0.6865625, 0.71765625) recorded 3 -0.7631977503873256 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.3141592653589793, 0.39269908169872414, 0.6865625, 0.71765625) recorded 3 -0.7758425992579749 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.39269908169872414, 0.47123889803846897, 0.65546875, 0.6865625) recorded 3 -0.8698083845863387 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.3141592653589793, 0.39269908169872414, 0.65546875, 0.6865625) recorded 3 -0.8419223796697746 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.3141592653589793, 0.39269908169872414, 0.65546875, 0.6865625) recorded 3 -0.9117996123822069 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.39269908169872414, 0.47123889803846897, 0.624375, 0.65546875) recorded 3 -0.9361865142873769 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.5497787143782138, 0.6283185307179586, 0.71765625, 0.74875) recorded 3 -0.790674104814235 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.47123889803846897, 0.5497787143782138, 0.71765625, 0.74875) recorded 3 -0.7624952061990505 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.5497787143782138, 0.6283185307179586, 0.6865625, 0.71765625) recorded 3 -0.7847852256028295 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.47123889803846897, 0.5497787143782138, 0.6865625, 0.71765625) recorded 3 -0.7581902275988563 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.5497787143782138, 0.6283185307179586, 0.65546875, 0.6865625) recorded 3 -0.7797376815021033 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.47123889803846897, 0.5497787143782138, 0.65546875, 0.6865625) recorded 3 -0.8450248705757775 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.5497787143782138, 0.6283185307179586, 0.624375, 0.65546875) recorded 3 -0.9032530144951179 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.47123889803846897, 0.5497787143782138, 0.624375, 0.65546875) recorded 3 -0.9254071179116597 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.5497787143782138, 0.6283185307179586, 0.59328125, 0.624375) recorded 3 -0.9623879981638214 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.47123889803846897, 0.5497787143782138, 0.59328125, 0.624375) recorded 3 -0.9779841103542605 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.39269908169872414, 0.47123889803846897, 0.9042187500000001, 0.9353125) recorded 3 -0.5985910041742761 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.3141592653589793, 0.39269908169872414, 0.9042187500000001, 0.9353125) recorded 3 -0.5962426252621801 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.3141592653589793, 0.39269908169872414, 0.74875, 0.7798437500000001) recorded 3 -0.6272232844892138 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.3141592653589793, 0.39269908169872414, 0.74875, 0.7798437500000001) recorded 3 -0.7630802858911949 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.5497787143782138, 0.6283185307179586, 0.8109375000000001, 0.84203125) recorded 3 -0.7206673389940236 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.47123889803846897, 0.5497787143782138, 0.8109375000000001, 0.84203125) recorded 3 -0.7157911089828715 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.5497787143782138, 0.6283185307179586, 0.74875, 0.7798437500000001) recorded 3 -0.7829552690864606 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.47123889803846897, 0.5497787143782138, 0.74875, 0.7798437500000001) recorded 3 -0.7688291601704962 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.07853981633974483, 0.15707963267948966, 0.9042187500000001, 0.9353125) recorded 3 -0.5920764664832444 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.07853981633974483, 0.15707963267948966, 0.873125, 0.9042187500000001) recorded 3 -0.6352546124453321 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.0, 0.07853981633974483, 0.873125, 0.9042187500000001) recorded 3 -0.6348159242073348 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.07853981633974483, 0.15707963267948966, 0.84203125, 0.873125) recorded 3 -0.6711211276400817 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.45, 0.5, 0.0, 0.039269908169872414, 0.8575781250000001, 0.873125) recorded 1 -1.727538300381604 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.45, 0.5, 0.039269908169872414, 0.07853981633974483, 0.84203125, 0.8575781250000001) recorded 1 -1.7584824471184208 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.45, 0.5, 0.0, 0.039269908169872414, 0.84203125, 0.8575781250000001) recorded 1 -1.757809435680946 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.45, 0.5, 0.039269908169872414, 0.07853981633974483, 0.84203125, 0.8575781250000001) recorded 1 -1.755426497129394 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.45, 0.5, 0.0, 0.039269908169872414, 0.84203125, 0.8575781250000001) recorded 1 -1.754725247002472 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.07853981633974483, 0.15707963267948966, 0.8109375000000001, 0.84203125) recorded 3 -0.7031565873189879 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.45, 0.5, 0.0, 0.07853981633974483, 0.826484375, 0.84203125) recorded 1 -1.7842440643867148 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.45, 0.5, 0.0, 0.07853981633974483, 0.826484375, 0.84203125) recorded 1 -1.780891625264056 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.45, 0.5, 0.0, 0.07853981633974483, 0.8109375000000001, 0.826484375) recorded 1 -1.8093560435035239 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.45, 0.5, 0.0, 0.07853981633974483, 0.8109375000000001, 0.826484375) recorded 1 -1.8057464639024647 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.45, 0.5, 0.11780972450961724, 0.15707963267948966, 0.795390625, 0.8109375000000001) recorded 3 -0.47532553724506543 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.45, 0.5, 0.07853981633974483, 0.11780972450961724, 0.795390625, 0.8109375000000001) recorded 1 -1.8352605663451536 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.45, 0.5, 0.07853981633974483, 0.11780972450961724, 0.795390625, 0.8109375000000001) recorded 1 -1.8314785717272808 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.07853981633974483, 0.15707963267948966, 0.7798437500000001, 0.795390625) recorded 1 -1.8576288792209144 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.0, 0.07853981633974483, 0.795390625, 0.8109375000000001) recorded 1 -1.8316828446577018 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.0, 0.07853981633974483, 0.7798437500000001, 0.795390625) recorded 1 -1.8550628275105214 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.4, 0.45, 0.0, 0.07853981633974483, 0.7798437500000001, 0.795390625) recorded 1 -1.9749129885997325 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.4, 0.45, 0.0, 0.07853981633974483, 0.7798437500000001, 0.795390625) recorded 1 -1.9717259062015597 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.07853981633974483, 0.15707963267948966, 0.74875, 0.7798437500000001) recorded 1 -1.8915571745767654 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.07853981633974483, 0.15707963267948966, 0.74875, 0.7642968750000001) recorded 1 -2.018438447344183 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.0, 0.07853981633974483, 0.74875, 0.7798437500000001) recorded 1 -1.8890262649455485 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.4, 0.45, 0.0, 0.07853981633974483, 0.7642968750000001, 0.7798437500000001) recorded 1 -1.9969297304331657 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.4, 0.45, 0.0, 0.07853981633974483, 0.7642968750000001, 0.7798437500000001) recorded 1 -1.9935510667876757 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.0, 0.07853981633974483, 0.74875, 0.7642968750000001) recorded 1 -2.0167070290931397 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.8639379797371931, 0.9424777960769379, 0.624375, 0.65546875) recorded 3 -0.7965861334245848 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.7853981633974483, 0.8639379797371931, 0.624375, 0.65546875) recorded 3 -0.8034921961366451 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.9424777960769379, 1.0995574287564276, 0.5, 0.624375) recorded 3 -0.7540913286090157 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.15707963267948966, 0.23561944901923448, 0.9042187500000001, 0.9353125) recorded 3 -0.5929951606015512 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.15707963267948966, 0.23561944901923448, 0.84203125, 0.873125) recorded 3 -0.5975256821011646 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.15707963267948966, 0.23561944901923448, 0.84203125, 0.873125) recorded 3 -0.6721240666288805 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.23561944901923448, 0.3141592653589793, 0.8109375000000001, 0.84203125) recorded 3 -0.6037134683915664 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.23561944901923448, 0.3141592653589793, 0.8109375000000001, 0.84203125) recorded 3 -0.7059950094463171 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.15707963267948966, 0.23561944901923448, 0.8109375000000001, 0.84203125) recorded 3 -0.7042878436897576 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.23561944901923448, 0.3141592653589793, 0.7798437500000001, 0.8109375000000001) recorded 3 -0.7358388891743779 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.45, 0.5, 0.19634954084936207, 0.23561944901923448, 0.7798437500000001, 0.795390625) recorded 3 -0.5123910158311471 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.15707963267948966, 0.23561944901923448, 0.7798437500000001, 0.8109375000000001) recorded 3 -0.6983724997139721 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.23561944901923448, 0.3141592653589793, 0.74875, 0.7798437500000001) recorded 3 -0.5700203723242842 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.23561944901923448, 0.3141592653589793, 0.74875, 0.7798437500000001) recorded 3 -0.7168145462920709 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.45, 0.5, 0.19634954084936207, 0.23561944901923448, 0.7642968750000001, 0.7798437500000001) recorded 3 -0.5061581791217884 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.45, 0.5, 0.15707963267948966, 0.19634954084936207, 0.7642968750000001, 0.7798437500000001) recorded 1 -1.881801686462118 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.15707963267948966, 0.23561944901923448, 0.74875, 0.7798437500000001) recorded 3 -0.6618040819624287 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 1.0995574287564276, 1.2566370614359172, 0.5, 0.624375) recorded 3 -0.7278847738839295 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 1.2566370614359172, 1.413716694115407, 0.5, 0.624375) recorded 3 -0.7092960096328486 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 1.413716694115407, 1.5707963267948966, 0.5, 0.624375) recorded 3 -0.7001043968085228 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.7068583470577035, 0.7853981633974483, 0.65546875, 0.6865625) recorded 3 -0.8102610072919872 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.6283185307179586, 0.7068583470577035, 0.65546875, 0.6865625) recorded 3 -0.7981987508576238 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.7068583470577035, 0.7853981633974483, 0.5621875000000001, 0.59328125) recorded 3 -0.9553466427319808 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.5, 0.6283185307179586, 0.7068583470577035, 0.5621875000000001, 0.59328125) recorded 3 -0.9849806225374135 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.23561944901923448, 0.3141592653589793, 0.71765625, 0.74875) recorded 3 -0.643468099463363 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.23561944901923448, 0.3141592653589793, 0.71765625, 0.74875) recorded 3 -0.7000346042581264 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.15707963267948966, 0.23561944901923448, 0.71765625, 0.74875) recorded 3 -0.6466912825586565 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.4, 0.45, 0.15707963267948966, 0.23561944901923448, 0.71765625, 0.733203125) recorded 3 -0.6418985551114385 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.23561944901923448, 0.3141592653589793, 0.6865625, 0.71765625) recorded 3 -0.7653284606158409 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.23561944901923448, 0.3141592653589793, 0.6865625, 0.71765625) recorded 3 -0.8075401804786947 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.45, 0.5, 0.15707963267948966, 0.23561944901923448, 0.65546875, 0.6865625) recorded 3 -0.8319189345480509 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.4, 0.45, 0.15707963267948966, 0.23561944901923448, 0.65546875, 0.6865625) recorded 3 -0.8878105461386416 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.07853981633974483, 0.15707963267948966, 0.71765625, 0.74875) recorded 2 -1.173343262040188 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.0, 0.07853981633974483, 0.71765625, 0.74875) recorded 2 -1.117408333346347 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.39269908169872414, 0.47123889803846897, 0.71765625, 0.74875) recorded 3 -0.5107027928138039 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.3141592653589793, 0.39269908169872414, 0.71765625, 0.74875) recorded 3 -0.5873120063958192 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.3141592653589793, 0.47123889803846897, 0.71765625, 0.74875) recorded 3 -0.5619435079122135 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.3141592653589793, 0.47123889803846897, 0.6865625, 0.71765625) recorded 3 -0.6560284775474605 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.3141592653589793, 0.47123889803846897, 0.6865625, 0.71765625) recorded 3 -0.7066507878829923 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.3141592653589793, 0.47123889803846897, 0.65546875, 0.6865625) recorded 3 -0.7126917314979453 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.3141592653589793, 0.47123889803846897, 0.65546875, 0.6865625) recorded 3 -0.7737151605448218 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.3141592653589793, 0.47123889803846897, 0.624375, 0.65546875) recorded 3 -0.8241989102904119 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.47123889803846897, 0.6283185307179586, 0.71765625, 0.74875) recorded 3 -0.5490374388940029 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.47123889803846897, 0.6283185307179586, 0.71765625, 0.74875) recorded 3 -0.625292372028943 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.47123889803846897, 0.6283185307179586, 0.6865625, 0.71765625) recorded 3 -0.5529505758954901 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.47123889803846897, 0.6283185307179586, 0.6865625, 0.71765625) recorded 3 -0.626702381488812 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.47123889803846897, 0.6283185307179586, 0.65546875, 0.6865625) recorded 3 -0.6662929357248102 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.47123889803846897, 0.6283185307179586, 0.65546875, 0.6865625) recorded 3 -0.7295529744800424 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.47123889803846897, 0.6283185307179586, 0.624375, 0.65546875) recorded 3 -0.7233073770378222 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.47123889803846897, 0.6283185307179586, 0.624375, 0.65546875) recorded 3 -0.7948483731089496 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.6283185307179586, 0.7853981633974483, 0.71765625, 0.74875) recorded 3 -0.6644432111661707 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.6283185307179586, 0.7853981633974483, 0.6865625, 0.71765625) recorded 3 -0.5830842538896924 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.6283185307179586, 0.7853981633974483, 0.6865625, 0.71765625) recorded 3 -0.6611460412434564 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.6283185307179586, 0.7853981633974483, 0.65546875, 0.6865625) recorded 3 -0.5825836474783816 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.6283185307179586, 0.7853981633974483, 0.65546875, 0.6865625) recorded 3 -0.6581908192844381 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.6283185307179586, 0.7853981633974483, 0.624375, 0.65546875) recorded 3 -0.6303471856519269 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.6283185307179586, 0.7853981633974483, 0.624375, 0.65546875) recorded 3 -0.7029680727613326 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.7853981633974483, 0.9424777960769379, 0.624375, 0.65546875) recorded 3 -0.5916197093361238 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.7853981633974483, 0.9424777960769379, 0.624375, 0.65546875) recorded 3 -0.6633539816590844 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.7853981633974483, 0.9424777960769379, 0.59328125, 0.624375) recorded 3 -0.5897445299968205 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.7853981633974483, 0.9424777960769379, 0.59328125, 0.624375) recorded 3 -0.6593468033687563 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.5497787143782138, 0.6283185307179586, 0.873125, 0.9042187500000001) recorded 3 -0.6507156279679466 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.47123889803846897, 0.5497787143782138, 0.873125, 0.9042187500000001) recorded 3 -0.6308425623645147 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.5497787143782138, 0.6283185307179586, 0.84203125, 0.873125) recorded 3 -0.5461790421342524 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.5497787143782138, 0.6283185307179586, 0.84203125, 0.873125) recorded 3 -0.6472314395673473 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.47123889803846897, 0.5497787143782138, 0.84203125, 0.873125) recorded 3 -0.6144833064949956 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.5497787143782138, 0.6283185307179586, 0.8109375000000001, 0.84203125) recorded 3 -0.5489048931409388 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.47123889803846897, 0.5497787143782138, 0.8109375000000001, 0.84203125) recorded 3 -0.5156774110203948 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.47123889803846897, 0.6283185307179586, 0.74875, 0.7798437500000001) recorded 3 -0.6240521659135916 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.9424777960769379, 1.0995574287564276, 0.59328125, 0.624375) recorded 3 -0.588428861462601 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.9424777960769379, 1.0995574287564276, 0.59328125, 0.624375) recorded 3 -0.6523026889517721 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.9424777960769379, 1.0995574287564276, 0.5621875000000001, 0.59328125) recorded 3 -0.586859511867953 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.9424777960769379, 1.0995574287564276, 0.5621875000000001, 0.59328125) recorded 3 -0.6495057869802597 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.7068583470577035, 0.7853981633974483, 0.873125, 0.9042187500000001) recorded 3 -0.6032671732258128 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.6283185307179586, 0.7068583470577035, 0.873125, 0.9042187500000001) recorded 3 -0.5788818452274519 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.6283185307179586, 0.7853981633974483, 0.74875, 0.7798437500000001) recorded 3 -0.6682008344433765 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.39269908169872414, 0.47123889803846897, 0.9042187500000001, 0.9353125) recorded 3 -0.5983428303278238 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.3141592653589793, 0.39269908169872414, 0.9042187500000001, 0.9353125) recorded 3 -0.5955440595266795 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.39269908169872414, 0.47123889803846897, 0.873125, 0.9042187500000001) recorded 3 -0.5985286380402258 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.3141592653589793, 0.39269908169872414, 0.873125, 0.9042187500000001) recorded 3 -0.5634154319747401 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.39269908169872414, 0.47123889803846897, 0.84203125, 0.873125) recorded 3 -0.5758207403714172 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.3141592653589793, 0.39269908169872414, 0.84203125, 0.873125) recorded 3 -0.531263710851469 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.39269908169872414, 0.47123889803846897, 0.8109375000000001, 0.84203125) recorded 3 -0.5667733986606199 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.3141592653589793, 0.39269908169872414, 0.8109375000000001, 0.84203125) recorded 3 -0.5158238120557043 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.39269908169872414, 0.47123889803846897, 0.7798437500000001, 0.8109375000000001) recorded 3 -0.48811766433840303 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.3141592653589793, 0.39269908169872414, 0.7798437500000001, 0.8109375000000001) recorded 3 -0.445305962471388 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.39269908169872414, 0.47123889803846897, 0.7798437500000001, 0.8109375000000001) recorded 3 -0.5679955990883131 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.3141592653589793, 0.39269908169872414, 0.7798437500000001, 0.8109375000000001) recorded 3 -0.5189918992629706 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.39269908169872414, 0.47123889803846897, 0.74875, 0.7798437500000001) recorded 3 -0.5004203011555666 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.3141592653589793, 0.39269908169872414, 0.74875, 0.7798437500000001) recorded 3 -0.46422743374123593 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.39269908169872414, 0.47123889803846897, 0.74875, 0.7798437500000001) recorded 3 -0.5735838679061126 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.3141592653589793, 0.39269908169872414, 0.74875, 0.7798437500000001) recorded 3 -0.5300051494200986 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.7000000000000001, 0.39269908169872414, 0.47123889803846897, 0.6865625, 0.71765625) recorded 3 -0.568148451215691 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.23561944901923448, 0.3141592653589793, 0.9042187500000001, 0.9353125) recorded 3 -0.5723173416973537 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.15707963267948966, 0.23561944901923448, 0.9042187500000001, 0.9353125) recorded 3 -0.5358276779489684 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.5750000000000001, 0.23561944901923448, 0.3141592653589793, 0.873125, 0.888671875) recorded 3 -0.40945582087077337 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.23561944901923448, 0.3141592653589793, 0.873125, 0.888671875) recorded 2 -0.9513193891638982 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.5750000000000001, 0.23561944901923448, 0.3141592653589793, 0.873125, 0.888671875) recorded 3 -0.3883428468692109 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.15707963267948966, 0.23561944901923448, 0.888671875, 0.9042187500000001) recorded 2 -0.9142963431336211 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.15707963267948966, 0.23561944901923448, 0.873125, 0.888671875) recorded 2 -0.8966650412236088 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.15707963267948966, 0.23561944901923448, 0.873125, 0.888671875) recorded 2 -0.8852691185194667 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.5750000000000001, 0.15707963267948966, 0.23561944901923448, 0.873125, 0.888671875) recorded 2 -0.9815760498581025 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.23561944901923448, 0.3141592653589793, 0.873125, 0.9042187500000001) recorded 3 -0.524934334986767 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.23561944901923448, 0.3141592653589793, 0.8575781250000001, 0.873125) recorded 2 -0.9565253107191727 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.5750000000000001, 0.23561944901923448, 0.3141592653589793, 0.8575781250000001, 0.873125) recorded 3 -0.38435877889130093 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.23561944901923448, 0.3141592653589793, 0.8575781250000001, 0.873125) recorded 2 -0.9380683745374918 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.23561944901923448, 0.3141592653589793, 0.84203125, 0.8575781250000001) recorded 2 -0.9881479614278502 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.5750000000000001, 0.23561944901923448, 0.3141592653589793, 0.84203125, 0.8575781250000001) recorded 3 -0.36844065831254263 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.23561944901923448, 0.3141592653589793, 0.84203125, 0.8575781250000001) recorded 2 -0.979801296099912 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.5750000000000001, 0.23561944901923448, 0.3141592653589793, 0.84203125, 0.8575781250000001) recorded 2 -1.0277387111598744 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.15707963267948966, 0.23561944901923448, 0.8575781250000001, 0.873125) recorded 2 -0.851556311417979 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.5750000000000001, 0.15707963267948966, 0.23561944901923448, 0.8575781250000001, 0.873125) recorded 2 -0.9710482415903008 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.15707963267948966, 0.23561944901923448, 0.8575781250000001, 0.873125) recorded 2 -0.8262969887061139 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.5750000000000001, 0.15707963267948966, 0.23561944901923448, 0.8575781250000001, 0.873125) recorded 2 -0.9593735902859579 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.15707963267948966, 0.23561944901923448, 0.84203125, 0.8575781250000001) recorded 2 -0.8801929838384893 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.5750000000000001, 0.15707963267948966, 0.23561944901923448, 0.84203125, 0.8575781250000001) recorded 2 -0.9464606202781305 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.15707963267948966, 0.23561944901923448, 0.84203125, 0.8575781250000001) recorded 2 -0.8756434359556517 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.5750000000000001, 0.15707963267948966, 0.23561944901923448, 0.84203125, 0.8575781250000001) recorded 2 -0.9263742519337794 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5, 0.525, 0.15707963267948966, 0.23561944901923448, 0.84203125, 0.8575781250000001) recorded 3 -0.44395757334522457 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.15707963267948966, 0.23561944901923448, 0.826484375, 0.84203125) recorded 2 -0.952272830245628 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.5750000000000001, 0.15707963267948966, 0.23561944901923448, 0.826484375, 0.84203125) recorded 2 -0.956089302248113 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.15707963267948966, 0.23561944901923448, 0.826484375, 0.84203125) recorded 2 -0.9511234207635169 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.5750000000000001, 0.15707963267948966, 0.23561944901923448, 0.826484375, 0.84203125) recorded 2 -0.945070434136284 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.6000000000000001, 0.15707963267948966, 0.23561944901923448, 0.8109375000000001, 0.826484375) recorded 2 -1.0059460681694636 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.6000000000000001, 0.15707963267948966, 0.23561944901923448, 0.8109375000000001, 0.826484375) recorded 2 -1.0049572201226717 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.525, 0.55, 0.15707963267948966, 0.23561944901923448, 0.826484375, 0.84203125) recorded 2 -1.0361771798845154 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5, 0.525, 0.15707963267948966, 0.23561944901923448, 0.826484375, 0.84203125) recorded 3 -0.44015340162584915 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.525, 0.55, 0.15707963267948966, 0.23561944901923448, 0.826484375, 0.84203125) recorded 2 -1.020314823049729 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5, 0.525, 0.15707963267948966, 0.23561944901923448, 0.826484375, 0.84203125) recorded 3 -0.4171402747008801 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.525, 0.55, 0.15707963267948966, 0.23561944901923448, 0.8109375000000001, 0.826484375) recorded 2 -1.0408153499983894 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.525, 0.55, 0.15707963267948966, 0.23561944901923448, 0.8109375000000001, 0.826484375) recorded 2 -1.0272545940069722 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.23561944901923448, 0.3141592653589793, 0.7798437500000001, 0.8109375000000001) recorded 3 -0.39533800344610576 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.23561944901923448, 0.3141592653589793, 0.795390625, 0.8109375000000001) recorded 3 -0.4525892320569374 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.23561944901923448, 0.3141592653589793, 0.7798437500000001, 0.795390625) recorded 3 -0.46114365005342306 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.525, 0.55, 0.15707963267948966, 0.23561944901923448, 0.795390625, 0.8109375000000001) recorded 2 -1.0738897354705588 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5, 0.525, 0.15707963267948966, 0.23561944901923448, 0.795390625, 0.8109375000000001) recorded 1 -1.7580724765451972 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.23561944901923448, 0.3141592653589793, 0.74875, 0.7798437500000001) recorded 3 -0.49893816404361446 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.15707963267948966, 0.23561944901923448, 0.74875, 0.7798437500000001) recorded 2 -1.1340369880817853 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.23561944901923448, 0.3141592653589793, 0.74875, 0.7798437500000001) recorded 3 -0.47689978222221063 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.039269908169872414, 0.07853981633974483, 0.9508593750000001, 0.96640625) recorded 1 -1.2216324544345332 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.0, 0.039269908169872414, 0.9508593750000001, 0.96640625) recorded 1 -1.218665972109296 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.0, 0.039269908169872414, 0.9508593750000001, 0.96640625) recorded 1 -1.2167016646207716 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.0, 0.039269908169872414, 0.9353125, 0.9508593750000001) recorded 1 -1.2746405055440664 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.5750000000000001, 0.039269908169872414, 0.07853981633974483, 0.9353125, 0.9508593750000001) recorded 1 -1.339654193486842 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.5750000000000001, 0.0, 0.039269908169872414, 0.9353125, 0.9508593750000001) recorded 1 -1.337702730388346 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.039269908169872414, 0.07853981633974483, 0.9353125, 0.9508593750000001) recorded 2 -0.827008864922643 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.0, 0.039269908169872414, 0.9430859375, 0.9508593750000001) recorded 2 -0.7565966822179709 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.0, 0.039269908169872414, 0.9353125, 0.9430859375) recorded 2 -0.7378869459896227 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.5750000000000001, 0.039269908169872414, 0.07853981633974483, 0.9353125, 0.9508593750000001) recorded 1 -1.3376516905023892 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.5750000000000001, 0.0, 0.039269908169872414, 0.9353125, 0.9508593750000001) recorded 1 -1.3355785074592426 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.11780972450961724, 0.15707963267948966, 0.9042187500000001, 0.919765625) recorded 2 -0.889105338692163 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.07853981633974483, 0.11780972450961724, 0.9042187500000001, 0.919765625) recorded 2 -0.8465239143482681 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.07853981633974483, 0.15707963267948966, 0.9042187500000001, 0.919765625) recorded 2 -0.8632580363089751 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.039269908169872414, 0.07853981633974483, 0.919765625, 0.9353125) recorded 2 -0.8125744861889408 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.0, 0.039269908169872414, 0.919765625, 0.9353125) recorded 2 -0.7204065321407884 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.5750000000000001, 0.0, 0.07853981633974483, 0.919765625, 0.9353125) recorded 1 -1.3843589149270015 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.039269908169872414, 0.07853981633974483, 0.919765625, 0.9353125) recorded 2 -0.8057893036865349 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.0, 0.039269908169872414, 0.919765625, 0.9353125) recorded 2 -0.7054478451111155 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.5750000000000001, 0.039269908169872414, 0.07853981633974483, 0.919765625, 0.9353125) recorded 2 -0.8998004036237435 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.5750000000000001, 0.0, 0.039269908169872414, 0.919765625, 0.9353125) recorded 1 -1.3808579218007928 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.039269908169872414, 0.07853981633974483, 0.9042187500000001, 0.919765625) recorded 2 -0.7865470755068187 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.0, 0.039269908169872414, 0.9042187500000001, 0.919765625) recorded 2 -0.6585619943362288 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.5750000000000001, 0.039269908169872414, 0.07853981633974483, 0.9042187500000001, 0.919765625) recorded 2 -0.886281416383625 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.5750000000000001, 0.0, 0.039269908169872414, 0.9042187500000001, 0.919765625) recorded 1 -1.4241595818010302 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.039269908169872414, 0.07853981633974483, 0.9042187500000001, 0.919765625) recorded 2 -0.776678405492664 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.0, 0.039269908169872414, 0.9042187500000001, 0.919765625) recorded 2 -0.6057453431340217 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.5750000000000001, 0.039269908169872414, 0.07853981633974483, 0.9042187500000001, 0.919765625) recorded 2 -0.8784547346179753 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.5750000000000001, 0.0, 0.039269908169872414, 0.9042187500000001, 0.919765625) recorded 2 -0.7960641205373397 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.525, 0.55, 0.0, 0.07853981633974483, 0.919765625, 0.9353125) recorded 1 -1.445391454820085 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.525, 0.55, 0.0, 0.07853981633974483, 0.919765625, 0.9353125) recorded 1 -1.4432025980745151 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.525, 0.55, 0.0, 0.07853981633974483, 0.9042187500000001, 0.919765625) recorded 1 -1.4848512438154242 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5, 0.525, 0.0, 0.07853981633974483, 0.9042187500000001, 0.919765625) recorded 1 -1.545033605546327 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.525, 0.55, 0.0, 0.07853981633974483, 0.9042187500000001, 0.919765625) recorded 1 -1.4820991595202266 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5, 0.525, 0.0, 0.07853981633974483, 0.9042187500000001, 0.919765625) recorded 1 -1.5427934812952198 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.07853981633974483, 0.15707963267948966, 0.888671875, 0.9042187500000001) recorded 2 -0.8457404131758457 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.07853981633974483, 0.15707963267948966, 0.888671875, 0.9042187500000001) recorded 2 -0.8369260224205454 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.07853981633974483, 0.15707963267948966, 0.873125, 0.888671875) recorded 2 -0.8079990216151348 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.5750000000000001, 0.07853981633974483, 0.15707963267948966, 0.873125, 0.888671875) recorded 2 -0.9166790484132472 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.07853981633974483, 0.15707963267948966, 0.873125, 0.888671875) recorded 2 -0.7927421370748758 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.5750000000000001, 0.07853981633974483, 0.15707963267948966, 0.873125, 0.888671875) recorded 2 -0.9079337158624566 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.0, 0.07853981633974483, 0.888671875, 0.9042187500000001) recorded 2 -0.6728322303740387 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.5750000000000001, 0.039269908169872414, 0.07853981633974483, 0.888671875, 0.9042187500000001) recorded 2 -0.8621432151072101 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.5750000000000001, 0.0, 0.039269908169872414, 0.888671875, 0.9042187500000001) recorded 2 -0.7673418443895568 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.0, 0.07853981633974483, 0.888671875, 0.9042187500000001) recorded 2 -0.6261950080235085 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.5750000000000001, 0.039269908169872414, 0.07853981633974483, 0.888671875, 0.9042187500000001) recorded 2 -0.8529143878460437 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.5750000000000001, 0.0, 0.039269908169872414, 0.888671875, 0.9042187500000001) recorded 2 -0.7494737062139178 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.0, 0.07853981633974483, 0.873125, 0.888671875) recorded 2 -0.6326768741385588 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.5750000000000001, 0.0, 0.07853981633974483, 0.873125, 0.888671875) recorded 2 -0.7840117132348756 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.0, 0.07853981633974483, 0.873125, 0.888671875) recorded 2 -0.6448965635311688 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.5750000000000001, 0.0, 0.07853981633974483, 0.873125, 0.888671875) recorded 2 -0.7657614564992423 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.525, 0.55, 0.0, 0.07853981633974483, 0.888671875, 0.9042187500000001) recorded 1 -1.5205404006340484 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5, 0.525, 0.0, 0.07853981633974483, 0.888671875, 0.9042187500000001) recorded 1 -1.5799256434105908 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.525, 0.55, 0.0, 0.07853981633974483, 0.888671875, 0.9042187500000001) recorded 1 -1.5173149753369013 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5, 0.525, 0.0, 0.07853981633974483, 0.888671875, 0.9042187500000001) recorded 1 -1.5772190821576948 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.525, 0.55, 0.039269908169872414, 0.07853981633974483, 0.873125, 0.888671875) recorded 2 -0.9411249718577024 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.525, 0.55, 0.0, 0.039269908169872414, 0.873125, 0.888671875) recorded 1 -1.5529571124250345 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5, 0.525, 0.0, 0.07853981633974483, 0.873125, 0.888671875) recorded 1 -1.6120782232139432 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.525, 0.55, 0.039269908169872414, 0.07853981633974483, 0.873125, 0.888671875) recorded 2 -0.9309504822261647 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.525, 0.55, 0.0, 0.039269908169872414, 0.873125, 0.888671875) recorded 2 -0.8482288964996879 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5, 0.525, 0.0, 0.07853981633974483, 0.873125, 0.888671875) recorded 1 -1.6089686055145365 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.07853981633974483, 0.15707963267948966, 0.8575781250000001, 0.873125) recorded 2 -0.7133640809958293 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.5750000000000001, 0.07853981633974483, 0.15707963267948966, 0.8575781250000001, 0.873125) recorded 2 -0.8870303498519243 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.07853981633974483, 0.15707963267948966, 0.8575781250000001, 0.873125) recorded 2 -0.6630241830137114 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.5750000000000001, 0.07853981633974483, 0.15707963267948966, 0.8575781250000001, 0.873125) recorded 2 -0.8743957731046597 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.07853981633974483, 0.15707963267948966, 0.84203125, 0.8575781250000001) recorded 2 -0.7628428236334849 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.5750000000000001, 0.07853981633974483, 0.15707963267948966, 0.84203125, 0.8575781250000001) recorded 2 -0.8340845231059012 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.07853981633974483, 0.15707963267948966, 0.84203125, 0.8575781250000001) recorded 2 -0.7609708795060266 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.5750000000000001, 0.07853981633974483, 0.15707963267948966, 0.84203125, 0.8575781250000001) recorded 2 -0.8086834088728341 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.0, 0.07853981633974483, 0.8575781250000001, 0.873125) recorded 2 -0.6505723106055027 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.5750000000000001, 0.0, 0.07853981633974483, 0.8575781250000001, 0.873125) recorded 2 -0.6949283954195736 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5750000000000001, 0.6000000000000001, 0.0, 0.07853981633974483, 0.8575781250000001, 0.873125) recorded 2 -0.6622915148392559 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.5750000000000001, 0.0, 0.07853981633974483, 0.8575781250000001, 0.873125) recorded 2 -0.6636227978081914 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5750000000000001, 0.6000000000000001, 0.0, 0.07853981633974483, 0.84203125, 0.8575781250000001) recorded 2 -0.6673860171297272 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.5750000000000001, 0.0, 0.07853981633974483, 0.84203125, 0.8575781250000001) recorded 2 -0.6685198375944118 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.6000000000000001, 0.0, 0.07853981633974483, 0.84203125, 0.8575781250000001) recorded 2 -0.6793670107910506 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.525, 0.55, 0.07853981633974483, 0.15707963267948966, 0.8575781250000001, 0.873125) recorded 2 -0.9813956245679192 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5, 0.525, 0.07853981633974483, 0.15707963267948966, 0.8575781250000001, 0.873125) recorded 3 -0.4107852307066202 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.525, 0.55, 0.07853981633974483, 0.15707963267948966, 0.84203125, 0.8575781250000001) recorded 2 -0.9666146351989877 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5, 0.525, 0.07853981633974483, 0.15707963267948966, 0.84203125, 0.8575781250000001) recorded 3 -0.39822058728560733 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.525, 0.55, 0.07853981633974483, 0.15707963267948966, 0.84203125, 0.8575781250000001) recorded 2 -0.9545063685360347 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.525, 0.55, 0.039269908169872414, 0.07853981633974483, 0.8575781250000001, 0.873125) recorded 2 -0.9128690594734568 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.525, 0.55, 0.0, 0.039269908169872414, 0.8575781250000001, 0.873125) recorded 2 -0.8167883708426849 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5, 0.525, 0.0, 0.07853981633974483, 0.8575781250000001, 0.873125) recorded 1 -1.6421109163440617 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.525, 0.55, 0.039269908169872414, 0.07853981633974483, 0.8575781250000001, 0.873125) recorded 2 -0.9011609291480049 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.525, 0.55, 0.0, 0.039269908169872414, 0.8575781250000001, 0.873125) recorded 2 -0.796624893906795 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5, 0.525, 0.0, 0.07853981633974483, 0.8575781250000001, 0.873125) recorded 1 -1.6386449156816383 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.525, 0.55, 0.0, 0.07853981633974483, 0.84203125, 0.8575781250000001) recorded 2 -0.8272430354178308 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5, 0.525, 0.0, 0.07853981633974483, 0.84203125, 0.8575781250000001) recorded 1 -1.670460538911004 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.525, 0.55, 0.0, 0.07853981633974483, 0.84203125, 0.8575781250000001) recorded 2 -0.8055168048573178 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5, 0.525, 0.039269908169872414, 0.07853981633974483, 0.84203125, 0.8575781250000001) recorded 2 -0.9862715040535743 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5, 0.525, 0.0, 0.039269908169872414, 0.84203125, 0.8575781250000001) recorded 2 -0.904065659397256 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.55, 0.6000000000000001, 0.07853981633974483, 0.15707963267948966, 0.826484375, 0.84203125) recorded 2 -0.8539066952429064 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.55, 0.6000000000000001, 0.07853981633974483, 0.15707963267948966, 0.826484375, 0.84203125) recorded 2 -0.8552468443302806 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.07853981633974483, 0.15707963267948966, 0.8109375000000001, 0.826484375) recorded 2 -0.9324892343029821 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.0, 0.07853981633974483, 0.8109375000000001, 0.84203125) recorded 2 -0.819030116935273 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.525, 0.55, 0.07853981633974483, 0.15707963267948966, 0.826484375, 0.84203125) recorded 2 -0.931261471133285 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.525, 0.55, 0.07853981633974483, 0.15707963267948966, 0.826484375, 0.84203125) recorded 2 -0.912288902956142 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.525, 0.55, 0.07853981633974483, 0.15707963267948966, 0.8109375000000001, 0.826484375) recorded 2 -0.8756366509919098 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5, 0.525, 0.07853981633974483, 0.15707963267948966, 0.8109375000000001, 0.826484375) recorded 2 -1.0245311012092868 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.525, 0.55, 0.07853981633974483, 0.15707963267948966, 0.8109375000000001, 0.826484375) recorded 2 -0.8612818270390636 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5, 0.525, 0.07853981633974483, 0.15707963267948966, 0.8109375000000001, 0.826484375) recorded 2 -1.0081513175265897 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.525, 0.55, 0.039269908169872414, 0.07853981633974483, 0.826484375, 0.84203125) recorded 2 -0.8109561453512732 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.525, 0.55, 0.0, 0.039269908169872414, 0.826484375, 0.84203125) recorded 2 -0.6855179078283853 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5, 0.525, 0.039269908169872414, 0.07853981633974483, 0.826484375, 0.84203125) recorded 2 -0.9665450871568978 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5, 0.525, 0.0, 0.039269908169872414, 0.826484375, 0.84203125) recorded 1 -1.6971125122451796 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.525, 0.55, 0.0, 0.07853981633974483, 0.826484375, 0.84203125) recorded 2 -0.6970013260262989 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5, 0.525, 0.039269908169872414, 0.07853981633974483, 0.826484375, 0.84203125) recorded 2 -0.9518869522411502 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5, 0.525, 0.0, 0.039269908169872414, 0.826484375, 0.84203125) recorded 2 -0.8456907863948155 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.525, 0.55, 0.0, 0.07853981633974483, 0.8109375000000001, 0.826484375) recorded 2 -0.7009362805053149 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5, 0.525, 0.0, 0.07853981633974483, 0.8109375000000001, 0.826484375) recorded 2 -0.8707659356014976 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.525, 0.55, 0.0, 0.07853981633974483, 0.8109375000000001, 0.826484375) recorded 2 -0.7119756557030126 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5, 0.525, 0.0, 0.07853981633974483, 0.8109375000000001, 0.826484375) recorded 2 -0.843649069253352 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.07853981633974483, 0.15707963267948966, 0.7798437500000001, 0.8109375000000001) recorded 2 -1.0100006915828583 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.0, 0.07853981633974483, 0.7798437500000001, 0.8109375000000001) recorded 2 -0.9538114600986947 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.525, 0.55, 0.07853981633974483, 0.15707963267948966, 0.795390625, 0.8109375000000001) recorded 2 -0.9693806231738347 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5, 0.525, 0.07853981633974483, 0.15707963267948966, 0.795390625, 0.8109375000000001) recorded 2 -0.9979932788173438 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.525, 0.55, 0.07853981633974483, 0.15707963267948966, 0.795390625, 0.8109375000000001) recorded 2 -0.9698061928855782 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5, 0.525, 0.07853981633974483, 0.15707963267948966, 0.795390625, 0.8109375000000001) recorded 2 -0.9736769606905351 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5, 0.55, 0.07853981633974483, 0.15707963267948966, 0.7798437500000001, 0.795390625) recorded 2 -1.0278127448975167 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5, 0.55, 0.07853981633974483, 0.15707963267948966, 0.7798437500000001, 0.795390625) recorded 2 -1.0277101434187221 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.525, 0.55, 0.0, 0.07853981633974483, 0.795390625, 0.8109375000000001) recorded 2 -0.8784578911361476 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5, 0.525, 0.0, 0.07853981633974483, 0.795390625, 0.8109375000000001) recorded 1 -1.7482655864599215 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5, 0.55, 0.0, 0.07853981633974483, 0.795390625, 0.8109375000000001) recorded 2 -0.8416557057038199 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.0, 0.07853981633974483, 0.7798437500000001, 0.795390625) recorded 2 -0.9416542193953601 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.07853981633974483, 0.15707963267948966, 0.74875, 0.7798437500000001) recorded 2 -1.0855400133132416 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.55, 0.6000000000000001, 0.0, 0.07853981633974483, 0.74875, 0.7798437500000001) recorded 2 -1.0383598757653945 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.5, 0.55, 0.07853981633974483, 0.15707963267948966, 0.7642968750000001, 0.7798437500000001) recorded 2 -1.0785123459603176 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.5, 0.55, 0.07853981633974483, 0.15707963267948966, 0.7642968750000001, 0.7798437500000001) recorded 2 -1.0794337416328976 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.07853981633974483, 0.15707963267948966, 0.74875, 0.7642968750000001) recorded 2 -1.1207427356596906 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.5, 0.55, 0.0, 0.07853981633974483, 0.74875, 0.7798437500000001) recorded 2 -1.032593825372464 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.7000000000000001, 0.7068583470577035, 0.7853981633974483, 0.65546875, 0.6865625) recorded 3 -0.4928151086007397 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.7000000000000001, 0.6283185307179586, 0.7068583470577035, 0.65546875, 0.6865625) recorded 3 -0.4849403954122116 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.7000000000000001, 0.7068583470577035, 0.7853981633974483, 0.624375, 0.65546875) recorded 3 -0.4935507137065919 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.7000000000000001, 0.6283185307179586, 0.7068583470577035, 0.624375, 0.65546875) recorded 3 -0.5624163032943982 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.7000000000000001, 0.7068583470577035, 0.7853981633974483, 0.59328125, 0.624375) recorded 3 -0.57007658811561 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.7000000000000001, 0.5497787143782138, 0.6283185307179586, 0.6865625, 0.71765625) recorded 3 -0.4710897844466807 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.7000000000000001, 0.47123889803846897, 0.5497787143782138, 0.6865625, 0.71765625) recorded 3 -0.5234066701619048 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.7000000000000001, 0.5497787143782138, 0.6283185307179586, 0.65546875, 0.6865625) recorded 3 -0.5477860490106898 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.7000000000000001, 0.47123889803846897, 0.5497787143782138, 0.65546875, 0.6865625) recorded 3 -0.5928343084520709 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.7000000000000001, 0.5497787143782138, 0.6283185307179586, 0.624375, 0.65546875) recorded 3 -0.609087562175281 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.23561944901923448, 0.2748893571891069, 0.9508593750000001, 0.96640625) recorded 2 -0.7286317024786251 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.23561944901923448, 0.2748893571891069, 0.9508593750000001, 0.96640625) recorded 2 -0.7996398983847453 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.675, 0.7000000000000001, 0.23561944901923448, 0.2748893571891069, 0.9508593750000001, 0.96640625) recorded 2 -0.7256539740749565 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.675, 0.23561944901923448, 0.2748893571891069, 0.9508593750000001, 0.96640625) recorded 2 -0.7987118212365754 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.2748893571891069, 0.3141592653589793, 0.9353125, 0.9508593750000001) recorded 2 -0.7228660816089003 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.2748893571891069, 0.3141592653589793, 0.9353125, 0.9508593750000001) recorded 2 -0.8077550486350156 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.23561944901923448, 0.2748893571891069, 0.9353125, 0.9508593750000001) recorded 2 -0.691957466357137 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.23561944901923448, 0.2748893571891069, 0.9353125, 0.9508593750000001) recorded 2 -0.7830209725537659 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.2748893571891069, 0.3141592653589793, 0.9353125, 0.9508593750000001) recorded 2 -0.7629306126844397 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.23561944901923448, 0.2748893571891069, 0.9353125, 0.9508593750000001) recorded 2 -0.735155805251413 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.19634954084936207, 0.23561944901923448, 0.9508593750000001, 0.96640625) recorded 2 -0.6974160057452362 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.19634954084936207, 0.23561944901923448, 0.9508593750000001, 0.96640625) recorded 2 -0.7732281537671948 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.15707963267948966, 0.19634954084936207, 0.9508593750000001, 0.96640625) recorded 2 -0.6568916762560183 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.15707963267948966, 0.19634954084936207, 0.9508593750000001, 0.96640625) recorded 2 -0.7415646976060665 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.675, 0.7000000000000001, 0.15707963267948966, 0.19634954084936207, 0.9508593750000001, 0.96640625) recorded 2 -0.6181070236734336 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.675, 0.15707963267948966, 0.19634954084936207, 0.9508593750000001, 0.96640625) recorded 2 -0.7392545360821878 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.19634954084936207, 0.23561944901923448, 0.9353125, 0.9508593750000001) recorded 2 -0.7080564923383854 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.15707963267948966, 0.19634954084936207, 0.9353125, 0.9508593750000001) recorded 2 -0.6628288336115861 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.19634954084936207, 0.23561944901923448, 0.9353125, 0.9508593750000001) recorded 2 -0.6995546059340447 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.15707963267948966, 0.19634954084936207, 0.9353125, 0.9508593750000001) recorded 2 -0.6359798855295038 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.2748893571891069, 0.3141592653589793, 0.919765625, 0.9353125) recorded 2 -0.7200071544307312 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.23561944901923448, 0.2748893571891069, 0.919765625, 0.9353125) recorded 2 -0.6854174235580152 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.2748893571891069, 0.3141592653589793, 0.919765625, 0.9353125) recorded 2 -0.7055748258409706 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.23561944901923448, 0.2748893571891069, 0.919765625, 0.9353125) recorded 2 -0.6645206343815249 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.2748893571891069, 0.3141592653589793, 0.9042187500000001, 0.919765625) recorded 2 -0.6749501342170897 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.23561944901923448, 0.2748893571891069, 0.9042187500000001, 0.919765625) recorded 2 -0.59224901657656 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.2748893571891069, 0.3141592653589793, 0.9042187500000001, 0.919765625) recorded 2 -0.6517426315475633 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.23561944901923448, 0.2748893571891069, 0.9042187500000001, 0.919765625) recorded 2 -0.604738340209677 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6250000000000001, 0.6500000000000001, 0.23561944901923448, 0.3141592653589793, 0.919765625, 0.9353125) recorded 2 -0.8523892577359935 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6250000000000001, 0.6500000000000001, 0.23561944901923448, 0.3141592653589793, 0.919765625, 0.9353125) recorded 2 -0.8471499670669443 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6250000000000001, 0.6500000000000001, 0.23561944901923448, 0.3141592653589793, 0.9042187500000001, 0.919765625) recorded 2 -0.8239488381235461 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6250000000000001, 0.6500000000000001, 0.23561944901923448, 0.3141592653589793, 0.9042187500000001, 0.919765625) recorded 2 -0.813747634073978 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6000000000000001, 0.6250000000000001, 0.23561944901923448, 0.3141592653589793, 0.9042187500000001, 0.919765625) recorded 2 -0.9062136627239319 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.19634954084936207, 0.23561944901923448, 0.919765625, 0.9353125) recorded 2 -0.6289364438909637 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.15707963267948966, 0.19634954084936207, 0.919765625, 0.9353125) recorded 2 -0.567135751787925 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.19634954084936207, 0.23561944901923448, 0.919765625, 0.9353125) recorded 2 -0.5812840492517986 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.15707963267948966, 0.19634954084936207, 0.919765625, 0.9353125) recorded 2 -0.5646925787441618 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.19634954084936207, 0.23561944901923448, 0.9042187500000001, 0.919765625) recorded 2 -0.5912081654379395 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.15707963267948966, 0.19634954084936207, 0.9042187500000001, 0.919765625) recorded 2 -0.5903484453060008 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.15707963267948966, 0.23561944901923448, 0.9042187500000001, 0.919765625) recorded 2 -0.5914500228269174 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6250000000000001, 0.6500000000000001, 0.15707963267948966, 0.23561944901923448, 0.919765625, 0.9353125) recorded 2 -0.795766015248824 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6250000000000001, 0.6500000000000001, 0.15707963267948966, 0.23561944901923448, 0.919765625, 0.9353125) recorded 2 -0.7896428201087949 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6250000000000001, 0.6500000000000001, 0.15707963267948966, 0.23561944901923448, 0.9042187500000001, 0.919765625) recorded 2 -0.7581238136480462 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6000000000000001, 0.6250000000000001, 0.15707963267948966, 0.23561944901923448, 0.9042187500000001, 0.919765625) recorded 2 -0.857177909724021 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6250000000000001, 0.6500000000000001, 0.15707963267948966, 0.23561944901923448, 0.9042187500000001, 0.919765625) recorded 2 -0.7452109178407664 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6000000000000001, 0.6250000000000001, 0.15707963267948966, 0.23561944901923448, 0.9042187500000001, 0.919765625) recorded 2 -0.8506187211182022 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.23561944901923448, 0.3141592653589793, 0.888671875, 0.9042187500000001) recorded 2 -0.7865294507265301 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.23561944901923448, 0.3141592653589793, 0.888671875, 0.9042187500000001) recorded 2 -0.7828507079806951 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.23561944901923448, 0.3141592653589793, 0.873125, 0.888671875) recorded 2 -0.8564685869292719 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.23561944901923448, 0.3141592653589793, 0.873125, 0.888671875) recorded 2 -0.8558684297699992 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6250000000000001, 0.6500000000000001, 0.23561944901923448, 0.3141592653589793, 0.888671875, 0.9042187500000001) recorded 2 -0.7530676840734809 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6000000000000001, 0.6250000000000001, 0.23561944901923448, 0.3141592653589793, 0.888671875, 0.9042187500000001) recorded 2 -0.8906568245783 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6250000000000001, 0.6500000000000001, 0.23561944901923448, 0.3141592653589793, 0.888671875, 0.9042187500000001) recorded 2 -0.7117554328220596 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6000000000000001, 0.6250000000000001, 0.23561944901923448, 0.3141592653589793, 0.888671875, 0.9042187500000001) recorded 2 -0.8789076198573257 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6250000000000001, 0.6500000000000001, 0.23561944901923448, 0.3141592653589793, 0.873125, 0.888671875) recorded 2 -0.8454008169971132 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6000000000000001, 0.6250000000000001, 0.23561944901923448, 0.3141592653589793, 0.873125, 0.888671875) recorded 2 -0.8610794734842302 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6250000000000001, 0.6500000000000001, 0.23561944901923448, 0.3141592653589793, 0.873125, 0.888671875) recorded 2 -0.8408275733938344 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6000000000000001, 0.6250000000000001, 0.23561944901923448, 0.3141592653589793, 0.873125, 0.888671875) recorded 2 -0.8318196555261357 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.15707963267948966, 0.23561944901923448, 0.888671875, 0.9042187500000001) recorded 2 -0.700822135524351 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.15707963267948966, 0.23561944901923448, 0.888671875, 0.9042187500000001) recorded 2 -0.6700789793913955 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.15707963267948966, 0.23561944901923448, 0.873125, 0.888671875) recorded 2 -0.7970254414031286 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.15707963267948966, 0.23561944901923448, 0.873125, 0.888671875) recorded 2 -0.7771061548234666 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6250000000000001, 0.6500000000000001, 0.15707963267948966, 0.23561944901923448, 0.888671875, 0.9042187500000001) recorded 2 -0.6133928343687725 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6000000000000001, 0.6250000000000001, 0.15707963267948966, 0.23561944901923448, 0.888671875, 0.9042187500000001) recorded 2 -0.8260432435767594 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6250000000000001, 0.6500000000000001, 0.15707963267948966, 0.23561944901923448, 0.888671875, 0.9042187500000001) recorded 2 -0.6256311403868712 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6000000000000001, 0.6250000000000001, 0.15707963267948966, 0.23561944901923448, 0.888671875, 0.9042187500000001) recorded 2 -0.8146272365228733 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6250000000000001, 0.6500000000000001, 0.15707963267948966, 0.23561944901923448, 0.873125, 0.888671875) recorded 2 -0.7490939813150872 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6000000000000001, 0.6250000000000001, 0.15707963267948966, 0.23561944901923448, 0.873125, 0.888671875) recorded 2 -0.7544595417079117 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6250000000000001, 0.6500000000000001, 0.15707963267948966, 0.23561944901923448, 0.873125, 0.888671875) recorded 2 -0.7427370074446976 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6000000000000001, 0.6250000000000001, 0.15707963267948966, 0.23561944901923448, 0.873125, 0.888671875) recorded 2 -0.7182805393711456 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.23561944901923448, 0.3141592653589793, 0.84203125, 0.873125) recorded 2 -0.9289148764703468 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6250000000000001, 0.6500000000000001, 0.23561944901923448, 0.3141592653589793, 0.8575781250000001, 0.873125) recorded 2 -0.9125708946969295 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6000000000000001, 0.6250000000000001, 0.23561944901923448, 0.3141592653589793, 0.8575781250000001, 0.873125) recorded 2 -0.9157124887891568 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6000000000000001, 0.6500000000000001, 0.23561944901923448, 0.3141592653589793, 0.8575781250000001, 0.873125) recorded 2 -0.9105218979462043 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.15707963267948966, 0.23561944901923448, 0.84203125, 0.873125) recorded 2 -0.8748922318642259 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6000000000000001, 0.6500000000000001, 0.15707963267948966, 0.23561944901923448, 0.8575781250000001, 0.873125) recorded 2 -0.8341370194955003 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6000000000000001, 0.6500000000000001, 0.15707963267948966, 0.23561944901923448, 0.8575781250000001, 0.873125) recorded 2 -0.8325630833324039 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.6500000000000001, 0.15707963267948966, 0.23561944901923448, 0.84203125, 0.8575781250000001) recorded 2 -0.902675058507643 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.23561944901923448, 0.3141592653589793, 0.8109375000000001, 0.84203125) recorded 2 -0.999272746012664 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.6500000000000001, 0.23561944901923448, 0.3141592653589793, 0.8109375000000001, 0.84203125) recorded 2 -1.0253925742318872 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.15707963267948966, 0.23561944901923448, 0.8109375000000001, 0.84203125) recorded 2 -0.9501581013612146 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.6500000000000001, 0.15707963267948966, 0.23561944901923448, 0.8109375000000001, 0.84203125) recorded 2 -0.974653307440362 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.23561944901923448, 0.3141592653589793, 0.7798437500000001, 0.8109375000000001) recorded 2 -1.0545753835509095 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.6500000000000001, 0.23561944901923448, 0.3141592653589793, 0.7798437500000001, 0.8109375000000001) recorded 2 -1.0878622518281005 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.15707963267948966, 0.23561944901923448, 0.7798437500000001, 0.8109375000000001) recorded 2 -1.0079310363723066 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.6500000000000001, 0.15707963267948966, 0.23561944901923448, 0.7798437500000001, 0.8109375000000001) recorded 2 -1.0456891097233738 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.23561944901923448, 0.3141592653589793, 0.74875, 0.7798437500000001) recorded 2 -1.1012081578385573 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.6500000000000001, 0.23561944901923448, 0.3141592653589793, 0.74875, 0.7798437500000001) recorded 3 -0.4915552274005777 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.7000000000000001, 0.7853981633974483, 0.8639379797371931, 0.65546875, 0.6865625) recorded 3 -0.4983324353009936 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.7000000000000001, 0.8639379797371931, 0.9424777960769379, 0.624375, 0.65546875) recorded 3 -0.5012865819168687 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.7000000000000001, 0.7853981633974483, 0.8639379797371931, 0.624375, 0.65546875) recorded 3 -0.4983568887553548 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.7000000000000001, 0.8639379797371931, 0.9424777960769379, 0.59328125, 0.624375) recorded 3 -0.500913796334699 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.7000000000000001, 0.7853981633974483, 0.8639379797371931, 0.59328125, 0.624375) recorded 3 -0.4983652777745011 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.7000000000000001, 0.8639379797371931, 0.9424777960769379, 0.5621875000000001, 0.59328125) recorded 3 -0.5005890577404404 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.7000000000000001, 0.7853981633974483, 0.8639379797371931, 0.5621875000000001, 0.59328125) recorded 3 -0.5726670180133462 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.43196898986859655, 0.47123889803846897, 0.9353125, 0.9508593750000001) recorded 2 -0.8072188401352156 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.43196898986859655, 0.47123889803846897, 0.9353125, 0.9508593750000001) recorded 2 -0.8849166930147834 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.39269908169872414, 0.43196898986859655, 0.9353125, 0.9508593750000001) recorded 2 -0.7882416103631742 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.39269908169872414, 0.43196898986859655, 0.9353125, 0.9508593750000001) recorded 2 -0.8671617257704461 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.675, 0.7000000000000001, 0.43196898986859655, 0.47123889803846897, 0.9353125, 0.9508593750000001) recorded 2 -0.7976184397872456 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.675, 0.43196898986859655, 0.47123889803846897, 0.9353125, 0.9508593750000001) recorded 2 -0.8789503356071111 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.675, 0.7000000000000001, 0.39269908169872414, 0.43196898986859655, 0.9353125, 0.9508593750000001) recorded 2 -0.7805051205235092 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.675, 0.39269908169872414, 0.43196898986859655, 0.9353125, 0.9508593750000001) recorded 2 -0.8622052068687316 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.3534291735288517, 0.39269908169872414, 0.9353125, 0.9508593750000001) recorded 2 -0.768983530186759 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.3534291735288517, 0.39269908169872414, 0.9353125, 0.9508593750000001) recorded 2 -0.8489050830881971 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.3141592653589793, 0.3534291735288517, 0.9353125, 0.9508593750000001) recorded 2 -0.747740629125929 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.3141592653589793, 0.3534291735288517, 0.9353125, 0.9508593750000001) recorded 2 -0.8293774473643194 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.675, 0.7000000000000001, 0.3534291735288517, 0.39269908169872414, 0.9353125, 0.9508593750000001) recorded 2 -0.7621146352248276 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.675, 0.3534291735288517, 0.39269908169872414, 0.9353125, 0.9508593750000001) recorded 2 -0.8446589869800801 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.3141592653589793, 0.3534291735288517, 0.9353125, 0.9508593750000001) recorded 2 -0.7859650512829772 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.43196898986859655, 0.47123889803846897, 0.919765625, 0.9353125) recorded 2 -0.8036560988684628 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.43196898986859655, 0.47123889803846897, 0.919765625, 0.9353125) recorded 2 -0.8744271792940618 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.39269908169872414, 0.43196898986859655, 0.919765625, 0.9353125) recorded 2 -0.7438154589165684 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.39269908169872414, 0.43196898986859655, 0.919765625, 0.9353125) recorded 2 -0.8478706586945599 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.675, 0.7000000000000001, 0.43196898986859655, 0.47123889803846897, 0.919765625, 0.9353125) recorded 2 -0.7834535333365655 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.675, 0.43196898986859655, 0.47123889803846897, 0.919765625, 0.9353125) recorded 2 -0.8596973687288612 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.675, 0.7000000000000001, 0.39269908169872414, 0.43196898986859655, 0.919765625, 0.9353125) recorded 2 -0.7068810083089774 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.675, 0.39269908169872414, 0.43196898986859655, 0.919765625, 0.9353125) recorded 2 -0.8352187595132594 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.43196898986859655, 0.47123889803846897, 0.9042187500000001, 0.919765625) recorded 2 -0.8833803029597666 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.39269908169872414, 0.43196898986859655, 0.9042187500000001, 0.919765625) recorded 2 -0.8437266950500433 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.43196898986859655, 0.47123889803846897, 0.9042187500000001, 0.919765625) recorded 2 -0.8750458815816475 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.39269908169872414, 0.43196898986859655, 0.9042187500000001, 0.919765625) recorded 2 -0.8342907411051135 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.3534291735288517, 0.39269908169872414, 0.919765625, 0.9353125) recorded 2 -0.6841586946989979 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.3534291735288517, 0.39269908169872414, 0.919765625, 0.9353125) recorded 2 -0.8242954973734837 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.3141592653589793, 0.3534291735288517, 0.919765625, 0.9353125) recorded 2 -0.7467080858511386 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.3534291735288517, 0.39269908169872414, 0.919765625, 0.9353125) recorded 2 -0.7556915492379321 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.3141592653589793, 0.3534291735288517, 0.919765625, 0.9353125) recorded 2 -0.7334785243089298 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.3534291735288517, 0.39269908169872414, 0.9042187500000001, 0.919765625) recorded 2 -0.7973834118599266 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.3141592653589793, 0.3534291735288517, 0.9042187500000001, 0.919765625) recorded 2 -0.7428834883215818 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.3534291735288517, 0.39269908169872414, 0.9042187500000001, 0.919765625) recorded 2 -0.7872891886093332 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.3141592653589793, 0.3534291735288517, 0.9042187500000001, 0.919765625) recorded 2 -0.7320537165443812 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6250000000000001, 0.6500000000000001, 0.3141592653589793, 0.39269908169872414, 0.9042187500000001, 0.919765625) recorded 2 -0.8647783766438562 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.43196898986859655, 0.47123889803846897, 0.888671875, 0.9042187500000001) recorded 2 -0.9346274654312894 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.39269908169872414, 0.43196898986859655, 0.888671875, 0.9042187500000001) recorded 2 -0.905120995489106 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.43196898986859655, 0.47123889803846897, 0.888671875, 0.9042187500000001) recorded 2 -0.9314558101432163 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.39269908169872414, 0.43196898986859655, 0.888671875, 0.9042187500000001) recorded 2 -0.9019251103723277 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6000000000000001, 0.6250000000000001, 0.39269908169872414, 0.47123889803846897, 0.888671875, 0.9042187500000001) recorded 1 -1.4321311233728133 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6250000000000001, 0.6500000000000001, 0.39269908169872414, 0.47123889803846897, 0.888671875, 0.9042187500000001) recorded 2 -0.951003301754978 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6250000000000001, 0.6500000000000001, 0.39269908169872414, 0.47123889803846897, 0.873125, 0.888671875) recorded 2 -0.9988765562855091 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6000000000000001, 0.6250000000000001, 0.39269908169872414, 0.47123889803846897, 0.873125, 0.888671875) recorded 3 -0.39373623550959996 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6250000000000001, 0.6500000000000001, 0.39269908169872414, 0.47123889803846897, 0.873125, 0.888671875) recorded 2 -0.9935659968685522 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6000000000000001, 0.6250000000000001, 0.39269908169872414, 0.47123889803846897, 0.873125, 0.888671875) recorded 2 -1.0281597599640964 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.3534291735288517, 0.39269908169872414, 0.888671875, 0.9042187500000001) recorded 2 -0.873510472119709 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.3141592653589793, 0.3534291735288517, 0.888671875, 0.9042187500000001) recorded 2 -0.8400325037609405 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.3534291735288517, 0.39269908169872414, 0.888671875, 0.9042187500000001) recorded 2 -0.8704285519841974 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.3141592653589793, 0.3534291735288517, 0.888671875, 0.9042187500000001) recorded 2 -0.8370647331951422 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.3141592653589793, 0.39269908169872414, 0.873125, 0.888671875) recorded 2 -0.9112430898772967 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6250000000000001, 0.6500000000000001, 0.3141592653589793, 0.39269908169872414, 0.888671875, 0.9042187500000001) recorded 2 -0.8757634206218932 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6250000000000001, 0.6500000000000001, 0.3141592653589793, 0.39269908169872414, 0.888671875, 0.9042187500000001) recorded 2 -0.856833407622711 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6250000000000001, 0.6500000000000001, 0.3141592653589793, 0.39269908169872414, 0.873125, 0.888671875) recorded 2 -0.9298344039084899 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6000000000000001, 0.6250000000000001, 0.3141592653589793, 0.39269908169872414, 0.873125, 0.888671875) recorded 2 -0.9633759627288829 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6250000000000001, 0.6500000000000001, 0.3141592653589793, 0.39269908169872414, 0.873125, 0.888671875) recorded 2 -0.923894771354874 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6000000000000001, 0.6250000000000001, 0.3141592653589793, 0.39269908169872414, 0.873125, 0.888671875) recorded 2 -0.9496854267655542 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.6500000000000001, 0.39269908169872414, 0.47123889803846897, 0.84203125, 0.8575781250000001) recorded 3 -0.3946624203639727 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.6500000000000001, 0.39269908169872414, 0.47123889803846897, 0.8109375000000001, 0.84203125) recorded 3 -0.41236368349799835 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.3141592653589793, 0.39269908169872414, 0.8109375000000001, 0.84203125) recorded 2 -1.0361534875702882 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.6500000000000001, 0.39269908169872414, 0.47123889803846897, 0.7798437500000001, 0.8109375000000001) recorded 3 -0.4304136710640433 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6500000000000001, 0.7000000000000001, 0.3141592653589793, 0.39269908169872414, 0.7798437500000001, 0.8109375000000001) recorded 2 -1.08654198085037 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.7000000000000001, 0.9424777960769379, 1.0210176124166828, 0.59328125, 0.624375) recorded 3 -0.5020825968898249 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.675, 0.8639379797371931, 0.9032078879070655, 0.9508593750000001, 0.96640625) recorded 1 -1.299676920595139 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6250000000000001, 0.6500000000000001, 0.9032078879070655, 0.9424777960769379, 0.9508593750000001, 0.96640625) recorded 3 -0.5530727863478221 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6250000000000001, 0.6500000000000001, 0.8639379797371931, 0.9032078879070655, 0.9508593750000001, 0.96640625) recorded 3 -0.548263603575094 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.7853981633974483, 0.8246680715673207, 0.9508593750000001, 0.96640625) recorded 1 -1.2420321058365145 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.7853981633974483, 0.8246680715673207, 0.9508593750000001, 0.96640625) recorded 1 -1.2780956252307698 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.675, 0.8246680715673207, 0.8639379797371931, 0.9508593750000001, 0.96640625) recorded 1 -1.2896510424588492 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.675, 0.7000000000000001, 0.7853981633974483, 0.8246680715673207, 0.9586328125000001, 0.96640625) recorded 1 -1.2273735492918152 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.675, 0.7000000000000001, 0.7853981633974483, 0.8246680715673207, 0.9508593750000001, 0.9586328125000001) recorded 1 -1.2576317424244654 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.675, 0.7853981633974483, 0.8246680715673207, 0.9508593750000001, 0.96640625) recorded 1 -1.279566601154365 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.7461282552275759, 0.7853981633974483, 0.9508593750000001, 0.96640625) recorded 1 -1.2312252211160528 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.7461282552275759, 0.7853981633974483, 0.9508593750000001, 0.96640625) recorded 1 -1.267926902879309 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.7068583470577035, 0.7461282552275759, 0.9508593750000001, 0.96640625) recorded 1 -1.2202482408067654 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.7068583470577035, 0.7461282552275759, 0.9508593750000001, 0.96640625) recorded 1 -1.2575976276885976 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.675, 0.7000000000000001, 0.7461282552275759, 0.7853981633974483, 0.9508593750000001, 0.96640625) recorded 1 -1.2321777705547874 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.675, 0.7461282552275759, 0.7853981633974483, 0.9508593750000001, 0.96640625) recorded 1 -1.2693705115578582 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.675, 0.7000000000000001, 0.7068583470577035, 0.7461282552275759, 0.9508593750000001, 0.96640625) recorded 1 -1.2212331935069238 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.675, 0.7068583470577035, 0.7461282552275759, 0.9508593750000001, 0.96640625) recorded 1 -1.2590165678875427 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.667588438887831, 0.7068583470577035, 0.9508593750000001, 0.96640625) recorded 1 -1.209056511348857 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.667588438887831, 0.7068583470577035, 0.9508593750000001, 0.96640625) recorded 1 -1.2470661453559702 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.6283185307179586, 0.667588438887831, 0.9508593750000001, 0.96640625) recorded 1 -1.1976071746917734 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.6283185307179586, 0.667588438887831, 0.9508593750000001, 0.96640625) recorded 1 -1.2362940596145235 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.675, 0.7000000000000001, 0.667588438887831, 0.7068583470577035, 0.9586328125000001, 0.96640625) recorded 1 -1.1948918865539109 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.675, 0.7000000000000001, 0.667588438887831, 0.7068583470577035, 0.9508593750000001, 0.9586328125000001) recorded 1 -1.224398744268314 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.675, 0.667588438887831, 0.7068583470577035, 0.9508593750000001, 0.96640625) recorded 1 -1.2484628461419813 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.675, 0.6283185307179586, 0.667588438887831, 0.9508593750000001, 0.96640625) recorded 1 -1.237669619305004 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.6283185307179586, 0.667588438887831, 0.9353125, 0.9508593750000001) recorded 1 -1.251779034012639 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.6283185307179586, 0.667588438887831, 0.9353125, 0.9508593750000001) recorded 1 -1.2900160723358247 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.675, 0.7000000000000001, 0.6283185307179586, 0.667588438887831, 0.9353125, 0.9508593750000001) recorded 2 -0.9213866202995118 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.675, 0.6283185307179586, 0.667588438887831, 0.9353125, 0.9508593750000001) recorded 1 -1.2901795456477525 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.7000000000000001, 0.667588438887831, 0.7068583470577035, 0.919765625, 0.9353125) recorded 3 -0.3991982723214261 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.6500000000000001, 0.6283185307179586, 0.7068583470577035, 0.84203125, 0.873125) recorded 3 -0.4950364316482539 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6250000000000001, 0.6500000000000001, 0.9817477042468103, 1.0210176124166828, 0.9508593750000001, 0.96640625) recorded 3 -0.5645656987052403 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6250000000000001, 0.6500000000000001, 0.9424777960769379, 0.9817477042468103, 0.9508593750000001, 0.96640625) recorded 3 -0.5584630940261639 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.7000000000000001, 0.75, 0.15707963267948966, 0.23561944901923448, 0.71765625, 0.74875) recorded 2 -0.9767422759084516 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.7000000000000001, 0.8, 0.23561944901923448, 0.3141592653589793, 0.53109375, 0.5621875000000001) recorded 2 -1.1449965527926955 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.5890486225480862, 0.6283185307179586, 0.9586328125000001, 0.96640625) recorded 1 -1.1705033214056897 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.5890486225480862, 0.6283185307179586, 0.9508593750000001, 0.9586328125000001) recorded 1 -1.2003492055483898 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.5890486225480862, 0.6283185307179586, 0.9508593750000001, 0.96640625) recorded 1 -1.2252442672743054 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.5497787143782138, 0.5890486225480862, 0.9508593750000001, 0.96640625) recorded 1 -1.2138793574079654 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.5890486225480862, 0.6283185307179586, 0.9353125, 0.9508593750000001) recorded 1 -1.2786755710971311 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.5497787143782138, 0.5890486225480862, 0.9353125, 0.9508593750000001) recorded 2 -0.8790872407934474 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.5497787143782138, 0.5890486225480862, 0.9353125, 0.9508593750000001) recorded 1 -1.2670738128512968 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.675, 0.7000000000000001, 0.5890486225480862, 0.6283185307179586, 0.9353125, 0.9508593750000001) recorded 2 -0.8938429106712225 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.675, 0.7000000000000001, 0.5497787143782138, 0.5890486225480862, 0.9353125, 0.9508593750000001) recorded 2 -0.864910812341624 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.675, 0.7000000000000001, 0.47123889803846897, 0.5105088062083414, 0.9353125, 0.9508593750000001) recorded 2 -0.8280295113419623 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6500000000000001, 0.675, 0.47123889803846897, 0.5105088062083414, 0.9353125, 0.9508593750000001) recorded 1 -1.2429356173548374 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.675, 0.7000000000000001, 0.5105088062083414, 0.5497787143782138, 0.9353125, 0.9508593750000001) recorded 2 -0.8377216146322664 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.675, 0.5105088062083414, 0.5497787143782138, 0.9353125, 0.9508593750000001) recorded 2 -0.9133985890317592 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.675, 0.7000000000000001, 0.47123889803846897, 0.5105088062083414, 0.9353125, 0.9508593750000001) recorded 2 -0.8156566810050956 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.675, 0.47123889803846897, 0.5105088062083414, 0.9353125, 0.9508593750000001) recorded 2 -0.8957313062610581 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.675, 0.7000000000000001, 0.47123889803846897, 0.5105088062083414, 0.919765625, 0.9353125) recorded 2 -0.8342984672333078 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6500000000000001, 0.675, 0.47123889803846897, 0.5105088062083414, 0.919765625, 0.9353125) recorded 2 -0.8890957093084912 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.6000000000000001, 0.6500000000000001, 0.5497787143782138, 0.6283185307179586, 0.888671875, 0.9042187500000001) recorded 3 -0.4620273428083942 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.6000000000000001, 0.6250000000000001, 0.47123889803846897, 0.5497787143782138, 0.888671875, 0.9042187500000001) recorded 3 -0.42268101470106206 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.6000000000000001, 0.6500000000000001, 0.5497787143782138, 0.6283185307179586, 0.84203125, 0.873125) recorded 3 -0.4669023695628401 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.75, 0.8, 0.3141592653589793, 0.39269908169872414, 0.71765625, 0.74875) recorded 2 -0.9562055856186022 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.7000000000000001, 0.75, 0.3141592653589793, 0.39269908169872414, 0.71765625, 0.74875) recorded 2 -1.066836399542201 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7250000000000001, 0.75, 0.2748893571891069, 0.3141592653589793, 0.96640625, 0.981953125) recorded 2 -0.6031708878405009 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7000000000000001, 0.7250000000000001, 0.2748893571891069, 0.3141592653589793, 0.96640625, 0.981953125) recorded 2 -0.7020318647103494 
+   MISMATCH KQ0 wind (0.8781625, 0.89255, 0.7875000000000001, 0.8, 0.17671458676442586, 0.19634954084936207, 0.9897265625, 0.9975) recorded 1 -0.5787556040187468 
+   MISMATCH KQ0 wind (0.8781625, 0.89255, 0.7875000000000001, 0.8, 0.15707963267948966, 0.17671458676442586, 0.9897265625, 0.9975) recorded 1 -0.5579206926471758 
+   MISMATCH KQ0 wind (0.863775, 0.8781625, 0.7875000000000001, 0.8, 0.17671458676442586, 0.19634954084936207, 0.9897265625, 0.9975) recorded 1 -0.5809938769257981 
+   MISMATCH KQ0 wind (0.863775, 0.8781625, 0.7875000000000001, 0.8, 0.15707963267948966, 0.17671458676442586, 0.9897265625, 0.9975) recorded 1 -0.5595583199844476 
+   MISMATCH KQ0 wind (0.8781625, 0.89255, 0.7875000000000001, 0.8, 0.15707963267948966, 0.19634954084936207, 0.981953125, 0.9897265625) recorded 1 -0.65019894388136 
+   MISMATCH KQ0 wind (0.8781625, 0.89255, 0.775, 0.7875000000000001, 0.15707963267948966, 0.19634954084936207, 0.981953125, 0.9897265625) recorded 1 -0.6784903057221137 
+   MISMATCH KQ0 wind (0.863775, 0.8781625, 0.7875000000000001, 0.8, 0.15707963267948966, 0.19634954084936207, 0.981953125, 0.9897265625) recorded 1 -0.6513790732104413 
+   MISMATCH KQ0 wind (0.863775, 0.8781625, 0.775, 0.7875000000000001, 0.15707963267948966, 0.19634954084936207, 0.981953125, 0.9897265625) recorded 1 -0.6800962624020352 
+   MISMATCH KQ0 wind (0.835, 0.8493875, 0.7875000000000001, 0.8, 0.21598449493429828, 0.23561944901923448, 0.9897265625, 0.9975) recorded 1 -0.6217112858090121 
+   MISMATCH KQ0 wind (0.835, 0.8493875, 0.7875000000000001, 0.8, 0.19634954084936207, 0.21598449493429828, 0.9897265625, 0.9975) recorded 1 -0.6040993670663288 
+   MISMATCH KQ0 wind (0.8493875, 0.863775, 0.7875000000000001, 0.8, 0.17671458676442586, 0.19634954084936207, 0.9897265625, 0.9975) recorded 1 -0.5828359252585293 
+   MISMATCH KQ0 wind (0.8493875, 0.863775, 0.7875000000000001, 0.8, 0.15707963267948966, 0.17671458676442586, 0.9897265625, 0.9975) recorded 1 -0.5606858107134947 
+   MISMATCH KQ0 wind (0.8493875, 0.863775, 0.775, 0.7875000000000001, 0.17671458676442586, 0.19634954084936207, 0.9897265625, 0.9975) recorded 1 -0.6142891646601355 
+   MISMATCH KQ0 wind (0.8493875, 0.863775, 0.775, 0.7875000000000001, 0.15707963267948966, 0.17671458676442586, 0.9897265625, 0.9975) recorded 1 -0.5946952352470476 
+   MISMATCH KQ0 wind (0.835, 0.8493875, 0.7875000000000001, 0.8, 0.17671458676442586, 0.19634954084936207, 0.9897265625, 0.9975) recorded 1 -0.5842376527746771 
+   MISMATCH KQ0 wind (0.835, 0.8493875, 0.7875000000000001, 0.8, 0.15707963267948966, 0.17671458676442586, 0.9897265625, 0.9975) recorded 1 -0.5612236739679382 
+   MISMATCH KQ0 wind (0.835, 0.8493875, 0.775, 0.7875000000000001, 0.17671458676442586, 0.19634954084936207, 0.9897265625, 0.9975) recorded 1 -0.6165391750771998 
+   MISMATCH KQ0 wind (0.835, 0.8493875, 0.775, 0.7875000000000001, 0.15707963267948966, 0.17671458676442586, 0.9897265625, 0.9975) recorded 1 -0.5964575395577343 
+   MISMATCH KQ0 wind (0.8493875, 0.863775, 0.7875000000000001, 0.8, 0.15707963267948966, 0.19634954084936207, 0.981953125, 0.9897265625) recorded 1 -0.6523154835501133 
+   MISMATCH KQ0 wind (0.8493875, 0.863775, 0.775, 0.7875000000000001, 0.15707963267948966, 0.19634954084936207, 0.981953125, 0.9897265625) recorded 1 -0.6815206552399867 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.775, 0.8, 0.2748893571891069, 0.3141592653589793, 0.9508593750000001, 0.96640625) recorded 2 -0.38764573592757473 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.775, 0.8, 0.23561944901923448, 0.2748893571891069, 0.9508593750000001, 0.96640625) recorded 2 -0.36493489568434256 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.75, 0.775, 0.2748893571891069, 0.3141592653589793, 0.9508593750000001, 0.96640625) recorded 2 -0.43085750151953855 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.75, 0.775, 0.23561944901923448, 0.2748893571891069, 0.9508593750000001, 0.96640625) recorded 2 -0.4097123351959027 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.75, 0.775, 0.2748893571891069, 0.3141592653589793, 0.9508593750000001, 0.96640625) recorded 2 -0.41646023022713824 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.75, 0.775, 0.23561944901923448, 0.2748893571891069, 0.9508593750000001, 0.96640625) recorded 2 -0.39510575565095696 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.775, 0.8, 0.2748893571891069, 0.3141592653589793, 0.9353125, 0.9508593750000001) recorded 2 -0.4115053933646585 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.775, 0.8, 0.23561944901923448, 0.2748893571891069, 0.9353125, 0.9508593750000001) recorded 2 -0.3892042039412793 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.75, 0.775, 0.2748893571891069, 0.3141592653589793, 0.9353125, 0.9508593750000001) recorded 2 -0.4539011220803366 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.75, 0.775, 0.23561944901923448, 0.2748893571891069, 0.9353125, 0.9508593750000001) recorded 2 -0.4331433851956709 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.775, 0.8, 0.2748893571891069, 0.3141592653589793, 0.9353125, 0.9508593750000001) recorded 2 -0.3969654270070674 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.775, 0.8, 0.23561944901923448, 0.2748893571891069, 0.9353125, 0.9508593750000001) recorded 1 -0.9252546199132274 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.75, 0.775, 0.2748893571891069, 0.3141592653589793, 0.9353125, 0.9508593750000001) recorded 2 -0.4394487720925799 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.75, 0.775, 0.23561944901923448, 0.2748893571891069, 0.9353125, 0.9508593750000001) recorded 2 -0.4184715502602786 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7250000000000001, 0.75, 0.2748893571891069, 0.3141592653589793, 0.9508593750000001, 0.96640625) recorded 2 -0.4741957087004157 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7000000000000001, 0.7250000000000001, 0.2748893571891069, 0.3141592653589793, 0.9508593750000001, 0.96640625) recorded 2 -0.6723115672460933 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7250000000000001, 0.75, 0.23561944901923448, 0.2748893571891069, 0.9508593750000001, 0.96640625) recorded 2 -0.45454313881595737 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7000000000000001, 0.7250000000000001, 0.23561944901923448, 0.2748893571891069, 0.9508593750000001, 0.96640625) recorded 2 -0.6289092421012421 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7250000000000001, 0.75, 0.2748893571891069, 0.3141592653589793, 0.9508593750000001, 0.96640625) recorded 2 -0.45977097998018146 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.7250000000000001, 0.2748893571891069, 0.3141592653589793, 0.9508593750000001, 0.96640625) recorded 2 -0.6437211374435625 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7250000000000001, 0.75, 0.23561944901923448, 0.2748893571891069, 0.9508593750000001, 0.96640625) recorded 2 -0.4398938909636189 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.7250000000000001, 0.23561944901923448, 0.2748893571891069, 0.9508593750000001, 0.96640625) recorded 2 -0.5867663942891347 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7000000000000001, 0.75, 0.2748893571891069, 0.3141592653589793, 0.9353125, 0.9508593750000001) recorded 2 -0.5183597442822884 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7000000000000001, 0.75, 0.23561944901923448, 0.2748893571891069, 0.9353125, 0.9508593750000001) recorded 2 -0.49992353656221683 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.75, 0.2748893571891069, 0.3141592653589793, 0.9353125, 0.9508593750000001) recorded 2 -0.503788667646367 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.75, 0.23561944901923448, 0.2748893571891069, 0.9353125, 0.9508593750000001) recorded 2 -0.48508340435953623 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.75, 0.775, 0.19634954084936207, 0.23561944901923448, 0.9508593750000001, 0.96640625) recorded 2 -0.3860578714774482 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.75, 0.775, 0.15707963267948966, 0.19634954084936207, 0.9508593750000001, 0.96640625) recorded 2 -0.3590665543553256 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.775, 0.8, 0.19634954084936207, 0.23561944901923448, 0.9508593750000001, 0.96640625) recorded 1 -0.8443440008786656 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.775, 0.8, 0.15707963267948966, 0.19634954084936207, 0.9508593750000001, 0.96640625) recorded 1 -0.813654224308153 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.75, 0.775, 0.19634954084936207, 0.23561944901923448, 0.9508593750000001, 0.96640625) recorded 2 -0.3711562089512646 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.775, 0.8, 0.19634954084936207, 0.23561944901923448, 0.9353125, 0.9508593750000001) recorded 2 -0.36422185102923565 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.775, 0.8, 0.15707963267948966, 0.19634954084936207, 0.9353125, 0.9508593750000001) recorded 1 -0.8714170816069178 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.75, 0.775, 0.19634954084936207, 0.23561944901923448, 0.9353125, 0.9508593750000001) recorded 2 -0.4100506103178123 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.75, 0.775, 0.15707963267948966, 0.19634954084936207, 0.9353125, 0.9508593750000001) recorded 2 -0.3838793885040021 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.775, 0.8, 0.19634954084936207, 0.23561944901923448, 0.9353125, 0.9508593750000001) recorded 1 -0.8991295299997214 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.775, 0.8, 0.15707963267948966, 0.19634954084936207, 0.9353125, 0.9508593750000001) recorded 1 -0.8693793723527443 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.75, 0.775, 0.19634954084936207, 0.23561944901923448, 0.9353125, 0.9508593750000001) recorded 2 -0.3950766972732449 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.75, 0.775, 0.15707963267948966, 0.19634954084936207, 0.9353125, 0.9508593750000001) recorded 2 -0.36847465587242295 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7250000000000001, 0.75, 0.19634954084936207, 0.23561944901923448, 0.9508593750000001, 0.96640625) recorded 2 -0.4327243435306018 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7000000000000001, 0.7250000000000001, 0.19634954084936207, 0.23561944901923448, 0.9508593750000001, 0.96640625) recorded 2 -0.5573240461237942 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7250000000000001, 0.75, 0.15707963267948966, 0.19634954084936207, 0.9508593750000001, 0.96640625) recorded 2 -0.4080949902483628 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7000000000000001, 0.7250000000000001, 0.15707963267948966, 0.19634954084936207, 0.9508593750000001, 0.96640625) recorded 2 -0.45810948900738907 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7250000000000001, 0.75, 0.19634954084936207, 0.23561944901923448, 0.9508593750000001, 0.96640625) recorded 2 -0.41776569815781706 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.7250000000000001, 0.19634954084936207, 0.23561944901923448, 0.9508593750000001, 0.96640625) recorded 2 -0.47599693992586806 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7250000000000001, 0.75, 0.15707963267948966, 0.19634954084936207, 0.9508593750000001, 0.96640625) recorded 2 -0.392695259983188 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.7250000000000001, 0.15707963267948966, 0.19634954084936207, 0.9508593750000001, 0.96640625) recorded 2 -0.44241665115182033 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7000000000000001, 0.75, 0.19634954084936207, 0.23561944901923448, 0.9353125, 0.9508593750000001) recorded 2 -0.47968683548968233 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7000000000000001, 0.75, 0.15707963267948966, 0.19634954084936207, 0.9353125, 0.9508593750000001) recorded 2 -0.4571978883582064 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.75, 0.19634954084936207, 0.23561944901923448, 0.9353125, 0.9508593750000001) recorded 2 -0.46448305104225657 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.75, 0.15707963267948966, 0.19634954084936207, 0.9353125, 0.9508593750000001) recorded 2 -0.44148076134127623 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.775, 0.8, 0.23561944901923448, 0.3141592653589793, 0.919765625, 0.9353125) recorded 2 -0.5320364785935556 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.75, 0.775, 0.23561944901923448, 0.3141592653589793, 0.919765625, 0.9353125) recorded 2 -0.559846153369703 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.775, 0.8, 0.23561944901923448, 0.3141592653589793, 0.919765625, 0.9353125) recorded 2 -0.49413307541024454 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.75, 0.775, 0.23561944901923448, 0.3141592653589793, 0.919765625, 0.9353125) recorded 2 -0.515667179292063 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.775, 0.8, 0.23561944901923448, 0.3141592653589793, 0.9042187500000001, 0.919765625) recorded 2 -0.5983668656391572 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.75, 0.775, 0.23561944901923448, 0.3141592653589793, 0.9042187500000001, 0.919765625) recorded 2 -0.6384160916611308 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.775, 0.8, 0.23561944901923448, 0.3141592653589793, 0.9042187500000001, 0.919765625) recorded 2 -0.5703321126955607 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.75, 0.775, 0.23561944901923448, 0.3141592653589793, 0.9042187500000001, 0.919765625) recorded 2 -0.609247861469419 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7000000000000001, 0.75, 0.2748893571891069, 0.3141592653589793, 0.919765625, 0.9353125) recorded 2 -0.6008138028601798 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7000000000000001, 0.75, 0.23561944901923448, 0.2748893571891069, 0.919765625, 0.9353125) recorded 2 -0.5197115288687679 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.75, 0.2748893571891069, 0.3141592653589793, 0.919765625, 0.9353125) recorded 2 -0.5230715979606958 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.75, 0.23561944901923448, 0.2748893571891069, 0.919765625, 0.9353125) recorded 2 -0.5047660739767608 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7000000000000001, 0.75, 0.2748893571891069, 0.3141592653589793, 0.9042187500000001, 0.919765625) recorded 2 -0.7136309221406703 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7000000000000001, 0.75, 0.23561944901923448, 0.2748893571891069, 0.9042187500000001, 0.919765625) recorded 2 -0.6650011333105496 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.75, 0.2748893571891069, 0.3141592653589793, 0.9042187500000001, 0.919765625) recorded 2 -0.6830276951146695 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.75, 0.23561944901923448, 0.2748893571891069, 0.9042187500000001, 0.919765625) recorded 2 -0.6303745136174352 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.75, 0.775, 0.15707963267948966, 0.23561944901923448, 0.919765625, 0.9353125) recorded 2 -0.41854744788666504 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.775, 0.8, 0.19634954084936207, 0.23561944901923448, 0.919765625, 0.9353125) recorded 1 -0.9455233418279303 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.775, 0.8, 0.15707963267948966, 0.19634954084936207, 0.919765625, 0.9353125) recorded 1 -0.9164973070306807 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.75, 0.775, 0.15707963267948966, 0.23561944901923448, 0.919765625, 0.9353125) recorded 2 -0.40327435518487015 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.775, 0.8, 0.15707963267948966, 0.23561944901923448, 0.9042187500000001, 0.919765625) recorded 2 -0.5028376490040356 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.75, 0.775, 0.15707963267948966, 0.23561944901923448, 0.9042187500000001, 0.919765625) recorded 2 -0.5390651489604269 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.775, 0.8, 0.15707963267948966, 0.23561944901923448, 0.9042187500000001, 0.919765625) recorded 2 -0.4665897445855291 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.75, 0.775, 0.15707963267948966, 0.23561944901923448, 0.9042187500000001, 0.919765625) recorded 2 -0.49925557152114297 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7000000000000001, 0.75, 0.19634954084936207, 0.23561944901923448, 0.919765625, 0.9353125) recorded 2 -0.5000679617308124 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7000000000000001, 0.75, 0.15707963267948966, 0.19634954084936207, 0.919765625, 0.9353125) recorded 2 -0.4784263768976276 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.75, 0.19634954084936207, 0.23561944901923448, 0.919765625, 0.9353125) recorded 2 -0.4847279556836718 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.75, 0.15707963267948966, 0.19634954084936207, 0.919765625, 0.9353125) recorded 2 -0.46253405140569337 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7000000000000001, 0.75, 0.15707963267948966, 0.23561944901923448, 0.9042187500000001, 0.919765625) recorded 2 -0.5716406809102703 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.75, 0.19634954084936207, 0.23561944901923448, 0.9042187500000001, 0.919765625) recorded 2 -0.5617740753916267 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.75, 0.15707963267948966, 0.19634954084936207, 0.9042187500000001, 0.919765625) recorded 2 -0.48158699174674563 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7000000000000001, 0.75, 0.23561944901923448, 0.3141592653589793, 0.888671875, 0.9042187500000001) recorded 2 -0.7541616879966954 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.75, 0.2748893571891069, 0.3141592653589793, 0.888671875, 0.9042187500000001) recorded 2 -0.7476965344919557 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.75, 0.23561944901923448, 0.2748893571891069, 0.888671875, 0.9042187500000001) recorded 2 -0.7059861254778973 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.775, 0.8, 0.15707963267948966, 0.23561944901923448, 0.888671875, 0.9042187500000001) recorded 2 -0.5328670609675971 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.75, 0.775, 0.15707963267948966, 0.23561944901923448, 0.888671875, 0.9042187500000001) recorded 2 -0.5763600522266333 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7000000000000001, 0.75, 0.15707963267948966, 0.23561944901923448, 0.888671875, 0.9042187500000001) recorded 2 -0.6666434608821749 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.75, 0.15707963267948966, 0.23561944901923448, 0.888671875, 0.9042187500000001) recorded 2 -0.6349775207722281 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.7000000000000001, 0.75, 0.15707963267948966, 0.23561944901923448, 0.873125, 0.888671875) recorded 2 -0.72350353125377 
+   MISMATCH KQ0 wind (0.835, 0.863775, 0.7000000000000001, 0.75, 0.15707963267948966, 0.23561944901923448, 0.873125, 0.888671875) recorded 2 -0.69627570977877 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.7000000000000001, 0.75, 0.15707963267948966, 0.23561944901923448, 0.7798437500000001, 0.8109375000000001) recorded 2 -0.8912604128013721 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.75, 0.8, 0.23561944901923448, 0.3141592653589793, 0.74875, 0.7798437500000001) recorded 2 -0.875323011936626 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.7000000000000001, 0.75, 0.23561944901923448, 0.3141592653589793, 0.74875, 0.7798437500000001) recorded 2 -0.9869657718232114 
+   MISMATCH KQ0 wind (0.835, 0.89255, 0.7000000000000001, 0.75, 0.15707963267948966, 0.23561944901923448, 0.74875, 0.7798437500000001) recorded 2 -0.9363700465246428 
+   MISMATCH KQ0 wind (0.8781625, 0.89255, 0.775, 0.8, 0.5890486225480862, 0.6283185307179586, 0.9741796875, 0.981953125) recorded 2 -0.6136046313710284 
+   MISMATCH KQ0 wind (0.863775, 0.8781625, 0.775, 0.8, 0.5890486225480862, 0.6283185307179586, 0.9741796875, 0.981953125) recorded 2 -0.6102553829120382 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.775, 0.8, 0.5890486225480862, 0.6283185307179586, 0.96640625, 0.9741796875) recorded 2 -0.6030777454207277 
+   MISMATCH KQ0 wind (0.863775, 0.89255, 0.775, 0.8, 0.5497787143782138, 0.5890486225480862, 0.9741796875, 0.981953125) recorded 2 -0.601329064236942 
+   MISMATCH KQ0 wind (0.8781625, 0.89255, 0.775, 0.8, 0.5497787143782138, 0.5890486225480862, 0.96640625, 0.9741796875) recorded 2 -0.5283484566380802 
+== 14:25:39 g9: bulk winding leaves, 20000 sampled
+bulk [a]: wind 20000/1804672 (mismatches 0); certified but total != recorded (not exact): 0; certified only by the second-order engine: 6098; not re-certifiable even by the deep certifier: 0
+== 14:29:21 g12: project check_all.py (unchanged; RESULTS.md redirected)
+bulk {'files': 1, 'records': 6000, 'leaves': 9545140, 'pruned': 0, 'hist': {4: 1373207, 5: 241476, 6: 1470112, 7: 518786, 8: 985317, 9: 822269, 10: 2882783, 11: 1251190}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C1 {'files': 1, 'records': 6080, 'leaves': 77436, 'pruned': 0, 'hist': {4: 2962, 5: 4541, 6: 19680, 7: 2452, 8: 21204, 9: 7506, 10: 19091}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C1p {'files': 1, 'records': 256, 'leaves': 44140, 'pruned': 0, 'hist': {2: 37, 4: 1633, 5: 1390, 6: 2590, 7: 1098, 8: 22396, 9: 2418, 10: 12578}, 'fails': 659, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C1pp {'files': 1, 'records': 256, 'leaves': 11356, 'pruned': 0, 'hist': {4: 757, 5: 365, 6: 148, 7: 128, 8: 6754, 9: 503, 10: 2701}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+B1 {'files': 1, 'records': 2740, 'leaves': 8379, 'pruned': 0, 'hist': {4: 656, 5: 540, 6: 4885, 7: 168, 8: 918, 9: 320, 10: 892}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+B2 {'files': 1, 'records': 256, 'leaves': 15506, 'pruned': 0, 'hist': {4: 35, 5: 588, 6: 542, 7: 725, 8: 2478, 9: 3192, 10: 7946}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+B3p {'files': 1, 'records': 256, 'leaves': 1722, 'pruned': 0, 'hist': {4: 323, 5: 695, 6: 237, 7: 104, 8: 54, 9: 217, 10: 92}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+B3m {'files': 1, 'records': 256, 'leaves': 1570, 'pruned': 0, 'hist': {4: 515, 5: 688, 6: 114, 7: 44, 8: 26, 9: 118, 10: 65}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+L2E {'files': 1, 'records': 256, 'leaves': 436, 'pruned': 0, 'hist': {4: 48, 5: 44, 6: 236, 7: 17, 8: 84, 9: 3, 10: 4}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+L2P {'files': 1, 'records': 256, 'leaves': 1979, 'pruned': 0, 'hist': {4: 64, 5: 64, 8: 256, 9: 300, 10: 1295}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+L2Ap {'files': 1, 'records': 256, 'leaves': 2503, 'pruned': 0, 'hist': {5: 55, 6: 79, 7: 280, 8: 186, 9: 638, 10: 1265}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+L2Am {'files': 1, 'records': 256, 'leaves': 2529, 'pruned': 0, 'hist': {4: 8, 5: 58, 6: 21, 7: 103, 8: 152, 9: 717, 10: 1470}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+L2Tp {'files': 1, 'records': 256, 'leaves': 256, 'pruned': 0, 'hist': {4: 254, 5: 2}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+L2Tm {'files': 1, 'records': 256, 'leaves': 256, 'pruned': 0, 'hist': {4: 256}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+F0 {'files': 1, 'records': 400, 'leaves': 12354, 'pruned': 0, 'hist': {4: 429, 5: 1241, 6: 804, 7: 1137, 8: 5107, 9: 532, 10: 1343, 11: 1761}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+F1 {'files': 1, 'records': 400, 'leaves': 1093, 'pruned': 0, 'hist': {4: 150, 5: 93, 6: 98, 7: 74, 8: 324, 9: 60, 10: 130, 11: 164}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+KQ0 {'files': 1, 'records': 400, 'leaves': 54718, 'pruned': 0, 'hist': {4: 39, 5: 36, 6: 1118, 7: 586, 8: 8707, 9: 2127, 10: 32408, 11: 9697}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+KQ0T {'files': 2, 'records': 506, 'leaves': 310866, 'pruned': 0, 'hist': {4: 1306, 5: 351, 6: 6931, 7: 3759, 8: 104716, 9: 11619, 10: 101603, 11: 80581}, 'fails': 0, 'incomplete': 82, 'owed': 511, 'problems': [], 'nproblems': 0, 'complete': False}
+KQ1 {'files': 2, 'records': 3009, 'leaves': 90528, 'pruned': 0, 'hist': {4: 141, 5: 95, 6: 3050, 7: 2818, 8: 20401, 9: 5797, 10: 38966, 11: 19260}, 'fails': 0, 'incomplete': 1009, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+KQ2 {'files': 4, 'records': 1379, 'leaves': 251348, 'pruned': 0, 'hist': {4: 13, 5: 2, 6: 975, 7: 2344, 8: 12097, 9: 6346, 10: 132394, 11: 97177}, 'fails': 1669, 'incomplete': 989, 'owed': 2356, 'problems': [], 'nproblems': 0, 'complete': False}
+KQB {'files': 6, 'records': 850, 'leaves': 108624, 'pruned': 30, 'hist': {8: 4943, 9: 5956, 10: 40057, 11: 57668}, 'fails': 0, 'incomplete': 640, 'owed': 930, 'problems': ['face-neighbourhood boxes pruned (p) but the face families are not all complete'], 'nproblems': 1, 'complete': False}
+KQK1 {'files': 6, 'records': 4624, 'leaves': 324424, 'pruned': 55, 'hist': {6: 642, 7: 1407, 8: 10400, 9: 19390, 10: 133102, 11: 159483}, 'fails': 0, 'incomplete': 1910, 'owed': 1070, 'problems': ['face-neighbourhood boxes pruned (p) but the face families are not all complete'], 'nproblems': 1, 'complete': False}
+KQK2 {'files': 7, 'records': 14029, 'leaves': 127845, 'pruned': 11271, 'hist': {9: 833, 10: 73087, 11: 53925}, 'fails': 11100, 'incomplete': 2248, 'owed': 0, 'problems': ['face-neighbourhood boxes pruned (p) but the face families are not all complete'], 'nproblems': 1, 'complete': False}
+KA {'files': 1, 'records': 64, 'leaves': 64, 'pruned': 0, 'hist': {2: 64}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+KQF {'files': 1, 'records': 100, 'leaves': 190977, 'pruned': 128, 'hist': {2: 13097, 3: 4877, 4: 5952, 5: 3777, 6: 163274}, 'fails': 0, 'incomplete': 13, 'owed': 281, 'problems': [], 'nproblems': 0, 'complete': False}
+KQF2 {'files': 2, 'records': 99, 'leaves': 10252, 'pruned': 260, 'hist': {4: 1, 5: 271, 6: 9980}, 'fails': 0, 'incomplete': 55, 'owed': 694, 'problems': [], 'nproblems': 0, 'complete': False}
+KQS {'files': 1, 'records': 96, 'leaves': 2224, 'pruned': 162, 'hist': {8: 3, 9: 8, 10: 236, 11: 1977}, 'fails': 0, 'incomplete': 12, 'owed': 244, 'problems': ['face-neighbourhood boxes pruned (p) but the face families are not all complete'], 'nproblems': 1, 'complete': False}
+D2E {'files': 1, 'records': 256, 'leaves': 256, 'pruned': 0, 'hist': {4: 24, 5: 19, 6: 26, 7: 37, 9: 4, 10: 146}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+D2E2 {'files': 1, 'records': 256, 'leaves': 256, 'pruned': 0, 'hist': {6: 16, 7: 12, 8: 18, 9: 66, 10: 108, 11: 36}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+D2P {'files': 1, 'records': 256, 'leaves': 1130, 'pruned': 0, 'hist': {4: 56, 5: 20, 6: 55, 7: 65, 8: 70, 9: 15, 10: 849}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+D2K {'files': 1, 'records': 256, 'leaves': 464, 'pruned': 0, 'hist': {4: 134, 5: 19, 6: 54, 7: 49, 8: 13, 9: 7, 10: 188}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+D2Tp {'files': 1, 'records': 256, 'leaves': 26915, 'pruned': 0, 'hist': {4: 24, 6: 308, 7: 201, 8: 975, 9: 2045, 10: 9228, 11: 14134}, 'fails': 20245, 'incomplete': 4, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+D2Tm {'files': 1, 'records': 256, 'leaves': 256, 'pruned': 0, 'hist': {4: 149, 5: 32, 6: 9, 7: 2, 8: 16, 9: 22, 10: 16, 11: 10}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 Ca {'files': 6, 'records': 2300, 'leaves': 1362544, 'pruned': 142026, 'hist': {2: 5273, 3: 245, 4: 3827, 5: 8493, 6: 345087, 7: 80422, 8: 161324, 9: 757873}, 'fails': 0, 'incomplete': 1366, 'owed': 724, 'problems': [], 'nproblems': 0, 'complete': False}
+C3 CK {'files': 1, 'records': 512, 'leaves': 2598, 'pruned': 335, 'hist': {4: 612, 5: 20, 6: 652, 7: 166, 8: 1148}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 CE {'files': 1, 'records': 512, 'leaves': 165916, 'pruned': 5720, 'hist': {4: 118, 5: 810, 6: 3511, 7: 25407, 8: 136070}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 Cm {'files': 1, 'records': 512, 'leaves': 2223, 'pruned': 638, 'hist': {5: 29, 6: 165, 7: 421, 8: 1608}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 PhiP {'files': 1, 'records': 512, 'leaves': 285, 'pruned': 227, 'hist': {0: 285}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 PhiM {'files': 1, 'records': 512, 'leaves': 285, 'pruned': 227, 'hist': {0: 285}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 L2aE {'files': 1, 'records': 512, 'leaves': 335, 'pruned': 450, 'hist': {2: 108, 4: 227}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 L2am {'files': 1, 'records': 512, 'leaves': 590, 'pruned': 458, 'hist': {4: 590}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 L2aYp {'files': 1, 'records': 512, 'leaves': 413, 'pruned': 458, 'hist': {0: 413}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 L2aYm {'files': 1, 'records': 512, 'leaves': 162, 'pruned': 362, 'hist': {0: 162}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 L2KE {'files': 1, 'records': 512, 'leaves': 368, 'pruned': 144, 'hist': {2: 184, 4: 184}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 L2Km {'files': 1, 'records': 512, 'leaves': 368, 'pruned': 144, 'hist': {4: 368}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 L2KYp {'files': 1, 'records': 512, 'leaves': 368, 'pruned': 144, 'hist': {0: 368}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+C3 L2KYm {'files': 1, 'records': 512, 'leaves': 368, 'pruned': 144, 'hist': {0: 368}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+face FE {'files': 1, 'records': 512, 'leaves': 226498, 'pruned': 154213, 'hist': {2: 4340, 3: 78, 4: 186852, 5: 35228}, 'fails': 0, 'incomplete': 4, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+face FM {'files': 1, 'records': 512, 'leaves': 348845, 'pruned': 190819, 'hist': {4: 317653, 5: 31192}, 'fails': 0, 'incomplete': 4, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+face FIP {'files': 1, 'records': 512, 'leaves': 307304, 'pruned': 190713, 'hist': {0: 307304}, 'fails': 124394, 'incomplete': 4, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+face FIM {'files': 1, 'records': 512, 'leaves': 57097, 'pruned': 57976, 'hist': {0: 57097}, 'fails': 0, 'incomplete': 0, 'owed': 0, 'problems': [], 'nproblems': 0, 'complete': True}
+[guard] write redirected: ../RESULTS.md -> <repo>\audit\round7\final12\RESULTS.md
+NOT COMPLETE
+== chain A done 14:31:58

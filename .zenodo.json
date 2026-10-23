@@ -1,0 +1,11 @@
+{
+  "title": "A circle and a confocal ellipse have at most ten distance-stationary points: a computer-assisted answer to Problem 8 (second question) of Albouy, Cabral and Santos",
+  "upload_type": "software",
+  "creators": [
+    {"name": "Mishra, Ansh"},
+    {"name": "Senthilkumar, Aryan"}
+  ],
+  "description": "Computer-assisted proof that the squared distance between a circle and an ellipse with a common focus at the centre of the circle has at most 10 stationary points (sharp), answering the second question of Problem 8 in A. Albouy, H. E. Cabral, A. A. Santos, Some problems on the classical n-body problem, Celest. Mech. Dyn. Astr. 113 (2012). Includes the proof write-up, all certificate code, the recorded split trees of every run, and the independent audit reports.",
+  "license": "MIT",
+  "keywords": ["Keplerian distance", "MOID", "stationary points", "computer-assisted proof", "celestial mechanics"]
+}

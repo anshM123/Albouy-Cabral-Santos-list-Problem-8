@@ -1,0 +1,221 @@
+OpenBLAS error: Memory allocation stOpenBLAS error: Memory allocation still failed after 10 retriesill failed after 10 retries, giving up.
+, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+[      6s] 8/512 returned, 8 complete, 8 leaves, 0 failed
+[      6s] 16/512 returned, 16 complete, 16 leaves, 0 failed
+[      6s] 24/512 returned, 24 complete, 24 leaves, 0 failed
+[      6s] 32/512 returned, 32 complete, 32 leaves, 0 failed
+[      6s] 40/512 returned, 40 complete, 40 leaves, 0 failed
+[      6s] 48/512 returned, 48 complete, 48 leaves, 0 failed
+[      6s] 56/512 returned, 56 complete, 59 leaves, 0 failed
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory aOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLASOpen error: MBLAS error: Memeory allocation still failed mory allocatioafter 10 retries, givin still failed after 10 retries, giving up.
+ng up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAOS error: Memory allocation still failed after 10p retries, giving up.
+OpenBLAS error: Memory alOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+penBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory alOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OOpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OProcess SpawnPoolWorker-12:
+Traceback (most recent call last):
+  File "<python>\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "<python>\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "<python>\Lib\multiprocessing\pool.py", line 109, in worker
+    initializer(*initargs)
+  File "<repo>\code\c3\c3_run.py", line 81, in init
+    cnt(0.1, 0.11, 0.5, 0.51, 0.3, 0.31, 0.2, 0.21, ROOT[chart][0], ROOT[chart][1], J, M0, 2, 100, 0)
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numba\core\dispatcher.py", line 441, in _compile_for_args
+    raise e
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numba\core\dispatcher.py", line 374, in _compile_for_args
+    return_val = self.compile(tuple(argtypes))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numba\core\dispatcher.py", line 887, in compile
+    cres = self._cache.load_overload(sig, self.targetctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numba\core\caching.py", line 719, in load_overload
+    target_context.refresh()
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numba\core\base.py", line 267, in refresh
+    self.load_additional_registries()
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numba\core\cpu.py", line 118, in load_additional_registries
+    from numba.np import linalg, arraymath, arrayobj # noqa F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numba\np\arraymath.py", line 44, in <module>
+    _HAVE_BLAS = _check_blas()
+                 ^^^^^^^^^^^^^
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numba\np\arraymath.py", line 38, in _check_blas
+    ensure_blas()
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numba\np\linalg.py", line 57, in ensure_blas
+    import scipy.linalg.cython_blas
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\scipy\linalg\__init__.py", line 201, in <module>
+    from ._misc import *
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\scipy\linalg\_misc.py", line 6, in <module>
+    from scipy._lib._util import _deprecate_dtypes
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\scipy\_lib\_util.py", line 16, in <module>
+    from scipy._lib._array_api import (Array, array_namespace, is_lazy_array, is_numpy,
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\scipy\_lib\_array_api.py", line 24, in <module>
+    from scipy._external.array_api_compat import (
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\scipy\_external\array_api_compat\numpy\__init__.py", line 9, in <module>
+    __all__ = clone_module("numpy", globals())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\scipy\_external\array_api_compat\_internal.py", line 64, in clone_module
+    exec(f"from {mod.__name__} import *", objs)
+  File "<string>", line 1, in <module>
+  File "<frozen importlib._bootstrap>", line 1410, in _handle_fromlist
+  File "<frozen importlib._bootstrap>", line 1412, in _handle_fromlist
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numpy\__init__.py", line 748, in __getattr__
+    import numpy.f2py as f2py
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numpy\f2py\__init__.py", line 19, in <module>
+    from . import diagnose, f2py2e
+  File "<home>\Downloads\<dir>\.venv\Lib\site-packages\numpy\f2py\f2py2e.py", line 13, in <module>
+    import argparse
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1091, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1191, in get_data
+MemoryError
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
+OpeProcess SpawnPoolWorker-16:
+Traceback (most recent call last):
+  File "<python>\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "<python>\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "<python>\Lib\multiprocessing\pool.py", line 109, in worker
+    initializer(*initargs)
+  File "<repo>\code\c3\c3_run.py", line 77, in init
+    cnt = importlib.import_module(engine_module(chart)).count
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<repo>\code\c3\nbeng_c3_FIP_2.py", line 5, in <module>
+    from nbcoef_c3_FIP_2 import coef_val2, coef_abs2, DEG
+MemoryError
+[     17s] 64/512 returned, 64 complete, 672 leaves, 0 failed
+[     17s] 72/512 returned, 72 complete, 680 leaves, 0 failed
+[     17s] 80/512 returned, 80 complete, 688 leaves, 0 failed
+[     17s] 88/512 returned, 88 complete, 696 leaves, 0 failed
+[     17s] 96/512 returned, 96 complete, 704 leaves, 0 failed
+[     17s] 104/512 returned, 104 complete, 712 leaves, 0 failed
+[     17s] 112/512 returned, 112 complete, 720 leaves, 0 failed
+[     27s] 120/512 returned, 120 complete, 3050 leaves, 0 failed
+[     41s] 128/512 returned, 128 complete, 4628 leaves, 0 failed
+[     41s] 136/512 returned, 136 complete, 4636 leaves, 0 failed
+[     41s] 144/512 returned, 144 complete, 4644 leaves, 0 failed
+[     41s] 152/512 returned, 152 complete, 4652 leaves, 0 failed
+[     41s] 160/512 returned, 160 complete, 4660 leaves, 0 failed
+[     41s] 168/512 returned, 168 complete, 4668 leaves, 0 failed
+[     41s] 176/512 returned, 176 complete, 4676 leaves, 0 failed
+[    427s] 184/512 returned, 184 complete, 103748 leaves, 0 failed
+[    439s] 192/512 returned, 192 complete, 105567 leaves, 0 failed
+[    439s] 200/512 returned, 200 complete, 105575 leaves, 0 failed
+[    439s] 208/512 returned, 208 complete, 105583 leaves, 0 failed
+[    439s] 216/512 returned, 216 complete, 105591 leaves, 0 failed
+[    439s] 224/512 returned, 224 complete, 105599 leaves, 0 failed
+[    439s] 232/512 returned, 232 complete, 105607 leaves, 0 failed
+[    439s] 240/512 returned, 240 complete, 105615 leaves, 0 failed
+[    468s] 248/512 returned, 248 complete, 216065 leaves, 0 failed
+[    470s] 256/512 returned, 256 complete, 312899 leaves, 0 failed
+[    470s] 264/512 returned, 264 complete, 312907 leaves, 0 failed
+[    470s] 272/512 returned, 272 complete, 312915 leaves, 0 failed
+[    470s] 280/512 returned, 280 complete, 312923 leaves, 0 failed
+[    470s] 288/512 returned, 288 complete, 312931 leaves, 0 failed
+[    470s] 296/512 returned, 296 complete, 312939 leaves, 0 failed
+[    470s] 304/512 returned, 304 complete, 312947 leaves, 0 failed
+[    478s] 312/512 returned, 312 complete, 315798 leaves, 0 failed
+[    529s] 320/512 returned, 320 complete, 323663 leaves, 0 failed
+[    529s] 328/512 returned, 328 complete, 323671 leaves, 0 failed
+[    529s] 336/512 returned, 336 complete, 323679 leaves, 0 failed
+[    529s] 344/512 returned, 344 complete, 323687 leaves, 0 failed
+[    529s] 352/512 returned, 352 complete, 323695 leaves, 0 failed
+[    529s] 360/512 returned, 360 complete, 323703 leaves, 0 failed
+[    529s] 368/512 returned, 368 complete, 323711 leaves, 0 failed
+[    886s] 376/512 returned, 376 complete, 410030 leaves, 0 failed
+[    934s] 384/512 returned, 384 complete, 417196 leaves, 0 failed
+[    934s] 392/512 returned, 392 complete, 417204 leaves, 0 failed
+[    934s] 400/512 returned, 400 complete, 417212 leaves, 0 failed
+[    934s] 408/512 returned, 408 complete, 417220 leaves, 0 failed
+[    934s] 416/512 returned, 416 complete, 417228 leaves, 0 failed
+[    934s] 424/512 returned, 424 complete, 417236 leaves, 0 failed
+[    934s] 432/512 returned, 432 complete, 417244 leaves, 0 failed
+[   1676s] 440/512 returned, 439 complete, 439151 leaves, 55445 failed
+[   1722s] 448/512 returned, 447 complete, 445698 leaves, 55445 failed
+[   1722s] 456/512 returned, 455 complete, 445706 leaves, 55445 failed
+[   1722s] 464/512 returned, 463 complete, 445714 leaves, 55445 failed
+[   1722s] 472/512 returned, 471 complete, 445722 leaves, 55445 failed
+[   1722s] 480/512 returned, 479 complete, 445730 leaves, 55445 failed
+[   1722s] 488/512 returned, 487 complete, 445738 leaves, 55445 failed
+[   1722s] 496/512 returned, 495 complete, 445746 leaves, 55445 failed
+[   1735s] 504/512 returned, 502 complete, 457880 leaves, 70895 failed
+[   2927s] 512/512 returned, 508 complete, 498017 leaves, 124394 failed
+done FIP incomplete 4 failed 124394 hist {'0': 307304, 'o': 29424, 'u': 161289} wall 2932

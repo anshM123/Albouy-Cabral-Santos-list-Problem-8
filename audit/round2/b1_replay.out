@@ -1,0 +1,22 @@
+== B3p
+records 256 complete 256 leaves 1722 deep 0 fails 0 left 0 bound histogram {4: 323, 5: 695, 6: 237, 7: 104, 8: 54, 9: 217, 10: 92} replay problems 0
+== B3m
+records 256 complete 256 leaves 1570 deep 0 fails 0 left 0 bound histogram {4: 515, 5: 688, 6: 114, 7: 44, 8: 26, 9: 118, 10: 65} replay problems 0
+== L2P
+records 256 complete 256 leaves 1979 deep 0 fails 0 left 0 bound histogram {4: 64, 5: 64, 8: 256, 9: 300, 10: 1295} replay problems 0
+== L2Ap
+records 256 complete 256 leaves 2503 deep 0 fails 0 left 0 bound histogram {5: 55, 6: 79, 7: 280, 8: 186, 9: 638, 10: 1265} replay problems 0
+== L2Am
+records 256 complete 256 leaves 2529 deep 0 fails 0 left 0 bound histogram {4: 8, 5: 58, 6: 21, 7: 103, 8: 152, 9: 717, 10: 1470} replay problems 0
+== L2Tp
+records 256 complete 256 leaves 256 deep 0 fails 0 left 0 bound histogram {4: 254, 5: 2} replay problems 0
+== L2Tm
+records 256 complete 256 leaves 256 deep 0 fails 0 left 0 bound histogram {4: 256} replay problems 0
+== B2
+records 256 complete 256 leaves 15506 deep 0 fails 0 left 0 bound histogram {4: 35, 5: 588, 6: 542, 7: 725, 8: 2478, 9: 3192, 10: 7946} replay problems 0
+== runs/B2 (new engines)
+records 256 complete 256 leaves 15506 deep 0 fails 0 left 0 bound histogram {4: 35, 5: 588, 6: 542, 7: 725, 8: 2478, 9: 3192, 10: 7946} replay problems 0
+== runs/B3p (new engines)
+records 256 complete 256 leaves 1722 deep 0 fails 0 left 0 bound histogram {4: 323, 5: 695, 6: 237, 7: 104, 8: 54, 9: 217, 10: 92} replay problems 0
+== runs/B3m (new engines)
+records 256 complete 256 leaves 1570 deep 0 fails 0 left 0 bound histogram {4: 515, 5: 688, 6: 114, 7: 44, 8: 26, 9: 118, 10: 65} replay problems 0

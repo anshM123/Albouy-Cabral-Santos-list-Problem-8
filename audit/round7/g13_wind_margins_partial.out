@@ -1,0 +1,2 @@
+bulk.json.records.jsonl: winding leaves 729914, checked 3000; W mismatches 0; re-run failures 0; L >= 0: 0; max |kL| 19.1; max |step| = pi - 2.421e+00; min node |label component|/|G| 3.358e-02; max wrap discrepancy 2.7e-14; max |tot - 2 pi w| 3.9e-14
+KQ1_snap.records.jsonl: winding leaves 68, checked 68; W mismatches 0; re-run failures 0; L >= 0: 0; max |kL| 12.8; max |step| = pi - 2.424e+00; min node |label component|/|G| 2.057e-01; max wrap discrepancy 1.3e-15; max |tot - 2 pi w| 1.8e-14

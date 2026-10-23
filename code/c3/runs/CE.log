@@ -1,0 +1,17 @@
+[    364s] 32/512 returned, 32 complete, 10374 leaves, 0 failed
+[   1714s] 64/512 returned, 64 complete, 46106 leaves, 0 failed
+[   2339s] 96/512 returned, 96 complete, 78185 leaves, 0 failed
+[   3703s] 128/512 returned, 128 complete, 118967 leaves, 0 failed
+[   4023s] 160/512 returned, 160 complete, 124744 leaves, 0 failed
+[   4630s] 192/512 returned, 192 complete, 164064 leaves, 0 failed
+[   4630s] 224/512 returned, 224 complete, 164096 leaves, 0 failed
+[   4630s] 256/512 returned, 256 complete, 164128 leaves, 0 failed
+[   4630s] 288/512 returned, 288 complete, 164160 leaves, 0 failed
+[   4630s] 320/512 returned, 320 complete, 164192 leaves, 0 failed
+[   4630s] 352/512 returned, 352 complete, 164224 leaves, 0 failed
+[   4630s] 384/512 returned, 384 complete, 164256 leaves, 0 failed
+[   4630s] 416/512 returned, 416 complete, 164288 leaves, 0 failed
+[   4630s] 448/512 returned, 448 complete, 164320 leaves, 0 failed
+[   4630s] 480/512 returned, 480 complete, 164352 leaves, 0 failed
+[   4913s] 512/512 returned, 512 complete, 171636 leaves, 0 failed
+done CE incomplete 0 failed 0 hist {'4': 118, '5': 810, '6': 3511, '7': 25407, '8': 136070, 'o': 3949, 'u': 1771} wall 4913

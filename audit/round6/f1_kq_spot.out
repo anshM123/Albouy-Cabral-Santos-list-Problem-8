@@ -1,0 +1,5 @@
+F0.json [f]: records 400, leaves 12354, bad codes/stack 0, bound histogram {4: 429, 5: 1241, 6: 804, 7: 1137, 8: 5107, 9: 532, 10: 1343, 11: 1761}; spot points 120: violations 0, odd N_mult 0, max N_mult 6
+kq1_snapshot.jsonl [KQ (partial records)]: records 367, leaves 7325, bad codes/stack 0, bound histogram {4: 50, 5: 67, 6: 659, 7: 734, 8: 1258, 9: 889, 10: 1658, 11: 2010}; spot points 120: violations 0, odd N_mult 0, max N_mult 8
+kq2_snapshot.jsonl [KQ (partial records)]: records 69, leaves 428, bad codes/stack 0, bound histogram {6: 4, 7: 150, 8: 142, 9: 61, 10: 39, 11: 32}; spot points 120: violations 0, odd N_mult 0, max N_mult 6
+kqk1_snapshot.jsonl [KQ (partial records)]: records 316, leaves 2138, bad codes/stack 0, bound histogram {8: 104, 9: 727, 10: 447, 11: 860}; spot points 120: violations 0, odd N_mult 0, max N_mult 6
+kqk2_snapshot.jsonl [KQ (partial records)]: records 1, leaves 119, bad codes/stack 0, bound histogram {10: 33, 11: 86}; spot points 120: violations 0, odd N_mult 0, max N_mult 10

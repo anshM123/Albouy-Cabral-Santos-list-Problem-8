@@ -1,0 +1,15 @@
+400 random boxes (both charts, 4 size scales), 68s
+  A_boxes        400
+  A_mismatch     0
+  B_checks       22118400
+  B_maxratio     0.9960161191689633
+  B_viol         0
+  C_checks       29030400
+  C_viol         0
+  C_minmargin    0.01291089124250627
+  D_signed       97548
+  D_checks       7901388
+  D_viol         0
+  worst B violation: None
+  worst C violation: None
+  worst D violation: None

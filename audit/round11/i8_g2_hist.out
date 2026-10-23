@@ -1,0 +1,14 @@
+KQF files 1 records 100 prune_violations 0 owed 309 problems []
+KQF2 files 2 records 99 prune_violations 0 owed 694 problems []
+KQS files 1 records 96 prune_violations 0 owed 244 problems []
+KQ2 files 4 records 1379 prune_violations 0 owed 2356 problems []
+KQK2 files 7 records 14029 prune_violations 0 owed 0 problems []
+KQB files 6 records 850 prune_violations 0 owed 930 problems []
+KQF: owed 309, inside K_lw (not needed) 28; still owed 281
+KQF        NOT OK  leaves 190977  winding 0  fails 0  incomplete 13  open 281  problems 0
+KQF2       NOT OK  leaves 10252  winding 0  fails 0  incomplete 55  open 694  problems 0
+KQS        NOT OK  leaves 2224  winding 0  fails 0  incomplete 12  open 244  problems 1
+KQ2        NOT OK  leaves 251348  winding 100136  fails 1669  incomplete 989  open 2356  problems 0
+KQK2       NOT OK  leaves 127845  winding 2568  fails 11100  incomplete 2248  open 0  problems 1
+KQB        NOT OK  leaves 108624  winding 23310  fails 0  incomplete 640  open 930  problems 1
+ALL FAMILIES REPLAYED, COMPLETE AND WITHIN THEIR BOUNDS: NO

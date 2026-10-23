@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "A circle and a confocal ellipse have at most ten distance-stationary points: a computer-assisted answer to Problem 8 (second question) of Albouy, Cabral and Santos"
+authors:
+  - family-names: Mishra
+    given-names: Ansh
+  - family-names: Senthilkumar
+    given-names: Aryan
+date-released: 2026-10-23
+license: MIT
+repository-code: "https://github.com/anshM123/Albouy-Cabral-Santos-list-Problem-8"
+keywords:
+  - Keplerian distance
+  - MOID
+  - stationary points
+  - computer-assisted proof
+  - celestial mechanics

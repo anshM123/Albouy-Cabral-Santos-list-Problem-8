@@ -1,0 +1,21 @@
+[      1s] 16/309 returned, 5 complete, 6253 leaves, 0 failed
+[      1s] 32/309 returned, 5 complete, 6253 leaves, 0 failed
+[      1s] 48/309 returned, 5 complete, 6253 leaves, 0 failed
+[      1s] 64/309 returned, 5 complete, 6253 leaves, 0 failed
+[      1s] 80/309 returned, 5 complete, 6253 leaves, 0 failed
+[      1s] 96/309 returned, 5 complete, 6253 leaves, 0 failed
+[      1s] 112/309 returned, 5 complete, 6253 leaves, 0 failed
+[      1s] 128/309 returned, 5 complete, 6253 leaves, 0 failed
+[      1s] 144/309 returned, 5 complete, 6253 leaves, 0 failed
+[      1s] 160/309 returned, 5 complete, 6253 leaves, 0 failed
+[      1s] 176/309 returned, 5 complete, 6253 leaves, 0 failed
+[      1s] 192/309 returned, 5 complete, 6253 leaves, 0 failed
+[      1s] 208/309 returned, 5 complete, 6253 leaves, 0 failed
+[      1s] 224/309 returned, 5 complete, 6253 leaves, 0 failed
+[      1s] 240/309 returned, 5 complete, 6253 leaves, 0 failed
+[      1s] 256/309 returned, 5 complete, 6253 leaves, 0 failed
+[      1s] 272/309 returned, 5 complete, 6253 leaves, 0 failed
+[      1s] 288/309 returned, 5 complete, 6253 leaves, 0 failed
+[      1s] 304/309 returned, 5 complete, 6253 leaves, 0 failed
+[      1s] 309/309 returned, 5 complete, 6253 leaves, 0 failed
+done KQ incomplete 313 failed 0 hist {'10': 1464, '11': 1895, '4': 1, '6': 24, '7': 16, '8': 102, '9': 301, 'w1': 1891, 'w2': 559} wall 1

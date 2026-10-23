@@ -1,0 +1,4 @@
+(A) coef_val2[0..3] vs nbcoef_f.coef_val[0..3]: max rel diff 0.00e+00
+(B) second derivatives vs 50-digit numerical derivatives: max rel err 3.48e-31
+(C) coef_abs2 slots 0..9: 895 terms checked, mismatches 0; max terms per polynomial 13; slots 10..19 vs symbolic third derivatives: max rel diff 3.62e-16 (max degree 5)
+(D) Taylor inequality: 33600 coefficient checks on 300 boxes x 4 points; violations 0; max |c(x) - second-order model| / (crad + rem) = 0.926

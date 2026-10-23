@@ -1,0 +1,6 @@
+Q is a polynomial in tau: 12 (degree in tau)
+powers of nu present: [10, 12, 14, 16, 18, 20] ... [24, 26, 28] ; all even: True ; lowest: 10
+nu^10 coefficient == P0(2y): True
+Bh forms agree: True
+E = m = 0 form: True
+level-2 weighted order: 6 ; leading part: -64*K*y**2*(E**2*K + 4*E*K*y**2 + 4*K*y**4 - 2*m**2) ; == 32 K y^2 [4m^2 - 2K(E + 2y^2)^2]: True

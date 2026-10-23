@@ -1,0 +1,8 @@
+[      1s] 16/112 returned, 3 complete, 260 leaves, 0 failed
+[      1s] 32/112 returned, 3 complete, 260 leaves, 0 failed
+[      1s] 48/112 returned, 3 complete, 260 leaves, 0 failed
+[      1s] 64/112 returned, 3 complete, 260 leaves, 0 failed
+[      1s] 80/112 returned, 3 complete, 260 leaves, 0 failed
+[      1s] 96/112 returned, 3 complete, 260 leaves, 0 failed
+[      1s] 112/112 returned, 3 complete, 260 leaves, 0 failed
+done KQ incomplete 112 failed 0 hist {'10': 43, '11': 209, '8': 4, '9': 4} wall 1

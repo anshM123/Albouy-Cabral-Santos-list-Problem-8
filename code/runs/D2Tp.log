@@ -1,0 +1,15 @@
+initial boxes 256 skipped (excluded) 0
+[     56s] 25/256 returned, 25 complete, 1014 leaves (0 deep, 0 wind), 0 failed
+== resumed 07:53 (4 workers, tmax 1800)
+resume: kept 49 completed records
+initial boxes 207 skipped (excluded) 0
+[      2s] 25/207 returned, 74 complete, 1359 leaves (0 deep, 0 wind), 0 failed
+[      2s] 50/207 returned, 99 complete, 1672 leaves (0 deep, 0 wind), 0 failed
+[      3s] 75/207 returned, 124 complete, 2012 leaves (0 deep, 0 wind), 0 failed
+[      4s] 100/207 returned, 149 complete, 2973 leaves (0 deep, 0 wind), 0 failed
+[      4s] 125/207 returned, 174 complete, 3172 leaves (0 deep, 0 wind), 0 failed
+[     20s] 150/207 returned, 199 complete, 5044 leaves (0 deep, 0 wind), 0 failed
+[     21s] 175/207 returned, 224 complete, 5253 leaves (0 deep, 0 wind), 0 failed
+[   1802s] 200/207 returned, 247 complete, 20027 leaves (6271 deep, 0 wind), 8175 failed
+[   1822s] 207/207 returned, 252 complete, 26915 leaves (9084 deep, 0 wind), 20245 failed
+certified volume fraction (of processed boxes): 1.2239815839703976 ; incomplete initial boxes: 4 ; failed leaves: 20245 ; wall 1822 s

@@ -1,0 +1,23 @@
+C1 [C1]: leaves 77436 (winding 34471, total-11 0); sampled 24 leaves, 72 points (72 physical, 24 winding); violations 0; odd N_mult 0; max N_mult 6; min winding margin 0.56
+C1p [C1p]: leaves 44140 (winding 24550, total-11 0); sampled 24 leaves, 72 points (69 physical, 24 winding); violations 0; odd N_mult 0; max N_mult 8; min winding margin 0.73
+C1pp [C1pp]: leaves 11356 (winding 6138, total-11 0); sampled 24 leaves, 72 points (69 physical, 24 winding); violations 0; odd N_mult 0; max N_mult 8; min winding margin 0.83
+B1 [B1]: leaves 8379 (winding 5171, total-11 0); sampled 24 leaves, 72 points (72 physical, 24 winding); violations 0; odd N_mult 0; max N_mult 6; min winding margin 0.519
+B2 [B2]: leaves 15506 (winding 0, total-11 0); sampled 24 leaves, 72 points (72 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 6; min winding margin +inf
+B3p [B3p]: leaves 1722 (winding 0, total-11 0); sampled 24 leaves, 72 points (72 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 4; min winding margin +inf
+B3m [B3m]: leaves 1570 (winding 0, total-11 0); sampled 24 leaves, 72 points (72 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 4; min winding margin +inf
+L2E [L2E]: leaves 436 (winding 290, total-11 0); sampled 24 leaves, 72 points (72 physical, 24 winding); violations 0; odd N_mult 0; max N_mult 6; min winding margin 0.547
+L2P [L2P]: leaves 1979 (winding 0, total-11 0); sampled 24 leaves, 72 points (72 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 6; min winding margin +inf
+L2Ap [L2Ap]: leaves 2503 (winding 0, total-11 0); sampled 24 leaves, 72 points (72 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 6; min winding margin +inf
+L2Am [L2Am]: leaves 2529 (winding 0, total-11 0); sampled 24 leaves, 72 points (72 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 6; min winding margin +inf
+L2Tp [L2Tp]: leaves 256 (winding 0, total-11 0); sampled 24 leaves, 72 points (72 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 4; min winding margin +inf
+L2Tm [L2Tm]: leaves 256 (winding 0, total-11 0); sampled 24 leaves, 72 points (72 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 4; min winding margin +inf
+D2E [D2E]: leaves 256 (winding 137, total-11 0); sampled 24 leaves, 72 points (72 physical, 24 winding); violations 0; odd N_mult 0; max N_mult 8; min winding margin 0.948
+D2P [D2P]: leaves 1130 (winding 348, total-11 0); sampled 24 leaves, 72 points (70 physical, 24 winding); violations 0; odd N_mult 0; max N_mult 8; min winding margin 0.941
+D2K [D2K]: leaves 464 (winding 102, total-11 0); sampled 24 leaves, 72 points (72 physical, 24 winding); violations 0; odd N_mult 0; max N_mult 8; min winding margin 0.95
+D2Tm [D2Tm]: leaves 256 (winding 0, total-11 10); sampled 24 leaves, 72 points (72 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 4; min winding margin +inf
+F0 [f]: leaves 12354 (winding 3925, total-11 1761); sampled 24 leaves, 72 points (72 physical, 24 winding); violations 0; odd N_mult 0; max N_mult 6; min winding margin 0.386
+KA [KA]: leaves 64 (winding 0, total-11 0); sampled 24 leaves, 72 points (72 physical, 0 winding); violations 0; odd N_mult 0; max away count 2; min winding margin +inf
+KQ1 [KQ] (partial): leaves 31707 (winding 68, total-11 10622); sampled 24 leaves, 72 points (72 physical, 24 winding); violations 0; odd N_mult 0; max N_mult 8; min winding margin 0.309
+KQ2 [KQ] (partial): leaves 2610 (winding 0, total-11 605); sampled 24 leaves, 72 points (72 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 8; min winding margin +inf
+KQK1 [KQ] (partial): leaves 7173 (winding 0, total-11 3772); sampled 24 leaves, 72 points (72 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 10; min winding margin +inf
+KQK2 [KQ] (partial): leaves 597 (winding 0, total-11 564); sampled 24 leaves, 72 points (72 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 10; min winding margin +inf

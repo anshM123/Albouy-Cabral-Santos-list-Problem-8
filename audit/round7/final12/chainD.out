@@ -1,0 +1,60 @@
+== 15:16:08 g4: final C3 charts + face charts: replay, 20 spot leaves x 2 points, 100 leaves re-certified per file
+CK.json: records 512, leaves 2933, fails 0, replay problems 0; leaf kinds {'a4': 612, 'a5': 20, 'a6': 652, 'a7': 166, 'a8': 1148, 'o': 335}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 4; max interpolation residual (rel) 8.17e-99
+    re-certified 100 leaves (incl. pruned) with c3_run.certify: problems 0
+CE.json: records 512, leaves 171636, fails 0, replay problems 0; leaf kinds {'a4': 118, 'a5': 810, 'a6': 3511, 'a7': 25407, 'a8': 136070, 'o': 3949, 'u': 1771}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 6; max interpolation residual (rel) 4.98e-99
+    re-certified 100 leaves (incl. pruned) with c3_run.certify: problems 0
+Cm.json: records 512, leaves 2861, fails 0, replay problems 0; leaf kinds {'a5': 29, 'a6': 165, 'a7': 421, 'a8': 1608, 'o': 344, 'u': 294}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 6; max interpolation residual (rel) 8.75e-98
+    re-certified 100 leaves (incl. pruned) with c3_run.certify: problems 0
+PhiP.json: records 512, leaves 512, fails 0, replay problems 0; leaf kinds {'a0': 285, 'o': 195, 'u': 32}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 0; max interpolation residual (rel) 3.72e-101
+    re-certified 100 leaves (incl. pruned) with c3_run.certify: problems 0
+PhiM.json: records 512, leaves 512, fails 0, replay problems 0; leaf kinds {'a0': 285, 'o': 195, 'u': 32}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 0; max interpolation residual (rel) 4.25e-101
+    re-certified 100 leaves (incl. pruned) with c3_run.certify: problems 0
+L2aE.json: records 512, leaves 785, fails 0, replay problems 0; leaf kinds {'a2': 108, 'a4': 227, 'o': 128, 'u': 322}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 4; max interpolation residual (rel) 9.77e-96
+    re-certified 100 leaves (incl. pruned) with c3_run.certify: problems 0
+L2am.json: records 512, leaves 1048, fails 0, replay problems 0; leaf kinds {'a4': 590, 'o': 136, 'u': 322}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 4; max interpolation residual (rel) 8.58e-96
+    re-certified 100 leaves (incl. pruned) with c3_run.certify: problems 0
+L2aYp.json: records 512, leaves 871, fails 0, replay problems 0; leaf kinds {'a0': 413, 'o': 136, 'u': 322}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 0; max interpolation residual (rel) 4.93e-101
+    re-certified 100 leaves (incl. pruned) with c3_run.certify: problems 0
+L2aYm.json: records 512, leaves 524, fails 0, replay problems 0; leaf kinds {'a0': 162, 'o': 128, 'u': 234}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 0; max interpolation residual (rel) 2.87e-101
+    re-certified 100 leaves (incl. pruned) with c3_run.certify: problems 0
+L2KE.json: records 512, leaves 512, fails 0, replay problems 0; leaf kinds {'a2': 184, 'a4': 184, 'o': 144}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 2; max interpolation residual (rel) 2.54e-94
+    re-certified 100 leaves (incl. pruned) with c3_run.certify: problems 0
+L2Km.json: records 512, leaves 512, fails 0, replay problems 0; leaf kinds {'a4': 368, 'o': 144}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 4; max interpolation residual (rel) 2.18e-96
+    re-certified 100 leaves (incl. pruned) with c3_run.certify: problems 0
+L2KYp.json: records 512, leaves 512, fails 0, replay problems 0; leaf kinds {'a0': 368, 'o': 144}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 0; max interpolation residual (rel) 2.89e-101
+    re-certified 100 leaves (incl. pruned) with c3_run.certify: problems 0
+L2KYm.json: records 512, leaves 512, fails 0, replay problems 0; leaf kinds {'a0': 368, 'o': 144}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 0; max interpolation residual (rel) 3.85e-101
+    re-certified 100 leaves (incl. pruned) with c3_run.certify: problems 0
+FE.json: records 512, leaves 380711, fails 0, replay problems 0; leaf kinds {'a2': 4340, 'a3': 78, 'a4': 186852, 'a5': 35228, 'o': 34121, 'u': 120092}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 4; max interpolation residual (rel) 2.16e-95
+    re-certified 100 leaves (incl. pruned) with c3_run.certify: problems 0
+FM.json: records 512, leaves 539664, fails 0, replay problems 0; leaf kinds {'a4': 317653, 'a5': 31192, 'o': 44210, 'u': 146609}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 4; max interpolation residual (rel) 4.16e-96
+    re-certified 100 leaves (incl. pruned) with c3_run.certify: problems 0
+FIP.json: records 512, leaves 498017, fails 124394, replay problems 0; leaf kinds {'a0': 307304, 'o': 29424, 'u': 161289}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 0; max interpolation residual (rel) 3.41e-101
+   RECERT PROBLEM FIP (0.020016639709472657, 0.020016945190429687, 0.2494710235595703, 0.24948629760742186, 0.9854278564453125, 0.985443115234375, 0.1689605712890625, 0.168975830078125) a 0 o -1
+   RECERT PROBLEM FIP (0.020018778076171875, 0.02002, 1.0006945190429686, 1.0007250671386716, 0.986358642578125, 0.98638916015625, 0.16314697265625, 0.1632080078125) a 0 o -1
+   RECERT PROBLEM FIP (0.020019694519042966, 0.02001984725952148, 0.2500972595214843, 0.2501125335693359, 0.985595703125, 0.9856109619140625, 0.1687164306640625, 0.168731689453125) a 0 o -1
+   RECERT PROBLEM FIP (0.020018778076171875, 0.020019389038085936, 0.2501889038085937, 0.2502041778564453, 0.9854278564453125, 0.985443115234375, 0.1689605712890625, 0.168975830078125) a 0 o -1
+   RECERT PROBLEM FIP (0.02001419586181641, 0.02001450134277344, 0.2502041778564453, 0.25021945190429684, 0.9854278564453125, 0.985443115234375, 0.1689453125, 0.168975830078125) a 0 o -1
+   RECERT PROBLEM FIP (0.020018472595214845, 0.020018778076171875, 0.7506430816650391, 0.7506583557128906, 0.9864120483398438, 0.986419677734375, 0.1641387939453125, 0.164154052734375) a 0 o -1
+   RECERT PROBLEM FIP (0.020017861633300778, 0.02001816711425781, 0.2501889038085937, 0.2502041778564453, 0.9856414794921875, 0.98565673828125, 0.1686248779296875, 0.16864013671875) a 0 o -1
+    re-certified 100 leaves (incl. pruned) with c3_run.certify: problems 7
+FIM.json: records 512, leaves 115073, fails 0, replay problems 0; leaf kinds {'a0': 57097, 'o': 10193, 'u': 47783}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 0; max interpolation residual (rel) 2.37e-101
+    re-certified 100 leaves (incl. pruned) with c3_run.certify: problems 0
+== g4 final done 15:25:02

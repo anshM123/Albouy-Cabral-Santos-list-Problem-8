@@ -1,0 +1,21 @@
+[      1s] 8/154 returned, 8 complete, 14 leaves, 0 failed
+[     14s] 16/154 returned, 16 complete, 495 leaves, 0 failed
+[     65s] 24/154 returned, 24 complete, 6037 leaves, 0 failed
+[    111s] 32/154 returned, 32 complete, 7540 leaves, 0 failed
+[    235s] 40/154 returned, 40 complete, 27922 leaves, 0 failed
+[    465s] 48/154 returned, 48 complete, 38055 leaves, 0 failed
+[   1201s] 56/154 returned, 55 complete, 81162 leaves, 0 failed
+[   1384s] 64/154 returned, 61 complete, 104316 leaves, 0 failed
+[   1463s] 72/154 returned, 68 complete, 165979 leaves, 0 failed
+[   1669s] 80/154 returned, 75 complete, 186573 leaves, 0 failed
+[   1906s] 88/154 returned, 82 complete, 206073 leaves, 0 failed
+[   2450s] 96/154 returned, 89 complete, 221969 leaves, 0 failed
+[   2869s] 104/154 returned, 95 complete, 283177 leaves, 0 failed
+[   2877s] 112/154 returned, 102 complete, 290528 leaves, 0 failed
+[   3794s] 120/154 returned, 108 complete, 370361 leaves, 0 failed
+[   4119s] 128/154 returned, 113 complete, 398153 leaves, 0 failed
+[   4207s] 136/154 returned, 120 complete, 421024 leaves, 0 failed
+[   4880s] 144/154 returned, 128 complete, 429811 leaves, 0 failed
+[   5277s] 152/154 returned, 134 complete, 530368 leaves, 0 failed
+[   5408s] 154/154 returned, 134 complete, 550752 leaves, 0 failed
+done Ca incomplete 20 failed 0 hist {'4': 860, '5': 73, '6': 187049, '7': 27443, '8': 52878, '9': 240650, 'Z2': 2099, 'Z3': 72, 'Z4': 359, 'Z5': 2705, 'o': 4573, 'u': 31991} wall 5408

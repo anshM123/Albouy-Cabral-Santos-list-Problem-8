@@ -1,0 +1,4 @@
+degrees: KBQe_2 12 KBPe_2 12 KBPe 12
+(2) KBPe coefficients (value, first and second derivatives; both modules) vs reversed KBQe with signs: max diff 0.00e+00
+(3) KBPe_2 G(tp) vs my P(f)(1 + tp^2)^6, f = 2 atan(tp): max rel err 3.38e-50
+    first-derivative slots vs numerical derivatives: max rel err 7.3e-30

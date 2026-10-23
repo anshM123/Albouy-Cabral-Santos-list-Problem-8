@@ -1,0 +1,13 @@
+initial boxes 256 skipped (excluded) 0
+[     48s] 25/256 returned, 25 complete, 282 leaves (0 deep, 92 wind), 0 failed
+[     48s] 50/256 returned, 50 complete, 307 leaves (0 deep, 99 wind), 0 failed
+[     49s] 75/256 returned, 75 complete, 530 leaves (0 deep, 166 wind), 0 failed
+[     49s] 100/256 returned, 100 complete, 555 leaves (0 deep, 174 wind), 0 failed
+[     49s] 125/256 returned, 125 complete, 580 leaves (0 deep, 179 wind), 0 failed
+[     51s] 150/256 returned, 150 complete, 839 leaves (0 deep, 260 wind), 0 failed
+[     51s] 175/256 returned, 175 complete, 864 leaves (0 deep, 266 wind), 0 failed
+[     53s] 200/256 returned, 200 complete, 1074 leaves (0 deep, 334 wind), 0 failed
+[     53s] 225/256 returned, 225 complete, 1099 leaves (0 deep, 340 wind), 0 failed
+[     53s] 250/256 returned, 250 complete, 1124 leaves (0 deep, 348 wind), 0 failed
+[     53s] 256/256 returned, 256 complete, 1130 leaves (0 deep, 348 wind), 0 failed
+certified volume fraction (of processed boxes): 1.0 ; incomplete initial boxes: 0 ; failed leaves: 0 ; wall 53 s

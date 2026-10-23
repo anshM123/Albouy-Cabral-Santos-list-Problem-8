@@ -1,0 +1,86 @@
+l = 1 factorisation check, w = 0.1: max |B + 2 cos(f+w)(sin(f+w)+sin w)| = 8.3e-16
+l = 1 factorisation check, w = 0.3: max |B + 2 cos(f+w)(sin(f+w)+sin w)| = 4.4e-16
+l = 1 factorisation check, w = 0.6: max |B + 2 cos(f+w)(sin(f+w)+sin w)| = 6.7e-16
+l = 1 factorisation check, w = 1.0: max |B + 2 cos(f+w)(sin(f+w)+sin w)| = 4.4e-16
+omega   smallest l in [0.9, 1] with 4 real zeros of B (e = 1)
+ 0.020   0.90000
+ 0.080   0.90000
+ 0.140   0.90000
+ 0.200   0.90000
+ 0.260   0.90000
+ 0.320   0.90000
+ 0.380   0.90000
+ 0.440   0.90195
+ 0.500   0.91426
+ 0.560   0.92531
+ 0.620   0.93524
+ 0.680   0.94420
+ 0.740   0.95227
+ 0.800   0.95954
+ 0.860   0.96605
+ 0.920   0.97189
+ 0.980   0.97709
+ 1.040   0.98169
+ 1.100   0.98572
+ 1.160   0.98921
+ 1.220   0.99218
+ 1.280   0.99465
+ 1.340   0.99665
+ 1.400   0.99817
+w      l*(w)   (corner e = 1, mu = 0 has 12 real zeros for l >= l*)
+ 0.000  0.7072
+ 0.039  0.754
+ 0.079  0.78
+ 0.118  0.8005
+ 0.157  0.818
+ 0.196  0.8335
+ 0.236  0.8472
+ 0.275  0.8598
+ 0.314  0.8712
+ 0.353  0.8818
+ 0.393  0.8912
+ 0.432  0.9002
+ 0.471  0.9088
+ 0.511  0.9165
+ 0.550  0.9238
+ 0.589  0.9302
+ 0.628  0.9368
+ 0.668  0.9425
+ 0.707  0.948
+ 0.746  0.9532
+ 0.785  0.958
+ 0.825  0.9625
+ 0.864  0.9665
+ 0.903  0.9705
+ 0.942  0.974
+ 0.982  0.9772
+ 1.021  0.9805
+ 1.060  0.9832
+ 1.100  0.9858
+ 1.139  0.9882
+ 1.178  0.9902
+ 1.217  0.9922
+ 1.257  0.9938
+ 1.296  0.9952
+ 1.335  0.9968
+ 1.374  0.9978
+ 1.414  0.9985
+ 1.453  0.9992
+ 1.492  0.9998
+ 1.532  1.0
+ 1.571  None
+KQK1: open boxes 460; touching e = 1 and t = 1: 190; of these with l_hi >= l*(w) (corner limit has 12 real zeros somewhere in the box): 12
+   e range of open boxes: [0.99, 1]
+   l range of open boxes: [0, 0.95]
+   w range of open boxes: [0, 1.5708]
+   t range of open boxes: [0.997456, 1]
+KQK2: open boxes 2228; touching e = 1 and t = 1: 2183; of these with l_hi >= l*(w) (corner limit has 12 real zeros somewhere in the box): 2183
+   e range of open boxes: [0.995, 1]
+   l range of open boxes: [0.95, 1]
+   w range of open boxes: [0, 0.471239]
+   t range of open boxes: [0.997456, 1]
+KQB: open boxes 142; touching e = 1 and t = 1: 30; of these with l_hi >= l*(w) (corner limit has 12 real zeros somewhere in the box): 21
+   e range of open boxes: [0.99, 1]
+   l range of open boxes: [0.95, 1]
+   w range of open boxes: [0.471239, 1.41372]
+   t range of open boxes: [0.997456, 1]

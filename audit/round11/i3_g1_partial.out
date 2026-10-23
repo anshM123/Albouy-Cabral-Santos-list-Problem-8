@@ -1,0 +1,6 @@
+KQF2.json: records 24, leaves 912 (winding 0), fails 0, replay problems 0 []; histogram {4: 1, 5: 5, 6: 906}
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 8 (problems 0; only by the current kq_run: 0)
+    100-digit: 0 winding + 4 count leaves, 8 points (0 winding); violations 0; odd N_mult 0; max N_mult 6; min relative distance of a zero to |z| = e^L +inf
+KQS.json: records 96, leaves 2224 (winding 0), fails 0, replay problems 0 []; histogram {10: 236, 11: 1977, 8: 3, 9: 8}
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 8 (problems 0; only by the current kq_run: 6)
+    100-digit: 0 winding + 4 count leaves, 8 points (0 winding); violations 0; odd N_mult 0; max N_mult 10; min relative distance of a zero to |z| = e^L +inf

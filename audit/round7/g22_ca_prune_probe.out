@@ -1,0 +1,2 @@
+header scale [0.37, 1.0020009999999997, 1.0020009999999997, 1.0030030009999997] engine_module nbeng_c3_Ca_2
+pruned leaves 21177 ; leaves with a sampled point violating the predicate 0

@@ -1,0 +1,31 @@
+[      2s] 16/400 returned, 16 complete, 16 leaves, 0 failed
+[      2s] 32/400 returned, 32 complete, 44 leaves, 0 failed
+[      2s] 48/400 returned, 48 complete, 112 leaves, 0 failed
+[      5s] 64/400 returned, 64 complete, 342 leaves, 0 failed
+== resumed 07:51 with winding (order wind_first)
+== resumed 08:40 with second-order enclosure (nb_cert2)
+== resumed 08:58 with second-order near count (nbeng_c3_KBQe_2)
+== resumed 09:09: final engine (nb_cert2 away/winding, rounds 8, nbeng_c3_KBQe_2)
+== 09:33 closing the base run: remaining initial boxes recorded as open (tmax -1); continued in KQ2.r1.json with t-first splitting
+[      1s] 16/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 32/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 48/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 64/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 80/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 96/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 112/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 128/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 144/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 160/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 176/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 192/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 208/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 224/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 240/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 256/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 272/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 288/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 304/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 320/321 returned, 79 complete, 2610 leaves, 0 failed
+[      1s] 321/321 returned, 79 complete, 2610 leaves, 0 failed
+done KQ incomplete 321 failed 0 hist {'10': 494, '11': 605, '6': 70, '7': 653, '8': 478, '9': 310} wall 1

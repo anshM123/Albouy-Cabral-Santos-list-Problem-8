@@ -1,0 +1,2 @@
+1. dp_count vs brute force: 52500 patterns, mismatches 0
+2. soundness on 3000 random trig polynomials: violations 0; bound attained in 2455 cases

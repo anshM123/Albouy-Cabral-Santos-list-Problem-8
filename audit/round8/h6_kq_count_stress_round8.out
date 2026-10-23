@@ -1,0 +1,6 @@
+KQ1: random boxes 50, count-certified 49, violations 0
+KQ2: random boxes 50, count-certified 42, violations 0
+KQK1: random boxes 50, count-certified 46, violations 0
+KQK2: random boxes 50, count-certified 30, violations 0
+KQB: random boxes 50, count-certified 17, violations 0
+min (certified total - N_mult) over all checked points 0.0 ; away count engine: away_count_t2

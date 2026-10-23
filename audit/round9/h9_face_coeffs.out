@@ -1,0 +1,9 @@
+(1) FE: lowest power of s = 6; leading coefficient = -16*y**2*(pz - 1)*(pz + 1)*(4*m**2 + 4*pz**2*y**4 + 4*pz**2*y**2 + pz**2 - 4*y**4 - 4*y**2 - 1)
+(1) FM: lowest power of s = 6; leading coefficient = -16*y**2*(pz - 1)*(pz + 1)*(E**2*pz**2 - E**2 + 4*E*pz**2*y**2 - 4*E*y**2 + 4*pz**2*y**4 - 4*y**4 + 4)
+(1) FIP: lowest power of s = 6; leading coefficient = -144*(pz - 1)*(pz + 1)*(E**2*pz**2 - E**2 + 36*E*pz**2 - 36*E + 4*m**2 + 324*pz**2 - 324)
+(1) FIM: lowest power of s = 6; leading coefficient = -144*(pz - 1)*(pz + 1)*(E**2*pz**2 - E**2 + 36*E*pz**2 - 36*E + 4*m**2 + 324*pz**2 - 324)
+(2) FE: generated chart polynomial (both module versions) vs my Q / s^6: max rel err 5.16e-40
+(2) FM: generated chart polynomial (both module versions) vs my Q / s^6: max rel err 3.83e-41
+(2) FIP: generated chart polynomial (both module versions) vs my Q / s^6: max rel err 6.51e-41
+(2) FIM: generated chart polynomial (both module versions) vs my Q / s^6: max rel err 3.03e-41
+(3) KBQe_2 vs my Q(th) at e in [0.83, 0.96], mu in [0, 1], |th| <= 0.75: max rel err 2.99e-50

@@ -1,0 +1,53 @@
+[      2s] 16/760 returned, 16 complete, 16 leaves, 0 failed
+[      2s] 32/760 returned, 32 complete, 32 leaves, 0 failed
+[      2s] 48/760 returned, 48 complete, 48 leaves, 0 failed
+[      2s] 64/760 returned, 64 complete, 64 leaves, 0 failed
+[      2s] 80/760 returned, 80 complete, 80 leaves, 0 failed
+[      2s] 96/760 returned, 96 complete, 96 leaves, 0 failed
+[      2s] 112/760 returned, 112 complete, 112 leaves, 0 failed
+[      2s] 128/760 returned, 128 complete, 128 leaves, 0 failed
+[      2s] 144/760 returned, 144 complete, 145 leaves, 0 failed
+[      2s] 160/760 returned, 160 complete, 169 leaves, 0 failed
+[      3s] 176/760 returned, 176 complete, 200 leaves, 0 failed
+[      3s] 192/760 returned, 192 complete, 244 leaves, 0 failed
+[      3s] 208/760 returned, 208 complete, 300 leaves, 0 failed
+[      3s] 224/760 returned, 224 complete, 375 leaves, 0 failed
+[      3s] 240/760 returned, 240 complete, 456 leaves, 0 failed
+[      4s] 256/760 returned, 256 complete, 604 leaves, 0 failed
+[      6s] 272/760 returned, 272 complete, 826 leaves, 0 failed
+[      8s] 288/760 returned, 288 complete, 1137 leaves, 0 failed
+[     37s] 304/760 returned, 304 complete, 1650 leaves, 0 failed
+== resumed 07:51 with winding (order wind_first)
+== resumed 08:40 with second-order enclosure (nb_cert2)
+== resumed 08:58 with second-order near count (nbeng_c3_KBQe_2)
+== resumed 09:09: final engine (nb_cert2 away/winding, rounds 8, nbeng_c3_KBQe_2)
+== 09:33 closing the base run: remaining initial boxes recorded as open (tmax -1); continued in KQK1.r1.json with t-first splitting
+[      1s] 16/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 32/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 48/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 64/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 80/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 96/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 112/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 128/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 144/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 160/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 176/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 192/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 208/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 224/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 240/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 256/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 272/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 288/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 304/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 320/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 336/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 352/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 368/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 384/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 400/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 416/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 432/440 returned, 320 complete, 7269 leaves, 0 failed
+[      1s] 440/440 returned, 320 complete, 7269 leaves, 0 failed
+done KQ incomplete 440 failed 0 hist {'10': 2422, '11': 3790, '8': 211, '9': 797, 'w1': 40, 'w2': 9} wall 1

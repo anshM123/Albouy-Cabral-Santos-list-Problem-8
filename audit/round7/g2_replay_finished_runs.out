@@ -1,0 +1,70 @@
+C1 {"files": 1, "records": 6080, "leaves": 77436, "winding": 34471, "L_range": [-5.725381915353045, -0.4345014589413151], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 16570, "4": 2962, "5": 4541, "6": 2678, "7": 2452, "8": 6256, "9": 7506, "w1": 2521, "w2": 14948, "w3": 17002}, "problems": []}
+C1p {"files": 1, "records": 256, "leaves": 44140, "winding": 24550, "L_range": [-10.297732087161968, -0.48943599959667966], "pruned": 0, "prune_violations": 0, "fails": 659, "incomplete": 0, "owed": 659, "hist": {"10": 8116, "2": 37, "4": 1633, "5": 1390, "6": 1957, "7": 1098, "8": 2941, "9": 2418, "w1": 4462, "w2": 19455, "w3": 633}, "problems": []}
+C1pp {"files": 1, "records": 256, "leaves": 11356, "winding": 6138, "L_range": [-9.272589654873554, -0.6806301082706462], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 2678, "4": 757, "5": 365, "6": 146, "7": 128, "8": 641, "9": 503, "w1": 23, "w2": 6113, "w3": 2}, "problems": []}
+B1 {"files": 1, "records": 2740, "leaves": 8379, "winding": 5171, "L_range": [-4.177072959282019, -0.6053201477679917], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 838, "4": 656, "5": 540, "6": 241, "7": 168, "8": 445, "9": 320, "w1": 54, "w2": 473, "w3": 4644}, "problems": []}
+B2 {"files": 1, "records": 256, "leaves": 15506, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 7946, "4": 35, "5": 588, "6": 542, "7": 725, "8": 2478, "9": 3192}, "problems": []}
+B3p {"files": 1, "records": 256, "leaves": 1722, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 92, "4": 323, "5": 695, "6": 237, "7": 104, "8": 54, "9": 217}, "problems": []}
+B3m {"files": 1, "records": 256, "leaves": 1570, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 65, "4": 515, "5": 688, "6": 114, "7": 44, "8": 26, "9": 118}, "problems": []}
+L2E {"files": 1, "records": 256, "leaves": 436, "winding": 290, "L_range": [-5.783283916031384, -1.4211695501350095], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 4, "4": 48, "5": 44, "7": 17, "8": 30, "9": 3, "w2": 54, "w3": 236}, "problems": []}
+L2P {"files": 1, "records": 256, "leaves": 1979, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 1295, "4": 64, "5": 64, "8": 256, "9": 300}, "problems": []}
+L2Ap {"files": 1, "records": 256, "leaves": 2503, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 1265, "5": 55, "6": 79, "7": 280, "8": 186, "9": 638}, "problems": []}
+L2Am {"files": 1, "records": 256, "leaves": 2529, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 1470, "4": 8, "5": 58, "6": 21, "7": 103, "8": 152, "9": 717}, "problems": []}
+L2Tp {"files": 1, "records": 256, "leaves": 256, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"4": 254, "5": 2}, "problems": []}
+L2Tm {"files": 1, "records": 256, "leaves": 256, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"4": 256}, "problems": []}
+D2E {"files": 1, "records": 256, "leaves": 256, "winding": 137, "L_range": [-5.068667720269682, -3.5962346907203417], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 9, "4": 24, "5": 19, "6": 26, "7": 37, "9": 4, "w1": 137}, "problems": []}
+D2P {"files": 1, "records": 256, "leaves": 1130, "winding": 348, "L_range": [-9.91558812240247, -3.9253693146716175], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 501, "4": 56, "5": 20, "6": 55, "7": 65, "8": 70, "9": 15, "w1": 348}, "problems": []}
+D2K {"files": 1, "records": 256, "leaves": 464, "winding": 102, "L_range": [-9.831175407286116, -3.862898292441867], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 86, "4": 134, "5": 19, "6": 54, "7": 49, "8": 13, "9": 7, "w1": 102}, "problems": []}
+D2Tm {"files": 1, "records": 256, "leaves": 256, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 16, "11": 10, "4": 149, "5": 32, "6": 9, "7": 2, "8": 16, "9": 22}, "problems": []}
+F0 {"files": 1, "records": 400, "leaves": 12354, "winding": 3925, "L_range": [-1.93173055836774, -0.5524414822926881], "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"10": 1285, "11": 1761, "4": 429, "5": 1241, "6": 730, "7": 1137, "8": 1314, "9": 532, "w1": 58, "w2": 3793, "w3": 74}, "problems": []}
+KA {"files": 1, "records": 64, "leaves": 64, "winding": 0, "L_range": null, "pruned": 0, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"2": 64}, "problems": []}
+C3 CK {"files": 1, "records": 512, "leaves": 2598, "winding": 0, "L_range": null, "pruned": 335, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"4": 612, "5": 20, "6": 652, "7": 166, "8": 1148}, "problems": []}
+C3 CE {"files": 1, "records": 512, "leaves": 165916, "winding": 0, "L_range": null, "pruned": 5720, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"4": 118, "5": 810, "6": 3511, "7": 25407, "8": 136070}, "problems": []}
+C3 Cm {"files": 1, "records": 512, "leaves": 2223, "winding": 0, "L_range": null, "pruned": 638, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"5": 29, "6": 165, "7": 421, "8": 1608}, "problems": []}
+C3 PhiP {"files": 1, "records": 512, "leaves": 285, "winding": 0, "L_range": null, "pruned": 227, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"0": 285}, "problems": []}
+C3 PhiM {"files": 1, "records": 512, "leaves": 285, "winding": 0, "L_range": null, "pruned": 227, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"0": 285}, "problems": []}
+C3 L2aE {"files": 1, "records": 512, "leaves": 335, "winding": 0, "L_range": null, "pruned": 450, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"2": 108, "4": 227}, "problems": []}
+C3 L2am {"files": 1, "records": 512, "leaves": 590, "winding": 0, "L_range": null, "pruned": 458, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"4": 590}, "problems": []}
+C3 L2aYp {"files": 1, "records": 512, "leaves": 413, "winding": 0, "L_range": null, "pruned": 458, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"0": 413}, "problems": []}
+C3 L2aYm {"files": 1, "records": 512, "leaves": 162, "winding": 0, "L_range": null, "pruned": 362, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"0": 162}, "problems": []}
+C3 L2KE {"files": 1, "records": 512, "leaves": 368, "winding": 0, "L_range": null, "pruned": 144, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"2": 184, "4": 184}, "problems": []}
+C3 L2Km {"files": 1, "records": 512, "leaves": 368, "winding": 0, "L_range": null, "pruned": 144, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"4": 368}, "problems": []}
+C3 L2KYp {"files": 1, "records": 512, "leaves": 368, "winding": 0, "L_range": null, "pruned": 144, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"0": 368}, "problems": []}
+C3 L2KYm {"files": 1, "records": 512, "leaves": 368, "winding": 0, "L_range": null, "pruned": 144, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"0": 368}, "problems": []}
+C1p owed boxes 659; outside the D2 cube 0; max e of owed boxes 6.107e-06
+D2E: owed 0, owed boxes that may meet an owed C1p box 0
+D2P: owed 0, owed boxes that may meet an owed C1p box 0
+D2K: owed 0, owed boxes that may meet an owed C1p box 0
+D2Tm: owed 0, owed boxes that may meet an owed C1p box 0
+C1         OK  leaves 77436  winding 34471  fails 0  incomplete 0  open 0  problems 0
+C1p        OK  leaves 44140  winding 24550  fails 659  incomplete 0  open 0  problems 0
+C1pp       OK  leaves 11356  winding 6138  fails 0  incomplete 0  open 0  problems 0
+B1         OK  leaves 8379  winding 5171  fails 0  incomplete 0  open 0  problems 0
+B2         OK  leaves 15506  winding 0  fails 0  incomplete 0  open 0  problems 0
+B3p        OK  leaves 1722  winding 0  fails 0  incomplete 0  open 0  problems 0
+B3m        OK  leaves 1570  winding 0  fails 0  incomplete 0  open 0  problems 0
+L2E        OK  leaves 436  winding 290  fails 0  incomplete 0  open 0  problems 0
+L2P        OK  leaves 1979  winding 0  fails 0  incomplete 0  open 0  problems 0
+L2Ap       OK  leaves 2503  winding 0  fails 0  incomplete 0  open 0  problems 0
+L2Am       OK  leaves 2529  winding 0  fails 0  incomplete 0  open 0  problems 0
+L2Tp       OK  leaves 256  winding 0  fails 0  incomplete 0  open 0  problems 0
+L2Tm       OK  leaves 256  winding 0  fails 0  incomplete 0  open 0  problems 0
+D2E        OK  leaves 256  winding 137  fails 0  incomplete 0  open 0  problems 0
+D2P        OK  leaves 1130  winding 348  fails 0  incomplete 0  open 0  problems 0
+D2K        OK  leaves 464  winding 102  fails 0  incomplete 0  open 0  problems 0
+D2Tm       OK  leaves 256  winding 0  fails 0  incomplete 0  open 0  problems 0
+F0         OK  leaves 12354  winding 3925  fails 0  incomplete 0  open 0  problems 0
+KA         OK  leaves 64  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 CK      OK  leaves 2598  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 CE      OK  leaves 165916  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 Cm      OK  leaves 2223  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 PhiP    OK  leaves 285  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 PhiM    OK  leaves 285  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 L2aE    OK  leaves 335  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 L2am    OK  leaves 590  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 L2aYp   OK  leaves 413  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 L2aYm   OK  leaves 162  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 L2KE    OK  leaves 368  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 L2Km    OK  leaves 368  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 L2KYp   OK  leaves 368  winding 0  fails 0  incomplete 0  open 0  problems 0
+C3 L2KYm   OK  leaves 368  winding 0  fails 0  incomplete 0  open 0  problems 0
+ALL FAMILIES REPLAYED, COMPLETE AND WITHIN THEIR BOUNDS: YES

@@ -1,0 +1,12 @@
+== D2E
+                                 ^^^^^^^
+TypeError: 'NoneType' object is not callable
+== D2P
+                                 ^^^^^^^
+TypeError: 'NoneType' object is not callable
+== D2K
+                                 ^^^^^^^
+TypeError: 'NoneType' object is not callable
+== C1p
+records 256 complete 256 leaves 44140 deep 2121 wind 24550 fails 659 left 0 bound histogram {2: 37, 4: 1633, 5: 1390, 6: 2590, 7: 1098, 8: 22396, 9: 2418, 10: 12578} replay problems 0
+re-certified 200 leaves; problems 0

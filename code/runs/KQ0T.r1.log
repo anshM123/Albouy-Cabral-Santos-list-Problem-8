@@ -1,0 +1,21 @@
+[     11s] 16/306 returned, 16 complete, 299 leaves, 0 failed
+[     29s] 32/306 returned, 32 complete, 794 leaves, 0 failed
+[     57s] 48/306 returned, 48 complete, 1883 leaves, 0 failed
+[    279s] 64/306 returned, 64 complete, 6074 leaves, 0 failed
+[    393s] 80/306 returned, 79 complete, 12823 leaves, 0 failed
+[    648s] 96/306 returned, 92 complete, 23317 leaves, 0 failed
+[    986s] 112/306 returned, 102 complete, 36444 leaves, 0 failed
+[   1059s] 128/306 returned, 116 complete, 41968 leaves, 0 failed
+[   1093s] 144/306 returned, 132 complete, 43303 leaves, 0 failed
+[   1162s] 160/306 returned, 148 complete, 44420 leaves, 0 failed
+[   1215s] 176/306 returned, 163 complete, 46797 leaves, 0 failed
+[   1437s] 192/306 returned, 179 complete, 48861 leaves, 0 failed
+[   1755s] 208/306 returned, 187 complete, 55811 leaves, 0 failed
+[   2099s] 224/306 returned, 196 complete, 64181 leaves, 0 failed
+[   2302s] 240/306 returned, 209 complete, 71022 leaves, 0 failed
+[   2664s] 256/306 returned, 217 complete, 80030 leaves, 0 failed
+[   3030s] 272/306 returned, 225 complete, 88070 leaves, 0 failed
+[   3278s] 288/306 returned, 237 complete, 91720 leaves, 0 failed
+[   3564s] 304/306 returned, 248 complete, 100567 leaves, 0 failed
+[   3591s] 306/306 returned, 248 complete, 102383 leaves, 0 failed
+done KQ incomplete 58 failed 0 hist {'10': 12221, '11': 33898, '4': 3, '5': 9, '6': 86, '7': 220, '8': 602, '9': 2283, 'w1': 32690, 'w2': 20088, 'w3': 283} wall 3591

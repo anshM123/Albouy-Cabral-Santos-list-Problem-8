@@ -1,0 +1,10 @@
+[   1250s] 16/142 returned, 11 complete, 15885 leaves, 0 failed
+[   1403s] 32/142 returned, 27 complete, 20189 leaves, 0 failed
+[   2035s] 48/142 returned, 41 complete, 34329 leaves, 0 failed
+[      1s] 16/85 returned, 48 complete, 49208 leaves, 0 failed
+[      1s] 32/85 returned, 48 complete, 49208 leaves, 0 failed
+[      1s] 48/85 returned, 48 complete, 49208 leaves, 0 failed
+[      1s] 64/85 returned, 48 complete, 49208 leaves, 0 failed
+[      1s] 80/85 returned, 48 complete, 49208 leaves, 0 failed
+[      1s] 85/85 returned, 48 complete, 49208 leaves, 0 failed
+done KQ incomplete 94 failed 0 hist {'10': 5174, '11': 24616, '8': 588, '9': 1808, 'w1': 14611, 'w2': 2411} wall 1

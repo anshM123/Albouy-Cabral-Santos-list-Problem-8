@@ -1,0 +1,10 @@
+1. B1: Phi - Psi == e^3 G1: True ; Phi + Psi == e^2 G2: True
+2. G1 mod b^2=1-e^2: b-linear part divisible by ph: True ; R0 at D1b point (e=0, ph=0, qh=1) == 0: True
+2. G2 mod b^2=1-e^2: b-linear part divisible by ph: True ; R0 at D1b point (e=0, ph=0, qh=1) == 0: n/a
+3. leading term F0 formula: True
+3. F0 == 0 identically iff: [{ph: 0, qh: 1, tauh: 0}]
+4. CT first-order expansion f/e^2 = 2 sin u [theta sin2(u+w) - 4 tau sin u - e sin 2u]: True
+5. E0: Pol == -S l^4 sin^2 2(u+w): True
+5. E0 circle-circle (c = cos I): 8 critical points: True ; Hessian determinants: [(c - 1)*(c + 1), -(c - 1)*(c + 1)] (nonzero for |c| < 1, i.e. 0 < l <= 1)
+6. B2: Phi - Psi == norm G1: True; Phi + Psi == e^2 G2: True
+6. B3: Phi - Psi == norm G1: True; Phi + Psi == e^2 G2: True

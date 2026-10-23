@@ -1,0 +1,8 @@
+[     73s] 16/102 returned, 16 complete, 1414 leaves, 0 failed
+[    422s] 32/102 returned, 26 complete, 13138 leaves, 0 failed
+[    852s] 48/102 returned, 39 complete, 24876 leaves, 0 failed
+[    942s] 64/102 returned, 52 complete, 30047 leaves, 0 failed
+[   1190s] 80/102 returned, 67 complete, 36253 leaves, 0 failed
+[   1749s] 96/102 returned, 71 complete, 53082 leaves, 0 failed
+[   1923s] 102/102 returned, 72 complete, 59195 leaves, 0 failed
+done KQ incomplete 30 failed 0 hist {'10': 32025, '11': 24676, '9': 624, 'w1': 1870} wall 1923

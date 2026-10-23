@@ -1,0 +1,4 @@
+L2E.json: winding leaves 290, checked 290; W mismatches 0; re-run failures 0; L >= 0: 0; max |kL| 34.7; max |step| = pi - 2.614e+00; min node |label component|/|G| 1.227e-01; max wrap discrepancy 1.1e-15; max |tot - 2 pi w| 1.4e-14
+B1.json: winding leaves 5171, checked 5171; W mismatches 0; re-run failures 0; L >= 0: 0; max |kL| 25.1; max |step| = pi - 2.517e+00; min node |label component|/|G| 8.669e-02; max wrap discrepancy 2.6e-15; max |tot - 2 pi w| 2.1e-14
+C1pp.json: winding leaves 6138, checked 6138; W mismatches 0; re-run failures 0; L >= 0: 0; max |kL| 55.6; max |step| = pi - 2.522e+00; min node |label component|/|G| 2.846e-01; max wrap discrepancy 1.3e-15; max |tot - 2 pi w| 2.1e-14
+C1.json: winding leaves 34471, checked 34471; W mismatches 0; re-run failures 0; L >= 0: 0; max |kL| 34.4; max |step| = pi - 2.344e+00; min node |label component|/|G| 6.562e-02; max wrap discrepancy 4.3e-15; max |tot - 2 pi w| 3.2e-14

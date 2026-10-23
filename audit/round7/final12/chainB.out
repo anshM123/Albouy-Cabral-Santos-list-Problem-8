@@ -1,0 +1,33 @@
+== chain B start 14:15:32
+== g1: KQ0, KQ1(+r1), KQK2(+r1..r6): replay, every winding leaf, 100 count leaves per file, 100-digit checks
+KQ0.json: records 400, leaves 54718 (winding 35950), fails 0, replay problems 0 []; histogram {10: 4394, 11: 9697, 4: 39, 5: 36, 6: 575, 7: 586, 8: 1314, 9: 2127, 'w1': 28014, 'w2': 7393, 'w3': 543}
+    re-certified winding leaves 35950 (problems 0; certified only by the nb_cert2 enclosure: 35945); count leaves 100 (problems 0; only by the current kq_run: 100)
+    100-digit: 30 winding + 30 count leaves, 180 points (90 winding); violations 0; odd N_mult 0; max N_mult 10; min relative distance of a zero to |z| = e^L 0.0187
+KQ1.json: records 2000, leaves 62970 (winding 23710), fails 0, replay problems 0 []; histogram {10: 9349, 11: 15147, 4: 130, 5: 85, 6: 2171, 7: 2582, 8: 4777, 9: 5019, 'w1': 15310, 'w2': 8175, 'w3': 225}
+   COUNT RECERT PROBLEM (0.962425, 0.97495, 0.7000000000000001, 0.75, 0.7068583470577035, 0.7853981633974483, 0.898, 0.9477500000000001) 9 True 11
+    re-certified winding leaves 23710 (problems 0; certified only by the nb_cert2 enclosure: 23629); count leaves 100 (problems 1; only by the current kq_run: 16)
+    100-digit: 30 winding + 30 count leaves, 180 points (90 winding); violations 0; odd N_mult 0; max N_mult 10; min relative distance of a zero to |z| = e^L 0.0117
+KQ1.r1.json: records 1009, leaves 27558 (winding 19698), fails 0, replay problems 0 []; histogram {10: 1902, 11: 4113, 4: 11, 5: 10, 6: 342, 7: 236, 8: 468, 9: 778, 'w1': 12405, 'w2': 6981, 'w3': 312}
+   COUNT RECERT PROBLEM (0.987475, 1.0, 0.9, 0.95, 0.9424777960769379, 0.9817477042468103, 0.9228750000000001, 0.9477500000000001) 8 True 10
+   COUNT RECERT PROBLEM (0.987475, 1.0, 0.95, 0.975, 0.8639379797371931, 0.9424777960769379, 0.9228750000000001, 0.9477500000000001) 10 True 11
+    re-certified winding leaves 19698 (problems 0; certified only by the nb_cert2 enclosure: 19694); count leaves 100 (problems 2; only by the current kq_run: 95)
+    100-digit: 30 winding + 30 count leaves, 180 points (90 winding); violations 0; odd N_mult 0; max N_mult 10; min relative distance of a zero to |z| = e^L 0.0164
+KQK2.json: records 12, leaves 747 (winding 0), fails 0, replay problems 0 []; histogram {10: 42, 11: 705}
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 100 (problems 0; only by the current kq_run: 27)
+    100-digit: 0 winding + 30 count leaves, 90 points (0 winding); violations 0; odd N_mult 0; max N_mult 10; min relative distance of a zero to |z| = e^L +inf
+KQK2.r1.json: records 4, leaves 0 (winding 0), fails 0, replay problems 0 []; histogram {}
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 0 (problems 0; only by the current kq_run: 0)
+    100-digit: 0 winding + 0 count leaves, 0 points (0 winding); violations 0; odd N_mult 0; max N_mult 0; min relative distance of a zero to |z| = e^L +inf
+KQK2.r2.json: records 4, leaves 3574 (winding 0), fails 2146, replay problems 0 []; histogram {10: 3459, 11: 115}
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 100 (problems 0; only by the current kq_run: 16)
+    100-digit: 0 winding + 30 count leaves, 90 points (0 winding); violations 0; odd N_mult 0; max N_mult 10; min relative distance of a zero to |z| = e^L +inf
+KQK2.r3.json: records 2228, leaves 15409 (winding 0), fails 8954, replay problems 0 []; histogram {10: 13936, 11: 1473}
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 100 (problems 0; only by the current kq_run: 13)
+    100-digit: 0 winding + 30 count leaves, 90 points (0 winding); violations 0; odd N_mult 0; max N_mult 10; min relative distance of a zero to |z| = e^L +inf
+KQK2.r4.json: records 11418, leaves 45730 (winding 658), fails 0, replay problems 0 []; histogram {10: 19553, 11: 25327, 9: 192, 'w1': 658}
+    re-certified winding leaves 658 (problems 0; certified only by the nb_cert2 enclosure: 658); count leaves 100 (problems 0; only by the current kq_run: 98)
+    100-digit: 30 winding + 30 count leaves, 180 points (90 winding); violations 0; odd N_mult 0; max N_mult 10; min relative distance of a zero to |z| = e^L 0.184
+KQK2.r5.json: records 102, leaves 59195 (winding 1870), fails 0, replay problems 0 []; histogram {10: 32025, 11: 24676, 9: 624, 'w1': 1870}
+    re-certified winding leaves 1870 (problems 0; certified only by the nb_cert2 enclosure: 1870); count leaves 100 (problems 0; only by the current kq_run: 100)
+    100-digit: 30 winding + 30 count leaves, 180 points (90 winding); violations 0; odd N_mult 0; max N_mult 10; min relative distance of a zero to |z| = e^L 0.189
+KQK2.r6.json: records 261, leaves 3190 (winding 40), fails 0, replay problems 0 []; histogram {10: 1504, 11: 1629, 9: 17, 'w1': 40}

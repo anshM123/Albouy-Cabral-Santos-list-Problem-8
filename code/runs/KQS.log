@@ -1,0 +1,7 @@
+[      2s] 16/96 returned, 16 complete, 16 leaves, 0 failed
+[      2s] 32/96 returned, 32 complete, 43 leaves, 0 failed
+[      3s] 48/96 returned, 48 complete, 64 leaves, 0 failed
+[      3s] 64/96 returned, 64 complete, 80 leaves, 0 failed
+[    303s] 80/96 returned, 78 complete, 584 leaves, 0 failed
+[    605s] 96/96 returned, 84 complete, 2386 leaves, 0 failed
+done KQ incomplete 12 failed 0 hist {'10': 236, '11': 1977, '8': 3, '9': 8, 'o': 103, 'p': 59} wall 605

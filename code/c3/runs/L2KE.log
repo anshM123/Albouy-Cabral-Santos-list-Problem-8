@@ -1,0 +1,17 @@
+[     18s] 32/512 returned, 32 complete, 32 leaves, 0 failed
+[     18s] 64/512 returned, 64 complete, 64 leaves, 0 failed
+[     18s] 96/512 returned, 96 complete, 96 leaves, 0 failed
+[     18s] 128/512 returned, 128 complete, 128 leaves, 0 failed
+[     18s] 160/512 returned, 160 complete, 160 leaves, 0 failed
+[     18s] 192/512 returned, 192 complete, 192 leaves, 0 failed
+[     18s] 224/512 returned, 224 complete, 224 leaves, 0 failed
+[     18s] 256/512 returned, 256 complete, 256 leaves, 0 failed
+[     18s] 288/512 returned, 288 complete, 288 leaves, 0 failed
+[     18s] 320/512 returned, 320 complete, 320 leaves, 0 failed
+[     18s] 352/512 returned, 352 complete, 352 leaves, 0 failed
+[     18s] 384/512 returned, 384 complete, 384 leaves, 0 failed
+[     18s] 416/512 returned, 416 complete, 416 leaves, 0 failed
+[     18s] 448/512 returned, 448 complete, 448 leaves, 0 failed
+[     18s] 480/512 returned, 480 complete, 480 leaves, 0 failed
+[     18s] 512/512 returned, 512 complete, 512 leaves, 0 failed
+done L2KE incomplete 0 failed 0 hist {'2': 184, '4': 184, 'o': 144} wall 18

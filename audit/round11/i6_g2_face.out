@@ -1,0 +1,15 @@
+face FE records 512 leaves 226498 pruned 154213 prune_violations 0 owed 73 problems []
+face FM records 512 leaves 348845 pruned 190819 prune_violations 0 owed 67 problems []
+face FIP records 512 leaves 307304 pruned 190713 prune_violations 0 owed 124536 problems []
+face FIM records 512 leaves 57097 pruned 57976 prune_violations 0 owed 0 problems []
+face FE: owed 73, of which with s_lo > 0.02 (not needed) 0
+face FE: of the rest, inside K with s_lo > SF2 (not needed) 73; still owed 0
+face FM: owed 67, of which with s_lo > 0.02 (not needed) 0
+face FM: of the rest, inside K with s_lo > SF2 (not needed) 67; still owed 0
+face FIP: owed 124536, of which with s_lo > 0.02 (not needed) 124446
+face FIP: of the rest, inside K with s_lo > SF2 (not needed) 90; still owed 0
+face FE    OK  leaves 226498  winding 0  fails 0  incomplete 4  open 0  problems 0
+face FM    OK  leaves 348845  winding 0  fails 0  incomplete 4  open 0  problems 0
+face FIP   OK  leaves 307304  winding 0  fails 124394  incomplete 4  open 0  problems 0
+face FIM   OK  leaves 57097  winding 0  fails 0  incomplete 0  open 0  problems 0
+ALL FAMILIES REPLAYED, COMPLETE AND WITHIN THEIR BOUNDS: YES

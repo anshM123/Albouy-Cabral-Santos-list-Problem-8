@@ -1,0 +1,5 @@
+D2E.json {'leaves': 256, 'prunes': 0, 'wind': 137, 'reg_mismatch': 0, 'wind_mismatch': 0, 'deep_mismatch': 0, 'prune_viol': 0, 'spot_viol': 0, 'replay_bad': 0}
+D2P.json {'leaves': 1130, 'prunes': 0, 'wind': 348, 'reg_mismatch': 0, 'wind_mismatch': 0, 'deep_mismatch': 0, 'prune_viol': 0, 'spot_viol': 0, 'replay_bad': 0}
+D2K.json {'leaves': 464, 'prunes': 0, 'wind': 102, 'reg_mismatch': 0, 'wind_mismatch': 0, 'deep_mismatch': 0, 'prune_viol': 0, 'spot_viol': 0, 'replay_bad': 0}
+../../code/runs/D2Tp.json not present
+../../code/runs/D2Tm.json not present

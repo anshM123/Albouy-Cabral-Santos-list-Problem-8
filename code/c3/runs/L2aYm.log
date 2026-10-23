@@ -1,0 +1,17 @@
+[     21s] 32/512 returned, 32 complete, 35 leaves, 0 failed
+[     21s] 64/512 returned, 64 complete, 67 leaves, 0 failed
+[     22s] 96/512 returned, 96 complete, 105 leaves, 0 failed
+[     22s] 128/512 returned, 128 complete, 137 leaves, 0 failed
+[     22s] 160/512 returned, 160 complete, 169 leaves, 0 failed
+[     22s] 192/512 returned, 192 complete, 201 leaves, 0 failed
+[     22s] 224/512 returned, 224 complete, 233 leaves, 0 failed
+[     22s] 256/512 returned, 256 complete, 265 leaves, 0 failed
+[     22s] 288/512 returned, 288 complete, 297 leaves, 0 failed
+[     22s] 320/512 returned, 320 complete, 329 leaves, 0 failed
+[     22s] 352/512 returned, 352 complete, 361 leaves, 0 failed
+[     22s] 384/512 returned, 384 complete, 393 leaves, 0 failed
+[     22s] 416/512 returned, 416 complete, 425 leaves, 0 failed
+[     22s] 448/512 returned, 448 complete, 457 leaves, 0 failed
+[     22s] 480/512 returned, 480 complete, 489 leaves, 0 failed
+[     22s] 512/512 returned, 512 complete, 524 leaves, 0 failed
+done L2aYm incomplete 0 failed 0 hist {'0': 162, 'o': 128, 'u': 234} wall 22
