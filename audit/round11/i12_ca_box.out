@@ -1,0 +1,4 @@
+i12_ca_box.json: records 1, leaves 1, fails 0, replay problems 0; leaf kinds {'a8': 1}
+    spot check: 1 leaves x 16 pts = 16 points; violations 0; max real-root count on the certified interval 6; max interpolation residual (rel) 2.15e-100
+   RECERT PROBLEM Ca (0.03541015625, 0.0361328125, 0.49904346679687484, 0.5010004999999998, 0.21331661914062494, 0.21527365234374993, 0.25466873072265617, 0.2566277209589843) a 8 a 9
+    re-certified 1 leaves (incl. pruned) with c3_run.certify: problems 1

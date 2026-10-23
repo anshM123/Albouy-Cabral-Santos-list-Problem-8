@@ -1,0 +1,27 @@
+== snapshot C start 15:27:10: g4 on Ca + r1..r7: replay, 20 spot leaves x 2 points, 40 leaves re-certified per file
+Ca.json: records 512, leaves 70158, fails 0, replay problems 0; leaf kinds {'a4': 91, 'a5': 13, 'a6': 4121, 'a7': 2279, 'a8': 2497, 'a9': 39980, 'u': 21177}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 8; max interpolation residual (rel) 5.18e-98
+   RECERT PROBLEM Ca (0.03541015625, 0.0361328125, 0.49904346679687484, 0.5010004999999998, 0.21331661914062494, 0.21527365234374993, 0.25466873072265617, 0.2566277209589843) a 8 a 9
+    re-certified 40 leaves (incl. pruned) with c3_run.certify: problems 1
+Ca.r1.json: records 478, leaves 1180, fails 0, replay problems 0; leaf kinds {'a4': 14, 'a5': 18, 'a6': 78, 'a7': 130, 'a8': 254, 'a9': 670, 'u': 16}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 6; max interpolation residual (rel) 1.66e-98
+    re-certified 40 leaves (incl. pruned) with c3_run.certify: problems 0
+Ca.r2.json: records 436, leaves 57959, fails 0, replay problems 0; leaf kinds {'a4': 149, 'a5': 60, 'a6': 1042, 'a7': 3904, 'a8': 4698, 'a9': 37976, 'u': 10130}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 8; max interpolation residual (rel) 8.53e-98
+    re-certified 40 leaves (incl. pruned) with c3_run.certify: problems 0
+Ca.r3.json: records 432, leaves 450251, fails 0, replay problems 0; leaf kinds {'Z2': 588, 'Z3': 9, 'Z5': 457, 'a4': 936, 'a5': 322, 'a6': 77718, 'a7': 35604, 'a8': 39678, 'a9': 249307, 'o': 3974, 'u': 41658}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 8; max interpolation residual (rel) 2.92e-97
+    re-certified 40 leaves (incl. pruned) with c3_run.certify: problems 0
+Ca.r4.json: records 154, leaves 550752, fails 0, replay problems 0; leaf kinds {'Z2': 2099, 'Z3': 72, 'Z4': 359, 'Z5': 2705, 'a4': 860, 'a5': 73, 'a6': 187049, 'a7': 27443, 'a8': 52878, 'a9': 240650, 'o': 4573, 'u': 31991}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 8; max interpolation residual (rel) 6.02e-99
+    re-certified 40 leaves (incl. pruned) with c3_run.certify: problems 0
+Ca.r5.json: records 288, leaves 374270, fails 0, replay problems 0; leaf kinds {'Z2': 2586, 'Z3': 164, 'Z4': 1086, 'Z5': 4818, 'a4': 332, 'a5': 27, 'a6': 75079, 'a7': 11062, 'a8': 61319, 'a9': 189290, 'o': 5159, 'u': 23348}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 8; max interpolation residual (rel) 2.59e-100
+    re-certified 40 leaves (incl. pruned) with c3_run.certify: problems 0
+Ca.r6.json: records 724, leaves 1099831, fails 0, replay problems 0; leaf kinds {'Z2': 5679, 'Z3': 263, 'Z4': 5131, 'Z5': 14808, 'a4': 545, 'a5': 36, 'a6': 271071, 'a7': 24276, 'a8': 226705, 'a9': 503358, 'o': 5830, 'u': 42129}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 8; max interpolation residual (rel) 4.29e-98
+    re-certified 40 leaves (incl. pruned) with c3_run.certify: problems 0
+Ca.r7.json: records 909, leaves 67975, fails 0, replay problems 0; leaf kinds {'a6': 1739, 'a7': 1288, 'a8': 9138, 'a9': 52348, 'u': 3462}
+    spot check: 20 leaves x 2 pts = 40 points; violations 0; max real-root count on the certified interval 8; max interpolation residual (rel) 2.07e-98
+    re-certified 40 leaves (incl. pruned) with c3_run.certify: problems 0
+== snapshot C done 15:28:28

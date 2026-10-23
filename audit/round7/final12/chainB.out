@@ -31,3 +31,9 @@ KQK2.r5.json: records 102, leaves 59195 (winding 1870), fails 0, replay problems
     re-certified winding leaves 1870 (problems 0; certified only by the nb_cert2 enclosure: 1870); count leaves 100 (problems 0; only by the current kq_run: 100)
     100-digit: 30 winding + 30 count leaves, 180 points (90 winding); violations 0; odd N_mult 0; max N_mult 10; min relative distance of a zero to |z| = e^L 0.189
 KQK2.r6.json: records 261, leaves 3190 (winding 40), fails 0, replay problems 0 []; histogram {10: 1504, 11: 1629, 9: 17, 'w1': 40}
+    re-certified winding leaves 40 (problems 0; certified only by the nb_cert2 enclosure: 40); count leaves 100 (problems 0; only by the current kq_run: 100)
+    100-digit: 30 winding + 30 count leaves, 180 points (90 winding); violations 0; odd N_mult 0; max N_mult 10; min relative distance of a zero to |z| = e^L 0.192
+== 15:26:57 g20: D2E2 chart vs physics, D2Tp rules (i)/(ii)
+1. D2E2: chart value vs physics (50 digits, nu <= 0.14, P <= 0.35, K in [0.24, 0.68]) max rel err 1.01e-18; abs-poly terms 2498, mismatches 0
+1. D2E: chart value vs physics (50 digits, nu <= 0.14, P <= 0.35, K in [0.24, 0.68]) max rel err 7.7e-19; abs-poly terms 2498, mismatches 0
+== 15:27:53 g3: 100-digit spot checks, whole-circle families + KA

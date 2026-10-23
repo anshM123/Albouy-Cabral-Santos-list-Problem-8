@@ -1054,3 +1054,4 @@ face FIM {'files': 1, 'records': 512, 'leaves': 57097, 'pruned': 57976, 'hist': 
 [guard] write redirected: ../RESULTS.md -> <repo>\audit\round7\final12\RESULTS.md
 NOT COMPLETE
 == chain A done 14:31:58
+final12 done; alerts: 872 line(s)

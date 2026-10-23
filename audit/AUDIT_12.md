@@ -1,7 +1,14 @@
 # AUDIT 12: final pass over the families whose run files are final (snapshot of 2026-10-23)
 
-(in progress: started 14:15. Chain A finished at 14:32. Chain B (g1) and chain C (g20, g3, g4, g13, extra bulk
-winding samples) are still running; their results are filled in below as they finish.)
+Independent audit, 2026-10-23, 14:15–15:35. At most 2 cores.
+
+Final families: chain A 14:15–14:32; g1 14:15–15:27; g20 and g3 14:48–15:00; g4 on the C3 and face charts 15:16–15:25.
+The snapshot pass ran 15:00–15:28. The verdict is at the end.
+
+**Not run, for lack of time:**
+- g13 (winding step margins);
+- the extra 60,000 bulk winding leaves;
+- the g3 spot checks of KA, KQ0, KQ1 and KQK2. g1 covers the KQ files at 100 digits, and g9 re-certified every KA leaf.
 
 ## Scope and method
 
@@ -176,7 +183,7 @@ enclosure only.
 - 100-digit spot checks with my own coefficients, 180 points (90 in winding leaves): 0 violations, no odd root count,
   at most 10 roots. The smallest relative distance of a zero to the winding circle is 0.0187.
 
-KQ1 (base + r1) was in progress when the snapshot work took the cores (see the final summary).
+KQ1 (base + r1) and KQK2 (base + r1..r6) are in the table "g1: the final KQ files (continued)" below.
 
 ### g20: D2E2 and the D2Tp rules (14:48–14:50)
 
@@ -268,14 +275,26 @@ count found on a certified interval:
 |---|---|---|---|
 | KQ1 base | all 23,710 (23,629 need nb_cert2) | 100 | 180, 0 violations |
 | KQ1.r1 | all 19,698 | 100 | 180, 0 violations |
-| KQK2 base, r1–r4 | KQK2.r4: all 658 (base, r1–r3 have none) | 100 each (r1 has no leaves) | 0 violations |
+| KQK2 base, r1–r3 | none (no winding leaves) | 100 each (r1 has no leaves) | 0 violations |
+| KQK2.r4 | all 658 | 100 | 180, 0 violations |
+| KQK2.r5 | all 1,870 | 100 | 180, 0 violations |
+| KQK2.r6 | all 40 | 100 | 180, 0 violations |
 
-KQ1: the strict criterion of g1 flags 3 count leaves (1 in KQ1, 2 in KQ1.r1).
-- They were recorded with bounds 9, 8 and 10.
-- Today's engine certifies them with totals 11, 10 and 11, all within the limit 11 of a whole-circle KQ leaf (parity).
-- kq_run.certify returns the first option whose count is ≤ 11, not the smallest count. So a larger total than the one
-  recorded is expected, and it is not a contradiction.
-- These are the parity-aware cases of R7-1, as in g9, and not a soundness issue.
+So every winding leaf of KQ0, KQ1(+r1) and KQK2(+r1..r6) is re-certified: 82,926 in all.
+
+**The strict-criterion flags.** g1 requires today's total to be ≤ the recorded bound, which is stricter than the proof
+needs. It flagged 3 count leaves in KQ1 and KQ1.r1 and, in the snapshot pass, 5 more in KQB.r3, KQK1.r2, KQK1.r4 and
+KQK1.r6 (2). Today's engine certifies all of them with total ≤ 11, as a whole-circle KQ leaf requires. I checked the six
+distinct boxes from KQ1, KQ1.r1, KQB.r3, KQK1.r2 and KQK1.r4 further (i11):
+- **The engine reproduces each recorded bound exactly.** Over all of today's options (split angle, perihelion count on
+  or off, regular or deep), the smallest certified total equals the recorded bound: 9, 8, 10, 8, 10 and 9.
+  kq_run.certify returns the first option with total ≤ 11, not the smallest, and that is why g1 saw 10 or 11.
+- **No under-count.** At 9 points per box, 60-digit real-root counts with my own P are 6, 6, 6, 8, ≤ 10 and 6, never
+  above the recorded bound.
+
+The KQK1.r6 boxes (recorded 10, today 11) are the same category.
+
+So these flags are an artifact of option order, not a soundness issue.
 
 ## VERDICT (for the publish copy, 2026-10-23)
 
@@ -305,7 +324,7 @@ The families:
 - **L2E, L2P, L2Ap, L2Am, L2Tp, L2Tm.**
 - **D2E, D2E2, D2P, D2K, D2Tp, D2Tm.** D2Tp's owed boxes are covered by rule (i), and the last one by rule (ii) via
   D2E ∪ D2E2, both complete.
-- **F0, KA.**
+- **F0, KA.** All 64 KA leaves were re-certified. KA's own 100-digit spot check (g3) was cut for time.
 
 ### 2. Verified, with every winding leaf and a sample of count leaves re-certified (complete, no open dependency)
 
@@ -328,7 +347,7 @@ The families:
 
 | family or region | relies on | open in the snapshot |
 |---|---|---|
-| KQK2 (11,271 'p' leaves) | the face construction: FE/FM/FIP/FIM complete, KQF not | KQF has 2,292 open boxes, some inside KQK2's region l ≥ 0.95, ω ≤ 3π/20 |
+| KQK2 (11,271 'p' leaves; otherwise all 2,568 winding leaves and 100 count leaves per file re-certified) | the face construction: FE/FM/FIP/FIM complete, KQF not | KQF has 2,292 open boxes, some inside KQK2's region l ≥ 0.95, ω ≤ 3π/20 |
 | the slab η ≥ 0.99025 excluded from bulk | F1, KQ0 (complete) and KQ0T | KQ0T: 396 boxes |
 | the C3-cell 'o' leaves of the face charts, KQF, KQF2 and KQS | the C3 core: CK, CE, Cm, PhiP, PhiM, L2\* and KA complete | Ca: 822 boxes |
 | the 'p' leaves of KQB, KQK1 and KQS | the face construction | KQF, KQF2, KQS |
@@ -346,7 +365,17 @@ Sampled leaves re-certify with 0 mismatches:
 - 10 count leaves and 20 points at 100 digits per KQ/KQF file (g1);
 - 40 leaves and 40 points per Ca file (g4).
 
-The final g1/g4 numbers on the snapshot are in the next section.
+Snapshot details (g1 15:25–15:28, g4 on Ca 15:27–15:28):
+- **All 30 KQ/KQF files** replay exactly under g1. 10 count leaves per file re-certify (KQF and KQF2 against their own
+  T_X). The 100-digit spot checks (10–20 points per file) find 0 violations and no odd root count. The largest count is
+  10 on whole-circle files and 6 on the KQF/KQF2 outer counts.
+- **The 5 strict-criterion flags** (KQB.r3, KQK1.r2, KQK1.r4, KQK1.r6 ×2): recorded 8–10, today ≤ 11. They are parity
+  cases, explained in "g1: the final KQ files (continued)".
+- **Ca and r1..r7** (2,672,376 leaves) replay exactly under g4. Each file gets 40 points at 100 digits (0 violations,
+  at most 8 roots on the certified interval) and 40 leaves re-certified.
+- **One Ca code difference.** A base-file leaf is recorded 'a' (near count 8), and today's c3_run certifies it with 9.
+  That is within Ca's target of 9 (9 + 0 + 2 ≤ 11, parity). At 16 points of that box at 100 digits, the largest
+  real-root count on the certified interval is 6, below the recorded 8 (i12).
 
 So the theorem's certificate is complete outside the open boxes of these 8 families, and outside the regions that
 depend on them (table in §4). That matches the statement planned for README / PROOF / paper.
@@ -359,9 +388,33 @@ roots than a leaf's bound, or an odd root count, anywhere. No replay or prune pr
 What did turn up, all at the tool level:
 - **g9 (mine, fixed):** a false alarm on KQ winding leaves, because it had no nb_cert2 fallback. g1 re-checked every KQ
   winding leaf of the final files with the fallback.
-- **g1 (mine):** 3 strict-criterion flags on KQ1 count leaves, parity-valid.
+- **g1 (mine):** 8 strict-criterion flags on KQ count leaves (3 in KQ1(+r1), 5 in the snapshot). Every one
+  re-certifies with total ≤ 11, as a whole-circle leaf requires. For the six distinct boxes checked (i11), today's
+  engine reproduces the recorded bound exactly with one of its options, and 60-digit root counts never exceed it.
 - **g4 (mine):** 7 FIP code differences ('a' recorded, 'o' today) for boxes with σ_lo > SF, which no point of the proof
-  needs.
+  needs. One Ca leaf is recorded 8 and certifies with 9 today, within the target of 9. Its 100-digit count is at most 6
+  (i12).
 - **verify_mp (the authors' tool):** the split-rule bug. My tools read the header rule (see above).
 
 Round 11's checker items R11-1, R11-2 and R11-5 are fixed and verified (AUDIT_11 addendum).
+
+## Files and tool changes of this round
+
+**Outputs.**
+- Final families: `round7/final12/` — chainA.out (g2, g9, g12 with RESULTS.md), chainB.out (g1), chainC.out (g20, g3),
+  chainD.out (g4 on the C3 and face charts).
+- Snapshot: `round7/snap12/` — chainA.out (g2, g9), chainB.out (g1), chainC.out (g4 on Ca).
+- Flagged-leaf checks: `round11/i11_flagged_boxes.*` and `round11/i12_ca_box.*`.
+- The split-rule scan: `round11/i10_rule_headers.*`.
+
+**Tool changes.**
+- g9: an nb_cert2 fallback for KQ winding leaves.
+- g2:
+  - AUDIT_MAXLEV, to cap the continuation levels at the snapshot;
+  - the per-record leaf-histogram cross-check (added in round 11).
+- g1, g3, g13: a WARNING for header-less input, with the split rule and scale taken from AUDIT_SPLIT_RULE /
+  AUDIT_SCALE.
+- g4, g20: a PROBLEM if a header ever carries a split_rule.
+- Scripts: final12.sh, final12c.sh, queue12.sh, queue12b.sh, snap12a.sh, snap12b.sh, snap12c.sh (all in `round7/`).
+
+None of my processes is left running.
