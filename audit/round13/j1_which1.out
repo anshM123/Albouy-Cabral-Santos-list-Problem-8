@@ -1,0 +1,3 @@
+KQK1.r7.json.records.jsonl: records 1071 (unparsable lines 0), TW leaves 3747, replay problems 0 []
+   restricted to which = 1 : 4 leaves
+   sampled 4 TW leaves x 7 points: problems 0; zeros inside the contour per leaf [1]; min relative distance of a zero to the contour 0.617; engine vs my F at x_c (normalisation) max rel diff 2.99e-12; enclosure checks 480, max |F(w;x) - b0|/R = 0.848

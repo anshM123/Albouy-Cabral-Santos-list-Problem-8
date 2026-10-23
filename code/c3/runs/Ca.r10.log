@@ -1,0 +1,4 @@
+[     14s] 8/24 returned, 8 complete, 98 leaves, 0 failed
+[     35s] 16/24 returned, 16 complete, 436 leaves, 0 failed
+[     63s] 24/24 returned, 24 complete, 1084 leaves, 0 failed
+done Ca incomplete 0 failed 0 hist {'9': 42, 'Z4': 69, 'Z5': 832, 't': 141} wall 63

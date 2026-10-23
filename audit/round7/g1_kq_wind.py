@@ -29,6 +29,7 @@ sys.path.insert(0, CODE); sys.path.insert(0, os.path.join(CODE, 'c3'))
 os.chdir(CODE)                      # kq_run inserts the relative path 'c3'
 import importlib
 import splitrule
+import tau_wind                                      # round 13: tau-winding certificate
 import nb_cert
 import wind_cert
 kq_run = importlib.import_module('kq_run')          # current code (since 08:40: nb_cert2 enclosure)
@@ -130,9 +131,10 @@ for fn in files:
     kq_run.T_X = TXF; kq_run.FACE_S = H.get('FACE_S', 0.02)
     S = H['scale']
     m0, rnds, cap = H.get('wind_m0', 64), H.get('wind_rounds', 3), H.get('wind_cap', 1024)
-    leaves = []; bad = []; nfail = 0; npr = [0]
+    leaves = []; bad = []; nfail = 0; npr = [0]; tleaves = []; dleaves = []
     for r in recs:
         root = tuple(r['box']); stack = [root]; fl = [tuple(f[0]) for f in r.get('fails', [])]; fi = 0; wi = 0
+        twr = r.get('tw', []); ti = 0                    # round 13: tau-winding contours
         wl = r.get('wL', []); v = 0.0; nl = 0; ndig = 0
         for ch in r['tree']:
             if not stack:
@@ -156,6 +158,17 @@ for fn in files:
                 nl += 1; npr[0] += 1
                 if not (mp.mpf(bx[2]) >= mp.mpf(0.95) and mp.mpf(bx[4]) >= mp.mpf(1.413716694115407)):
                     bad.append(('o not in the C3 cell', bx))
+            elif ch == '8' and KQF:                   # round 14: disc-winding outer count <= 6 (contour |th| = T_X)
+                dleaves.append(bx); nl += 1
+            elif ch == '7':                           # round 13: tau-winding leaf (whole circle <= 10), stored contour
+                if ti >= len(twr):
+                    bad.append(('missing tw', root))
+                else:
+                    C_ = twr[ti]
+                    if not (len(C_) == 4 and C_[0] in (0, 1) and C_[2] > C_[3] > 0):
+                        bad.append(('bad tw contour', root, C_))
+                    tleaves.append((bx, C_))
+                ti += 1; nl += 1
             elif '1' <= ch <= '6':
                 if wi >= len(wl):
                     bad.append(('missing wL', root)); L = None
@@ -170,6 +183,8 @@ for fn in files:
         if not r['done'] and stack != [tuple(b) for b in r.get('left', [])]:
             bad.append(('left mismatch', root))
         v += sum(vol(b) for b in r.get('left', []))
+        if ti != len(twr):
+            bad.append(('tw count mismatch', root, ti, len(twr)))
         if fi != len(fl) or wi != len(wl) or nl != r['nleaf'] or ('nwind' in r and r['nwind'] != ndig):
             bad.append(('count mismatch', root, fi, len(fl), wi, len(wl), nl, r['nleaf'], r.get('nwind'), ndig))
         if abs(v - vol(root)) > 1e-9 * vol(root):
@@ -237,6 +252,60 @@ for fn in files:
                 minmarg = min(minmarg, marg); wchecked += 1
                 if inside != W:
                     viol += 1; print('   WINDING SPOT VIOLATION', bx, x, 'inside', inside, 'W', W, 'L', L, flush=True)
+    # (iv) round 13: tau-winding leaves: re-certified with tau_wind.check_tw (NC of them, all if NC < 0), and at 100
+    # digits (NSPOT of them, NPT points each) the whole-circle count <= 10 and >= 1 zero of Q (which 0, th) or G
+    # (which 1, tp) strictly inside the stored contour, the same number at every point
+    ts = tleaves if NC < 0 else random.sample(tleaves, min(NC, len(tleaves)))
+    tbad = 0
+    for bx, C_ in ts:
+        if not tau_wind.check_tw(bx, *C_):
+            tbad += 1; print('   TW RECERT PROBLEM', bx, C_, flush=True)
+    tsp = random.sample(tleaves, min(NSPOT, len(tleaves))); tviol = 0; tmarg = mp.inf; tmaxN = 0
+    for bx, C_ in tsp:
+        wh, cre, cim, rr_ = C_; c0 = mp.mpc(cre, cim); cnts = set()
+        for k in range(NPT):
+            x = [0.5 * (bx[2 * i] + bx[2 * i + 1]) if k == 0 else random.uniform(bx[2 * i], bx[2 * i + 1]) for i in range(4)]
+            if x[0] >= 1.0 or x[3] >= 1.0:
+                x[0] = min(x[0], 1 - 1e-9); x[3] = min(x[3], 1 - 1e-12)
+            z, ninf = zeros(coeffs(*x))
+            Nm = sum(1 for r in z if r != 0 and abs(mp.log(abs(r))) < mp.mpf(10) ** -30) + ninf * 0
+            tmaxN = max(tmaxN, Nm); npts += 1
+            ws_ = []
+            for r in z:
+                if abs(r - 1) < mp.mpf(10) ** -40 or abs(r + 1) < mp.mpf(10) ** -40:
+                    continue
+                ws_.append(-1j * (r + 1) / (r - 1) if wh == 0 else -1j * (r - 1) / (r + 1))
+            ins = sum(1 for w in ws_ if abs(w - c0) < rr_)
+            cnts.add(ins)
+            if ws_:
+                tmarg = min(tmarg, min(abs(abs(w - c0) - rr_) / rr_ for w in ws_))
+            if Nm > 10 or ins < 1:
+                tviol += 1; print('   TW SPOT VIOLATION', bx, x, 'N', Nm, 'inside', ins, C_, flush=True)
+        if len(cnts) > 1:
+            tviol += 1; print('   TW SPOT VIOLATION (inside count not constant)', bx, C_, cnts, flush=True)
+    viol += tviol
+    # round 14: disc-winding leaves (KQF files): re-certified with tau_wind.check_disc (header T_X); at 100 digits the
+    # outer count (zeros on the circle with |f - pi| >= 2 atan(T_X), f = 0 included) <= 6
+    ds = dleaves if NC < 0 else random.sample(dleaves, min(NC, len(dleaves)))
+    dbad = sum(1 for bx in ds if not tau_wind.check_disc(bx, TXF))
+    dviol = 0; dmax = 0; nd_pts = 0
+    for bx in random.sample(dleaves, min(NSPOT, len(dleaves))):
+        for k in range(NPT):
+            x = [0.5 * (bx[2 * i] + bx[2 * i + 1]) if k == 0 else random.uniform(bx[2 * i], bx[2 * i + 1]) for i in range(4)]
+            x[0] = min(x[0], 1 - 1e-9); x[3] = min(x[3], 1 - 1e-12)
+            z, ninf = zeros(coeffs(*x))
+            No = sum(1 for r in z if r != 0 and abs(mp.log(abs(r))) < mp.mpf(10) ** -30 and
+                     mp.pi - abs(mp.arg(r)) >= 2 * mp.atan(mp.mpf(TXF)) - mp.mpf(10) ** -12)
+            dmax = max(dmax, No); nd_pts += 1
+            if No > 6:
+                dviol += 1; print('   DISC SPOT VIOLATION', bx, x, No, flush=True)
+    viol += dviol
+    if dleaves:
+        print(f"    disc-winding leaves {len(dleaves)}: re-certified {len(ds)} (problems {dbad}); 100-digit {nd_pts} points: "
+              f"violations {dviol}, max outer count {dmax}", flush=True)
+    print(f"    tau-winding leaves {len(tleaves)}: re-certified {len(ts)} (problems {tbad}); 100-digit {len(tsp)} leaves x {NPT} "
+          f"points: violations {tviol}, max N {tmaxN}, min relative distance of a zero to the contour {mp.nstr(tmarg, 3)}",
+          flush=True)
     print(f"    100-digit: {len(sw)} winding + {len(sc_)} count leaves, {npts} points ({wchecked} winding); violations {viol};"
           f" odd N_mult {odd}; max N_mult {maxN}; min relative distance of a zero to |z| = e^L {mp.nstr(minmarg, 3)}",
           flush=True)

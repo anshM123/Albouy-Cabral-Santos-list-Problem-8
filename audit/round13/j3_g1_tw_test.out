@@ -1,0 +1,4 @@
+KQK1.r7.json.records.jsonl: records 1029 (completed, partial file), leaves 9296 (winding 1283), fails 0, replay problems 0 []; histogram {10: 2058, 11: 5704, 8: 152, 9: 99, 'w1': 1276, 'w2': 7}
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 6 (problems 0; only by the current kq_run: 6)
+    tau-winding leaves 3159: re-certified 6 (problems 0); 100-digit 3 leaves x 2 points: violations 0, max N 10, min relative distance of a zero to the contour 0.784
+    100-digit: 3 winding + 3 count leaves, 18 points (6 winding); violations 0; odd N_mult 0; max N_mult 10; min relative distance of a zero to |z| = e^L 0.103

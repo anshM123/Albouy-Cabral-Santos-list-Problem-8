@@ -1,0 +1,3 @@
+[      8s] 16/20 returned, 16 complete, 38 leaves, 0 failed
+[    302s] 20/20 returned, 19 complete, 810 leaves, 0 failed
+done KQ incomplete 1 failed 0 hist {'10': 11, '11': 72, 't': 727} wall 302

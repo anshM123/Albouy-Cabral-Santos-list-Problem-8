@@ -15,13 +15,13 @@ while true; do
   SZ0=-1; SZ1=$(stat -c %s "$F"); while [ "$SZ0" != "$SZ1" ]; do sleep 10; SZ0=$SZ1; SZ1=$(stat -c %s "$F"); done
   OUT=$("$PY" next_level.py "$KIND" "$NAME" "$LEV") || { echo "$(date +%H:%M) next_level failed, retrying"; sleep 30; continue; }
   echo "$(date +%H:%M) $OUT"
-  N=$(echo "$OUT" | sed -n 's/.*open boxes \([0-9]*\).*/\1/p')
+  N=$(echo "$OUT" | sed -n 's/.*open boxes \([0-9][0-9]*\) ->.*/\1/p')   # the summary line only (not "dropped ...")
   if [ "$N" = 0 ]; then echo "$(date +%H:%M) $NAME: no open box after level $LEV"; break; fi
   NEXT=$((LEV + 1))
   if [ "$KIND" = kq ]; then
     "$PY" kq_run.py --boxes "$DIR/${NAME}_r${NEXT}_boxes.json" --scale $S0 $S1 $S2 $S3 "$TMAX" "$W" "$DIR/$NAME.r$NEXT.json" $EXTRA > "$DIR/$NAME.r$NEXT.log" 2>&1
   else
-    (cd c3 && "$PY" c3_run.py "$NAME" --boxes "runs/${NAME}_r${NEXT}_boxes.json" --scale $S0 $S1 $S2 $S3 "$TMAX" "$W" "runs/$NAME.r$NEXT.json" > "runs/$NAME.r$NEXT.log" 2>&1)
+    (cd c3 && "$PY" c3_run.py "$NAME" --boxes "runs/${NAME}_r${NEXT}_boxes.json" --scale $S0 $S1 $S2 $S3 "$TMAX" "$W" "runs/$NAME.r$NEXT.json" $EXTRA > "runs/$NAME.r$NEXT.log" 2>&1)
   fi
   LEV=$NEXT
 done

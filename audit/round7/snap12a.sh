@@ -13,7 +13,7 @@ NAMES="KQ0T KQ0T.r1 KQ0T.r2 KQ0T.r3 KQ2 KQ2.r1 KQ2.r2 KQ2.r3 KQ2.r4 KQB KQB.r1 K
   echo "== g2: replay of the snapshot families up to the closed levels (+ face charts for the p-dependency)"
   "$PY" -B g2_replay_all.py --prune-samples 4 --only "KQ0T,KQ2,KQB,KQK1,KQF,KQF2,KQS,C3 Ca,face FE,face FM,face FIP,face FIM"
   date "+== %H:%M:%S g9: 200 regular/deep leaves per file"
-  "$PY" -B g9_recert_all.py 200 29 $NAMES --kinds reg,deep
+  "$PY" -B g9_recert_all.py 200 29 $NAMES --kinds reg,deep,tw,disc
   date "+== %H:%M:%S g9: 300 winding leaves per file (nb_cert, then nb_cert2)"
   "$PY" -B g9_recert_all.py 300 29 $NAMES --kinds wind
   date "+== snapshot A done %H:%M:%S"

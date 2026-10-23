@@ -1,0 +1,6 @@
+[     36s] 16/77 returned, 16 complete, 116 leaves, 0 failed
+[    147s] 32/77 returned, 32 complete, 680 leaves, 0 failed
+[    294s] 48/77 returned, 48 complete, 1454 leaves, 0 failed
+[    385s] 64/77 returned, 61 complete, 2523 leaves, 0 failed
+[    563s] 77/77 returned, 71 complete, 4000 leaves, 0 failed
+done KQ incomplete 6 failed 0 hist {'10': 704, '11': 2492, '9': 22, 't': 782} wall 563

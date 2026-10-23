@@ -1,0 +1,8 @@
+[    143s] 16/121 returned, 16 complete, 432 leaves, 0 failed
+[      6s] 16/95 returned, 39 complete, 2350 leaves, 0 failed
+[     19s] 32/95 returned, 55 complete, 2475 leaves, 0 failed
+[     86s] 48/95 returned, 71 complete, 2941 leaves, 0 failed
+[     92s] 64/95 returned, 87 complete, 3014 leaves, 0 failed
+[    108s] 80/95 returned, 103 complete, 3227 leaves, 0 failed
+[    319s] 95/95 returned, 112 complete, 5593 leaves, 0 failed
+done KQ incomplete 9 failed 0 hist {'10': 782, '11': 2753, '9': 135, 't': 1901, 'w2': 22} wall 319

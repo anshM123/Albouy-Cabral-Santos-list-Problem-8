@@ -132,6 +132,29 @@ After these pads both bounds are valid upper bounds of the exact parameter varia
 containment was also tested directly against exact evaluations at random points of random boxes, with each bound
 checked separately: no violation in about 10⁶ tests.
 
+## 5a. Contour enclosures (code/tau_wind.py: tau-winding leaves '7', disc-winding leaves '8')
+
+These leaves use the second-order data of the c3 engines (KBQe, KBPe, Ca, FE, FM; §5) at complex points of a circle
+|z − c| = r. The circle is covered by contiguous arcs with centres z_j = c + r e^{ia_j} and half-widths h_j.
+- **Arc discs.** Every point of arc j lies within D_j = r h_j (1 + 10⁻¹²) + 10⁻¹²(|c| + r) of the float z_j. This covers
+  the float evaluation of z_j and the chord-versus-arc difference.
+- **Deviation along the arc.** dev_j = Σ_{m≥1} |b_m| D_j^m, with b_m the Taylor coefficients at z_j of the polynomial
+  with the centre coefficients, computed in complex float. Every b_m is bounded in modulus by terms of
+  mag = Σ_k |a_k| (|z_j| + D_j)^k. Their rounding errors, and that of b₀, are covered by the pad 10⁻¹²·mag.
+- **Parameter variation.** This is the bound of §5, evaluated on the disc |z − z_j| ≤ D_j:
+  - every |p(z)| is replaced by Σ_m |b_m(p)| D_j^m;
+  - every power |z|^k is replaced by (|z_j| + D_j)^k;
+  - the sums over the powers carry the 10⁻¹² pads of the sums of absolute terms, as in §5;
+  - the complex arithmetic adds the pad 10⁻¹²(mag + T).
+- **Decision.** R_j = (dev_j + T_j + 10⁻¹²·mag)(1 + 10⁻¹²). An arc is accepted only if |b₀| > R_j in binary64.
+  - The relative slack 10⁻¹² in R_j exceeds the rounding of |b₀| (one ulp). So the exact bound gives
+    |F(z; x) − b₀| < (1 − 10⁻¹²)|b₀| on the whole arc, for every x of the box.
+  - Hence F ≠ 0 on the arc, and its argument stays within arcsin(1 − 10⁻¹²) < π/2 − 10⁻⁶ of arg b₀.
+  - Consecutive arcs share an end point, so each step arg(b₀^{(j+1)}/b₀^{(j)}) is below π − 2·10⁻⁶ in modulus. That
+    margin is far beyond the rounding of the quotient and of atan2, so every computed principal argument is the true
+    one.
+  - Their sum is 2πW up to about 10⁻¹⁰ (at most 65536 arcs), and it rounds to the exact W.
+
 ## 6. What is not covered by floating point
 
 The decisions are discrete (sign certified or not). Every inequality used to certify a sign has its float error

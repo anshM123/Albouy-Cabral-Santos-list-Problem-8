@@ -27,7 +27,7 @@ kqfiles="$R/KQ0.json $R/KQ0T.json $R/KQ1.json $R/KQ2.json $R/KQK1.json $R/KQK2.j
   echo "== g9: EVERY leaf of every family except bulk and KQ*, final code, parity-aware (R7-1)"
   "$PY" -B g9_recert_all.py -1 1 F1 C1 C1p C1pp B1 B2 B3p B3m L2E L2P L2Ap L2Am L2Tp L2Tm D2E D2E2 D2P D2K D2Tp D2Tm F0 KA
   echo "== g9: bulk, KQ*, KQF and continuations: 300 regular/deep leaves per family, plus EVERY winding leaf"
-  "$PY" -B g9_recert_all.py 300 23 bulk KQ0 KQ0T KQ1 KQ2 KQK1 KQK2 KQB KQF KQF2 KQS $CONT --kinds reg,deep
+  "$PY" -B g9_recert_all.py 300 23 bulk KQ0 KQ0T KQ1 KQ2 KQK1 KQK2 KQB KQF KQF2 KQS $CONT --kinds reg,deep,tw,disc
   "$PY" -B g9_recert_all.py -1 1 bulk KQ0 KQ0T KQ1 KQ2 KQK1 KQK2 KQB KQS $CONT --kinds wind
 } > "$OUT/chain1.out" 2>&1 &
 

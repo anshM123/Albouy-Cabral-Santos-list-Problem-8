@@ -6,35 +6,11 @@ author: "Ansh Mishra, Aryan Senthilkumar"
 ## Abstract
 
 <!-- STATUS -->
-**Certification status (2026-10-23 15:00): not yet complete.** The certificate covers the whole parameter space except
-10161 open boxes of the run families below, whose continuation runs are still in progress. The run families
-that RESULTS.md marks complete replay exactly, and every one of their open or failed boxes is covered; sampled leaves
-re-certify and pass 60-digit spot checks (verify/).
-
-The open boxes lie in the near-parabolic region e ≥ 0.835 with a circle much larger than the pericentre distance
-(μ = q/R small). Mostly they sit along the ridge l ≈ l*(ω), where two zeros of B merge and N = 10 is attained, and
-at the seams of the C3 cell. There the Rolle certificates need very small boxes.
-
-Until these runs finish, the bound N ≤ 10 is proved outside these open boxes only. Inside them, 60-digit sampling
-(code/open_box_sample.py, 200 random points per family, verify/open_box_sample.out) finds at most 10 everywhere, and
-often exactly 10. The runs continue with code/chain.sh (commands in code/launch_runs.sh), and `python code/check_all.py`
-regenerates RESULTS.md.
-
-| family | region | state |
-|---|---|---|
-| KQ0T | e ∈ [0.835, 0.9501], t ≥ 0.9975 (circle much larger than the pericentre distance) | open boxes 396 |
-| KQ2 | e ∈ [0.9499, 0.99], t ≥ 0.9975 | open boxes 2791 |
-| KQB | e ≥ 0.99, μ ≤ 0.0505, l ≥ 0.95, ω ∈ [3π/20, 9π/20] (the band) | open boxes 1000 |
-| KQK1 | e ≥ 0.99, μ ≤ 0.0505, l ≤ 0.95 | open boxes 1071 |
-| KQK2 | e ≥ 0.99, μ ≤ 0.0505, l ≥ 0.95, ω ≤ 3π/20 | complete itself; waits for: face-neighbourhood boxes pruned (p) but the face families are not all complete |
-| KQF | face neighbourhood ε, μ ≤ 4·10⁻⁴: outer count \|τ\| ≥ 0.06 | open boxes 2292 |
-| KQF2 | corner K_lw of the face neighbourhood, ε, μ ≤ SF2²: outer count \|τ\| ≥ 0.03 | open boxes 912 |
-| KQS | corner K_lw of the face neighbourhood, SF2 < max(√ε, √μ) ≤ 0.02 | open boxes 877 |
-| C3 Ca | C3 cell, chart Ca (Q_z dominant) | open boxes 822 |
+**Certification status (2026-10-23 18:30): complete.** Every run family in RESULTS.md is complete (`code/check_all.py`: ALL COMPLETE). Every recorded split tree replays exactly, and every open or failed box is covered by a continuation run or by a documented chart. Sampled leaves of every run file re-certify with the final code (verify/), and the final audit (audit/AUDIT_15.md) re-certifies every tau- and disc-winding leaf. 60-digit spot checks (verify/) cover sampled leaves of every whole-circle family and C3 chart, and the disc-winding leaves of KQF and KQF2. The other outer-count leaves of KQF and KQF2, and the D2 charts, are covered by the audit's 100-digit spot checks.
 <!-- /STATUS -->
 
 Let a circle and an ellipse in $\mathbb R^3$ share a focus located at the centre of the circle. We give a
-computer-assisted proof, complete except for the open boxes listed in the status note above, that the
+computer-assisted proof that the
 squared distance between a point of the circle and a point of the ellipse has at most **ten** stationary points, and
 that ten is attained. This answers the second question of Problem 8 (posed by G. F. Gronchi) in the list of
 Albouy, Cabral and Santos [ACS12], which asked whether the general bound 12 can be reduced to 10 when one of the
@@ -44,10 +20,14 @@ two confocal conics is a circle.
 coefficients depend on four parameters: eccentricity, inclination, argument of pericentre, and the radius ratio.
 
 **Certification.** On a branch-and-bound subdivision of the compactified four-dimensional parameter space, every
-box receives one of two certificates:
+box receives one of these certificates:
 - Rolle-run certificates, i.e. certified signs of derivatives on overlapping arcs;
 - winding-number certificates, which locate at least one zero of the associated self-inversive polynomial strictly
-  inside the unit disk.
+  inside the unit disk;
+- tau-winding certificates, which locate a zero of the polynomial in the tangent half-angle at aphelion strictly
+  inside a circle in the upper half-plane, and so force a non-real pair;
+- near the parabolic face, disc-winding counts, which locate six zeros inside a small disc about aphelion and so leave
+  at most six real zeros outside it.
 
 **Degenerate corners.** These are resolved by exact weighted blow-up charts, including second-level blow-ups at
 nested degenerate points:
@@ -80,7 +60,7 @@ many stationary points (coinciding conics, concentric coplanar circles) are excl
 common focus at the centre of the circle. Then $d^2$ has at most ten stationary points. The bound is attained, for
 instance by $e=0.673$, $\sin I=0.992$, $\omega=0.338$, $R/a=0.7772$.
 
-The proof is computer-assisted. Section 2 gives the reduction, Section 3 the two certificates, Section 4 the atlas
+The proof is computer-assisted. Section 2 gives the reduction, Section 3 the certificates, Section 4 the atlas
 of charts and the coverage argument, Section 5 the degenerate corners, Section 6 the floating-point analysis, and
 Section 7 the computation and its verification.
 
@@ -117,7 +97,7 @@ those of $\mathrm{Pol}$. The charts used are:
 - the tangent-half-angle form $Q(\tau)=P_f(1+\tau^2)^6$, with $\tau=\tan((f-\pi)/2)$;
 - division by the positive normalisations of the blow-up charts.
 
-## 3. Two certificates
+## 3. Certificates
 
 **Lemma 3.1 (Rolle runs).** If $F^{(j)}$ has no zero on a closed arc, then $F$ has at most $j$ zeros there, counted
 with multiplicity.
@@ -159,6 +139,32 @@ The two certificates complement each other:
   bifurcations on the symmetric faces $\omega\in\{0,\pi/2\}$, and at six-fold points where the circle becomes large.
 - **The winding certificate** never looks at the real zeros, so it is unaffected by those clusters.
 
+**Lemma 3.4 (tau-winding).** Let $Q(\tau)=P_f(1+\tau^2)^6$ with $\tau=\tan((f-\pi)/2)$ (Section 2), a real polynomial
+of degree at most $12$. The real zeros of $P_f$, counted with multiplicity, are:
+- the real zeros of $Q$;
+- a zero of order $12-\deg Q$ at $f=0$.
+
+So the number of real zeros of $P_f$ is exactly $12$ minus the number of non-real zeros of $Q$. Suppose $Q$ has no zero
+on a circle in the open upper half-plane for any parameter of a box, and has a zero inside it at the box centre. The
+number of zeros inside is constant on the connected box (a degree drop only moves zeros to infinity). So $Q$ has a
+non-real pair, and $P_f$ has at most $10$ real zeros on the whole box. The same holds with $Q$ replaced by any of:
+- its reverse $\tau_p^{12}Q(-1/\tau_p)$, $\tau_p=\tan(f/2)$;
+- the chart polynomials $Q(\nu y)/\nu^{10}$ (the C3 chart where $Q_z$ dominates) or $Q(sy)/s^6$ (the face charts),
+  since $\nu,s>0$ at every physical point.
+
+A non-real zero of any of these gives a non-real zero of $Q$.
+
+**Lemma 3.5 (disc-winding outer count).** With $Q$ as in Lemma 3.4, suppose $Q$ has no zero on $|\tau|=T$ for any
+parameter of a box, and has $W$ zeros in $|\tau|<T$ at the box centre. Then at every point of the box, $P_f$ has at
+most $12-W$ real zeros, counted with multiplicity, with $|\tau|\ge T$ or $f=0$.
+
+*Proof.* These zeros are the real zeros of $Q$ with $|\tau|>T$, plus the zero of order $12-\deg Q$ at $f=0$. At most
+$\deg Q-W$ zeros of $Q$ lie outside the closed disc. $\square$
+
+Both are checked on contours by the same enclosure: on each arc of the circle, the value at the box centre and the
+arc's centre exceeds a certified bound on the variation along the arc and over the box. The winding number is then the
+sum of the principal argument steps at the box centre.
+
 ## 4. The atlas
 
 The parameter space is covered by the following charts, with overlapping boundaries.
@@ -176,7 +182,10 @@ The parameter space is covered by the following charts, with overlapping boundar
   - for the cell $e\ge0.99$, $\mu\le0.0505$, $l\ge0.95$, $\omega\ge9\pi/20$: the C3 core charts near aphelion, a
     sign certificate in an intermediate range, and the true-anomaly chart away from aphelion;
   - for the face neighbourhood $1-e\le4\cdot10^{-4}$, $\mu\le4\cdot10^{-4}$ outside that cell: the face charts of
-    Section 5 near aphelion, a sign certificate in a gap range, and engine KQ restricted to $|\tau|\ge0.06$.
+    Section 5 near aphelion, a sign certificate in a gap range, and engine KQ restricted to $|\tau|\ge0.06$. In the
+    corner $K_{l\omega}=\{l\ge0.88,\ \omega\ge1.29\}$ of the face neighbourhood, this construction is used only for
+    blow-up radius $s\le0.010005$, with engine KQ restricted to $|\tau|\ge0.030015$. The shell
+    $0.010005<s\le0.02$ there is covered by whole-circle KQ counts (Section 5).
 
 Every whole-circle count is certified to be at most $11$, hence at most $10$ by Lemma 3.2. In the C3 cell the near,
 intermediate and away counts are at most $9$, $0$ and $2$, and on the face neighbourhood they are at most $5$, $0$ and
@@ -226,7 +235,16 @@ total $\le11$ in the original variables.
 - For $c>0$ its real zeros are $y=0$ (double) and at most one pair $y^2=(2m/c-E)/2$: at most four near aphelion,
   against six from the rest of the circle.
 - Two cone charts count the zeros on $|y|\le3$ (at most $5$), two charts certify that $Q$ has no zero for
-  $3s\le|\tau|\le0.06$, and engine KQ counts $|\tau|\ge0.06$ (at most $6$). Outside the C3 cell, $c>0.156$.
+  $3s\le|\tau|\le0.06$ (outside the corner $K$ of the next bullet), and engine KQ counts $|\tau|\ge0.06$ (at most $6$), by Rolle runs or by Lemma 3.5 with
+  $W=6$: the six zeros near aphelion stay inside $|\tau|<0.06$. Outside the C3 cell, $c>0.156$.
+- **The corner $K$.** Near $l=1$ with $\omega$ just below $9\pi/20$, $c$ is close to its minimum $0.156$ outside the C3
+  cell. There the outer member of the near pair is pushed beyond $|y|=3$ by the next-order terms, so the gap charts
+  have genuine zeros, from $\sigma=|\tau|/3\approx0.015$ on. Let $K=\{P_z\ge0.875,\ 0.125\le Q_z\le0.25\}$; it contains every
+  face-chart box with a failed or open leaf, and its image lies in $K_{l\omega}=\{l\ge0.88,\ \omega\ge1.29\}$. Inside
+  $K_{l\omega}$:
+  - the construction above is used only for $s\le0.010005$, with the outer count from $|\tau|\ge0.030015$. For these
+    $s$ the gap is empty, the near zeros stay within $|y|\le2.79$, and the outer count is $6$;
+  - the shell $0.010005<s\le0.02$ is covered by whole-circle KQ counts (at most $11$).
 
 **The near-parabolic region (engine KQ).** As $e\to1$ the factor $D=1+e\cos f$ becomes small near aphelion. In the
 Fourier basis the true-anomaly polynomial then takes values of order $\varepsilon^4$ ($\varepsilon=1-e$) there, while
@@ -263,15 +281,19 @@ Details are in `FLOAT_RIGOUR.md`.
 ## 7. The computation and its verification
 
 **Recording.** Every run records, for each initial box, the complete split tree, one character per box: split, leaf
-with its bound and method, pruned (unphysical), or failed. Winding leaves also store their test radius. A replay tool
+with its bound and method, pruned (unphysical), or failed. Winding leaves also store their test radius, and
+tau-winding leaves their contour; the disc of a disc-winding leaf is fixed by its run. A replay tool
 re-derives every leaf exactly. Failed leaves and open boxes are covered by continuation runs, or by the D2 corner
 charts in one case, or lie outside the range that a face chart needs. A continuation run may split the coordinate that matters most first: the circle size in the
 large-circle runs, one ratio in a C3 chart, and the blow-up scale near the parabolic face. The split rule affects only efficiency.
 
 **Independent checks.**
 - 60- and 100-digit spot checks of sampled leaves against the original polynomial.
-- Re-certification of leaves, including every winding leaf, with the final code.
-- Twelve rounds of independent auditing of every derivation, generated formula, engine, coverage claim and run. Among
+- Re-certification with the final code:
+  - samples of the Rolle, deep and winding leaves of every run file;
+  - every tau-winding leaf (175,932, including the 6,218 of the C3 charts);
+  - every disc-winding leaf (4,451).
+- Fifteen rounds of independent auditing of every derivation, generated formula, engine, coverage claim and run. Among
   other things, the audits found:
   - a coverage seam;
   - an unrecorded-leaf problem;
@@ -279,8 +301,8 @@ large-circle runs, one ratio in a C3 chart, and the blow-up scale near the parab
   - a branch error in the winding evaluation;
   - the twelve-root obstruction at the parabolic face, which led to the face charts.
 
-  All of these were repaired; the final pass (AUDIT_12) re-certified every leaf of the smaller run families and
-  large samples of the others.
+  All of these were repaired. The final pass (AUDIT_15) replays every family independently, re-certifies every
+  tau- and disc-winding leaf and samples of all other leaves, and finds no violation in 100-digit spot checks.
 
 The per-run statistics are in `RESULTS.md`.
 

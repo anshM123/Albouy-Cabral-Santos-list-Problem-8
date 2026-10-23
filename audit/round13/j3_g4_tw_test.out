@@ -1,0 +1,4 @@
+Ca.r8.json.records.jsonl: records 784, leaves 199271, fails 0, replay problems 0; leaf kinds {'T': 1385, 'Z2': 618, 'Z3': 186, 'Z4': 4724, 'Z5': 15993, 'a4': 2, 'a6': 47276, 'a7': 909, 'a8': 53156, 'a9': 69818, 'u': 5204}
+    spot check: 3 leaves x 2 pts = 6 points; violations 0; max real-root count on the certified interval 8; max interpolation residual (rel) 4.13e-97
+    tau-winding leaves 1385: re-certified 6 with tau_wind.check_tw_chart (problems 0); 100-digit spot: violations 0, max N 10
+    re-certified 6 leaves (incl. pruned) with c3_run.certify: problems 0

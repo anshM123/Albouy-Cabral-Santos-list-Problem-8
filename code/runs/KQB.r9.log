@@ -1,0 +1,16 @@
+[      3s] 16/238 returned, 16 complete, 17 leaves, 0 failed
+[     24s] 32/238 returned, 32 complete, 110 leaves, 0 failed
+[     79s] 48/238 returned, 48 complete, 560 leaves, 0 failed
+[    119s] 64/238 returned, 64 complete, 1973 leaves, 0 failed
+[    128s] 80/238 returned, 80 complete, 2437 leaves, 0 failed
+[    194s] 96/238 returned, 96 complete, 3849 leaves, 0 failed
+[    203s] 112/238 returned, 112 complete, 3942 leaves, 0 failed
+[    224s] 128/238 returned, 128 complete, 5071 leaves, 0 failed
+[    235s] 144/238 returned, 144 complete, 6005 leaves, 0 failed
+[    393s] 160/238 returned, 158 complete, 9667 leaves, 0 failed
+[    426s] 176/238 returned, 174 complete, 12234 leaves, 0 failed
+[    453s] 192/238 returned, 190 complete, 13655 leaves, 0 failed
+[    506s] 208/238 returned, 205 complete, 15850 leaves, 0 failed
+[    511s] 224/238 returned, 221 complete, 16707 leaves, 0 failed
+[    713s] 238/238 returned, 233 complete, 22579 leaves, 0 failed
+done KQ incomplete 5 failed 0 hist {'10': 2366, '11': 2633, '8': 139, '9': 987, 't': 16454} wall 714

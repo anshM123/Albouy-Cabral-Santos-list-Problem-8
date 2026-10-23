@@ -1,0 +1,49 @@
+== H start 18:32:41
+KQ0T.r4 [KQ]: leaves 50564 (winding 10037, total-11 26583); sampled 60 leaves, 180 points (180 physical, 60 winding); violations 0; odd N_mult 0; max N_mult 8; min winding margin 0.0493
+KQ0T.r5 [KQ]: leaves 3363 (winding 9, total-11 53); sampled 60 leaves, 180 points (180 physical, 27 winding); violations 0; odd N_mult 0; max N_mult 8; min winding margin 0.0522
+KQ2.r5 [KQ]: leaves 129424 (winding 20767, total-11 49937); sampled 60 leaves, 180 points (180 physical, 60 winding); violations 0; odd N_mult 0; max N_mult 10; min winding margin 0.0177
+KQ2.r6 [KQ]: leaves 13153 (winding 83, total-11 724); sampled 60 leaves, 180 points (180 physical, 60 winding); violations 0; odd N_mult 0; max N_mult 8; min winding margin 0.0201
+KQ2.r7 [KQ]: leaves 810 (winding 0, total-11 72); sampled 60 leaves, 180 points (180 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 8; min winding margin +inf
+KQ2.r8 [KQ]: leaves 189 (winding 0, total-11 26); sampled 60 leaves, 180 points (180 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 8; min winding margin +inf
+KQB.r7 [KQ]: leaves 61559 (winding 1917, total-11 27745); sampled 60 leaves, 180 points (180 physical, 60 winding); violations 0; odd N_mult 0; max N_mult 10; min winding margin 0.078
+KQB.r8 [KQ]: leaves 26363 (winding 0, total-11 2374); sampled 60 leaves, 180 points (180 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 10; min winding margin +inf
+KQB.r9 [KQ]: leaves 22579 (winding 0, total-11 2633); sampled 60 leaves, 180 points (180 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 10; min winding margin +inf
+KQB.r10 [KQ]: leaves 4803 (winding 0, total-11 392); sampled 60 leaves, 180 points (180 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 10; min winding margin +inf
+KQF.r2 [KQF]: leaves 86140 (winding 0, total-11 0); sampled 60 leaves, 180 points (180 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 10; min winding margin +inf
+KQF.r3 [KQF]: leaves 661 (winding 0, total-11 0); sampled 60 leaves, 180 points (180 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 6; min winding margin +inf
+KQF2.r3 [KQF]: leaves 26800 (winding 0, total-11 0); sampled 60 leaves, 180 points (180 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 10; min winding margin +inf
+KQF2.r4 [KQF]: leaves 543 (winding 0, total-11 0); sampled 60 leaves, 180 points (180 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 6; min winding margin +inf
+KQK1.r7 [KQ]: leaves 26751 (winding 2004, total-11 15347); sampled 60 leaves, 180 points (180 physical, 60 winding); violations 0; odd N_mult 0; max N_mult 10; min winding margin 0.0346
+KQK1.r8 [KQ]: leaves 5302 (winding 63, total-11 2425); sampled 60 leaves, 180 points (180 physical, 60 winding); violations 0; odd N_mult 0; max N_mult 10; min winding margin 0.0133
+KQK1.r9 [KQ]: leaves 5593 (winding 22, total-11 2753); sampled 60 leaves, 180 points (180 physical, 60 winding); violations 0; odd N_mult 0; max N_mult 10; min winding margin 0.0203
+KQK1.r10 [KQ]: leaves 4993 (winding 0, total-11 2890); sampled 60 leaves, 180 points (180 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 10; min winding margin +inf
+KQK1.r11 [KQ]: leaves 4000 (winding 0, total-11 2492); sampled 60 leaves, 180 points (180 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 10; min winding margin +inf
+KQK1.r12 [KQ]: leaves 991 (winding 0, total-11 572); sampled 60 leaves, 180 points (180 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 10; min winding margin +inf
+KQS.r2 [KQ]: leaves 25429 (winding 0, total-11 14216); sampled 60 leaves, 180 points (180 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 10; min winding margin +inf
+KQS.r3 [KQ]: leaves 13190 (winding 0, total-11 1847); sampled 60 leaves, 180 points (180 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 10; min winding margin +inf
+KQS.r4 [KQ]: leaves 4697 (winding 0, total-11 1094); sampled 60 leaves, 180 points (180 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 10; min winding margin +inf
+KQS.r5 [KQ]: leaves 301 (winding 0, total-11 86); sampled 60 leaves, 180 points (180 physical, 0 winding); violations 0; odd N_mult 0; max N_mult 8; min winding margin +inf
+<dir> not present
+LE not present
+Ca.r8.json not present
+<dir> not present
+LE not present
+Ca.r9.json not present
+<dir> not present
+LE not present
+Ca.r10.json not present
+KQ2.r5.json: records 2791 (unparsable lines 0), TW leaves 42565, replay problems 0 []
+   sampled 15 TW leaves x 4 points: problems 0; zeros inside the contour per leaf [1, 2]; min relative distance of a zero to the contour 0.262; engine vs my F at x_c (normalisation) max rel diff 8.32e-12; enclosure checks 900, max |F(w;x) - b0|/R = 0.915
+KQB.r8.json: records 673 (unparsable lines 0), TW leaves 20309, replay problems 0 []
+   sampled 15 TW leaves x 4 points: problems 0; zeros inside the contour per leaf [1, 2]; min relative distance of a zero to the contour 0.226; engine vs my F at x_c (normalisation) max rel diff 2.78e-13; enclosure checks 900, max |F(w;x) - b0|/R = 0.970
+KQK1.r7.json: records 1071 (unparsable lines 0), TW leaves 3747, replay problems 0 []
+   sampled 15 TW leaves x 4 points: problems 0; zeros inside the contour per leaf [1]; min relative distance of a zero to the contour 0.657; engine vs my F at x_c (normalisation) max rel diff 8.03e-16; enclosure checks 900, max |F(w;x) - b0|/R = 0.960
+KQS.r3.json: records 669 (unparsable lines 0), TW leaves 9168, replay problems 0 []
+   sampled 15 TW leaves x 4 points: problems 0; zeros inside the contour per leaf [1, 2]; min relative distance of a zero to the contour 0.231; engine vs my F at x_c (normalisation) max rel diff 1.12e-12; enclosure checks 900, max |F(w;x) - b0|/R = 0.983
+KQ0T.r4.json: records 396 (unparsable lines 0), TW leaves 8050, replay problems 0 []
+   sampled 15 TW leaves x 4 points: problems 0; zeros inside the contour per leaf [1, 2]; min relative distance of a zero to the contour 0.397; engine vs my F at x_c (normalisation) max rel diff 1.76e-12; enclosure checks 900, max |F(w;x) - b0|/R = 0.927
+KQF.r2.json: records 2292 (unparsable lines 0), TW leaves 8698, replay problems 0 []
+   sampled 15 TW leaves x 4 points: problems 0; zeros inside the contour per leaf [1, 2]; min relative distance of a zero to the contour 0.215; engine vs my F at x_c (normalisation) max rel diff 6.02e-14; enclosure checks 900, max |F(w;x) - b0|/R = 0.981
+Ca.r8.json: records 822 (unparsable lines 0), TW leaves 2650, replay problems 0 []
+   sampled 15 TW leaves x 4 points: problems 0; zeros inside the contour per leaf [1]; min relative distance of a zero to the contour 0.445; engine vs my F at x_c (normalisation) max rel diff 8.59e-16; enclosure checks 900, max |F(w;x) - b0|/R = 0.996
+== H done 18:42:37

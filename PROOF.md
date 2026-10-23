@@ -1,14 +1,13 @@
 # Problem 8, second question (Albouy–Cabral–Santos 2012): circle and ellipse — at most 10 stationary points
 
-**Theorem** (computer-assisted; the certification is not yet complete, see the status note above §1). Let a circle of radius R and an ellipse of eccentricity e ∈ (0, 1) in ℝ³ have a common focus, located
+**Theorem** (computer-assisted). Let a circle of radius R and an ellipse of eccentricity e ∈ (0, 1) in ℝ³ have a common focus, located
 at the centre of the circle (inclination and orientation arbitrary). Then the squared distance
 d²(u, v) = |X(u) − C(v)|² between a point of the ellipse and a point of the circle has at most **10** stationary
 points on the torus. The bound is attained.
 
 This is the second question of Problem 8 (G. F. Gronchi) in A. Albouy, H. E. Cabral, A. A. Santos, *Some problems on
 the classical n-body problem*, Celest. Mech. Dyn. Astr. 113 (2012) 369–375: *"If only one of the eccentricities is 0,
-can this upper bound [12] be reduced to 10?"* Answer: **yes**, once the open boxes listed in the status note are
-certified. The canonical statement and the excluded cases are in
+can this upper bound [12] be reduced to 10?"* Answer: **yes**. The canonical statement and the excluded cases are in
 STATEMENT.md. The cases with infinitely many stationary points (coinciding conics, concentric coplanar circles) have
 e = 0 and are outside the question.
 
@@ -20,31 +19,7 @@ e = 0 and are outside the question.
 The configuration is e = 0.673, sin I = 0.992, ω = 0.338, R/a = 0.7772.
 
 <!-- STATUS -->
-**Certification status (2026-10-23 15:00): not yet complete.** The certificate covers the whole parameter space except
-10161 open boxes of the run families below, whose continuation runs are still in progress. The run families
-that RESULTS.md marks complete replay exactly, and every one of their open or failed boxes is covered; sampled leaves
-re-certify and pass 60-digit spot checks (verify/).
-
-The open boxes lie in the near-parabolic region e ≥ 0.835 with a circle much larger than the pericentre distance
-(μ = q/R small). Mostly they sit along the ridge l ≈ l*(ω), where two zeros of B merge and N = 10 is attained, and
-at the seams of the C3 cell. There the Rolle certificates need very small boxes.
-
-Until these runs finish, the bound N ≤ 10 is proved outside these open boxes only. Inside them, 60-digit sampling
-(code/open_box_sample.py, 200 random points per family, verify/open_box_sample.out) finds at most 10 everywhere, and
-often exactly 10. The runs continue with code/chain.sh (commands in code/launch_runs.sh), and `python code/check_all.py`
-regenerates RESULTS.md.
-
-| family | region | state |
-|---|---|---|
-| KQ0T | e ∈ [0.835, 0.9501], t ≥ 0.9975 (circle much larger than the pericentre distance) | open boxes 396 |
-| KQ2 | e ∈ [0.9499, 0.99], t ≥ 0.9975 | open boxes 2791 |
-| KQB | e ≥ 0.99, μ ≤ 0.0505, l ≥ 0.95, ω ∈ [3π/20, 9π/20] (the band) | open boxes 1000 |
-| KQK1 | e ≥ 0.99, μ ≤ 0.0505, l ≤ 0.95 | open boxes 1071 |
-| KQK2 | e ≥ 0.99, μ ≤ 0.0505, l ≥ 0.95, ω ≤ 3π/20 | complete itself; waits for: face-neighbourhood boxes pruned (p) but the face families are not all complete |
-| KQF | face neighbourhood ε, μ ≤ 4·10⁻⁴: outer count \|τ\| ≥ 0.06 | open boxes 2292 |
-| KQF2 | corner K_lw of the face neighbourhood, ε, μ ≤ SF2²: outer count \|τ\| ≥ 0.03 | open boxes 912 |
-| KQS | corner K_lw of the face neighbourhood, SF2 < max(√ε, √μ) ≤ 0.02 | open boxes 877 |
-| C3 Ca | C3 cell, chart Ca (Q_z dominant) | open boxes 822 |
+**Certification status (2026-10-23 18:30): complete.** Every run family in RESULTS.md is complete (`code/check_all.py`: ALL COMPLETE). Every recorded split tree replays exactly, and every open or failed box is covered by a continuation run or by a documented chart. Sampled leaves of every run file re-certify with the final code (verify/), and the final audit (audit/AUDIT_15.md) re-certifies every tau- and disc-winding leaf. 60-digit spot checks (verify/) cover sampled leaves of every whole-circle family and C3 chart, and the disc-winding leaves of KQF and KQF2. The other outer-count leaves of KQF and KQF2, and the D2 charts, are covered by the audit's 100-digit spot checks.
 <!-- /STATUS -->
 
 ---
@@ -127,6 +102,20 @@ Q(z) = Σ c_k z^{k+6}.
   labelled arc, so each argument step is < π in modulus.
 - W = 6 + wind(G) is the number of roots in |z| < ρ (argument principle). The choice of ρ, from the roots at the box
   centre, affects only success, never validity.
+
+**Lemma (tau-winding certificate; C3_CORE.md §8).** Let Q(τ) = P(f)(1 + τ²)⁶ with τ = tan((f − π)/2). Then the number of real zeros of P on the circle, counted with multiplicity, is 12 minus the number of non-real zeros of Q. So if Q has no zero on a circle in the open upper half-plane for any parameter of the box, and has a zero inside it at the box centre, P has at most 10 real zeros on the whole box. The same holds with Q replaced by:
+- its reverse G(t_p) = t_p¹²Q(−1/t_p) (chart KBPe), since −1/t_p is non-real when t_p is;
+- the chart polynomials Q(νy)/ν¹⁰ (C3 chart Ca) or Q(sy)/s⁶ (face charts FE, FM), since ν, s > 0 at every physical
+  point.
+
+Engine KQ (option --tw) and these charts use this certificate with leaf code '7'. The contour is stored, and it is
+re-certified by code/bb_replay.py (KQ) and code/recert_tw_c3.py (c3 charts).
+
+**Lemma (disc-winding outer count; C3_CORE.md §9).** With Q as above, suppose that for every parameter of the box Q has
+no zero on the circle |τ| = T, and that Q has W zeros inside it at the box centre. Then P has at most 12 − W real zeros,
+counted with multiplicity, on the outer region {|τ| ≥ T} ∪ {f = 0}, at every point of the box. The outer runs KQF and
+KQF2 (option --disc) use this with T = T_X and W ≥ 6, as leaf code '8' with outer bound 6. The contour is fixed by the
+family's T_X, which check_all.py pins.
 
 **Why both certificates are used.** The winding certificate does not resolve real roots at all. So it does not
 degrade at root clusters on the unit circle (pitchforks and six-fold points), which is exactly where Rolle runs need
@@ -274,14 +263,18 @@ re-certification and spot-check outputs are in verify/.
 
 ## 6. Verification and audit
 
-- **audit/AUDIT_1.md – AUDIT_12.md.** Twelve rounds of independent adversarial audit of every definition, generated
+- **audit/AUDIT_1.md – AUDIT_15.md.** Fifteen rounds of independent adversarial audit of every definition, generated
   formula, engine, coverage claim and run, with the auditor's own scripts and outputs in audit/. Every issue raised
   was fixed. Round 8 found the obstruction at the face e = 1, μ = 0 (R8-1), resolved by the face charts (C3_CORE.md
   §6, audited in round 9); round 10 audited the perihelion count and the split rules (C3_CORE.md §7); round 11 the
-  corner repair of the face construction; AUDIT_12 is the final pass over the finished families and over the snapshot
-  of the unfinished ones (see the status note above).
+  corner repair of the face construction; round 12 the snapshot of 2026-10-23 15:00; round 13 the tau-winding
+  certificate (C3_CORE.md §8); round 14 the disc-winding outer count (C3_CORE.md §9) and the final contour choice;
+  AUDIT_15 is the final pass over the complete run set.
 - **code/bb_replay.py.** Exact replay of every split tree; optional re-certification of leaves.
-- **code/verify_mp.py.** 60-digit spot checks of sampled leaves against the original polynomial.
+- **code/verify_mp.py.** 60-digit spot checks of sampled leaves against the original polynomial. It has no map for
+  the D2 cone charts and reports 0 points there. Their spot checks are the auditor's 100-digit checks
+  (audit/round7/g3_spot_*.out: 0 violations, max N = 8). code/disc_mp_check.py does the same for the disc-winding
+  leaves, counting the outer region only.
 - **FLOAT_RIGOUR.md.** Floating-point error analysis. The only assumption beyond IEEE-754 arithmetic is that libm
   sin and cos are within 2 ulps for |x| ≤ 64 (all arguments satisfy |x| ≤ 62.2; checked empirically in
   code/libm_check.py).

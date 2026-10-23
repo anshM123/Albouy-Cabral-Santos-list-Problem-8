@@ -1,0 +1,207 @@
+== G start 18:34:14
+KQ0T.r4.json: records 396, leaves 42514 (winding 10037), fails 0, replay problems 0 []; histogram {10: 5107, 11: 26583, 8: 145, 9: 642, 'w1': 3479, 'w2': 6558}
+    re-certified winding leaves 400 (problems 0; certified only by the nb_cert2 enclosure: 400); count leaves 100 (problems 0; only by the current kq_run: 100)
+    tau-winding leaves 8050: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 8, min relative distance of a zero to the contour 0.623
+    100-digit: 15 winding + 15 count leaves, 90 points (30 winding); violations 0; odd N_mult 0; max N_mult 8; min relative distance of a zero to |z| = e^L 0.0516
+KQ0T.r5.json: records 371, leaves 130 (winding 9), fails 0, replay problems 0 []; histogram {10: 66, 11: 53, 9: 2, 'w1': 2, 'w2': 7}
+    re-certified winding leaves 9 (problems 0; certified only by the nb_cert2 enclosure: 9); count leaves 100 (problems 0; only by the current kq_run: 95)
+    tau-winding leaves 3233: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 8, min relative distance of a zero to the contour 0.28
+    100-digit: 9 winding + 15 count leaves, 78 points (18 winding); violations 0; odd N_mult 0; max N_mult 8; min relative distance of a zero to |z| = e^L 0.0608
+KQ2.r5.json: records 2791, leaves 86859 (winding 20767), fails 0, replay problems 0 []; histogram {10: 13192, 11: 49937, 6: 39, 7: 48, 8: 768, 9: 2108, 'w1': 16712, 'w2': 4031, 'w3': 24}
+    re-certified winding leaves 400 (problems 0; certified only by the nb_cert2 enclosure: 400); count leaves 100 (problems 0; only by the current kq_run: 99)
+    tau-winding leaves 42565: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 8, min relative distance of a zero to the contour 0.47
+    100-digit: 15 winding + 15 count leaves, 90 points (30 winding); violations 0; odd N_mult 0; max N_mult 10; min relative distance of a zero to |z| = e^L 0.0246
+KQ2.r6.json: records 855, leaves 1357 (winding 83), fails 0, replay problems 0 []; histogram {10: 378, 11: 724, 6: 5, 7: 27, 8: 120, 9: 20, 'w1': 17, 'w2': 66}
+    re-certified winding leaves 83 (problems 0; certified only by the nb_cert2 enclosure: 83); count leaves 100 (problems 0; only by the current kq_run: 81)
+    tau-winding leaves 11796: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 8, min relative distance of a zero to the contour 0.229
+    100-digit: 15 winding + 15 count leaves, 90 points (30 winding); violations 0; odd N_mult 0; max N_mult 6; min relative distance of a zero to |z| = e^L 0.0311
+KQ2.r7.json: records 20, leaves 83 (winding 0), fails 0, replay problems 0 []; histogram {10: 11, 11: 72}
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 83 (problems 0; only by the current kq_run: 60)
+    tau-winding leaves 727: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 8, min relative distance of a zero to the contour 0.301
+    100-digit: 0 winding + 15 count leaves, 60 points (0 winding); violations 0; odd N_mult 0; max N_mult 6; min relative distance of a zero to |z| = e^L +inf
+KQ2.r8.json: records 12, leaves 26 (winding 0), fails 0, replay problems 0 []; histogram {11: 26}
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 26 (problems 0; only by the current kq_run: 22)
+    tau-winding leaves 163: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 8, min relative distance of a zero to the contour 0.415
+    100-digit: 0 winding + 15 count leaves, 60 points (0 winding); violations 0; odd N_mult 0; max N_mult 6; min relative distance of a zero to |z| = e^L +inf
+KQB.r7.json: records 1000, leaves 39969 (winding 1917), fails 0, replay problems 0 []; histogram {10: 8913, 11: 27745, 6: 3, 7: 5, 8: 322, 9: 1064, 'w1': 1917}
+   COUNT RECERT PROBLEM (0.99125, 0.991875, 0.955, 0.95625, 0.7215845626214057, 0.7240389318820226, 0.999940375, 0.99994534375) 10 True 11
+    re-certified winding leaves 400 (problems 0; certified only by the nb_cert2 enclosure: 400); count leaves 100 (problems 1; only by the current kq_run: 99)
+    tau-winding leaves 21590: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 10, min relative distance of a zero to the contour 0.439
+    100-digit: 15 winding + 15 count leaves, 90 points (30 winding); violations 0; odd N_mult 0; max N_mult 10; min relative distance of a zero to |z| = e^L 0.0818
+KQB.r8.json: records 673, leaves 6054 (winding 0), fails 0, replay problems 0 []; histogram {10: 2318, 11: 2374, 7: 16, 8: 145, 9: 1201}
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 100 (problems 0; only by the current kq_run: 91)
+    tau-winding leaves 20309: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 10, min relative distance of a zero to the contour 0.339
+    100-digit: 0 winding + 15 count leaves, 60 points (0 winding); violations 0; odd N_mult 0; max N_mult 6; min relative distance of a zero to |z| = e^L +inf
+KQB.r9.json: records 238, leaves 6125 (winding 0), fails 0, replay problems 0 []; histogram {10: 2366, 11: 2633, 8: 139, 9: 987}
+   COUNT RECERT PROBLEM (0.9986656250015937, 0.998737500001625, 0.97, 0.9724999999999999, 0.944932165337555, 0.947386534598172, 0.9999998447265626, 0.9999999223632813) 10 True 11
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 100 (problems 1; only by the current kq_run: 98)
+    tau-winding leaves 16454: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 8, min relative distance of a zero to the contour 0.43
+    100-digit: 0 winding + 15 count leaves, 60 points (0 winding); violations 0; odd N_mult 0; max N_mult 4; min relative distance of a zero to |z| = e^L +inf
+KQB.r10.json: records 83, leaves 1122 (winding 0), fails 0, replay problems 0 []; histogram {10: 416, 11: 392, 8: 15, 9: 299}
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 100 (problems 0; only by the current kq_run: 88)
+    tau-winding leaves 3681: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 8, min relative distance of a zero to the contour 0.512
+    100-digit: 0 winding + 15 count leaves, 60 points (0 winding); violations 0; odd N_mult 0; max N_mult 6; min relative distance of a zero to |z| = e^L +inf
+KQF.r2.json: records 2292, leaves 75067 (winding 0), fails 0, replay problems 0 []; histogram {2: 22, 3: 7, 4: 802, 5: 37, 6: 74199}
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 100 (problems 0; only by the current kq_run: 0)
+    disc-winding leaves 2375: re-certified 100 (problems 0); 100-digit 30 points: violations 0, max outer count 6
+    tau-winding leaves 8698: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 10, min relative distance of a zero to the contour 0.851
+    100-digit: 0 winding + 15 count leaves, 60 points (0 winding); violations 0; odd N_mult 0; max N_mult 6; min relative distance of a zero to |z| = e^L +inf
+KQF.r3.json: records 661, leaves 0 (winding 0), fails 0, replay problems 0 []; histogram {}
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 0 (problems 0; only by the current kq_run: 0)
+    disc-winding leaves 661: re-certified 100 (problems 0); 100-digit 30 points: violations 0, max outer count 6
+    tau-winding leaves 0: re-certified 0 (problems 0); 100-digit 0 leaves x 2 points: violations 0, max N 0, min relative distance of a zero to the contour +inf
+    100-digit: 0 winding + 0 count leaves, 0 points (0 winding); violations 0; odd N_mult 0; max N_mult 0; min relative distance of a zero to |z| = e^L +inf
+KQF2.r3.json: records 912, leaves 23859 (winding 0), fails 0, replay problems 0 []; histogram {5: 847, 6: 23012}
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 100 (problems 0; only by the current kq_run: 0)
+    disc-winding leaves 872: re-certified 100 (problems 0); 100-digit 30 points: violations 0, max outer count 6
+    tau-winding leaves 2069: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 10, min relative distance of a zero to the contour 0.899
+    100-digit: 0 winding + 15 count leaves, 60 points (0 winding); violations 0; odd N_mult 0; max N_mult 6; min relative distance of a zero to |z| = e^L +inf
+KQF2.r4.json: records 543, leaves 0 (winding 0), fails 0, replay problems 0 []; histogram {}
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 0 (problems 0; only by the current kq_run: 0)
+    disc-winding leaves 543: re-certified 100 (problems 0); 100-digit 30 points: violations 0, max outer count 6
+    tau-winding leaves 0: re-certified 0 (problems 0); 100-digit 0 leaves x 2 points: violations 0, max N 0, min relative distance of a zero to the contour +inf
+    100-digit: 0 winding + 0 count leaves, 0 points (0 winding); violations 0; odd N_mult 0; max N_mult 0; min relative distance of a zero to |z| = e^L +inf
+KQK1.r7.json: records 1071, leaves 23004 (winding 2004), fails 0, replay problems 0 []; histogram {10: 5069, 11: 15347, 8: 258, 9: 326, 'w1': 1995, 'w2': 9}
+   COUNT RECERT PROBLEM (0.9931249999999999, 0.9937499999999999, 0.9453125, 0.9468749999999999, 0.6405903770210438, 0.6430447462816609, 0.9999503125, 0.99995528125) 10 True 11
+   COUNT RECERT PROBLEM (0.99, 0.990625, 0.9390625, 0.940625, 0.6037748381117884, 0.6086835766330224, 0.99988075, 0.999900625) 10 True 11
+   COUNT RECERT PROBLEM (0.9924999999999999, 0.9931249999999999, 0.9453125, 0.9468749999999999, 0.6504078540635119, 0.6528622233241288, 0.9999503125, 0.99995528125) 10 True 11
+   COUNT RECERT PROBLEM (0.9934375, 0.9937499999999999, 0.9484374999999999, 0.95, 0.6774059159302992, 0.6798602851909162, 0.99994534375, 0.9999503125) 10 True 11
+   COUNT RECERT PROBLEM (0.9934375, 0.9937499999999999, 0.9468749999999999, 0.9484374999999999, 0.6896777622333843, 0.6921321314940012, 0.9999627343749999, 0.99996521875) 10 True 11
+   COUNT RECERT PROBLEM (0.9924999999999999, 0.9928124999999999, 0.94375, 0.9453125, 0.6454991155422778, 0.6479534848028948, 0.999940375, 0.99994534375) 10 True 11
+    re-certified winding leaves 400 (problems 0; certified only by the nb_cert2 enclosure: 400); count leaves 100 (problems 6; only by the current kq_run: 91)
+    tau-winding leaves 3747: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 10, min relative distance of a zero to the contour 0.569
+    100-digit: 15 winding + 15 count leaves, 90 points (30 winding); violations 0; odd N_mult 0; max N_mult 10; min relative distance of a zero to |z| = e^L 0.0448
+KQK1.r8.json: records 418, leaves 3091 (winding 63), fails 0, replay problems 0 []; histogram {10: 490, 11: 2425, 8: 12, 9: 101, 'w1': 7, 'w2': 56}
+   COUNT RECERT PROBLEM (0.998162500001375, 0.9984500000015, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.999957765625, 0.99996025) 9 True 10
+   COUNT RECERT PROBLEM (0.9995281250019687, 0.999600000002, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.9999940996093749, 0.9999944101562499) 10 True 11
+   COUNT RECERT PROBLEM (0.9991687500018125, 0.999312500001875, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.9999888203125, 0.99998944140625) 10 True 11
+    re-certified winding leaves 63 (problems 0; certified only by the nb_cert2 enclosure: 63); count leaves 100 (problems 3; only by the current kq_run: 82)
+    tau-winding leaves 2211: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 10, min relative distance of a zero to the contour 0.73
+    100-digit: 15 winding + 15 count leaves, 90 points (30 winding); violations 0; odd N_mult 0; max N_mult 10; min relative distance of a zero to |z| = e^L 0.0128
+KQK1.r9.json: records 121, leaves 3692 (winding 22), fails 0, replay problems 0 []; histogram {10: 782, 11: 2753, 9: 135, 'w2': 22}
+   COUNT RECERT PROBLEM (0.999312500001875, 0.9993843750019062, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.9999940996093749, 0.9999944101562499) 10 True 11
+   COUNT RECERT PROBLEM (0.9992406250018437, 0.999312500001875, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.9999937890624999, 0.9999940996093749) 10 True 11
+   COUNT RECERT PROBLEM (0.998737500001625, 0.9988812500016875, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.9999888203125, 0.99998944140625) 10 True 11
+   COUNT RECERT PROBLEM (0.9995281250019687, 0.999600000002, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.99999068359375, 0.9999913046875) 10 True 11
+   COUNT RECERT PROBLEM (0.9989171875017031, 0.9989531250017187, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.9999996506347657, 0.999999689453125) 10 True 11
+   COUNT RECERT PROBLEM (0.9994562500019375, 0.999600000002, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.99996521875, 0.999967703125) 9 True 11
+   COUNT RECERT PROBLEM (0.9982343750014062, 0.9983062500014375, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.999999068359375, 0.9999991459960937) 10 True 11
+   COUNT RECERT PROBLEM (0.9984500000015, 0.9985937500015625, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.999987578125, 0.99998819921875) 9 True 11
+   COUNT RECERT PROBLEM (0.9989531250017187, 0.99902500000175, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.9999944101562499, 0.999994720703125) 10 True 11
+   COUNT RECERT PROBLEM (0.9983062500014375, 0.9983781250014687, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.99999813671875, 0.9999982919921875) 10 True 11
+   COUNT RECERT PROBLEM (0.9982343750014062, 0.9983062500014375, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.9999992236328126, 0.9999993012695313) 10 True 11
+   COUNT RECERT PROBLEM (0.9985937500015625, 0.998737500001625, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.9999813671875, 0.9999826093749999) 10 True 11
+    re-certified winding leaves 22 (problems 0; certified only by the nb_cert2 enclosure: 22); count leaves 100 (problems 12; only by the current kq_run: 72)
+    tau-winding leaves 1901: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 10, min relative distance of a zero to the contour 0.788
+    100-digit: 15 winding + 15 count leaves, 90 points (30 winding); violations 0; odd N_mult 0; max N_mult 8; min relative distance of a zero to |z| = e^L 0.0259
+KQK1.r10.json: records 68, leaves 3623 (winding 0), fails 0, replay problems 0 []; histogram {10: 686, 11: 2890, 9: 47}
+   COUNT RECERT PROBLEM (0.9983062500014375, 0.9983781250014687, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.999997826171875, 0.9999979814453126) 10 True 11
+   COUNT RECERT PROBLEM (0.9989531250017187, 0.9989890625017344, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.9999994177246094, 0.9999994565429687) 10 True 11
+   COUNT RECERT PROBLEM (0.9985937500015625, 0.9986656250015937, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.9999937890624999, 0.9999940996093749) 10 True 11
+   COUNT RECERT PROBLEM (0.99902500000175, 0.9991687500018125, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.9999900625, 0.99999068359375) 9 True 11
+   COUNT RECERT PROBLEM (0.9986656250015937, 0.9987015625016094, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.9999994565429687, 0.9999995341796875) 10 True 11
+   COUNT RECERT PROBLEM (0.9987015625016094, 0.998737500001625, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.9999992236328126, 0.9999993012695313) 10 True 11
+   COUNT RECERT PROBLEM (0.9983062500014375, 0.9983781250014687, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.999997515625, 0.9999976708984375) 10 True 11
+   COUNT RECERT PROBLEM (0.9992765625018594, 0.9992945312518672, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.9999997670898437, 0.9999997864990234) 10 True 11
+   COUNT RECERT PROBLEM (0.9988453125016719, 0.9988812500016875, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.9999995341796875, 0.9999995729980469) 10 True 11
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 100 (problems 9; only by the current kq_run: 72)
+    tau-winding leaves 1370: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 10, min relative distance of a zero to the contour 0.919
+    100-digit: 0 winding + 15 count leaves, 60 points (0 winding); violations 0; odd N_mult 0; max N_mult 6; min relative distance of a zero to |z| = e^L +inf
+KQK1.r11.json: records 77, leaves 3218 (winding 0), fails 0, replay problems 0 []; histogram {10: 704, 11: 2492, 9: 22}
+   COUNT RECERT PROBLEM (0.9988093750016562, 0.9988453125016719, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.9999994565429687, 0.9999995341796875) 10 True 11
+   COUNT RECERT PROBLEM (0.9989890625017344, 0.99902500000175, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.9999987578125, 0.9999988354492187) 10 True 11
+   COUNT RECERT PROBLEM (0.998737500001625, 0.9987734375016406, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.9999995729980469, 0.9999996118164063) 10 True 11
+   COUNT RECERT PROBLEM (0.9989171875017031, 0.9989531250017187, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.9999994177246094, 0.9999994565429687) 10 True 11
+   COUNT RECERT PROBLEM (0.9992406250018437, 0.9992585937518516, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.9999997670898437, 0.9999997864990234) 10 True 11
+   COUNT RECERT PROBLEM (0.9988093750016562, 0.9988453125016719, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.9999991459960937, 0.9999992236328126) 10 True 11
+   COUNT RECERT PROBLEM (0.9988093750016562, 0.9988453125016719, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.9999989907226563, 0.999999068359375) 10 True 11
+   COUNT RECERT PROBLEM (0.9988453125016719, 0.9988812500016875, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.9999989130859375, 0.9999989907226563) 10 True 11
+   COUNT RECERT PROBLEM (0.9988812500016875, 0.9989171875017031, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.9999994565429687, 0.999999495361328) 10 True 11
+   COUNT RECERT PROBLEM (0.9986656250015937, 0.9987015625016094, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.9999989907226563, 0.999999068359375) 10 True 11
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 100 (problems 10; only by the current kq_run: 73)
+    tau-winding leaves 782: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 10, min relative distance of a zero to the contour 0.973
+    100-digit: 0 winding + 15 count leaves, 60 points (0 winding); violations 0; odd N_mult 0; max N_mult 8; min relative distance of a zero to |z| = e^L +inf
+KQK1.r12.json: records 36, leaves 825 (winding 0), fails 0, replay problems 0 []; histogram {10: 253, 11: 572}
+   COUNT RECERT PROBLEM (0.9986296875015781, 0.9986656250015937, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.9999989907226563, 0.999999068359375) 10 True 11
+   COUNT RECERT PROBLEM (0.9985218750015312, 0.9985578125015468, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.9999987578125, 0.9999988354492187) 10 True 11
+   COUNT RECERT PROBLEM (0.9985578125015468, 0.9985937500015625, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.9999987578125, 0.9999988354492187) 10 True 11
+   COUNT RECERT PROBLEM (0.9985578125015468, 0.9985937500015625, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.9999991459960937, 0.9999992236328126) 10 True 11
+   COUNT RECERT PROBLEM (0.9985218750015312, 0.9985578125015468, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.9999987578125, 0.9999988354492187) 10 True 11
+   COUNT RECERT PROBLEM (0.9985937500015625, 0.9986296875015781, 0.7062499999999999, 0.70703125, 0.001227184630308513, 0.002454369260617026, 0.9999989130859375, 0.9999989907226563) 10 True 11
+   COUNT RECERT PROBLEM (0.9985937500015625, 0.9986296875015781, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.9999989907226563, 0.999999068359375) 10 True 11
+   COUNT RECERT PROBLEM (0.9988453125016719, 0.9988812500016875, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.9999987578125, 0.9999988354492187) 10 True 11
+   COUNT RECERT PROBLEM (0.9984500000015, 0.9985218750015312, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.999999068359375, 0.9999991459960937) 10 True 11
+   COUNT RECERT PROBLEM (0.998737500001625, 0.9987734375016406, 0.70703125, 0.7078125, 0.001227184630308513, 0.002454369260617026, 0.9999988354492187, 0.9999989130859375) 10 True 11
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 100 (problems 10; only by the current kq_run: 81)
+    tau-winding leaves 166: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 10, min relative distance of a zero to the contour 0.992
+    100-digit: 0 winding + 15 count leaves, 60 points (0 winding); violations 0; odd N_mult 0; max N_mult 8; min relative distance of a zero to |z| = e^L +inf
+KQS.r2.json: records 877, leaves 17449 (winding 0), fails 0, replay problems 0 []; histogram {10: 2319, 11: 14216, 6: 9, 7: 12, 8: 112, 9: 781}
+   COUNT RECERT PROBLEM (0.99975, 0.9997625000000001, 0.9924999999999999, 0.994375, 1.4099234312353204, 1.4128483929727673, 0.9999998618750001, 0.9999998725000001) 9 True 10
+   COUNT RECERT PROBLEM (0.99975, 0.9997750000000001, 0.990625, 0.9924999999999999, 1.3952986225480863, 1.398223584285533, 0.9999998512500001, 0.9999998725000001) 9 True 11
+   COUNT RECERT PROBLEM (0.9997875, 0.9998, 0.9953125, 0.99625, 1.3587366008300008, 1.3601990816987242, 0.9999999996679687, 1.0) 9 True 11
+   COUNT RECERT PROBLEM (0.9996375, 0.99965, 0.990625, 0.9924999999999999, 1.4099234312353204, 1.4128483929727673, 0.9999999996679687, 1.0) 7 True 8
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 100 (problems 4; only by the current kq_run: 75)
+    tau-winding leaves 7980: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 10, min relative distance of a zero to the contour 0.294
+    100-digit: 0 winding + 15 count leaves, 60 points (0 winding); violations 0; odd N_mult 0; max N_mult 10; min relative distance of a zero to |z| = e^L +inf
+KQS.r3.json: records 669, leaves 4022 (winding 0), fails 0, replay problems 0 []; histogram {10: 1202, 11: 1847, 6: 13, 7: 1, 8: 147, 9: 812}
+   COUNT RECERT PROBLEM (0.99965, 0.9996625000000001, 0.994375, 0.9953125, 1.3543491582238305, 1.3572741199612772, 0.9999999986718751, 0.9999999993359375) 9 True 11
+   COUNT RECERT PROBLEM (0.99985, 0.9998625000000001, 0.990625, 0.9924999999999999, 1.328024502586809, 1.3309494643242559, 0.9999999986718751, 0.9999999993359375) 9 True 10
+   COUNT RECERT PROBLEM (0.9996, 0.999625, 0.990625, 0.9924999999999999, 1.307549770424681, 1.310474732162128, 0.99999997875, 0.999999989375) 9 True 11
+   COUNT RECERT PROBLEM (0.9996625000000001, 0.9996750000000001, 0.99625, 0.9971874999999999, 1.3996860651542566, 1.40114854602298, 0.9999999996679687, 1.0) 9 True 11
+   COUNT RECERT PROBLEM (0.9997562500000001, 0.9997625000000001, 0.9971874999999999, 0.9976562499999999, 1.4055359886291503, 1.4069984694978737, 0.9999999996679687, 0.9999999998339844) 10 True 11
+   COUNT RECERT PROBLEM (0.9998374999999999, 0.99985, 0.990625, 0.9924999999999999, 1.3309494643242559, 1.3338744260617026, 0.9999999996679687, 1.0) 9 True 10
+   COUNT RECERT PROBLEM (0.9998875, 0.9999, 0.994375, 0.9953125, 1.3748238903859584, 1.3777488521234051, 0.9999999986718751, 0.9999999993359375) 8 True 10
+   COUNT RECERT PROBLEM (0.99985, 0.9998750000000001, 0.98875, 0.990625, 1.3016998469497874, 1.307549770424681, 0.9999999986718751, 1.0) 9 True 11
+   COUNT RECERT PROBLEM (0.9997875, 0.9998, 0.9924999999999999, 0.994375, 1.3923736608106394, 1.3952986225480863, 0.9999999996679687, 1.0) 8 True 10
+   COUNT RECERT PROBLEM (0.9996625000000001, 0.9996750000000001, 0.9924999999999999, 0.994375, 1.3835987755982988, 1.3865237373357457, 0.9999999996679687, 1.0) 6 True 8
+   COUNT RECERT PROBLEM (0.9998625000000001, 0.9998687500000001, 0.9971874999999999, 0.9976562499999999, 1.4069984694978737, 1.408460950366597, 0.9999999999169922, 1.0) 9 True 11
+   COUNT RECERT PROBLEM (0.99989375, 0.9999, 0.9953125, 0.9957812500000001, 1.3426493112740432, 1.3441117921427665, 0.9999999998339844, 0.9999999999169922) 9 True 11
+   COUNT RECERT PROBLEM (0.999725, 0.9997375, 0.9924999999999999, 0.994375, 1.3923736608106394, 1.3952986225480863, 0.9999999993359375, 0.9999999996679687) 8 True 10
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 100 (problems 13; only by the current kq_run: 74)
+    tau-winding leaves 9168: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 10, min relative distance of a zero to the contour 0.276
+    100-digit: 0 winding + 15 count leaves, 60 points (0 winding); violations 0; odd N_mult 0; max N_mult 8; min relative distance of a zero to |z| = e^L +inf
+KQS.r4.json: records 111, leaves 1781 (winding 0), fails 0, replay problems 0 []; histogram {10: 377, 11: 1094, 8: 55, 9: 255}
+   COUNT RECERT PROBLEM (0.9998125, 0.999825, 0.9924999999999999, 0.994375, 1.3777488521234051, 1.3806738138608519, 0.9999999993359375, 0.9999999996679687) 8 True 10
+   COUNT RECERT PROBLEM (0.999825, 0.9998374999999999, 0.9924999999999999, 0.9934375, 1.3163246556370214, 1.3192496173744683, 0.9999999946875, 0.99999999734375) 9 True 11
+   COUNT RECERT PROBLEM (0.9998625000000001, 0.9998750000000001, 0.9934375, 0.994375, 1.3221745791119153, 1.325099540849362, 0.9999999986718751, 0.9999999993359375) 9 True 11
+   COUNT RECERT PROBLEM (0.99988125, 0.9998875, 0.99484375, 0.9953125, 1.3141309343339365, 1.314862174768298, 0.99999999734375, 0.9999999980078125) 9 True 11
+   COUNT RECERT PROBLEM (0.9996125, 0.999625, 0.9924999999999999, 0.994375, 1.3367993877991495, 1.3397243495365965, 0.9999999996679687, 1.0) 10 True 11
+   COUNT RECERT PROBLEM (0.9998374999999999, 0.99985, 0.9924999999999999, 0.994375, 1.3806738138608519, 1.3835987755982988, 0.9999999996679687, 1.0) 8 True 10
+   COUNT RECERT PROBLEM (0.9998750000000001, 0.9998875, 0.994375, 0.9953125, 1.3865237373357457, 1.3894486990731925, 0.9999999986718751, 0.9999999993359375) 8 True 10
+   COUNT RECERT PROBLEM (0.99981875, 0.999825, 0.99625, 0.9967187499999999, 1.3718989286485115, 1.3733614095172348, 0.9999999998339844, 0.9999999999169922) 9 True 11
+   COUNT RECERT PROBLEM (0.99989375, 0.9999, 0.994375, 0.99484375, 1.3163246556370214, 1.317787136505745, 0.9999999996679687, 0.9999999998339844) 9 True 11
+   COUNT RECERT PROBLEM (0.9996750000000001, 0.9997, 0.98875, 0.990625, 1.3367993877991495, 1.3426493112740432, 0.9999999946875, 0.99999999734375) 9 True 10
+   COUNT RECERT PROBLEM (0.9998374999999999, 0.99985, 0.9934375, 0.994375, 1.3163246556370214, 1.317787136505745, 0.9999999993359375, 0.9999999996679687) 9 True 11
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 100 (problems 11; only by the current kq_run: 71)
+    tau-winding leaves 2916: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 10, min relative distance of a zero to the contour 0.151
+    100-digit: 0 winding + 15 count leaves, 60 points (0 winding); violations 0; odd N_mult 0; max N_mult 8; min relative distance of a zero to |z| = e^L +inf
+KQS.r5.json: records 33, leaves 163 (winding 0), fails 0, replay problems 0 []; histogram {10: 33, 11: 86, 8: 32, 9: 12}
+   COUNT RECERT PROBLEM (0.9998, 0.9998125, 0.9924999999999999, 0.994375, 1.3894486990731925, 1.3923736608106394, 0.9999999986718751, 0.9999999993359375) 8 True 10
+   COUNT RECERT PROBLEM (0.9998125, 0.999825, 0.9924999999999999, 0.994375, 1.3894486990731925, 1.3923736608106394, 0.9999999996679687, 1.0) 8 True 10
+   COUNT RECERT PROBLEM (0.999825, 0.9998374999999999, 0.9924999999999999, 0.994375, 1.3835987755982988, 1.3865237373357457, 0.9999999996679687, 1.0) 8 True 10
+   COUNT RECERT PROBLEM (0.999825, 0.9998374999999999, 0.9924999999999999, 0.994375, 1.3865237373357457, 1.3894486990731925, 0.9999999996679687, 1.0) 8 True 10
+   COUNT RECERT PROBLEM (0.9998125, 0.999825, 0.9924999999999999, 0.994375, 1.3835987755982988, 1.3865237373357457, 0.9999999993359375, 0.9999999996679687) 8 True 10
+   COUNT RECERT PROBLEM (0.9998, 0.9998125, 0.9924999999999999, 0.994375, 1.3894486990731925, 1.3923736608106394, 0.99999999734375, 0.9999999986718751) 8 True 10
+   COUNT RECERT PROBLEM (0.9998, 0.9998125, 0.9924999999999999, 0.994375, 1.3835987755982988, 1.3865237373357457, 0.9999999996679687, 1.0) 8 True 10
+   COUNT RECERT PROBLEM (0.999825, 0.9998374999999999, 0.9924999999999999, 0.994375, 1.3865237373357457, 1.3894486990731925, 0.9999999986718751, 0.9999999993359375) 8 True 10
+   COUNT RECERT PROBLEM (0.9998374999999999, 0.99985, 0.9924999999999999, 0.994375, 1.3923736608106394, 1.3952986225480863, 0.9999999986718751, 0.9999999993359375) 8 True 10
+   COUNT RECERT PROBLEM (0.999825, 0.9998374999999999, 0.9924999999999999, 0.994375, 1.3923736608106394, 1.3952986225480863, 0.9999999996679687, 1.0) 8 True 10
+   COUNT RECERT PROBLEM (0.9998125, 0.999825, 0.9924999999999999, 0.994375, 1.3923736608106394, 1.3952986225480863, 0.9999999993359375, 0.9999999996679687) 8 True 10
+   COUNT RECERT PROBLEM (0.9998, 0.9998125, 0.9924999999999999, 0.994375, 1.3894486990731925, 1.3923736608106394, 0.9999999996679687, 1.0) 8 True 10
+   COUNT RECERT PROBLEM (0.9998125, 0.999825, 0.9924999999999999, 0.994375, 1.3397243495365965, 1.3426493112740432, 0.9999999996679687, 1.0) 9 True 11
+   COUNT RECERT PROBLEM (0.9998, 0.9998125, 0.9924999999999999, 0.994375, 1.3894486990731925, 1.3923736608106394, 0.9999999993359375, 0.9999999996679687) 8 True 10
+   COUNT RECERT PROBLEM (0.999825, 0.9998374999999999, 0.9924999999999999, 0.994375, 1.3894486990731925, 1.3923736608106394, 0.9999999996679687, 1.0) 8 True 10
+   COUNT RECERT PROBLEM (0.999825, 0.9998374999999999, 0.9924999999999999, 0.994375, 1.3923736608106394, 1.3952986225480863, 0.9999999986718751, 0.9999999993359375) 8 True 10
+   COUNT RECERT PROBLEM (0.9998374999999999, 0.99985, 0.9924999999999999, 0.994375, 1.3835987755982988, 1.3865237373357457, 0.9999999996679687, 1.0) 8 True 10
+   COUNT RECERT PROBLEM (0.9998374999999999, 0.99985, 0.9924999999999999, 0.994375, 1.3894486990731925, 1.3923736608106394, 0.9999999993359375, 0.9999999996679687) 8 True 10
+   COUNT RECERT PROBLEM (0.9998374999999999, 0.99985, 0.9924999999999999, 0.994375, 1.3923736608106394, 1.3952986225480863, 0.9999999996679687, 1.0) 8 True 10
+   COUNT RECERT PROBLEM (0.9998, 0.9998125, 0.9924999999999999, 0.994375, 1.3835987755982988, 1.3865237373357457, 0.9999999986718751, 0.9999999993359375) 8 True 10
+   COUNT RECERT PROBLEM (0.9998, 0.9998125, 0.9924999999999999, 0.994375, 1.3835987755982988, 1.3865237373357457, 0.9999999993359375, 0.9999999996679687) 8 True 10
+   COUNT RECERT PROBLEM (0.9998374999999999, 0.99985, 0.9924999999999999, 0.994375, 1.3894486990731925, 1.3923736608106394, 0.9999999996679687, 1.0) 8 True 10
+   COUNT RECERT PROBLEM (0.9998374999999999, 0.99985, 0.9924999999999999, 0.994375, 1.3835987755982988, 1.3865237373357457, 0.9999999986718751, 0.9999999993359375) 8 True 10
+   COUNT RECERT PROBLEM (0.9998125, 0.999825, 0.9924999999999999, 0.994375, 1.3835987755982988, 1.3865237373357457, 0.9999999996679687, 1.0) 8 True 10
+   COUNT RECERT PROBLEM (0.9998374999999999, 0.99985, 0.9924999999999999, 0.994375, 1.3865237373357457, 1.3894486990731925, 0.9999999986718751, 0.9999999993359375) 8 True 10
+    re-certified winding leaves 0 (problems 0; certified only by the nb_cert2 enclosure: 0); count leaves 100 (problems 25; only by the current kq_run: 56)
+    tau-winding leaves 138: re-certified 100 (problems 0); 100-digit 15 leaves x 2 points: violations 0, max N 10, min relative distance of a zero to the contour 0.481
+    100-digit: 0 winding + 15 count leaves, 60 points (0 winding); violations 0; odd N_mult 0; max N_mult 6; min relative distance of a zero to |z| = e^L +inf
+== G done 18:43:47

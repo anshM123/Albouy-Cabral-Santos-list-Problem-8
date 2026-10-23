@@ -1,0 +1,25 @@
+[      4s] 16/371 returned, 16 complete, 42 leaves, 0 failed
+[      9s] 32/371 returned, 32 complete, 85 leaves, 0 failed
+[     14s] 48/371 returned, 48 complete, 176 leaves, 0 failed
+[     17s] 64/371 returned, 64 complete, 271 leaves, 0 failed
+[     19s] 80/371 returned, 80 complete, 330 leaves, 0 failed
+[     23s] 96/371 returned, 96 complete, 429 leaves, 0 failed
+[     25s] 112/371 returned, 112 complete, 473 leaves, 0 failed
+[     26s] 128/371 returned, 128 complete, 519 leaves, 0 failed
+[     28s] 144/371 returned, 144 complete, 553 leaves, 0 failed
+[     51s] 160/371 returned, 160 complete, 885 leaves, 0 failed
+[     65s] 176/371 returned, 176 complete, 1096 leaves, 0 failed
+[     68s] 192/371 returned, 192 complete, 1140 leaves, 0 failed
+[     72s] 208/371 returned, 208 complete, 1183 leaves, 0 failed
+[     99s] 224/371 returned, 224 complete, 1931 leaves, 0 failed
+[    103s] 240/371 returned, 240 complete, 1997 leaves, 0 failed
+[    107s] 256/371 returned, 256 complete, 2056 leaves, 0 failed
+[    109s] 272/371 returned, 272 complete, 2094 leaves, 0 failed
+[    135s] 288/371 returned, 288 complete, 2509 leaves, 0 failed
+[    143s] 304/371 returned, 304 complete, 2626 leaves, 0 failed
+[    151s] 320/371 returned, 320 complete, 2906 leaves, 0 failed
+[    162s] 336/371 returned, 336 complete, 2978 leaves, 0 failed
+[    164s] 352/371 returned, 352 complete, 3211 leaves, 0 failed
+[    167s] 368/371 returned, 368 complete, 3256 leaves, 0 failed
+[    171s] 371/371 returned, 371 complete, 3363 leaves, 0 failed
+done KQ incomplete 0 failed 0 hist {'10': 66, '11': 53, '9': 2, 't': 3233, 'w1': 2, 'w2': 7} wall 171

@@ -49,7 +49,13 @@ def load_any(fn):
         import c3_run
         ch = os.path.basename(fn).split('.')[0].split('_')[0]
         d = c3_run.DOM[ch]
-        return dict(header=dict(chart=ch, scale=[d[2 * i + 1] - d[2 * i] for i in range(4)]), results=recs)
+        sc_ = [d[2 * i + 1] - d[2 * i] for i in range(4)]
+        if os.environ.get('AUDIT_SCALE'):              # AUDIT-13: continuation levels run with their own --scale
+            sc_ = [float(v) for v in os.environ['AUDIT_SCALE'].split(',')]
+        else:
+            print('   WARNING partial file without header: leaves rebuilt with the base domain widths as scale '
+                  '(set AUDIT_SCALE for a continuation level)', flush=True)
+        return dict(header=dict(chart=ch, scale=sc_), results=recs)
     p = fn if os.path.exists(fn) else fn + '.gz'
     return json.load(gzip.open(p, 'rt') if p.endswith('.gz') else open(p))
 Y0, Y2, E2, M2 = mp.mpf(3), mp.mpf('0.25'), mp.mpf('0.01'), mp.mpf('0.01')
@@ -158,6 +164,7 @@ for fn in files:
     leaves = []; bad = 0; nf = 0; nl = 0
     for r in D['results']:
         root = tuple(r['box']); stack = [root]; v = 0.0; fi = 0; cnt = 0
+        twr = r.get('tw', []); ti = 0                 # round 13: tau-winding contours of this record
         fl = [tuple(f[0]) for f in r['fails']]
         for code in r['tree']:
             bx = stack.pop()
@@ -175,6 +182,12 @@ for fn in files:
                     leaves.append((bx, 'a', ord(code) - ord('a')))
                 elif 'A' <= code <= ZONE_MAX and ch in ('Ca', 'CK'):
                     leaves.append((bx, 'Z', ord(code) - ord('A')))
+                elif code == '7' and ch in ('Ca', 'CK', 'CE', 'Cm'):     # round 13: tau-winding, whole circle <= 10
+                    if ti < len(twr) and len(twr[ti]) == 4 and twr[ti][0] == 0 and twr[ti][2] > twr[ti][3] > 0:
+                        leaves.append((bx, 'T', tuple(twr[ti])))
+                    else:
+                        bad += 1
+                    ti += 1
                 else:
                     bad += 1
         if r['done'] and stack:
@@ -182,12 +195,14 @@ for fn in files:
         if (not r['done']) and stack != [tuple(b) for b in r['left']]:
             bad += 1
         v += sum(vol(b) for b in r['left'])
+        if ti != len(twr):
+            bad += 1
         if abs(v - vol(root)) > 1e-9 * vol(root) or cnt != r['nleaf'] or fi != len(fl):
             bad += 1
         nf += len(fl); nl += cnt
     kinds = {}
     for _, k, b in leaves:
-        key = k if b is None else f'{k}{b}'
+        key = k if b is None else ('T' if k == 'T' else f'{k}{b}')
         kinds[key] = kinds.get(key, 0) + 1
     print(f"{os.path.basename(fn)}: records {len(D['results'])}, leaves {nl}, fails {nf}, replay problems {bad}; leaf kinds {dict(sorted(kinds.items()))}",
           flush=True)
@@ -223,13 +238,51 @@ for fn in files:
             worst_res = max(worst_res, res); checked += 1
     print(f"    spot check: {len(sample)} leaves x {NPT} pts = {checked} points; violations {viol}; max real-root count on "
           f"the certified interval {maxcnt}; max interpolation residual (rel) {mp.nstr(worst_res, 3)}", flush=True)
+    # round 13: tau-winding leaves of the C3 charts
+    tws = [l for l in leaves if l[1] == 'T']
+    if tws:
+        import tau_wind
+        tsamp = random.sample(tws, min(NREC if NREC else NLEAF, len(tws)))
+        tbad = sum(1 for bx, _, C_ in tsamp if not tau_wind.check_tw_chart(ch, bx, C_[1], C_[2], C_[3]))
+        tviol = 0; tmax = 0
+        for bx, _, C_ in random.sample(tws, min(NLEAF, len(tws))):
+            c0 = mp.mpc(C_[1], C_[2]); cnts = set()
+            for k in range(NPT):
+                x = [mp.mpf(bx[2 * i] + (bx[2 * i + 1] - bx[2 * i]) * random.random()) for i in range(4)]
+                if x[0] <= 0:
+                    continue
+                nu = x[0]
+                if ch == 'Ca':
+                    qz, kap, ep, mu = nu, nu ** 2 * x[1], nu ** 2 * x[2], nu ** 3 * x[3]
+                elif ch == 'CK':
+                    qz, kap, ep, mu = nu * x[1], nu ** 2, nu ** 2 * x[2], nu ** 3 * x[3]
+                elif ch == 'CE':
+                    qz, kap, ep, mu = nu * x[1], nu ** 2 * x[2], nu ** 2, nu ** 3 * x[3]
+                else:
+                    qz, kap, ep, mu = nu * x[1], nu ** 2 * x[2], nu ** 2 * x[3], nu ** 3
+                vals = [P_phys(1 - ep, 1 - kap, qz, mu, 2 * mp.pi * n / 32) for n in range(32)]
+                cf = [mp.fsum(vals[n] * mp.expj(-kk * 2 * mp.pi * n / 32) for n in range(32)) / 32 for kk in range(-6, 7)]
+                co = cf[::-1]
+                while abs(co[0]) < mp.mpf(10) ** -50 * max(abs(t_) for t_ in co):
+                    co = co[1:]
+                zz = mp.polyroots(co, maxsteps=3000, extraprec=1500)
+                Np = sum(1 for z in zz if abs(abs(z) - 1) < mp.mpf(10) ** -20)
+                ys = [(-1j * (z + 1) / (z - 1)) / nu for z in zz if abs(z - 1) > mp.mpf(10) ** -40]
+                ins = sum(1 for yv in ys if abs(yv - c0) < C_[3])
+                cnts.add(ins); tmax = max(tmax, Np)
+                if Np > 10 or ins < 1:
+                    tviol += 1; print('   TW SPOT VIOLATION', ch, bx, [float(v_) for v_ in x], Np, ins, C_, flush=True)
+            if len(cnts) > 1:
+                tviol += 1; print('   TW SPOT VIOLATION (inside count not constant)', ch, bx, C_, cnts, flush=True)
+        print(f"    tau-winding leaves {len(tws)}: re-certified {len(tsamp)} with tau_wind.check_tw_chart (problems {tbad}); "
+              f"100-digit spot: violations {tviol}, max N {tmax}", flush=True)
     # re-certification with the production code (c3_run.certify): same kind, bound <= recorded
     if NREC:
         import c3_run
         c3_run.init(ch)
         if hasattr(c3_run, 'DEEP_ALWAYS'):
             c3_run.DEEP_ALWAYS = True                # round 8: two-tier counts; allow the deep pass
-        pool = [l for l in leaves]
+        pool = [l for l in leaves if l[1] != 'T']
         rs = random.sample(pool, min(NREC, len(pool)))
         rbad = 0
         for bx, kind, bound in rs:

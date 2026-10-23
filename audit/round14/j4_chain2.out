@@ -1,0 +1,4 @@
+KQF2.r3.json: header T_X 0.030015, FACE_S 0.010005, disc flag True; records 912, '8' leaves 872, problems 0 []
+   sampled 30 '8' leaves x 5 points: problems 0; W (zeros in |th| < T_X) [6]; max outer real count 6; min relative distance of a zero to |th| = T_X 0.312; enclosure checks 2400, max |F(w;x) - b0|/R = 0.996
+KQF2.r4.json: header T_X 0.030015, FACE_S 0.010005, disc flag True; records 543, '8' leaves 543, problems 0 []
+   sampled 30 '8' leaves x 5 points: problems 0; W (zeros in |th| < T_X) [6]; max outer real count 6; min relative distance of a zero to |th| = T_X 0.444; enclosure checks 2400, max |F(w;x) - b0|/R = 0.995

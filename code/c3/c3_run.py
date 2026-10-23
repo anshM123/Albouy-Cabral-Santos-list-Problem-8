@@ -16,6 +16,8 @@ import sys
 import time
 import numpy as np
 from multiprocessing import Pool
+import os as _os
+sys.path.insert(1, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))   # code/: tau_wind.py
 
 Y0 = 3.0
 Y2, E2, M2 = 0.25, 0.01, 0.01
@@ -71,10 +73,20 @@ def engine_module(chart):
     return 'nbeng_c3_%s_2' % chart if os.path.exists(os.path.join(here, 'nbeng_c3_%s_2.py' % chart)) else 'nbeng_c3_' + chart
 
 
-def init(chart, scale=None):
-    global CH, SCALE, cnt
+TW = False          # --tw: tau-winding certificate (code/tau_wind.py) for the charts Ca, CK, CE, Cm, leaf code '7'
+TWENG = None
+
+
+def init(chart, scale=None, tw=False):
+    global CH, SCALE, cnt, TW, TWENG
     import importlib
     cnt = importlib.import_module(engine_module(chart)).count
+    TW = tw
+    if tw:
+        import tau_wind
+        if chart not in tau_wind.TW_CHARTS:
+            raise SystemExit('--tw is only defined for the charts ' + ', '.join(tau_wind.TW_CHARTS))
+        TWENG = importlib.import_module('nbeng_c3_%s_2' % chart)
     CH = chart
     d = DOM[chart]
     SCALE = tuple(d[2 * i + 1] - d[2 * i] for i in range(4)) if scale is None else tuple(scale)
@@ -174,11 +186,11 @@ def split(bx):
 def work(args):
     bx0, tmax, minw = args
     t0 = time.time()
-    stack = [tuple(bx0)]; code = []; nleaf = 0; hist = {}; fails = []
+    stack = [tuple(bx0)]; code = []; nleaf = 0; hist = {}; fails = []; twl = []
     while stack:
         if time.time() - t0 > tmax:
             return dict(box=list(bx0), done=False, tree=''.join(code), nleaf=nleaf, hist=hist, fails=fails,
-                        left=[list(b) for b in stack])
+                        left=[list(b) for b in stack], tw=twl)
         bx = stack.pop()
         kind, c = certify(bx)
         if kind in ('u', 'o'):
@@ -190,12 +202,18 @@ def work(args):
         if kind == 'Z':            # level-2 zone leaf: outer count c (<= ZONE_OUTER = 5); inner <= 4 by the level-2 charts
             code.append(chr(ord('A') + c)); nleaf += 1; hist['Z%d' % c] = hist.get('Z%d' % c, 0) + 1
             continue
+        if TW:                     # tau-winding certificate: <= 10 real zeros on the whole circle for every point of bx
+            import tau_wind
+            okt, cre, cim, rr_ = tau_wind.certify_tw_chart(TWENG, bx)
+            if okt:
+                code.append('7'); twl.append([0, cre, cim, rr_]); nleaf += 1; hist['t'] = hist.get('t', 0) + 1
+                continue
         if min((bx[2 * i + 1] - bx[2 * i]) / SCALE[i] for i in range(4)) < minw:
             code.append('!'); fails.append((list(bx), c))
             continue
         code.append('+')
         stack.extend(split(bx))
-    return dict(box=list(bx0), done=True, tree=''.join(code), nleaf=nleaf, hist=hist, fails=fails, left=[])
+    return dict(box=list(bx0), done=True, tree=''.join(code), nleaf=nleaf, hist=hist, fails=fails, left=[], tw=twl)
 
 
 if __name__ == '__main__':
@@ -221,7 +239,7 @@ if __name__ == '__main__':
                   R1=R1, R2=R2, NU1=NU1, ETA1=ETA1, QZMAX=QZMAX, KAPMAX=KAPMAX, EPSMAX=EPSMAX, MUMAX=MUMAX, J=J, M0=M0,
                   rounds=ROUNDS, cap=CAP, rounds1=ROUNDS1, cap1=CAP1, deep_w=DEEP_W, minw=minw,
                   scale=list(scale) if scale is not None else [dom[2 * i + 1] - dom[2 * i] for i in range(4)],
-                  boxes_file=bfile, argv=sys.argv)
+                  boxes_file=bfile, tw='--tw' in sys.argv, argv=sys.argv)
     t0 = time.time(); res = []
     import os
     if '--resume' in sys.argv and os.path.exists(out + '.records.jsonl'):    # keep completed initial boxes
@@ -241,7 +259,7 @@ if __name__ == '__main__':
         boxes = [b for b in boxes if b not in done]
         print('resume: kept', len(res), 'completed records', flush=True)
     frec = open(out + '.records.jsonl', 'a' if '--resume' in sys.argv else 'w')
-    with Pool(workers, initializer=init, initargs=(chart, scale)) as pool:
+    with Pool(workers, initializer=init, initargs=(chart, scale, '--tw' in sys.argv)) as pool:
         for k, r in enumerate(pool.imap_unordered(work, [(b, tmax, minw) for b in boxes])):
             res.append(r); frec.write(json.dumps(r) + chr(10)); frec.flush()
             if (k + 1) % 8 == 0 or k + 1 == len(boxes):

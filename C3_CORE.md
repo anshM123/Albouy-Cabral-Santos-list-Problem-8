@@ -228,3 +228,107 @@ angle gives a valid count. On the band ridge (l ≈ 0.95, ω ≈ 0.76), φ₀ = 
 φ₀ = 0.9 certifies.
 
 Re-certification (`bb_replay.py`, DEEP_ALWAYS) tries every combination, so records made with either option re-certify.
+
+## 8. The tau-winding certificate (code/tau_wind.py, leaf code '7')
+
+Near the ridge l ≈ l*(ω), N = 10 is attained, so the whole-circle Rolle count has no slack. There the one non-real
+pair of zeros of the aphelion polynomial sits near aphelion, well off the real axis: τ ≈ ±0.12i on the KQB and KQK1
+ridges, ±0.16i on the KQ2 band. In the face blow-up this is the imaginary branch y² = −(2m/c + E)/2 of the near cluster.
+The tau-winding certificate certifies that this pair is non-real.
+
+**Lemma (counting).** Q(τ) = P(f)(1 + τ²)⁶ is a real polynomial of degree ≤ 12. P has, counted with multiplicity:
+- the real zeros of Q, at f ≠ 0;
+- a zero of order 12 − deg Q at f = 0 (τ = ∞).
+
+The reverse G(t_p) = t_p¹²Q(−1/t_p), with t_p = tan(f/2), has lowest coefficients equal to the top ones of Q. Hence
+N_P = 12 − #{non-real zeros of Q}. If Q has one non-real zero, its conjugate is another, so N_P ≤ 10. A non-real zero
+t_p of G gives the non-real zero −1/t_p of Q. The same holds for the chart polynomials in their root variable y:
+- Q(νy)/ν¹⁰ on the C3 chart Ca;
+- Q(sy)/s⁶ on the face charts FE and FM.
+
+Here ν > 0 and s > 0 at every physical point, so a non-real zero y gives the non-real zero νy (or sy) of Q.
+
+**Certificate.** Take F = Q (chart KBQe), F = G (chart KBPe), or one of these chart polynomials, and a circle
+|z − c| = r with Im c > r > 0. Suppose
+F(·; x) ≠ 0 on the circle for every x in the box. The box is connected, so the number of zeros inside the circle is
+the same for all x; a vanishing leading coefficient only moves zeros to infinity, outside the circle. It therefore
+equals the winding number of F(·; x_c) along the circle. If that number is ≥ 1, every point of the box has N_P ≤ 10.
+
+**Enclosure on each arc** (contiguous arcs of the angle, centres z_j, |z − z_j| ≤ D_j). For all x in the box,
+F(z; x) lies within R_j of the computed centre value b₀ = F(z_j; x_c), where:
+- the deviation along the arc is Σ_{m≥1} |b_m| D_j^m, with b_m the exact Taylor coefficients at z_j of the polynomial
+  with the centre coefficients;
+- the parameter variation is the engine's bound (c3/make_c3_2.py: the smaller of the mean-value and the second-order
+  form, at a complex point). Every |p(z)| is replaced by its disc maximum Σ_m |b_m(p)| D_j^m, and every |z|^k by
+  (|z_j| + D_j)^k;
+- all floating-point errors are covered by 10⁻¹² of the corresponding sums of absolute terms.
+
+If |b₀| > R_j on every arc, F ≠ 0 on the circle. The argument of F then stays within π/2 of arg b₀ on each arc,
+consecutive arcs share an end point, and the winding number is the sum of the principal arguments of b₀ between
+consecutive arcs.
+
+**Contour choice.** The contour comes from the zeros of F(·; x_c). Its centre is one of:
+- a zero with Im > 0;
+- the midpoint of two such zeros;
+- the mean of all of them.
+
+Its radius is halfway between two consecutive distances from the centre to the zeros, and below Im c. Candidates are
+tried in order of margin, i.e. the distance of the circle from the zeros and from the real axis. A cluster of nearby
+zeros is enclosed together, since only W ≥ 1 is needed. The contour uses chart KBPe when the zeros lie far from
+aphelion. The choice affects only success, never validity.
+
+**Records and checks.**
+- Leaf code '7' means bound 10 for the whole circle. Its contour [which, c_re, c_im, r] is stored in the record field
+  'tw', in tree order.
+- `check_all.py` counts these leaves and checks that each contour lies in the open upper half-plane.
+- `bb_replay.py --recert` re-certifies each stored contour (tau_wind.check_tw). `recert_tw_c3.py` re-certifies every
+  '7' leaf of the c3 charts Ca, FE and FM (tau_wind.check_tw_chart). There which = 0, which `check_all.py` enforces.
+- In the outer runs KQF and KQF2, a '7' leaf certifies N_P ≤ 10 on its box directly, so those points need no face
+  decomposition.
+- The final audit (AUDIT_15) re-certified every '7' leaf of the complete run set (175,932) and every '8' leaf
+  (4,451).
+
+**Validation.** On 107 certified boxes from the KQB, KQK1, KQ2, KQ0T and KQS levels, 642 random points were checked:
+- every point has N ≤ 10 at 60 digits;
+- at every point, a 100-digit zero of F lies inside the certified circle.
+
+## 9. The disc-winding outer count (tau_wind.certify_disc, leaf code '8', runs KQF and KQF2 with --disc)
+
+At the face, Q has a 6-fold zero at aphelion τ = 0 and three double zeros of B² away from it (§6). Near the face the
+six aphelion zeros stay in a small disc about τ = 0, and the Rolle count of the outer region must resolve the three
+near-double zeros. Counting the zeros in the disc instead gives the outer bound directly.
+
+**Lemma (outer count).** Let T > 0. Suppose Q(·; x) has no zero on the circle |τ| = T, and W zeros, counted with
+multiplicity, in the open disc |τ| < T. Then P has at most 12 − W real zeros, counted with multiplicity, on the outer
+region O_T = {f : |τ(f)| ≥ T} ∪ {f = 0}.
+
+*Proof.* By the counting lemma of §8, the real zeros of P on O_T are:
+- the real zeros of Q with |τ| ≥ T, which all have |τ| > T since none lies on the circle;
+- a zero of order 12 − deg Q at f = 0.
+
+Q has deg Q zeros in ℂ, counted with multiplicity. W of them lie in the disc, so at most deg Q − W lie outside the
+closed disc. The total is at most (deg Q − W) + (12 − deg Q) = 12 − W. ∎
+
+**Certificate.** F = Q (chart KBQe), on the circle with centre 0 and radius T_X, the outer start of the run (T_X = 0.06
+for KQF, T_X2 = 0.030015 for KQF2). The arc enclosure is the one of §8. If |b₀| > R_j on every arc, then for every x
+in the box Q(·; x) ≠ 0 on the circle. The box is connected, so the number W of zeros in the disc is the same for every
+x (a vanishing leading coefficient only moves zeros to infinity, outside the disc), and it equals the winding number of
+Q(·; x_c). If W ≥ 6, then every point of the box has at most 6 real zeros of P on O_{T_X}.
+
+This is exactly the outer target of §6. count_outer certifies the same region: T_X ≤ |τ| ≤ tan(φ₀/2) on both signs,
+plus the away arc |f − π| ≥ φ₀. So does count_peri, the variant with --peri (§7): its parts cover the same closed
+region {|τ| ≥ T_X} ∪ {f = 0}. With the near count ≤ 5 (FE, FM) and the empty gap (FIP, FIM), the total stays ≤ 11, so
+≤ 10 by parity.
+
+**Records and checks.**
+- Leaf code '8' means outer bound 6. It is valid only in KQF-engine files, and stores no data: its contour is fixed by
+  the family's T_X, which `check_all.py` pins to 3 × the face radius.
+- `check_all.py` counts '8' leaves as bound 6 and rejects them in any other engine.
+- `bb_replay.py --recert` re-certifies them (tau_wind.check_disc with the header T_X).
+- `disc_mp_check.py` is an independent spot check. It maps sample points of '8' leaves to physical (e, l, ω, s) and
+  builds the original a-chart polynomial at 60 digits. It then counts its zeros on the unit circle whose true anomaly
+  has |tan(f/2)| ≤ 1/T_X, i.e. |τ| ≥ T_X, and checks that the count is ≤ 6.
+
+**Validation.** On test runs over random KQF r2 and KQF2 r3 boxes, every box was certified W = 6 at full box size: 57
+'8' leaves, 228 sample points, maximum 60-digit outer count 6 (attained), no violation. In the runs, KQF2 r4 (543 boxes)
+closed in one second, all '8' leaves.

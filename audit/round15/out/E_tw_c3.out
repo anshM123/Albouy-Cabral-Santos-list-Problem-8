@@ -1,0 +1,18 @@
+== E start 18:34:14
+Ca.r8.json [Ca]: tau-winding leaves 2650 re-certified, failures 0; disc-winding leaves 0 re-certified (T_X None), failures 0; tw-list problems 0; 2 s
+Ca.r9.json [Ca]: tau-winding leaves 3427 re-certified, failures 0; disc-winding leaves 0 re-certified (T_X None), failures 0; tw-list problems 0; 1 s
+Ca.r10.json [Ca]: tau-winding leaves 141 re-certified, failures 0; disc-winding leaves 0 re-certified (T_X None), failures 0; tw-list problems 0; 0 s
+== E done 18:34:17
+Ca.r8.json: records 822, leaves 389589, fails 0, replay problems 0; leaf kinds {'T': 2650, 'Z2': 1546, 'Z3': 186, 'Z4': 5928, 'Z5': 21156, 'a4': 2, 'a6': 66448, 'a7': 3544, 'a8': 113337, 'a9': 166391, 'u': 8401}
+    spot check: 30 leaves x 3 pts = 90 points; violations 0; max real-root count on the certified interval 8; max interpolation residual (rel) 2.64e-97
+    tau-winding leaves 2650: re-certified 150 with tau_wind.check_tw_chart (problems 0); 100-digit spot: violations 0, max N 10
+    re-certified 150 leaves (incl. pruned) with c3_run.certify: problems 0
+Ca.r9.json: records 386, leaves 13828, fails 0, replay problems 0; leaf kinds {'T': 3427, 'Z4': 205, 'Z5': 8009, 'a7': 27, 'a8': 86, 'a9': 2006, 'u': 68}
+    spot check: 30 leaves x 3 pts = 90 points; violations 0; max real-root count on the certified interval 6; max interpolation residual (rel) 2.44e-98
+    tau-winding leaves 3427: re-certified 150 with tau_wind.check_tw_chart (problems 0); 100-digit spot: violations 0, max N 10
+    re-certified 150 leaves (incl. pruned) with c3_run.certify: problems 0
+Ca.r10.json: records 24, leaves 1084, fails 0, replay problems 0; leaf kinds {'T': 141, 'Z4': 69, 'Z5': 832, 'a9': 42}
+    spot check: 30 leaves x 3 pts = 90 points; violations 0; max real-root count on the certified interval 4; max interpolation residual (rel) 1.43e-96
+    tau-winding leaves 141: re-certified 141 with tau_wind.check_tw_chart (problems 0); 100-digit spot: violations 0, max N 10
+    re-certified 150 leaves (incl. pruned) with c3_run.certify: problems 0
+== E g4 done 18:36:07

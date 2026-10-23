@@ -135,6 +135,8 @@ def leaves_of(D):
                 out.append((bx, ord(ch) - ord('A')))
             elif ch in 'lL':
                 out.append((bx, 10))          # total 11 certified; the even true count is <= 10
+            elif ch == '7':
+                out.append((bx, 10))          # tau-winding certificate (tau_wind.py): <= 10
             elif ch in '123456':
                 out.append((bx, 12 - 2 * (ord(ch) - ord('0'))))
     return out

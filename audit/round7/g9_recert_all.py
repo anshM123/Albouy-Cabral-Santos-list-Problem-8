@@ -18,7 +18,7 @@ os.environ.setdefault('NUMBA_CACHE_DIR', os.path.join(HERE, '..', 'numba_cache')
 sys.dont_write_bytecode = True
 CODE = os.path.normpath(os.path.join(HERE, '..', '..', 'code'))
 argv = sys.argv[1:]
-KINDS = ('reg', 'deep', 'wind')
+KINDS = ('reg', 'deep', 'wind', 'tw', 'disc')       # round 13: + 'tw' (code '7'); round 14: + 'disc' (code '8')
 if '--kinds' in argv:
     i = argv.index('--kinds'); KINDS = tuple(argv[i + 1].split(',')); argv = argv[:i] + argv[i + 2:]
 N, SEED = int(argv[0]), int(argv[1]); names = argv[2:]
@@ -55,7 +55,7 @@ for name in names:
         print(name, 'not present'); continue
     H = D['header']; S = H['scale']; eng = H['engine']
     SPLIT_RULE = H.get('split_rule')
-    groups = {'reg': [], 'deep': [], 'wind': []}; seen = {'reg': 0, 'deep': 0, 'wind': 0}
+    groups = {'reg': [], 'deep': [], 'wind': [], 'tw': [], 'disc': []}; seen = {'reg': 0, 'deep': 0, 'wind': 0, 'tw': 0, 'disc': 0}
 
     def keep(kind, item):                     # reservoir sample of size N (all items if N < 0)
         if kind not in KINDS:
@@ -69,7 +69,7 @@ for name in names:
             if j < N:
                 g[j] = item
     for r in D['results']:
-        stack = [tuple(r['box'])]; wl = r.get('wL', []); wi = 0
+        stack = [tuple(r['box'])]; wl = r.get('wL', []); wi = 0; ti = 0
         for ch in r['tree']:
             bx = stack.pop()
             if ch == '+':
@@ -80,6 +80,10 @@ for name in names:
                 keep('deep', (bx, ord(ch) - ord('A'), None))
             elif '1' <= ch <= '6':
                 keep('wind', (bx, int(ch), wl[wi])); wi += 1
+            elif ch == '7':                       # round 13: tau-winding leaf, stored contour [which, cre, cim, r]
+                keep('tw', (bx, 10, r['tw'][ti])); ti += 1
+            elif ch == '8':                       # round 14: disc-winding leaf (KQF): contour |th| = header T_X
+                keep('disc', (bx, 6, None))
     J, M0 = H.get('J', 6), H.get('M0', 64)
     reg2 = deep2 = wind2 = None                 # second-order fallbacks (nb_cert2; bb_run --order2 since 09:26)
     if eng in ('a', 'f'):
@@ -127,6 +131,17 @@ for name in names:
         smp = items
         bad = 0
         for bx, b, L in smp:
+            if kind == 'disc':                    # round 14: re-certify with tau_wind.check_disc and the header T_X
+                import tau_wind
+                if not tau_wind.check_disc(bx, H['T_X']):
+                    bad += 1; print('   MISMATCH', name, 'disc', bx, flush=True)
+                continue
+            if kind == 'tw':                      # round 13: re-certify the stored contour (tau_wind.check_tw)
+                import tau_wind
+                good = bool(tau_wind.check_tw(bx, *L))
+                if not good:
+                    bad += 1; print('   MISMATCH', name, 'tw', bx, L, flush=True)
+                continue
             if kind == 'wind':
                 ok, W = wind_cert.wind_box(*bcf(bx), bx[6], bx[7], L, H.get('wind_m0', 64), H.get('wind_rounds', 3),
                                            H.get('wind_cap', 1024))

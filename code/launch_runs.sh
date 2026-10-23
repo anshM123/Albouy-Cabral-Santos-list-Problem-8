@@ -80,6 +80,19 @@ nohup "$PY" kq_run.py 0.99989989 1.0 0.88 1.0 1.29 $HP 0.9999999899 1.0 1 4 6 1 
 nohup "$PY" kq_run.py 0.9996 1.0 0.88 1.0 1.29 $HP 0.99999983 1.0 2 4 6 2 300 8 runs/KQS.json --scale 1 1 $HP 0.0025 --faces=0.010005 --c3prune --splitrule=shell/30 --peri > runs/KQS.log 2>&1 &
 #   continuation levels: chain.sh with EXTRA="--face --faces=0.010005 --peri" (KQF2) and
 #   EXTRA="--faces=0.010005 --c3prune --splitrule=shell/30 --peri" (KQS)
+# --- final continuation options (every level file records its options in its header) ---
+# On 2026-10-23 from about 17:00 on, every running KQ level also uses the tau-winding certificate (--tw, C3_CORE.md
+# section 8, leaf '7') and --minw=1e-7, and the Ca levels use --tw as well.  From 17:38 on, the outer runs KQF (r2+) and
+# KQF2 (r3+) also use the disc-winding outer count (--disc, C3_CORE.md section 9, leaf '8').  An interrupted level is
+# resumed (records kept) and its chain continued with resume_chain.sh, e.g.
+#   EXTRA="--splitrule=face/30 --minw=1e-7 --tw" PY=$PY sh resume_chain.sh kq KQ2 5 10 300 1 1 $HP 0.005
+#   EXTRA="--face --minw=1e-7 --tw --disc" PY=$PY sh resume_chain.sh kq KQF 2 6 300 0.024 1 $HP 1.02e-5
+#   EXTRA="--face --faces=0.010005 --peri --minw=1e-7 --tw --disc" PY=$PY sh resume_chain.sh kq KQF2 3 3 300 0.003 1 $HP 3e-7
+#   EXTRA="--faces=0.010005 --c3prune --splitrule=shell/30 --peri --minw=1e-7 --tw" PY=$PY sh resume_chain.sh kq KQS 2 3 300 1 1 $HP 0.0025
+#   EXTRA="--splitrule=face/30 --peri --minw=1e-7 --tw" PY=$PY sh chain.sh kq KQK1 7 4 300 1 1 $HP 0.0025
+#   EXTRA="--splitrule=face/30 --minw=1e-7 --tw" PY=$PY sh resume_chain.sh kq KQB 7 4 300 1 1 $HP 0.0025
+#   EXTRA="--splitrule=face/30 --minw=1e-7 --tw" PY=$PY sh resume_chain.sh kq KQ0T 4 3 300 1 1 $HP 0.005
+#   EXTRA=--tw PY=$PY sh resume_chain.sh c3 Ca 8 4 300 0.37 0.25 1.002 0.5
 # --- C3 cell: away part ---
 NAME=KA run --engine KA --dom 0.99 1.0 0.95 1.0 1.413716694115407 $HP 0 0.0505 --n 2 2 4 4 --tmax 7200 --workers 1 --minw 1e-5 --out runs/KA.json
 # --- C3 core charts ---

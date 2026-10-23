@@ -1,0 +1,10 @@
+== chain 2 start 17:05:56
+KQF.r2.json.records.jsonl: records 285 (unparsable lines 0), TW leaves 1627, replay problems 0 []
+   sampled 30 TW leaves x 5 points: problems 0; zeros inside the contour per leaf [1]; min relative distance of a zero to the contour 0.604; engine vs my F at x_c (normalisation) max rel diff 1.10e-15; enclosure checks 2400, max |F(w;x) - b0|/R = 0.995
+KQF2.r3.json.records.jsonl: records 161 (unparsable lines 0), TW leaves 618, replay problems 0 []
+   sampled 30 TW leaves x 5 points: problems 0; zeros inside the contour per leaf [1]; min relative distance of a zero to the contour 0.826; engine vs my F at x_c (normalisation) max rel diff 2.02e-11; enclosure checks 2400, max |F(w;x) - b0|/R = 0.995
+KQS.r2.json.records.jsonl: records 189 (unparsable lines 0), TW leaves 709, replay problems 0 []
+   sampled 30 TW leaves x 5 points: problems 0; zeros inside the contour per leaf [1]; min relative distance of a zero to the contour 0.724; engine vs my F at x_c (normalisation) max rel diff 2.30e-12; enclosure checks 2400, max |F(w;x) - b0|/R = 0.972
+Ca.r8.json.records.jsonl: records 821 (unparsable lines 0), TW leaves 2365, replay problems 0 []
+   sampled 30 TW leaves x 5 points: problems 0; zeros inside the contour per leaf [1]; min relative distance of a zero to the contour 0.286; engine vs my F at x_c (normalisation) max rel diff 6.65e-11; enclosure checks 2400, max |F(w;x) - b0|/R = 0.996
+== chain 2 done 17:10:59

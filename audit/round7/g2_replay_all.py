@@ -220,8 +220,15 @@ def pruned_ok(kind, code, eng, bx):
     return True
 
 
+TW_ENG = ('KQ', 'KQF', 'Ca', 'CK', 'CE', 'Cm')     # round 13: '7' = tau-winding certificate, whole circle <= 10
+
+
 def allowed(kind, eng, ch):
     """bound of a leaf code, or None if the code is not allowed for this family"""
+    if ch == '7':
+        return 10 if eng in TW_ENG else None
+    if ch == '8':                                    # round 14: disc-winding outer count <= 6, KQF-engine files only
+        return 6 if kind == 'kqf' else None
     if kind == 'kqf':
         return ord(ch) - ord('a') if 'a' <= ch <= 'g' else None      # outer count <= LIMIT_OUTER = 6
     if kind in ('bb', 'kq'):
@@ -301,7 +308,7 @@ def replay_family(name, prefix, kind, eng, dom, n0, excl):
     for b in skipped:
         if not any(inside(b, e) for e in excl):
             probs.append('skipped box outside every exclusion'); break
-    uses_p = [False]
+    uses_p = [False]; ntw_ = [0]                     # round 13: number of tau-winding leaves
     hist = {}; nleaf = 0; nw = 0; Lmin, Lmax = 0.0, -99.0; owed = set(); nprune = 0; prune_bad = 0; nfail = 0; ninc = 0
     leaves_out = []
     for fi, Df in enumerate(files):
@@ -319,6 +326,7 @@ def replay_family(name, prefix, kind, eng, dom, n0, excl):
                 else:
                     probs.append('continuation root not owed')
             stack = [root]; fl = [tuple(f[0]) for f in r.get('fails', [])]; fpos = 0; wl = r.get('wL', []); wpos = 0
+            twl_ = r.get('tw', []); twpos = 0                # round 13: tau-winding contours, in tree order
             v = 0.0; cnt = 0; ndig = 0
             rc = collections.Counter()                     # round 11: replayed code histogram vs the record's 'hist'
             for ch in r['tree']:
@@ -363,6 +371,19 @@ def replay_family(name, prefix, kind, eng, dom, n0, excl):
                 b = allowed(kind, eng, ch)
                 if b is None:
                     probs.append('code %r not allowed for %s' % (ch, name)); continue
+                if ch == '7':                                  # round 13: tau-winding leaf, contour [which, cre, cim, r]
+                    if twpos >= len(twl_):
+                        probs.append('missing tw contour')
+                    else:
+                        t_ = twl_[twpos]
+                        if not (len(t_) == 4 and t_[0] in ((0, 1) if kind in ('kq', 'kqf') else (0,)) and t_[2] > t_[3] > 0):
+                            probs.append('invalid tw contour %r' % (t_,))
+                    twpos += 1; ntw_[0] += 1
+                    hist['tw'] = hist.get('tw', 0) + 1; rc['t'] += 1; nleaf += 1
+                    continue
+                if ch == '8':                                  # round 14: disc winding (contour |th| = header T_X)
+                    hist['disc'] = hist.get('disc', 0) + 1; rc['d'] += 1; nleaf += 1
+                    continue
                 if '1' <= ch <= '6':
                     if wpos >= len(wl):
                         probs.append('missing wL'); L = None
@@ -389,6 +410,8 @@ def replay_family(name, prefix, kind, eng, dom, n0, excl):
             v += sum(vol(x) for x in left)
             if fpos != len(fl):
                 probs.append('unconsumed fails')
+            if twpos != len(twl_):
+                probs.append('number of 7 leaves differs from len(tw)')
             if wpos != len(wl) or ('nwind' in r and r['nwind'] != ndig):
                 probs.append('winding count differs from wL/nwind')
             if cnt != r['nleaf']:
@@ -405,7 +428,7 @@ def replay_family(name, prefix, kind, eng, dom, n0, excl):
               L_range=(Lmin, Lmax) if nw else None, pruned=nprune, prune_violations=prune_bad, fails=nfail,
               incomplete=ninc, owed=len(owed), hist=dict(sorted(hist.items(), key=lambda kv: str(kv[0]))),
               domain=H['domain'], n0=H['n0'], scale=S, split_rules=[Df['header'].get('split_rule') for Df in files],
-              uses_p=uses_p[0],
+              uses_p=uses_p[0], tw_leaves=ntw_[0],
               problems=probs)
     return st, sorted(owed), leaves_out
 

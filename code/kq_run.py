@@ -26,6 +26,7 @@ import time
 import numpy as np
 from multiprocessing import Pool
 import splitrule
+import tau_wind
 
 sys.path.insert(0, 'c3')
 PHI_0 = 0.9
@@ -36,6 +37,8 @@ T_X = FACE_Y * FACE_S
 LIMIT_OUTER = 6                # outer count target (near count of the face charts <= 5): total <= 11, parity
 C3_L, C3_W = 0.95, 9 * math.pi / 20
 FACE_MODE = False
+TW = False                     # --tw: the tau-winding certificate (tau_wind.py), leaf code '7'
+DISC = False                   # --disc (--face only): disc-winding outer count (tau_wind.certify_disc), leaf '8'
 C3PRUNE = False                # --c3prune: boxes inside the C3 cell are pruned 'o' in the regular mode too
 PHI_P = 1.2                    # --peri: perihelion part |f| <= PHI_P (c3 chart KBPe), C3_CORE.md section 7
 PERI = None                    # None, or PHI_P when --peri is given
@@ -60,8 +63,8 @@ def up(x):
     return np.nextafter(np.nextafter(x, np.inf), np.inf)
 
 
-def init(scale=None, face=False, rule=None, peri=None, faces=None, tx=None, c3prune=False):
-    global cnt, away, wbc, wcl, wbox, SCALE, FACE_MODE, SPLIT_RULE, PERI, cntp, awarc, FACE_S, T_X, C3PRUNE
+def init(scale=None, face=False, rule=None, peri=None, faces=None, tx=None, c3prune=False, tw=False, disc=False):
+    global cnt, away, wbc, wcl, wbox, SCALE, FACE_MODE, SPLIT_RULE, PERI, cntp, awarc, FACE_S, T_X, C3PRUNE, TW, DISC
     if scale is not None:
         SCALE = tuple(scale)
     FACE_MODE = face
@@ -72,6 +75,8 @@ def init(scale=None, face=False, rule=None, peri=None, faces=None, tx=None, c3pr
     if tx is not None:
         T_X = tx
     C3PRUNE = c3prune
+    TW = tw
+    DISC = disc
     import importlib
     import nb_cert2
     import wind_cert
@@ -274,16 +279,24 @@ def split(bx):
 def work(args):
     bx0, tmax, minw = args
     t0 = time.time()
-    stack = [tuple(bx0)]; code = []; nleaf = 0; hist = {}; fails = []; wL = []; nwind = 0
+    stack = [tuple(bx0)]; code = []; nleaf = 0; hist = {}; fails = []; wL = []; nwind = 0; twl = []
     while stack:
         if time.time() - t0 > tmax:
             return dict(box=list(bx0), done=False, tree=''.join(code), nleaf=nleaf, nwind=nwind, wL=wL, hist=hist,
-                        fails=fails, left=[list(b) for b in stack])
+                        fails=fails, left=[list(b) for b in stack], tw=twl)
         bx = stack.pop()
         if FACE_MODE:
             if in_c3(bx):
                 code.append('o'); nleaf += 1; hist['o'] = hist.get('o', 0) + 1
                 continue
+            if DISC and tau_wind.certify_disc(bx, T_X)[0]:   # outer count <= 6 by disc winding
+                code.append('8'); nleaf += 1; hist['d'] = hist.get('d', 0) + 1
+                continue
+            if TW:
+                okt, which, cre, cim, rr_ = tau_wind.certify_tw(bx)
+                if okt:
+                    code.append('7'); twl.append([which, cre, cim, rr_]); nleaf += 1; hist['t'] = hist.get('t', 0) + 1
+                    continue
             good, tot = certify_outer(bx)
             if good:
                 code.append(chr(ord('a') + tot)); nleaf += 1; hist[tot] = hist.get(tot, 0) + 1
@@ -306,6 +319,11 @@ def work(args):
                 code.append(chr(ord('0') + W)); wL.append(L); nleaf += 1; nwind += 1
                 hist['w%d' % W] = hist.get('w%d' % W, 0) + 1
                 continue
+        if TW:
+            okt, which, cre, cim, rr_ = tau_wind.certify_tw(bx)
+            if okt:
+                code.append('7'); twl.append([which, cre, cim, rr_]); nleaf += 1; hist['t'] = hist.get('t', 0) + 1
+                continue
         good, tot = certify(bx)
         if good:
             code.append(chr(ord('a') + tot)); nleaf += 1; hist[tot] = hist.get(tot, 0) + 1
@@ -322,13 +340,17 @@ def work(args):
         code.append('+')
         stack.extend(split(bx))
     return dict(box=list(bx0), done=True, tree=''.join(code), nleaf=nleaf, nwind=nwind, wL=wL, hist=hist, fails=fails,
-                left=[])
+                left=[], tw=twl)
 
 
 if __name__ == '__main__':
     resume = '--resume' in sys.argv
     FACE_MODE = '--face' in sys.argv
     C3PRUNE = '--c3prune' in sys.argv
+    TW = '--tw' in sys.argv
+    DISC = '--disc' in sys.argv
+    if DISC and not FACE_MODE:
+        raise SystemExit('--disc is defined only with --face')
     for a_ in sys.argv:
         if a_.startswith('--faces='):
             FACE_S = float(a_.split('=', 1)[1]); T_X = FACE_Y * FACE_S
@@ -363,7 +385,7 @@ if __name__ == '__main__':
             k_ = sys.argv.index('--scale')
             SCALE = tuple(float(v) for v in sys.argv[k_ + 1:k_ + 5])
     header = dict(engine='KQF' if FACE_MODE else 'KQ', FACE_S=FACE_S, FACE_Y=FACE_Y, T_X=T_X, LIMIT_OUTER=LIMIT_OUTER,
-                  domain=dom, n0=n, boxes_file=bfile, split_rule=SPLIT_RULE, peri=PERI, c3prune=C3PRUNE, exclude=[], skipped=[], PHI_0=PHI_0, T_HI=T_HI, PHI_BAND=PHI_BAND, phi_rule='l1 >= 0.9 and pi/2 - w0 > 0.6 and pi/2 - w1 < 1.05 -> PHI_BAND', T_MIN=T_MIN, J=J, M0=M0,
+                  domain=dom, n0=n, boxes_file=bfile, split_rule=SPLIT_RULE, peri=PERI, c3prune=C3PRUNE, tw=TW, disc=DISC, exclude=[], skipped=[], PHI_0=PHI_0, T_HI=T_HI, PHI_BAND=PHI_BAND, phi_rule='l1 >= 0.9 and pi/2 - w0 > 0.6 and pi/2 - w1 < 1.05 -> PHI_BAND', T_MIN=T_MIN, J=J, M0=M0,
                   rounds=ROUNDS, cap=CAP, rounds1=ROUNDS1, cap1=CAP1, deep_w=DEEP_W, limit=LIMIT_P, minw=minw, scale=SCALE, wind_m0=WIND_M0,
                   wind_rounds=WIND_ROUNDS, wind_cap=WIND_CAP, order=ORDER, enclosure='nb_cert2 (second order)',
                   argv=sys.argv)
@@ -386,7 +408,7 @@ if __name__ == '__main__':
         boxes = [b for b in boxes if b not in done]
     frec = open(out + '.records.jsonl', 'a' if resume else 'w')
     t0 = time.time()
-    with Pool(workers, initializer=init, initargs=(SCALE, FACE_MODE, SPLIT_RULE, PERI, FACE_S, T_X, C3PRUNE)) as pool:
+    with Pool(workers, initializer=init, initargs=(SCALE, FACE_MODE, SPLIT_RULE, PERI, FACE_S, T_X, C3PRUNE, TW, DISC)) as pool:
         for k, r in enumerate(pool.imap_unordered(work, [(b, tmax, minw) for b in boxes])):
             res.append(r); frec.write(json.dumps(r) + chr(10)); frec.flush()
             if (k + 1) % 16 == 0 or k + 1 == len(boxes):

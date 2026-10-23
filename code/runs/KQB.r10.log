@@ -1,0 +1,7 @@
+[      1s] 16/83 returned, 16 complete, 16 leaves, 0 failed
+[      3s] 32/83 returned, 32 complete, 53 leaves, 0 failed
+[     11s] 48/83 returned, 48 complete, 134 leaves, 0 failed
+[     18s] 64/83 returned, 64 complete, 373 leaves, 0 failed
+[     99s] 80/83 returned, 80 complete, 2173 leaves, 0 failed
+[    227s] 83/83 returned, 83 complete, 4803 leaves, 0 failed
+done KQ incomplete 0 failed 0 hist {'10': 416, '11': 392, '8': 15, '9': 299, 't': 3681} wall 227

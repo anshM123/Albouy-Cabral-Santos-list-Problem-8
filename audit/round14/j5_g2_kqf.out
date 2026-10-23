@@ -1,0 +1,22 @@
+KQF files 4 records 3334 leaves 346293 pruned 128 prune_violations 0 owed 28 tw 8698 hist {'2': 13128, '3': 4895, '4': 7574, '5': 3862, '6': 305100, 'disc': 3036, 'tw': 8698} problems []
+KQF2 files 5 records 2248 leaves 44488 pruned 279 prune_violations 0 owed 0 tw 2069 hist {'4': 1, '5': 1486, '6': 39517, 'disc': 1415, 'tw': 2069} problems []
+KQS files 2 records 340 leaves 11280 pruned 661 prune_violations 0 owed 877 tw 0 hist {'10': 1255, '11': 9413, '8': 45, '9': 567} problems []
+face FE {"files": 1, "records": 512, "leaves": 226498, "winding": 0, "L_range": null, "pruned": 154213, "prune_violations": 0, "fails": 0, "incomplete": 4, "owed": 73, "hist": {"2": 4340, "3": 78, "4": 186852, "5": 35228}, "domain": [0, 0.02002, 0, 1.001, 0, 1, 0, 1], "n0": [2, 4, 8, 8], "scale": [0
+face FM {"files": 1, "records": 512, "leaves": 348845, "winding": 0, "L_range": null, "pruned": 190819, "prune_violations": 0, "fails": 0, "incomplete": 4, "owed": 67, "hist": {"4": 317653, "5": 31192}, "domain": [0, 0.02002, 0, 1.001, 0, 1, 0, 1], "n0": [2, 4, 8, 8], "scale": [0.02002, 1.001, 1, 1]
+face FIP {"files": 1, "records": 512, "leaves": 307304, "winding": 0, "L_range": null, "pruned": 190713, "prune_violations": 0, "fails": 124394, "incomplete": 4, "owed": 124536, "hist": {"0": 307304}, "domain": [0, 0.02002, 0, 1.001, 0, 1, 0, 1], "n0": [2, 4, 8, 8], "scale": [0.02002, 1.001, 1, 1], 
+face FIM {"files": 1, "records": 512, "leaves": 57097, "winding": 0, "L_range": null, "pruned": 57976, "prune_violations": 0, "fails": 0, "incomplete": 0, "owed": 0, "hist": {"0": 57097}, "domain": [0, 0.02002, 0, 1.001, 0, 1, 0, 1], "n0": [2, 4, 8, 8], "scale": [0.02002, 1.001, 1, 1], "split_rules"
+face FE: owed 73, of which with s_lo > 0.02 (not needed) 0
+face FE: of the rest, inside K with s_lo > SF2 (not needed) 73; still owed 0
+face FM: owed 67, of which with s_lo > 0.02 (not needed) 0
+face FM: of the rest, inside K with s_lo > SF2 (not needed) 67; still owed 0
+face FIP: owed 124536, of which with s_lo > 0.02 (not needed) 124446
+face FIP: of the rest, inside K with s_lo > SF2 (not needed) 90; still owed 0
+KQF: owed 28, inside K_lw (not needed) 28; still owed 0
+KQF        OK  leaves 346293  winding 0  fails 1062  incomplete 209  open 0  problems 0
+KQF2       OK  leaves 44488  winding 0  fails 0  incomplete 795  open 0  problems 0
+KQS        NOT OK  leaves 11280  winding 0  fails 0  incomplete 225  open 877  problems 0
+face FE    OK  leaves 226498  winding 0  fails 0  incomplete 4  open 0  problems 0
+face FM    OK  leaves 348845  winding 0  fails 0  incomplete 4  open 0  problems 0
+face FIP   OK  leaves 307304  winding 0  fails 124394  incomplete 4  open 0  problems 0
+face FIM   OK  leaves 57097  winding 0  fails 0  incomplete 0  open 0  problems 0
+ALL FAMILIES REPLAYED, COMPLETE AND WITHIN THEIR BOUNDS: NO

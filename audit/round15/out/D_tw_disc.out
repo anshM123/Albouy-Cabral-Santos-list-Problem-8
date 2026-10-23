@@ -1,0 +1,10 @@
+== D start 18:34:14
+KQK1.r7.json [KQ]: tau-winding leaves 3747 re-certified, failures 0; disc-winding leaves 0 re-certified (T_X 0.06), failures 0; tw-list problems 0; 1 s
+KQK1.r8.json [KQ]: tau-winding leaves 2211 re-certified, failures 0; disc-winding leaves 0 re-certified (T_X 0.06), failures 0; tw-list problems 0; 1 s
+KQK1.r9.json [KQ]: tau-winding leaves 1901 re-certified, failures 0; disc-winding leaves 0 re-certified (T_X 0.06), failures 0; tw-list problems 0; 1 s
+KQK1.r10.json [KQ]: tau-winding leaves 1370 re-certified, failures 0; disc-winding leaves 0 re-certified (T_X 0.06), failures 0; tw-list problems 0; 1 s
+KQK1.r11.json [KQ]: tau-winding leaves 782 re-certified, failures 0; disc-winding leaves 0 re-certified (T_X 0.06), failures 0; tw-list problems 0; 0 s
+KQK1.r12.json [KQ]: tau-winding leaves 166 re-certified, failures 0; disc-winding leaves 0 re-certified (T_X 0.06), failures 0; tw-list problems 0; 0 s
+KQF2.r3.json [KQF]: tau-winding leaves 2069 re-certified, failures 0; disc-winding leaves 872 re-certified (T_X 0.030015), failures 0; tw-list problems 0; 2 s
+KQF2.r4.json [KQF]: tau-winding leaves 0 re-certified, failures 0; disc-winding leaves 543 re-certified (T_X 0.030015), failures 0; tw-list problems 0; 0 s
+== D done 18:34:19

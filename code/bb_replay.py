@@ -58,6 +58,7 @@ for r in D['results']:
     fl = [tuple(f[0]) for f in r['fails']]
     fi = 0
     wi = 0
+    ti = 0
     v = 0.0
     nl = 0
     for ch in r['tree']:
@@ -84,6 +85,11 @@ for r in D['results']:
             elif '1' <= ch <= '6':
                 bound, method = 12 - 2 * (ord(ch) - ord('0')), 2
                 Lw = r['wL'][wi]; wi += 1
+            elif ch == '7' and H['engine'] in ('KQ', 'KQF'):   # tau-winding certificate: <= 10 real (tau_wind.py)
+                bound, method = 10, 3
+                Lw = r['tw'][ti]; ti += 1
+            elif ch == '8' and H['engine'] == 'KQF':           # disc winding: outer count <= 6 (tau_wind.py)
+                bound, method = 6, 4
             else:
                 raise SystemExit('bad code ' + ch)
             leaves.append((bx, bound, method, Lw))
@@ -173,6 +179,19 @@ if A.recert:
         bcf = None
     worse = 0
     for bx, bound, method, Lw in sample:
+        if method == 4:
+            import tau_wind
+            assert tau_wind.DISC_W == 6      # outer bound 12 - W <= 6
+            if not tau_wind.check_disc(bx, H['T_X']):
+                worse += 1
+                print('disc-winding re-certification problem', bx)
+            continue
+        if method == 3:
+            import tau_wind
+            if not tau_wind.check_tw(bx, *Lw):
+                worse += 1
+                print('tau-winding re-certification problem', bx, Lw)
+            continue
         if method == 2:
             wbx = nb_cert2.wind_box2 if eng in ('KQ', 'a', 'f') else wind_cert.wind_box
             okw, W = wbx(*bcf(bx), bx[6], bx[7], Lw, H.get('wind_m0', 64), H.get('wind_rounds', 3),

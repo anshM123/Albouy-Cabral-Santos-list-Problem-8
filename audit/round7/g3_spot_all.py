@@ -163,6 +163,10 @@ def leaves(D, S, n):
             elif 'a' <= ch <= 'l' or 'A' <= ch <= 'L':
                 b = ord(ch) - (ord('a') if ch >= 'a' else ord('A'))
                 keep('e' if b == 11 else 'r', (bx, b, None, None))
+            elif ch == '7':                   # round 13: tau-winding leaf: whole circle <= 10 (also in KQF files)
+                keep('r', (bx, 10, 'tw', None))
+            elif ch == '8':                   # round 14: disc-winding leaf (KQF files): outer count <= 6
+                keep('r', (bx, 6, None, None))
     return res, cnt
 
 
@@ -171,7 +175,7 @@ for name in names:
     D = load(name)
     if D is None:
         print(name, 'not present'); continue
-    eng = ((D.get('header') or {}).get('engine')) or ENG.get(name, name)     # continuation files (NAME.r1) too
+    eng = ((D.get('header') or {}).get('engine')) or ENG.get(name, ENG.get(name.split('.')[0], name))     # continuation files (NAME.r1) too
     if D.get('header'):
         S = D['header']['scale']; H = D['header']
         SPLIT_RULE = H.get('split_rule')
@@ -226,7 +230,7 @@ for name in names:
                 if Na > bound:
                     viol += 1; print('   KA VIOLATION', bx, x, Na, bound, flush=True)
                 continue
-            if eng == 'KQF':                          # outer count of the face construction: |f - pi| >= 2 atan(T_X)
+            if eng == 'KQF' and W != 'tw':            # outer count of the face construction: |f - pi| >= 2 atan(T_X)
                 No = sum(1 for r in on if mp.pi - abs(mp.arg(r)) >= 2 * mp.atan(mp.mpf(H.get('T_X', 0.06))) - mp.mpf(10) ** -12)   # round 11: header T_X
                 maxN = max(maxN, No)
                 if No > bound:
@@ -237,7 +241,7 @@ for name in names:
                 odd += 1
             if Nm > min(bound, 10):
                 viol += 1; print('   VIOLATION', name, bx, x, Nm, bound, flush=True)
-            if W is not None:
+            if W is not None and W != 'tw':
                 rho = mp.e ** mp.mpf(Lw); nw += 1
                 ins = sum(1 for r in z if abs(r) < rho)
                 minmarg = min([minmarg] + [abs(abs(r) - rho) / rho for r in z])

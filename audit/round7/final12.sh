@@ -24,7 +24,7 @@ ONLY="$ONLY,KQF,KQF2,KQS"
   date "+== %H:%M:%S g9: EVERY leaf of the small whole-circle families, F0 and KA"
   "$PY" -B g9_recert_all.py -1 1 $SMALL
   date "+== %H:%M:%S g9: bulk, KQ0, KQ1(+r1), KQK2(+r1..r6): 300 regular/deep leaves per file"
-  "$PY" -B g9_recert_all.py 300 23 bulk $KQN --kinds reg,deep
+  "$PY" -B g9_recert_all.py 300 23 bulk $KQN --kinds reg,deep,tw,disc
   date "+== %H:%M:%S g9: EVERY winding leaf of KQ0, KQ1(+r1), KQK2(+r1..r6)"
   "$PY" -B g9_recert_all.py -1 1 $KQN --kinds wind
   date "+== %H:%M:%S g9: bulk winding leaves, 20000 sampled"

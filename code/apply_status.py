@@ -8,8 +8,13 @@ import status_table
 when = sys.argv[1]
 rows = status_table.rows()
 if not rows:
-    body = ('**Certification status (%s): complete.** Every run family in RESULTS.md is complete (exact replay, every '
-            'open or failed box covered); see RESULTS.md and verify/.' % when)
+    body = ('**Certification status (%s): complete.** Every run family in RESULTS.md is complete '
+            '(`code/check_all.py`: ALL COMPLETE). Every recorded split tree replays exactly, and every open or failed '
+            'box is covered by a continuation run or by a documented chart. Sampled leaves of every run file '
+            're-certify with the final code (verify/), and the final audit (audit/AUDIT_15.md) re-certifies every '
+            'tau- and disc-winding leaf. 60-digit spot checks (verify/) cover sampled leaves of every whole-circle '
+            'family and C3 chart, and the disc-winding leaves of KQF and KQF2. The other outer-count leaves of KQF '
+            'and KQF2, and the D2 charts, are covered by the audit\'s 100-digit spot checks.' % when)
 else:
     tab = '\n'.join('| %s | %s | %s |' % (n, reg, why) for n, reg, owed, files, why in rows)
     tot = sum(owed for n, reg, owed, files, why in rows)

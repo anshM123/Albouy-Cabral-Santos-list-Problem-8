@@ -9,7 +9,7 @@ Every record is replayed exactly (split rule from the header scale, or the heade
   * the base file's initial boxes are its grid minus the declared exclusions (bb_run) or its full grid (c3, kb).
 Leaf codes: '+' split, '!' failed, 'a'..'k' / 'A'..'K' certified bound 0..10, 'l' / 'L' certified total 11 (whole-circle
 engines only; at most 10 by the parity lemma), '1'..'6' winding certificate with W roots inside (bound 12 - 2W),
-'u' 'o' 'p' pruned (outside the region).  Run files may be gzip-compressed (OUT.json.gz).
+'u' 'o' 'p' pruned (outside the region), '7' tau-winding certificate (whole circle, <= 10; tau_wind.py).  Run files may be gzip-compressed (OUT.json.gz).
 """
 import glob
 import json
@@ -19,6 +19,8 @@ import sys
 import numpy as np
 from runio import exists, load_json
 from splitrule import split_box
+import tau_wind
+assert tau_wind.DISC_W == 6, 'disc-winding leaves (code 8) certify the outer count 12 - W <= 6 only with W >= 6'
 
 FAMILIES = [('bulk', 'runs/bulk'), ('C1', 'runs/C1'), ('C1p', 'runs/C1p'), ('C1pp', 'runs/C1pp'), ('B1', 'runs/B1'),
             ('B2', 'runs/B2'), ('B3p', 'runs/B3p'), ('B3m', 'runs/B3m'), ('L2E', 'runs/L2E'), ('L2P', 'runs/L2P'),
@@ -42,7 +44,7 @@ PARITY_ENGINES = ('a', 'f', 'C1', 'C1p', 'C1pp', 'B1', 'B2', 'B3p', 'B3m', 'L2E'
 def replay(rec, scale, engine=None, rule=None, face_s=None, c3prune=False):
     """returns (ok, leaves_by_bound, pruned, fails, left, problems)"""
     stack = [tuple(rec['box'])]
-    hist = {}; pruned = 0; fails = []; probs = []; nwind = [0]
+    hist = {}; pruned = 0; fails = []; probs = []; nwind = [0]; ntw = [0]
     v = 0.0
     for ch in rec['tree']:
         if not stack:
@@ -74,6 +76,11 @@ def replay(rec, scale, engine=None, rule=None, face_s=None, c3prune=False):
             b = 12 - 2 * (ord(ch) - ord('0'))
             hist[b] = hist.get(b, 0) + 1
             nwind[0] += 1
+        elif ch == '7' and engine in ('KQ', 'KQF', 'Ca', 'FE', 'FM'):  # tau-winding (tau_wind.py): <= 10 real
+            hist[10] = hist.get(10, 0) + 1
+            ntw[0] += 1
+        elif ch == '8' and engine == 'KQF':        # disc winding (tau_wind.certify_disc, radius the pinned T_X):
+            hist[6] = hist.get(6, 0) + 1           # outer count <= 12 - W <= 6
         else:
             probs.append('bad code ' + ch)
     left = [tuple(b) for b in rec.get('left', [])]
@@ -86,6 +93,11 @@ def replay(rec, scale, engine=None, rule=None, face_s=None, c3prune=False):
     v += sum(vol(b) for b in left)
     if nwind[0] != len(rec.get('wL', [])):
         probs.append('number of winding leaves differs from the stored radii')
+    if ntw[0] != len(rec.get('tw', [])):
+        probs.append('number of tau-winding leaves differs from the stored contours')
+    for tw_ in rec.get('tw', []):
+        if not (len(tw_) == 4 and tw_[0] in ((0, 1) if engine in ('KQ', 'KQF') else (0,)) and tw_[2] > tw_[3] > 0):
+            probs.append('invalid tau-winding contour (must lie in the open upper half-plane)')
     if abs(v - vol(rec['box'])) > 1e-9 * max(vol(rec['box']), 1e-300):
         probs.append('volume mismatch')
     return hist, pruned, fails, left, probs

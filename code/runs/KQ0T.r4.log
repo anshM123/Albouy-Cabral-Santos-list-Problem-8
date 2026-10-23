@@ -1,0 +1,25 @@
+[    875s] 16/396 returned, 11 complete, 8149 leaves, 0 failed
+[   1089s] 32/396 returned, 25 complete, 11375 leaves, 0 failed
+[   1322s] 48/396 returned, 40 complete, 14116 leaves, 0 failed
+[   1710s] 64/396 returned, 55 complete, 16847 leaves, 0 failed
+[   1880s] 80/396 returned, 71 complete, 19190 leaves, 0 failed
+[   2002s] 96/396 returned, 87 complete, 20760 leaves, 0 failed
+[   2353s] 112/396 returned, 101 complete, 24076 leaves, 0 failed
+[   2744s] 128/396 returned, 116 complete, 26777 leaves, 0 failed
+[    330s] 16/263 returned, 135 complete, 28767 leaves, 0 failed
+[    557s] 32/263 returned, 150 complete, 32652 leaves, 0 failed
+[   1085s] 48/263 returned, 163 complete, 36653 leaves, 0 failed
+[    825s] 16/212 returned, 176 complete, 40674 leaves, 0 failed
+[   1010s] 32/212 returned, 191 complete, 41903 leaves, 0 failed
+[   1273s] 48/212 returned, 207 complete, 43419 leaves, 0 failed
+[   2098s] 64/212 returned, 217 complete, 47181 leaves, 0 failed
+[      9s] 16/143 returned, 237 complete, 48016 leaves, 0 failed
+[     13s] 32/143 returned, 253 complete, 48109 leaves, 0 failed
+[     48s] 48/143 returned, 269 complete, 48460 leaves, 0 failed
+[     67s] 64/143 returned, 285 complete, 48599 leaves, 0 failed
+[     70s] 80/143 returned, 301 complete, 48993 leaves, 0 failed
+[     93s] 96/143 returned, 317 complete, 49718 leaves, 0 failed
+[    105s] 112/143 returned, 333 complete, 50038 leaves, 0 failed
+[    114s] 128/143 returned, 349 complete, 50143 leaves, 0 failed
+[    127s] 143/143 returned, 364 complete, 50564 leaves, 0 failed
+done KQ incomplete 32 failed 0 hist {'10': 5107, '11': 26583, '8': 145, '9': 642, 't': 8050, 'w1': 3479, 'w2': 6558} wall 127

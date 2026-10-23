@@ -1,0 +1,4 @@
+[      7s] 16/33 returned, 16 complete, 52 leaves, 0 failed
+[     17s] 32/33 returned, 32 complete, 192 leaves, 0 failed
+[     42s] 33/33 returned, 33 complete, 301 leaves, 0 failed
+done KQ incomplete 0 failed 0 hist {'10': 33, '11': 86, '8': 32, '9': 12, 't': 138} wall 42
